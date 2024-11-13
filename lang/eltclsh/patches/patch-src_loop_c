@@ -1,0 +1,29 @@
+Adjust for OpenBSD-specific Tcl package path layout.
+
+Index: src/loop.c
+--- src/loop.c.orig
++++ src/loop.c
+@@ -54,7 +54,7 @@ elTclshLoop(int argc, char **argv, ElTclAppInitProc ap
+ #endif /* TCL_VERSION */
+ {
+    Tcl_Interp *interp;
+-   Tcl_Obj *resultPtr, *obj;
++   Tcl_Obj *resultPtr;
+ #if TCL_MAJOR_VERSION >= 8 && TCL_MINOR_VERSION >= 4
+    const
+ #endif
+@@ -103,12 +103,14 @@ elTclshLoop(int argc, char **argv, ElTclAppInitProc ap
+    }
+ 
+    /* configure standard path for packages */
++/*
+    obj = Tcl_GetVar2Ex(interp, "auto_path", NULL, TCL_GLOBAL_ONLY);
+    if (!obj) obj = Tcl_NewListObj(0, NULL);
+ 
+    Tcl_ListObjAppendElement(interp, obj, Tcl_NewStringObj(ELTCLSH_DATA, -1));
+    Tcl_SetVar2Ex(interp, "auto_path", NULL, obj, TCL_GLOBAL_ONLY);
+ 
++*/
+ 
+    /* require eltclsh extension. In case this fails (typically during install,
+     * before pkgIndex.tcl is built), print the error message but don't give up

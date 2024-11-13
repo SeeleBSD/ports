@@ -1,0 +1,9 @@
+/patch-configure/1.18/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-lib_saslutil_c/1.4/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-plugins_cram_c/1.3/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-plugins_otp_c/1.5/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-pwcheck_pwcheck_getpwnam_c/1.3/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-saslauthd_auth_getpwent_c/1.3/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-saslauthd_auth_sasldb_c/1.4/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-saslauthd_lak_c/1.4/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+D

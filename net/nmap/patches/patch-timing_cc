@@ -1,0 +1,10 @@
+Index: timing.cc
+--- timing.cc.orig
++++ timing.cc
+@@ -66,4 +66,6 @@
+ 
++#include <limits>
++
+ #include "timing.h"
+ #include "NmapOps.h"
+ #include "utils.h"

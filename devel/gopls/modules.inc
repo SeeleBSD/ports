@@ -1,0 +1,53 @@
+MODGO_MODULES =	\
+	github.com/!burnt!sushi/toml	 v1.2.1 \
+	github.com/frankban/quicktest	 v1.14.6 \
+	github.com/google/go-cmdtest	 v0.4.1-0.20220921163831-55ab3332a786 \
+	github.com/google/go-cmp	 v0.6.0 \
+	github.com/google/renameio	 v0.1.0 \
+	github.com/google/safehtml	 v0.1.0 \
+	github.com/jba/templatecheck	 v0.7.0 \
+	github.com/kr/pretty		 v0.3.1 \
+	github.com/kr/text		 v0.2.0 \
+	github.com/rogpeppe/go-internal	 v1.12.0 \
+	github.com/yuin/goldmark	 v1.4.13 \
+	golang.org/x/exp/typeparams	 v0.0.0-20221212164502-fae10dda9338 \
+	golang.org/x/mod		 v0.20.0 \
+	golang.org/x/net		 v0.26.0 \
+	golang.org/x/sync		 v0.8.0 \
+	golang.org/x/sys		 v0.23.0 \
+	golang.org/x/telemetry		 v0.0.0-20240829154258-f29ab539cc98 \
+	golang.org/x/text		 v0.16.0 \
+	golang.org/x/tools		 v0.22.1-0.20240829175637-39126e24d653 \
+	golang.org/x/vuln		 v1.0.4 \
+	gopkg.in/check.v1		 v1.0.0-20190902080502-41f04d3bba15 \
+	gopkg.in/yaml.v3		 v3.0.1 \
+	honnef.co/go/tools		 v0.4.7 \
+	mvdan.cc/gofumpt		 v0.6.0 \
+	mvdan.cc/unparam		 v0.0.0-20230312165513-e84e2d14e3b8 \
+	mvdan.cc/xurls/v2		 v2.5.0
+
+MODGO_MODFILES =	\
+	github.com/google/go-cmp	 v0.5.8 \
+	github.com/google/safehtml	 v0.0.2 \
+	github.com/rogpeppe/go-internal	 v1.10.0 \
+	golang.org/x/exp/typeparams	 v0.0.0-20221208152030-732eee02a75a \
+	golang.org/x/mod		 v0.10.0 \
+	golang.org/x/mod		 v0.12.0 \
+	golang.org/x/mod		 v0.14.0 \
+	golang.org/x/mod		 v0.17.0 \
+	golang.org/x/mod		 v0.18.0 \
+	golang.org/x/sync		 v0.1.0 \
+	golang.org/x/sync		 v0.6.0 \
+	golang.org/x/sync		 v0.7.0 \
+	golang.org/x/sys		 v0.11.0 \
+	golang.org/x/sys		 v0.16.0 \
+	golang.org/x/sys		 v0.21.0 \
+	golang.org/x/telemetry		 v0.0.0-20240521205824-bda55230c457 \
+	golang.org/x/text		 v0.3.3 \
+	golang.org/x/tools		 v0.0.0-20180917221912-90fa682c2a6e \
+	golang.org/x/tools		 v0.12.1-0.20230825192346-2191a27a6dc5 \
+	golang.org/x/tools		 v0.13.0 \
+	golang.org/x/tools		 v0.17.0 \
+	golang.org/x/tools		 v0.21.1-0.20240508182429-e35e4ccd0d2d \
+	gopkg.in/check.v1		 v0.0.0-20161208181325-20d25e280405
+

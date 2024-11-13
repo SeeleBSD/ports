@@ -1,0 +1,7 @@
+/patch-requirements_crypto_txt/1.5/Sun Sep  1 04:44:13 2024//TOPENBSD_7_6
+/patch-salt_client_ssh_shell_py/1.8/Mon Sep 23 15:34:54 2024//TOPENBSD_7_6
+/patch-salt_grains_core_py/1.14/Mon Sep 23 15:34:54 2024//TOPENBSD_7_6
+/patch-salt_modules_salt_proxy_py/1.6/Sun Sep  1 04:44:13 2024//TOPENBSD_7_6
+/patch-salt_modules_vmctl_py/1.8/Mon Sep 23 15:34:54 2024//TOPENBSD_7_6
+/patch-salt_returners_zabbix_return_py/1.6/Mon Sep 23 15:34:54 2024//TOPENBSD_7_6
+D

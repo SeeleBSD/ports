@@ -1,0 +1,12 @@
+/patch-configure_in/1.2/Sun Sep  1 04:43:53 2024//TOPENBSD_7_6
+/patch-src_Makefile_am/1.2/Sun Sep  1 04:43:53 2024//TOPENBSD_7_6
+/patch-src_attack_c/1.3/Sun Sep  1 04:43:53 2024//TOPENBSD_7_6
+/patch-src_interfaces_c/1.4/Sun Sep  1 04:43:53 2024//TOPENBSD_7_6
+/patch-src_interfaces_h/1.3/Sun Sep  1 04:43:53 2024//TOPENBSD_7_6
+/patch-src_ncurses-callbacks_h/1.2/Sun Sep  1 04:43:53 2024//TOPENBSD_7_6
+/patch-src_ncurses-interface_c/1.2/Sun Sep  1 04:43:53 2024//TOPENBSD_7_6
+/patch-src_ncurses-interface_h/1.2/Sun Sep  1 04:43:53 2024//TOPENBSD_7_6
+/patch-src_protocols_c/1.2/Sun Sep  1 04:43:53 2024//TOPENBSD_7_6
+/patch-src_protocols_h/1.3/Sun Sep  1 04:43:53 2024//TOPENBSD_7_6
+/patch-src_vtp_c/1.1/Sun Sep  1 04:43:53 2024//TOPENBSD_7_6
+D

@@ -1,0 +1,4 @@
+@bin bin/fpcalc
+include/chromaprint.h
+@lib lib/libchromaprint.so.${LIBchromaprint_VERSION}
+lib/pkgconfig/libchromaprint.pc

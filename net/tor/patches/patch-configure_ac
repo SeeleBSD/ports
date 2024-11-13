@@ -1,0 +1,18 @@
+disable -fasynchronous-unwind-tables as it breaks build on armv7
+Index: configure.ac
+--- configure.ac.orig
++++ configure.ac
+@@ -1467,13 +1467,6 @@ fi
+ CFLAGS="$saved_CFLAGS"
+ AC_SUBST(F_OMIT_FRAME_POINTER)
+ 
+-dnl ------------------------------------------------------
+-dnl If we are adding -fomit-frame-pointer (or if the compiler's doing it
+-dnl for us, as GCC 4.6 and later do at many optimization levels), then
+-dnl we should try to add -fasynchronous-unwind-tables so that our backtrace
+-dnl code will work.
+-TOR_CHECK_CFLAGS(-fasynchronous-unwind-tables)
+-
+ dnl ============================================================
+ dnl Check for libseccomp
+ 

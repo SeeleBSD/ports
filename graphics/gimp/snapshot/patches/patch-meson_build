@@ -1,0 +1,20 @@
+Index: meson.build
+--- meson.build.orig
++++ meson.build
+@@ -1123,7 +1123,7 @@ have_lua = false
+ if get_option('lua').allowed()
+   have_lua_lgi = false
+ 
+-  foreach lua_bin : [ 'luajit', 'lua5.1', 'lua5.2', 'lua5.3' ]
++  foreach lua_bin : [ 'luajit${LUAJIT_V}', 'lua5.1', 'lua5.2', 'lua5.3' ]
+     lua = find_program(lua_bin, required: false)
+ 
+     if lua.found() and meson.can_run_host_binaries()
+@@ -1488,6 +1488,7 @@ conf.set('NO_FD_SET',
+   not platform_windows
+   and not cc.compiles('''
+     #include <sys/types.h>
++    #include <sys/select.h>
+     int main() { fd_set readMask, writeMask; return 0; }
+   ''')
+ )

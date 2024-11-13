@@ -1,0 +1,4 @@
+@conflict nagios-plugins-mysql-*
+@pkgpath net/nagios/plugins,-mysql
+@bin libexec/nagios/check_mysql
+@bin libexec/nagios/check_mysql_query

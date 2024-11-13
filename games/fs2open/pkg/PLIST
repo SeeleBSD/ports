@@ -1,0 +1,5 @@
+bin/fs2open
+share/doc/pkg-readmes/${PKGSTEM}
+share/fs2open/
+share/fs2open/Antlr4_LICENSE.txt
+@bin share/fs2open/fs2open

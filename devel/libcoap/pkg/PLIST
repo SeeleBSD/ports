@@ -1,0 +1,88 @@
+@bin bin/coap-client
+@bin bin/coap-rd
+@bin bin/coap-server
+include/coap2/
+include/coap2/address.h
+include/coap2/async.h
+include/coap2/bits.h
+include/coap2/block.h
+include/coap2/coap.h
+include/coap2/coap_debug.h
+include/coap2/coap_dtls.h
+include/coap2/coap_event.h
+include/coap2/coap_forward_decls.h
+include/coap2/coap_hashkey.h
+include/coap2/coap_io.h
+include/coap2/coap_mutex.h
+include/coap2/coap_session.h
+include/coap2/coap_time.h
+include/coap2/encode.h
+include/coap2/libcoap.h
+include/coap2/mem.h
+include/coap2/net.h
+include/coap2/option.h
+include/coap2/pdu.h
+include/coap2/prng.h
+include/coap2/resource.h
+include/coap2/str.h
+include/coap2/subscribe.h
+include/coap2/uri.h
+include/coap2/uthash.h
+include/tinydtls/
+include/tinydtls/aes/
+include/tinydtls/aes/rijndael.h
+include/tinydtls/alert.h
+include/tinydtls/ccm.h
+include/tinydtls/crypto.h
+include/tinydtls/dtls.h
+include/tinydtls/dtls_config.h
+include/tinydtls/dtls_debug.h
+include/tinydtls/dtls_mutex.h
+include/tinydtls/dtls_prng.h
+include/tinydtls/dtls_time.h
+include/tinydtls/ecc/
+include/tinydtls/ecc/ecc.h
+include/tinydtls/ecc/test_helper.h
+include/tinydtls/global.h
+include/tinydtls/hmac.h
+include/tinydtls/netq.h
+include/tinydtls/numeric.h
+include/tinydtls/peer.h
+include/tinydtls/session.h
+include/tinydtls/sha2/
+include/tinydtls/sha2/sha2.h
+include/tinydtls/state.h
+include/tinydtls/tinydtls.h
+include/tinydtls/uthash.h
+include/tinydtls/utlist.h
+@static-lib lib/libcoap-2-tinydtls.a
+lib/libcoap-2-tinydtls.la
+@lib lib/libcoap-2-tinydtls.so.${LIBcoap-2-tinydtls_VERSION}
+@static-lib lib/libtinydtls.a
+@lib lib/libtinydtls.so.${LIBtinydtls_VERSION}
+lib/pkgconfig/libcoap-2-tinydtls.pc
+@man man/man1/coap-client.1
+@man man/man1/coap-rd.1
+@man man/man1/coap-server.1
+@man man/man3/coap_add_data_blocked_response.3
+@man man/man3/coap_attribute.3
+@man man/man3/coap_context.3
+@man man/man3/coap_context_set_pki_root_cas.3
+@man man/man3/coap_encode_var_bytes.3
+@man man/man3/coap_encryption.3
+@man man/man3/coap_endpoint_str.3
+@man man/man3/coap_handler.3
+@man man/man3/coap_io.3
+@man man/man3/coap_keepalive.3
+@man man/man3/coap_logging.3
+@man man/man3/coap_observe.3
+@man man/man3/coap_pdu_setup.3
+@man man/man3/coap_recovery.3
+@man man/man3/coap_resource.3
+@man man/man3/coap_session.3
+@man man/man3/coap_session_get_app_data.3
+@man man/man3/coap_session_set_app_data.3
+@man man/man3/coap_split_path.3
+@man man/man3/coap_split_query.3
+@man man/man3/coap_tls_library.3
+@man man/man7/coap.7

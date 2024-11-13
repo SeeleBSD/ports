@@ -1,0 +1,16 @@
+/patch-include_clang_AST_FormatString_h/1.2/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-include_clang_Basic_CodeGenOptions_def/1.2/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-include_clang_Driver_CC1Options_td/1.2/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-lib_AST_FormatString_cpp/1.2/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-lib_Basic_Targets_Mips_h/1.2/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-lib_Basic_Targets_X86_cpp/1.2/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-lib_Basic_Targets_X86_h/1.2/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-lib_CodeGen_CGCall_cpp/1.2/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-lib_CodeGen_CGDebugInfo_cpp/1.4/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-lib_Driver_ToolChains_Arch_X86_cpp/1.2/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-lib_Driver_ToolChains_CommonArgs_cpp/1.4/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-lib_Driver_ToolChains_OpenBSD_cpp/1.9/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-lib_Driver_ToolChains_OpenBSD_h/1.5/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-lib_Frontend_CompilerInvocation_cpp/1.2/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-tools_libclang_CMakeLists_txt/1.3/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+D

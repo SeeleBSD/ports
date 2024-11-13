@@ -1,0 +1,11 @@
+--- src/mlistedit.c.orig	Sun Jul 27 16:11:00 2014
++++ src/mlistedit.c	Fri Mar 18 09:02:45 2016
+@@ -930,7 +930,7 @@ void freq_open (const char *title, const char *path, i
+ static BOOL cb_list_scan_dir (char *path, int added, int removed, void *data)
+ {
+ 	BOOL quiet = (BOOL)(SINTPTR_T)data;
+-	char str[70], *pos;
++	char str[71], *pos;
+ 	int i;
+ 
+ 	if (!quiet) {

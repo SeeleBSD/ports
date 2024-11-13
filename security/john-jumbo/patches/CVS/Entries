@@ -1,0 +1,14 @@
+/patch-src_Makefile_legacy/1.5/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-src_SIPdump_c/1.4/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-src_blake2_h/1.1/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-src_cprepair_c/1.3/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-src_gpg_fmt_plug_c/1.6/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-src_int-util_h/1.2/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-src_keychain_fmt_plug_c/1.7/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-src_mozilla_ng_fmt_plug_c/1.4/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-src_nsec3_fmt_plug_c/1.1/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-src_openssl_local_overrides_h/1.1/Thu Aug 29 20:47:06 2024//TOPENBSD_7_6
+/patch-src_sip_fmt_plug_c/1.2/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-src_tgtsnarf_c/1.3/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-src_vncpcap2john_c/1.3/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+D

@@ -1,0 +1,48 @@
+D/archivers////
+D/astro////
+D/audio////
+D/benchmarks////
+D/biology////
+D/books////
+D/cad////
+D/chinese////
+D/comms////
+D/converters////
+D/databases////
+D/devel////
+D/editors////
+D/education////
+D/emulators////
+D/fonts////
+D/games////
+D/geo////
+D/graphics////
+D/infrastructure////
+D/inputmethods////
+D/japanese////
+D/java////
+D/korean////
+D/lang////
+D/mail////
+D/math////
+D/meta////
+D/misc////
+D/multimedia////
+D/net////
+D/news////
+D/plan9////
+D/print////
+D/productivity////
+D/security////
+D/shells////
+D/sysutils////
+D/telephony////
+D/tests////
+D/textproc////
+D/wayland////
+D/www////
+D/x11////
+/.cvsignore/1.14/Sun Sep  1 04:41:56 2024//TOPENBSD_7_6
+/.gitignore/1.1/Sun Sep  1 04:41:56 2024//TOPENBSD_7_6
+/Makefile/1.87/Sun Sep  1 04:41:56 2024//TOPENBSD_7_6
+/README/1.25/Sun Sep  1 04:41:56 2024//TOPENBSD_7_6

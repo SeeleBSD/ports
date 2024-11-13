@@ -1,0 +1,17 @@
+/patch-binhex_binhex_c/1.1/Sun Sep  1 04:41:57 2024//TOPENBSD_7_6
+/patch-binhex_makefile/1.2/Sun Sep  1 04:41:57 2024//TOPENBSD_7_6
+/patch-comm_frommac_c/1.1/Sun Sep  1 04:41:57 2024//TOPENBSD_7_6
+/patch-comm_makefile/1.2/Sun Sep  1 04:41:57 2024//TOPENBSD_7_6
+/patch-comm_tomac_c/1.1/Sun Sep  1 04:41:57 2024//TOPENBSD_7_6
+/patch-crc_makefile/1.2/Sun Sep  1 04:41:57 2024//TOPENBSD_7_6
+/patch-fileio_makefile/1.2/Sun Sep  1 04:41:57 2024//TOPENBSD_7_6
+/patch-fileio_rdfileopt_h/1.1/Sun Sep  1 04:41:57 2024//TOPENBSD_7_6
+/patch-fileio_wrfileopt_h/1.1/Sun Sep  1 04:41:57 2024//TOPENBSD_7_6
+/patch-hexbin_makefile/1.2/Sun Sep  1 04:41:57 2024//TOPENBSD_7_6
+/patch-macunpack_lzh_c/1.2/Sun Sep  1 04:41:57 2024//TOPENBSD_7_6
+/patch-macunpack_makefile/1.2/Sun Sep  1 04:41:57 2024//TOPENBSD_7_6
+/patch-makefile/1.2/Sun Sep  1 04:41:57 2024//TOPENBSD_7_6
+/patch-man_macutil_1/1.3/Sun Sep  1 04:41:57 2024//TOPENBSD_7_6
+/patch-mixed_makefile/1.2/Sun Sep  1 04:41:57 2024//TOPENBSD_7_6
+/patch-util_makefile/1.2/Sun Sep  1 04:41:57 2024//TOPENBSD_7_6
+D

@@ -1,0 +1,7 @@
+/patch-configure/1.5/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+/patch-src_Makefile_in/1.5/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+/patch-src_normalize-mp3_in/1.4/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+/patch-test_test16bit_sh/1.3/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+/patch-test_test24bit_sh/1.3/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+/patch-test_test8bit_sh/1.3/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+D

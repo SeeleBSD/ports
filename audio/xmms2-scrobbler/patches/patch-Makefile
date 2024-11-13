@@ -1,0 +1,19 @@
+--- Makefile.orig	Wed Dec 30 18:04:01 2009
++++ Makefile	Mon Mar 15 21:31:54 2010
+@@ -31,11 +31,13 @@ OBJECTS := src/xmms2-scrobbler.o \
+ all: $(BINARY)
+ 
+ install: $(BINARY)
+-	install -d $(DESTDIR)$(PREFIX)/bin
+-	install -m 755 $(BINARY) $(DESTDIR)$(PREFIX)/bin
++	install -d $(PREFIX)/bin
++	install -d $(PREFIX)/share/doc/xmms2-scrobbler
++	install -m 755 $(BINARY) $(PREFIX)/bin
++	install -m 644 README $(PREFIX)/share/doc/xmms2-scrobbler
+ 
+ $(BINARY): $(OBJECTS) bin
+-	$(QUIET_LINK)$(CC) $(LDFLAGS) $(XMMS_LDFLAGS) $(CURL_LDFLAGS) $(OBJECTS) -o $@
++	$(QUIET_LINK)$(CC) $(LDFLAGS) $(CFLAGS) $(XMMS_LDFLAGS) $(CURL_LDFLAGS) $(OBJECTS) -o $@
+ 
+ src/%.o : src/%.c
+ 	$(QUIET_CC)$(CC) $(CFLAGS) $(XMMS_CFLAGS) $(CURL_CFLAGS) $(ENDIAN_CFLAGS) -o $@ -c $<

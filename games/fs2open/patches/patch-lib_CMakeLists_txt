@@ -1,0 +1,14 @@
+disable bundled SDL
+
+Index: lib/CMakeLists.txt
+--- lib/CMakeLists.txt.orig
++++ lib/CMakeLists.txt
+@@ -15,8 +15,6 @@ if (FSO_BUILD_WITH_OPENGL)
+ 	add_subdirectory(opengl)
+ endif()
+ 
+-ADD_SUBDIRECTORY(libsdl)
+-
+ ADD_SUBDIRECTORY(jansson)
+ # These are only required for the web-ui which is non-Windows
+ IF(UNIX)

@@ -1,0 +1,5 @@
+/patch-src_belle_sip_resolver_c/1.4/Mon Sep 23 15:34:55 2024//TOPENBSD_7_6
+/patch-src_channel_c/1.4/Mon Sep 23 15:34:55 2024//TOPENBSD_7_6
+/patch-src_dns_dns_c/1.6/Mon Sep 23 15:34:55 2024//TOPENBSD_7_6
+/patch-src_transports_udp_listeningpoint_c/1.4/Mon Sep 23 15:34:55 2024//TOPENBSD_7_6
+D

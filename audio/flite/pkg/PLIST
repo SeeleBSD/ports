@@ -1,0 +1,52 @@
+@bin bin/flite
+@bin bin/flite_time
+include/flite/
+include/flite/cst_alloc.h
+include/flite/cst_args.h
+include/flite/cst_audio.h
+include/flite/cst_cart.h
+include/flite/cst_clunits.h
+include/flite/cst_diphone.h
+include/flite/cst_endian.h
+include/flite/cst_error.h
+include/flite/cst_features.h
+include/flite/cst_file.h
+include/flite/cst_hrg.h
+include/flite/cst_item.h
+include/flite/cst_lexicon.h
+include/flite/cst_lts.h
+include/flite/cst_lts_rewrites.h
+include/flite/cst_phoneset.h
+include/flite/cst_regex.h
+include/flite/cst_relation.h
+include/flite/cst_sigpr.h
+include/flite/cst_socket.h
+include/flite/cst_ss.h
+include/flite/cst_string.h
+include/flite/cst_sts.h
+include/flite/cst_synth.h
+include/flite/cst_tokenstream.h
+include/flite/cst_track.h
+include/flite/cst_units.h
+include/flite/cst_utt_utils.h
+include/flite/cst_utterance.h
+include/flite/cst_val.h
+include/flite/cst_val_const.h
+include/flite/cst_val_defs.h
+include/flite/cst_viterbi.h
+include/flite/cst_voice.h
+include/flite/cst_wave.h
+include/flite/flite.h
+include/flite/flite_version.h
+lib/libflite.a
+@lib lib/libflite.so.${LIBflite_VERSION}
+lib/libflite_cmu_time_awb.a
+@lib lib/libflite_cmu_time_awb.so.${LIBflite_cmu_time_awb_VERSION}
+lib/libflite_cmu_us_kal.a
+@lib lib/libflite_cmu_us_kal.so.${LIBflite_cmu_us_kal_VERSION}
+lib/libflite_cmu_us_kal16.a
+@lib lib/libflite_cmu_us_kal16.so.${LIBflite_cmu_us_kal16_VERSION}
+lib/libflite_cmulex.a
+@lib lib/libflite_cmulex.so.${LIBflite_cmulex_VERSION}
+lib/libflite_usenglish.a
+@lib lib/libflite_usenglish.so.${LIBflite_usenglish_VERSION}

@@ -1,0 +1,13 @@
+/patch-gtk_configure_ac/1.6/Mon Sep 23 15:34:25 2024//TOPENBSD_7_6
+/patch-libhb_audio_remap_c/1.1/Wed May 29 08:47:50 2024//TOPENBSD_7_6
+/patch-libhb_audio_resample_c/1.1/Wed May 29 08:47:50 2024//TOPENBSD_7_6
+/patch-libhb_common_c/1.1/Wed May 29 08:47:50 2024//TOPENBSD_7_6
+/patch-libhb_decavcodec_c/1.1/Wed May 29 08:47:50 2024//TOPENBSD_7_6
+/patch-libhb_encavcodecaudio_c/1.2/Mon Sep 23 15:34:25 2024//TOPENBSD_7_6
+/patch-libhb_muxavformat_c/1.1/Wed May 29 08:47:50 2024//TOPENBSD_7_6
+/patch-libhb_scan_c/1.1/Wed May 29 08:47:50 2024//TOPENBSD_7_6
+/patch-make_configure_py/1.5/Mon Sep 23 15:34:25 2024//TOPENBSD_7_6
+/patch-make_include_gcc_defs/1.4/Mon Sep 23 15:34:25 2024//TOPENBSD_7_6
+/patch-make_include_main_defs/1.4/Mon Sep 23 15:34:25 2024//TOPENBSD_7_6
+/patch-test_module_defs/1.1/Wed May 29 08:47:50 2024//TOPENBSD_7_6
+D

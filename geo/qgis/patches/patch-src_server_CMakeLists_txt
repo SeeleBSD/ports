@@ -1,0 +1,14 @@
+install qgis_server additional files to share/qgis
+
+Index: src/server/CMakeLists.txt
+--- src/server/CMakeLists.txt.orig
++++ src/server/CMakeLists.txt
+@@ -179,7 +179,7 @@ install(TARGETS
+ )
+ 
+ install(FILES
+-  DESTINATION ${QGIS_CGIBIN_DIR}
++  DESTINATION ${QGIS_DATA_DIR}
+ )
+ add_custom_target(qgis_server_full
+   DEPENDS qgis_mapserv.fcgi wms wfs wcs wfs3 wmts qgis_server landingpage

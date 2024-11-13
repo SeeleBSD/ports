@@ -1,0 +1,28 @@
+D/about////
+D/build-tools////
+D/compton-conf////
+D/config////
+D/globalkeys////
+D/libfm-qt////
+D/liblxqt////
+D/libqtxdg////
+D/libsysstat////
+D/lximage-qt////
+D/notificationd////
+D/obconf-qt////
+D/openssh-askpass////
+D/panel////
+D/pavucontrol-qt////
+D/pcmanfm-qt////
+D/policykit////
+D/powermanagement////
+D/qterminal////
+D/qtermwidget////
+D/qtplugin////
+D/runner////
+D/screengrab////
+D/session////
+D/sudo////
+D/themes////
+/Makefile/1.4/Mon Sep 23 15:35:28 2024//TOPENBSD_7_6
+/Makefile.inc/1.9/Mon Sep 23 15:35:28 2024//TOPENBSD_7_6

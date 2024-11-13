@@ -1,0 +1,7 @@
+/patch-CMakeLists_txt/1.12/Mon Sep 23 15:34:58 2024//TOPENBSD_7_6
+/patch-cmake_modules_FindBDB_cmake/1.2/Sun Sep  1 04:44:22 2024//TOPENBSD_7_6
+/patch-src_libical_icaltz-util_c/1.10/Sun Sep  1 04:44:22 2024//TOPENBSD_7_6
+/patch-src_libicalss_icalbdbset_h/1.2/Sun Sep  1 04:44:22 2024//TOPENBSD_7_6
+/patch-src_libicalss_icalbdbsetimpl_h/1.3/Sun Sep  1 04:44:22 2024//TOPENBSD_7_6
+/patch-src_test_regression-storage_c/1.3/Sun Sep  1 04:44:22 2024//TOPENBSD_7_6
+D

@@ -1,0 +1,19 @@
+/patch-Makefile/1.24/Mon Sep 23 15:35:00 2024//TOPENBSD_7_6
+/patch-Makerules/1.31/Mon Sep 23 15:35:00 2024//TOPENBSD_7_6
+/patch-Makethird/1.13/Mon Sep 23 15:35:00 2024//TOPENBSD_7_6
+/patch-docs_man_mupdf_1/1.6/Sun Sep  1 04:44:23 2024//TOPENBSD_7_6
+/patch-platform_gl_gl-ui_c/1.2/Sun Sep  1 04:44:23 2024//TOPENBSD_7_6
+/patch-platform_x11_curl_stream_c/1.5/Sun Sep  1 04:44:23 2024//TOPENBSD_7_6
+/patch-platform_x11_pdfapp_c/1.22/Mon Sep 23 15:35:00 2024//TOPENBSD_7_6
+/patch-platform_x11_x11_main_c/1.11/Sun Sep  1 04:44:23 2024//TOPENBSD_7_6
+/patch-source_fitz_list-device_c/1.8/Sun Sep  1 04:44:23 2024//TOPENBSD_7_6
+/patch-source_fitz_load-jpx_c/1.12/Sun Sep  1 04:44:23 2024//TOPENBSD_7_6
+/patch-source_helpers_pkcs7_pkcs7-openssl_c/1.13/Mon Sep 23 15:35:00 2024//TOPENBSD_7_6
+/patch-source_tools_mudraw_c/1.19/Mon Sep 23 15:35:00 2024//TOPENBSD_7_6
+/patch-source_tools_pdfclean_c/1.10/Mon Sep 23 15:35:00 2024//TOPENBSD_7_6
+/patch-source_tools_pdfextract_c/1.12/Mon Sep 23 15:35:00 2024//TOPENBSD_7_6
+/patch-source_tools_pdfinfo_c/1.11/Mon Sep 23 15:35:00 2024//TOPENBSD_7_6
+/patch-source_tools_pdfpages_c/1.6/Mon Sep 23 15:35:00 2024//TOPENBSD_7_6
+/patch-source_tools_pdfposter_c/1.8/Mon Sep 23 15:35:00 2024//TOPENBSD_7_6
+/patch-source_tools_pdfshow_c/1.11/Sun Sep  1 04:44:23 2024//TOPENBSD_7_6
+D

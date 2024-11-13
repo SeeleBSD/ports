@@ -1,0 +1,12 @@
+/patch-Makedefs_in/1.20/Sun Sep  1 04:43:54 2024//TOPENBSD_7_6
+/patch-backend_ipp_c/1.27/Mon Sep 23 15:34:40 2024//TOPENBSD_7_6
+/patch-config-scripts_cups-common_m4/1.21/Sun Sep  1 04:43:54 2024//TOPENBSD_7_6
+/patch-config-scripts_cups-sharedlibs_m4/1.16/Sun Sep  1 04:43:54 2024//TOPENBSD_7_6
+/patch-cups_Makefile/1.23/Sun Sep  1 04:43:54 2024//TOPENBSD_7_6
+/patch-cups_getifaddrs-internal_h/1.5/Mon Sep 23 15:34:40 2024//TOPENBSD_7_6
+/patch-notifier_Makefile/1.7/Mon Sep 23 15:34:40 2024//TOPENBSD_7_6
+/patch-scheduler_Makefile/1.19/Sun Sep  1 04:43:54 2024//TOPENBSD_7_6
+/patch-scheduler_auth_c/1.16/Sun Sep  1 04:43:54 2024//TOPENBSD_7_6
+/patch-scheduler_ipp_c/1.33/Mon Sep 23 15:34:40 2024//TOPENBSD_7_6
+/patch-test_run-stp-tests_sh/1.26/Sun Sep  1 04:43:54 2024//TOPENBSD_7_6
+D

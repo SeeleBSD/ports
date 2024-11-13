@@ -1,0 +1,10 @@
+/patch-SConstruct/1.7/Sun Sep  1 04:42:13 2024//TOPENBSD_7_6
+/patch-src_mongo_db_storage_storage_repair_observer_cpp/1.1/Sun Sep  1 04:42:13 2024//TOPENBSD_7_6
+/patch-src_mongo_db_storage_wiredtiger_wiredtiger_util_cpp/1.2/Sun Sep  1 04:42:13 2024//TOPENBSD_7_6
+/patch-src_mongo_shell_shell_utils_extended_cpp/1.1/Sun Sep  1 04:42:13 2024//TOPENBSD_7_6
+/patch-src_mongo_util_net_sock_h/1.1/Sun Sep  1 04:42:13 2024//TOPENBSD_7_6
+/patch-src_mongo_util_processinfo_openbsd_cpp/1.2/Sun Sep  1 04:42:13 2024//TOPENBSD_7_6
+/patch-src_mongo_util_time_support_cpp/1.1/Sun Sep  1 04:42:13 2024//TOPENBSD_7_6
+/patch-src_third_party_asio-master_asio_include_asio_ssl_impl_context_ipp/1.1/Sun Sep  1 04:42:13 2024//TOPENBSD_7_6
+/patch-src_third_party_mozjs-60_platform_x86_64_openbsd_build_js-confdefs_h/1.1/Sun Sep  1 04:42:13 2024//TOPENBSD_7_6
+D

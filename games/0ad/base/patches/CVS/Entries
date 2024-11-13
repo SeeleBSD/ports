@@ -1,0 +1,19 @@
+/patch-build_premake_extern_libs5_lua/1.1/Sun Sep  1 04:43:02 2024//TOPENBSD_7_6
+/patch-build_premake_premake5_build_gmake2_bsd_Premake5_make/1.2/Sun Sep  1 04:43:02 2024//TOPENBSD_7_6
+/patch-build_resources_0ad_sh/1.1/Tue May 21 01:29:18 2024//TOPENBSD_7_6
+/patch-build_workspaces_update-workspaces_sh/1.9/Sun Sep  1 04:43:02 2024//TOPENBSD_7_6
+/patch-libraries_source_fcollada_src_FColladaPlugins_FArchiveXML_FArchiveXML_cpp/1.1/Sun Sep  1 04:43:02 2024//TOPENBSD_7_6
+/patch-libraries_source_fcollada_src_FCollada_FUtils_FUXmlDocument_cpp/1.1/Sun Sep  1 04:43:02 2024//TOPENBSD_7_6
+/patch-libraries_source_fcollada_src_Makefile/1.4/Sun Sep  1 04:43:02 2024//TOPENBSD_7_6
+/patch-libraries_source_spidermonkey_0001-Python-Build-Use-r-instead-of-rU-file-read-modes_patch/1.1/Tue Apr  2 12:20:16 2024//TOPENBSD_7_6
+/patch-libraries_source_spidermonkey_FixNewClang.diff/1.1/Sun Sep  1 04:43:02 2024//TOPENBSD_7_6
+/patch-libraries_source_spidermonkey_build_sh/1.6/Sun Sep  1 04:43:02 2024//TOPENBSD_7_6
+/patch-libraries_source_spidermonkey_mozjs_virtualenv_patch/1.1/Tue Apr  2 12:20:16 2024//TOPENBSD_7_6
+/patch-libraries_source_spidermonkey_patch_sh/1.7/Mon Sep 23 15:33:56 2024//TOPENBSD_7_6
+/patch-source_collada_CommonConvert_cpp/1.1/Sun Sep  1 04:43:02 2024//TOPENBSD_7_6
+/patch-source_collada_XMLFix_cpp/1.1/Sun Sep  1 04:43:02 2024//TOPENBSD_7_6
+/patch-source_network_NetMessage_cpp/1.1/Mon Apr 15 22:02:54 2024//TOPENBSD_7_6
+/patch-source_ps_XML_RelaxNG_cpp/1.1/Sun Sep  1 04:43:02 2024//TOPENBSD_7_6
+/patch-source_ps_XML_Xeromyces_cpp/1.1/Sun Sep  1 04:43:02 2024//TOPENBSD_7_6
+/patch-source_simulation2_serialization_BinarySerializer_cpp/1.1/Mon Apr 15 22:02:54 2024//TOPENBSD_7_6
+D

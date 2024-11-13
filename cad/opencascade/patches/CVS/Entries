@@ -1,0 +1,16 @@
+/patch-CMakeLists_txt/1.2/Sun Sep  1 04:42:07 2024//TOPENBSD_7_6
+/patch-adm_cmake_occt_csf_cmake/1.1.1.1/Sun Sep  1 04:42:07 2024//TOPENBSD_7_6
+/patch-adm_cmake_occt_macros_cmake/1.1.1.1/Sun Sep  1 04:42:07 2024//TOPENBSD_7_6
+/patch-adm_cmake_occt_toolkit_cmake/1.1.1.1/Sun Sep  1 04:42:07 2024//TOPENBSD_7_6
+/patch-adm_genproj_tcl/1.1.1.1/Sun Sep  1 04:42:07 2024//TOPENBSD_7_6
+/patch-adm_qmake_OccToolkit_pri/1.1.1.1/Sun Sep  1 04:42:07 2024//TOPENBSD_7_6
+/patch-adm_templates_env_install_sh_in/1.1.1.1/Sun Sep  1 04:42:07 2024//TOPENBSD_7_6
+/patch-src_BRepMesh_delabella_cpp/1.1.1.1/Sun Sep  1 04:42:07 2024//TOPENBSD_7_6
+/patch-src_OSD_OSD_Chronometer_cxx/1.1.1.1/Sun Sep  1 04:42:07 2024//TOPENBSD_7_6
+/patch-src_OSD_OSD_Host_cxx/1.1.1.1/Sun Sep  1 04:42:07 2024//TOPENBSD_7_6
+/patch-src_OSD_OSD_MemInfo_cxx/1.1.1.1/Sun Sep  1 04:42:07 2024//TOPENBSD_7_6
+/patch-src_OSD_OSD_Path_cxx/1.1.1.1/Sun Sep  1 04:42:07 2024//TOPENBSD_7_6
+/patch-src_Standard_Standard_CString_cxx/1.2/Sun Sep  1 04:42:07 2024//TOPENBSD_7_6
+/patch-src_Standard_Standard_MMgrOpt_cxx/1.1.1.1/Sun Sep  1 04:42:07 2024//TOPENBSD_7_6
+/patch-src_Standard_Standard_StackTrace_cxx/1.1.1.1/Sun Sep  1 04:42:07 2024//TOPENBSD_7_6
+D

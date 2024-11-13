@@ -1,0 +1,12 @@
+/patch-catalog_c/1.10/Mon Sep 23 15:34:59 2024//TOPENBSD_7_6
+/patch-fuzz_api_c/1.1/Mon Aug 26 08:43:49 2024//TOPENBSD_7_6
+/patch-parserInternals_c/1.3/Mon Aug 26 08:43:49 2024//TOPENBSD_7_6
+/patch-parser_c/1.27/Mon Aug 26 08:43:49 2024//TOPENBSD_7_6
+/patch-tree_c/1.5/Mon Aug 26 08:43:49 2024//TOPENBSD_7_6
+/patch-valid_c/1.4/Mon Aug 26 08:43:49 2024//TOPENBSD_7_6
+/patch-xmlIO_c/1.6/Mon Aug 26 08:43:49 2024//TOPENBSD_7_6
+/patch-xmlcatalog_c/1.6/Mon Sep 23 15:34:59 2024//TOPENBSD_7_6
+/patch-xmllint_c/1.10/Mon Sep 23 15:34:59 2024//TOPENBSD_7_6
+/patch-xmlreader_c/1.5/Mon Aug 26 08:43:49 2024//TOPENBSD_7_6
+/patch-xstc_Makefile_am/1.1/Sun Sep  1 04:44:22 2024//TOPENBSD_7_6
+D

@@ -1,0 +1,7 @@
+/0001-Make-compatible-with-ghc-9.6.patch/1.1/Sun Sep  1 04:45:06 2024//TOPENBSD_7_6
+/patch-etc_xmobar_config/1.1/Sun Sep  1 04:45:06 2024//TOPENBSD_7_6
+/patch-src_Xmobar_Plugins_EWMH_hs/1.1/Sun Sep  1 04:45:06 2024//TOPENBSD_7_6
+/patch-src_Xmobar_Plugins_Monitors_hs/1.5/Sun Sep  1 04:45:06 2024//TOPENBSD_7_6
+/patch-src_Xmobar_X11_Loop_hs/1.1/Sun Sep  1 04:45:06 2024//TOPENBSD_7_6
+/patch-xmobar_cabal/1.26/Sun Sep  1 04:45:06 2024//TOPENBSD_7_6
+D

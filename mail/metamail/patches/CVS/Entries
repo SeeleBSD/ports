@@ -1,0 +1,21 @@
+/patch-src_Makefile/1.3/Sun Sep  1 04:43:27 2024//TOPENBSD_7_6
+/patch-src_bin_showaudio/1.2/Sun Sep  1 04:43:27 2024//TOPENBSD_7_6
+/patch-src_bin_showexternal/1.2/Sun Sep  1 04:43:27 2024//TOPENBSD_7_6
+/patch-src_bin_showpartial/1.2/Sun Sep  1 04:43:27 2024//TOPENBSD_7_6
+/patch-src_bin_showpicture/1.2/Sun Sep  1 04:43:27 2024//TOPENBSD_7_6
+/patch-src_bin_sun2mime/1.2/Sun Sep  1 04:43:27 2024//TOPENBSD_7_6
+/patch-src_config_h/1.2/Sun Sep  1 04:43:27 2024//TOPENBSD_7_6
+/patch-src_fonts_Makefile/1.2/Sun Sep  1 04:43:27 2024//TOPENBSD_7_6
+/patch-src_metamail_Makefile/1.2/Sun Sep  1 04:43:27 2024//TOPENBSD_7_6
+/patch-src_metamail_codes_c/1.3/Sun Sep  1 04:43:27 2024//TOPENBSD_7_6
+/patch-src_metamail_mailto_c/1.4/Sun Sep  1 04:43:27 2024//TOPENBSD_7_6
+/patch-src_metamail_metamail_c/1.5/Sun Sep  1 04:43:27 2024//TOPENBSD_7_6
+/patch-src_metamail_mmencode_c/1.2/Sun Sep  1 04:43:27 2024//TOPENBSD_7_6
+/patch-src_metamail_shared_c/1.2/Sun Sep  1 04:43:27 2024//TOPENBSD_7_6
+/patch-src_metamail_splitmail_c/1.2/Sun Sep  1 04:43:27 2024//TOPENBSD_7_6
+/patch-src_metamail_uue_c/1.3/Sun Sep  1 04:43:27 2024//TOPENBSD_7_6
+/patch-src_richmail_iso2022_c/1.2/Sun Sep  1 04:43:27 2024//TOPENBSD_7_6
+/patch-src_richmail_richlex_c/1.2/Sun Sep  1 04:43:27 2024//TOPENBSD_7_6
+/patch-src_richmail_richset_c/1.2/Sun Sep  1 04:43:27 2024//TOPENBSD_7_6
+/patch-src_richmail_richtext_c/1.3/Sun Sep  1 04:43:27 2024//TOPENBSD_7_6
+D

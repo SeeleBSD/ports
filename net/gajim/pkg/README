@@ -1,0 +1,7 @@
+Gajim Plugins
+=============
+
+Some plugins in Gajim require additional Python modules to function
+properly.  For instance, in order to use the OMEMO plugin, axolotl is
+required.  This is available on OpenBSD via the py3-axolotl package or
+net/py-axolotl,python3 port.

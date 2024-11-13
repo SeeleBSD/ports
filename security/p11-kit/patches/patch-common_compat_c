@@ -1,0 +1,15 @@
+Index: common/compat.c
+--- common/compat.c.orig
++++ common/compat.c
+@@ -54,6 +54,11 @@
+ #define __BSD_VISIBLE 1
+ #endif
+ 
++/*
++ * This is needed to expose issetugid since we define _XOPEN_SOURCE
++ */
++#define _BSD_SOURCE
++
+ #include "compat.h"
+ #include "debug.h"
+ 

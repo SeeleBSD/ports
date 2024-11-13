@@ -1,0 +1,9 @@
+/patch-src_libexpr_local_mk/1.1.1.1/Sun Sep  1 04:44:10 2024//TOPENBSD_7_6
+/patch-src_libexpr_primops_fetchGit_cc/1.2/Sun Sep  1 04:44:10 2024//TOPENBSD_7_6
+/patch-src_libstore_download_cc/1.1.1.1/Sun Sep  1 04:44:10 2024//TOPENBSD_7_6
+/patch-src_libstore_local_mk/1.2/Sun Sep  1 04:44:10 2024//TOPENBSD_7_6
+/patch-src_libutil_local_mk/1.1.1.1/Sun Sep  1 04:44:10 2024//TOPENBSD_7_6
+/patch-src_nix-daemon_nix-daemon_cc/1.3/Sun Sep  1 04:44:10 2024//TOPENBSD_7_6
+/patch-src_nix-prefetch-url_nix-prefetch-url_cc/1.1.1.1/Sun Sep  1 04:44:10 2024//TOPENBSD_7_6
+/patch-src_nix_local_mk/1.1.1.1/Sun Sep  1 04:44:10 2024//TOPENBSD_7_6
+D

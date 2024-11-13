@@ -1,0 +1,12 @@
+/audio_manager_openbsd.cc/1.3/Sun Sep  1 04:45:00 2024//TOPENBSD_7_6
+/audio_manager_openbsd.h/1.3/Sun Sep  1 04:45:00 2024//TOPENBSD_7_6
+/hid_connection_fido.cc/1.1/Sun Sep  1 04:45:00 2024//TOPENBSD_7_6
+/hid_connection_fido.h/1.1/Sun Sep  1 04:45:00 2024//TOPENBSD_7_6
+/hid_service_fido.cc/1.1/Sun Sep  1 04:45:00 2024//TOPENBSD_7_6
+/hid_service_fido.h/1.1/Sun Sep  1 04:45:00 2024//TOPENBSD_7_6
+/openbsd.pri/1.4/Sun Sep  1 04:45:00 2024//TOPENBSD_7_6
+/sndio_input.cc/1.4/Sun Sep  1 04:45:00 2024//TOPENBSD_7_6
+/sndio_input.h/1.4/Sun Sep  1 04:45:00 2024//TOPENBSD_7_6
+/sndio_output.cc/1.4/Sun Sep  1 04:45:00 2024//TOPENBSD_7_6
+/sndio_output.h/1.3/Sun Sep  1 04:45:00 2024//TOPENBSD_7_6
+D

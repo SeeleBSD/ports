@@ -1,0 +1,24 @@
+/patch-samples_Makefile_in/1.2/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/patch-samples_logging_proxy_c/1.2/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/patch-samples_login_server_c/1.2/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/patch-samples_nocipher_proxy_c/1.2/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/patch-samples_redirect_server_c/1.2/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/patch-src_channel_c/1.2/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/patch-src_mw_debug_c/1.2/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/patch-src_mw_message_h/1.2/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/patch-src_mw_srvc_conf_h/1.2/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/patch-src_mw_srvc_dir_h/1.2/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/patch-src_mw_srvc_place_h/1.2/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/patch-src_mw_srvc_resolve_h/1.2/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/patch-src_mw_st_list_h/1.2/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/patch-src_mw_util_h/1.2/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/patch-src_srvc_aware_c/1.2/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/patch-src_srvc_conf_c/1.2/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/patch-src_srvc_dir_c/1.2/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/patch-src_srvc_ft_c/1.2/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/patch-src_srvc_im_c/1.2/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/patch-src_srvc_place_c/1.2/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/patch-src_srvc_resolve_c/1.2/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/patch-src_srvc_store_c/1.2/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/patch-src_st_list_c/1.2/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+D

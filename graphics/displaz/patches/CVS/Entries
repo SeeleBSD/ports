@@ -1,0 +1,14 @@
+/patch-CMakeLists_txt/1.1/Thu Apr 25 07:49:21 2024//TOPENBSD_7_6
+/patch-cmake_FindIlmbase_cmake/1.2/Sun Sep  1 04:43:14 2024//TOPENBSD_7_6
+/patch-src_gui_InteractiveCamera_h/1.2/Sun Sep  1 04:43:14 2024//TOPENBSD_7_6
+/patch-src_gui_guimain_cpp/1.2/Sun Sep  1 04:43:14 2024//TOPENBSD_7_6
+/patch-src_hcloud_h/1.2/Sun Sep  1 04:43:14 2024//TOPENBSD_7_6
+/patch-src_las_io_cpp/1.1/Thu Apr 25 07:49:21 2024//TOPENBSD_7_6
+/patch-src_main_cpp/1.2/Sun Sep  1 04:43:14 2024//TOPENBSD_7_6
+/patch-src_render_Annotation_cpp/1.2/Sun Sep  1 04:43:14 2024//TOPENBSD_7_6
+/patch-src_render_HCloudView_cpp/1.2/Sun Sep  1 04:43:14 2024//TOPENBSD_7_6
+/patch-src_render_PointArray_cpp/1.2/Sun Sep  1 04:43:14 2024//TOPENBSD_7_6
+/patch-src_render_View3D_cpp/1.2/Sun Sep  1 04:43:14 2024//TOPENBSD_7_6
+/patch-src_util_cpp/1.2/Sun Sep  1 04:43:14 2024//TOPENBSD_7_6
+/patch-src_util_h/1.2/Sun Sep  1 04:43:14 2024//TOPENBSD_7_6
+D

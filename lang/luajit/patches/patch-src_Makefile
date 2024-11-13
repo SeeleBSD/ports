@@ -1,0 +1,29 @@
+Index: src/Makefile
+--- src/Makefile.orig
++++ src/Makefile
+@@ -351,6 +351,10 @@ else
+   ifeq (GNU/kFreeBSD,$(TARGET_SYS))
+     TARGET_XLIBS+= -ldl
+   endif
++  ifeq (OpenBSD,$(TARGET_SYS))
++    TARGET_XSHLDFLAGS= -shared -fPIC
++    TARGET_STRIP= @:
++  endif
+ endif
+ endif
+ endif
+@@ -608,10 +612,10 @@ endif
+ endif
+ endif
+ 
+-Q= @
+-E= @echo
+-#Q=
+-#E= @:
++#Q= @
++#E= @echo
++Q=
++E= @:
+ 
+ ##############################################################################
+ # Make targets.

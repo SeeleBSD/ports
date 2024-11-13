@@ -1,0 +1,11 @@
+/patch-configure/1.13/Sun Sep  1 04:43:52 2024//TOPENBSD_7_6
+/patch-tools_c-constants-gen_py/1.2/Sun Sep  1 04:43:52 2024//TOPENBSD_7_6
+/patch-tools_glib-client-gen_py/1.2/Sun Sep  1 04:43:52 2024//TOPENBSD_7_6
+/patch-tools_glib-client-marshaller-gen_py/1.2/Sun Sep  1 04:43:52 2024//TOPENBSD_7_6
+/patch-tools_glib-ginterface-gen_py/1.2/Sun Sep  1 04:43:52 2024//TOPENBSD_7_6
+/patch-tools_glib-gtypes-generator_py/1.2/Sun Sep  1 04:43:52 2024//TOPENBSD_7_6
+/patch-tools_glib-interfaces-gen_py/1.2/Sun Sep  1 04:43:52 2024//TOPENBSD_7_6
+/patch-tools_libglibcodegen_py/1.2/Sun Sep  1 04:43:52 2024//TOPENBSD_7_6
+/patch-tools_libtpcodegen_py/1.2/Sun Sep  1 04:43:52 2024//TOPENBSD_7_6
+/patch-tools_xincludator_py/1.2/Sun Sep  1 04:43:52 2024//TOPENBSD_7_6
+D

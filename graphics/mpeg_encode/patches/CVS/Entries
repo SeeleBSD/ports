@@ -1,0 +1,12 @@
+/patch-Makefile/1.2/Sun Sep  1 04:43:17 2024//TOPENBSD_7_6
+/patch-bframe_c/1.2/Sun Sep  1 04:43:17 2024//TOPENBSD_7_6
+/patch-bitio_c/1.2/Sun Sep  1 04:43:17 2024//TOPENBSD_7_6
+/patch-combine_c/1.3/Sun Sep  1 04:43:17 2024//TOPENBSD_7_6
+/patch-docs_mpeg_encode_1/1.2/Sun Sep  1 04:43:17 2024//TOPENBSD_7_6
+/patch-headers_libpnmrw_h/1.3/Sun Sep  1 04:43:17 2024//TOPENBSD_7_6
+/patch-jpeg_Makefile/1.2/Sun Sep  1 04:43:17 2024//TOPENBSD_7_6
+/patch-jpeg_c/1.3/Sun Sep  1 04:43:17 2024//TOPENBSD_7_6
+/patch-libpnmrw_c/1.3/Sun Sep  1 04:43:17 2024//TOPENBSD_7_6
+/patch-mfwddct_c/1.2/Sun Sep  1 04:43:17 2024//TOPENBSD_7_6
+/patch-opts_c/1.2/Sun Sep  1 04:43:17 2024//TOPENBSD_7_6
+D

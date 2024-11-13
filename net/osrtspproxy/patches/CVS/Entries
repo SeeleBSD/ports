@@ -1,0 +1,20 @@
+/patch-configure/1.4/Sun Sep  1 04:43:45 2024//TOPENBSD_7_6
+/patch-libapp_Avl_h/1.5/Sun Sep  1 04:43:45 2024//TOPENBSD_7_6
+/patch-libapp_bitset_cpp/1.2/Sun Sep  1 04:43:45 2024//TOPENBSD_7_6
+/patch-libapp_dbg_cpp/1.2/Sun Sep  1 04:43:45 2024//TOPENBSD_7_6
+/patch-libapp_dbg_h/1.2/Sun Sep  1 04:43:45 2024//TOPENBSD_7_6
+/patch-libapp_resolver_cpp/1.2/Sun Sep  1 04:43:45 2024//TOPENBSD_7_6
+/patch-libapp_resolver_h/1.2/Sun Sep  1 04:43:45 2024//TOPENBSD_7_6
+/patch-libapp_sock_cpp/1.2/Sun Sep  1 04:43:45 2024//TOPENBSD_7_6
+/patch-libapp_str_cpp/1.2/Sun Sep  1 04:43:45 2024//TOPENBSD_7_6
+/patch-libapp_stream_h/1.2/Sun Sep  1 04:43:45 2024//TOPENBSD_7_6
+/patch-libapp_thread_cpp/1.2/Sun Sep  1 04:43:45 2024//TOPENBSD_7_6
+/patch-libapp_timer_h/1.2/Sun Sep  1 04:43:45 2024//TOPENBSD_7_6
+/patch-libapp_tlist_h/1.2/Sun Sep  1 04:43:45 2024//TOPENBSD_7_6
+/patch-libapp_types_h/1.2/Sun Sep  1 04:43:45 2024//TOPENBSD_7_6
+/patch-librtsp_rtspprot_cpp/1.3/Sun Sep  1 04:43:45 2024//TOPENBSD_7_6
+/patch-rtspproxy_Makefile_in/1.2/Sun Sep  1 04:43:45 2024//TOPENBSD_7_6
+/patch-rtspproxy_proxysession_cpp/1.2/Sun Sep  1 04:43:45 2024//TOPENBSD_7_6
+/patch-rtspproxy_rtspproxy_cpp/1.2/Sun Sep  1 04:43:45 2024//TOPENBSD_7_6
+/patch-rtspproxy_tranhdr_cpp/1.2/Sun Sep  1 04:43:45 2024//TOPENBSD_7_6
+D

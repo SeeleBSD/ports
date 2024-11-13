@@ -1,0 +1,18 @@
+/patch-Makefile/1.5/Sun Sep  1 04:43:08 2024//TOPENBSD_7_6
+/patch-OpenRA_Game_Network_GeoIP_cs/1.3/Sun Sep  1 04:43:08 2024//TOPENBSD_7_6
+/patch-OpenRA_Game_OpenRA_Game_csproj/1.2/Sun Sep  1 04:43:08 2024//TOPENBSD_7_6
+/patch-OpenRA_Launcher_OpenRA_Launcher_csproj/1.2/Sun Sep  1 04:43:08 2024//TOPENBSD_7_6
+/patch-OpenRA_Mods_Cnc_OpenRA_Mods_Cnc_csproj/1.2/Sun Sep  1 04:43:08 2024//TOPENBSD_7_6
+/patch-OpenRA_Mods_Common_OpenRA_Mods_Common_csproj/1.2/Sun Sep  1 04:43:08 2024//TOPENBSD_7_6
+/patch-OpenRA_Mods_Common_Widgets_Logic_MapChooserLogic_cs/1.2/Sun Sep  1 04:43:08 2024//TOPENBSD_7_6
+/patch-OpenRA_Mods_D2k_OpenRA_Mods_D2k_csproj/1.2/Sun Sep  1 04:43:08 2024//TOPENBSD_7_6
+/patch-OpenRA_Platforms_Default_OpenRA_Platforms_Default_csproj/1.2/Sun Sep  1 04:43:08 2024//TOPENBSD_7_6
+/patch-OpenRA_Server_OpenRA_Server_csproj/1.2/Sun Sep  1 04:43:08 2024//TOPENBSD_7_6
+/patch-OpenRA_Test_OpenRA_Test_csproj/1.2/Sun Sep  1 04:43:08 2024//TOPENBSD_7_6
+/patch-OpenRA_Utility_OpenRA_Utility_csproj/1.2/Sun Sep  1 04:43:08 2024//TOPENBSD_7_6
+/patch-OpenRA_WindowsLauncher_OpenRA_WindowsLauncher_csproj/1.2/Sun Sep  1 04:43:08 2024//TOPENBSD_7_6
+/patch-launch-dedicated_sh/1.4/Sun Sep  1 04:43:08 2024//TOPENBSD_7_6
+/patch-launch-game_sh/1.5/Sun Sep  1 04:43:08 2024//TOPENBSD_7_6
+/patch-make_ps1/1.2/Sun Sep  1 04:43:08 2024//TOPENBSD_7_6
+/patch-packaging_functions_sh/1.2/Sun Sep  1 04:43:08 2024//TOPENBSD_7_6
+D

@@ -1,0 +1,22 @@
+Remove hardcoded optimization flags.
+
+Index: Makefile
+--- Makefile.orig
++++ Makefile
+@@ -1,6 +1,6 @@
+ include mandoc/Makefile.local
+ 
+-CFLAGS = -g -O2 -Wall $(shell pkg-config --cflags zlib gl freetype2 glfw3)
++CCFLAGS += -Wall $(shell pkg-config --cflags zlib gl freetype2 glfw3)
+ LDFLAGS = -lm $(shell pkg-config --libs zlib gl freetype2 glfw3) ${LDADD}
+ 
+ LIBMAN_OBJS	 = mandoc/man.o \
+@@ -56,7 +56,7 @@ MANGL_SOURCES = mandoc/tree.c \
+ 				main.c
+ 
+ mangl: $(COMPAT_OBJS) $(LIBMANDOC_OBJS) $(MANGL_SOURCES)
+-	$(CC) $(CFLAGS) -o $@ $(COMPAT_OBJS) $(LIBMANDOC_OBJS) $(MANGL_SOURCES) $(LDFLAGS)
++	$(CC) $(CFLAGS) $(CCFLAGS) -o $@ $(COMPAT_OBJS) $(LIBMANDOC_OBJS) $(MANGL_SOURCES) $(LDFLAGS)
+ 
+ sanitizer: CFLAGS += -fsanitize=address
+ sanitizer: mangl

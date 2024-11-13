@@ -1,0 +1,11 @@
+Index: lookup.c
+--- lookup.c.orig
++++ lookup.c
+@@ -85,6 +85,7 @@ static char Rcs_Id[] =
+  *
+  */
+ 
++#include <fcntl.h>
+ #include "config.h"
+ #include "ispell.h"
+ #include "proto.h"

@@ -1,0 +1,11 @@
+/patch-etc_perdition_perdition_conf/1.3/Sun Sep  1 04:43:28 2024//TOPENBSD_7_6
+/patch-perdition_db_daemon_client_c/1.2/Sun Sep  1 04:43:28 2024//TOPENBSD_7_6
+/patch-perdition_db_daemon_perditiondb_daemon_c/1.3/Sun Sep  1 04:43:28 2024//TOPENBSD_7_6
+/patch-perdition_db_ldap_perditiondb_ldap_makedb/1.2/Sun Sep  1 04:43:28 2024//TOPENBSD_7_6
+/patch-perdition_db_mysql_perditiondb_mysql_makedb/1.2/Sun Sep  1 04:43:28 2024//TOPENBSD_7_6
+/patch-perdition_db_postgresql_perditiondb_postgresql_makedb/1.2/Sun Sep  1 04:43:28 2024//TOPENBSD_7_6
+/patch-perdition_options_h/1.3/Sun Sep  1 04:43:28 2024//TOPENBSD_7_6
+/patch-perdition_perdition_8/1.2/Sun Sep  1 04:43:28 2024//TOPENBSD_7_6
+/patch-perdition_str_c/1.2/Sun Sep  1 04:43:28 2024//TOPENBSD_7_6
+/patch-perdition_str_h/1.2/Sun Sep  1 04:43:28 2024//TOPENBSD_7_6
+D

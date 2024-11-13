@@ -1,0 +1,10 @@
+/patch-CMakeLists_txt/1.10/Sun Sep  1 04:43:17 2024//TOPENBSD_7_6
+/patch-CMakeModules_FindAsio_cmake/1.1/Sun Sep  1 04:43:17 2024//TOPENBSD_7_6
+/patch-CMakeModules_FindOpenEXR_cmake/1.2/Sun Sep  1 04:43:17 2024//TOPENBSD_7_6
+/patch-applications_present3D_Cluster_cpp/1.6/Sun Sep  1 04:43:17 2024//TOPENBSD_7_6
+/patch-src_osgDB_FileUtils_cpp/1.4/Sun Sep  1 04:43:17 2024//TOPENBSD_7_6
+/patch-src_osgPlugins_CMakeLists_txt/1.5/Sun Sep  1 04:43:17 2024//TOPENBSD_7_6
+/patch-src_osgPlugins_exr_CMakeLists_txt/1.2/Sun Sep  1 04:43:17 2024//TOPENBSD_7_6
+/patch-src_osgPlugins_exr_ReaderWriterEXR_cpp/1.2/Sun Sep  1 04:43:17 2024//TOPENBSD_7_6
+/patch-src_osgPlugins_osc_osc_OscHostEndianness_h/1.4/Sun Sep  1 04:43:17 2024//TOPENBSD_7_6
+D

@@ -1,0 +1,17 @@
+/patch-lib_pypy__cffi_ssl__cffi_src_openssl_crypto_py/1.1/Sun Sep  1 04:43:24 2024//TOPENBSD_7_6
+/patch-lib_pypy__cffi_ssl__cffi_src_openssl_ct_py/1.2/Sun Sep  1 04:43:24 2024//TOPENBSD_7_6
+/patch-lib_pypy__cffi_ssl__cffi_src_openssl_dh_py/1.2/Sun Sep  1 04:43:24 2024//TOPENBSD_7_6
+/patch-lib_pypy__cffi_ssl__cffi_src_openssl_evp_py/1.3/Sun Sep  1 04:43:24 2024//TOPENBSD_7_6
+/patch-lib_pypy__cffi_ssl__cffi_src_openssl_fips_py/1.2/Sun Sep  1 04:43:24 2024//TOPENBSD_7_6
+/patch-lib_pypy__cffi_ssl__cffi_src_openssl_hmac_py/1.2/Sun Sep  1 04:43:24 2024//TOPENBSD_7_6
+/patch-lib_pypy__cffi_ssl__cffi_src_openssl_ocsp_py/1.2/Sun Sep  1 04:43:24 2024//TOPENBSD_7_6
+/patch-lib_pypy__cffi_ssl__cffi_src_openssl_ssl_py/1.5/Sun Sep  1 04:43:24 2024//TOPENBSD_7_6
+/patch-lib_pypy__cffi_ssl__cffi_src_openssl_x509_py/1.2/Sun Sep  1 04:43:24 2024//TOPENBSD_7_6
+/patch-lib_pypy__cffi_ssl__cffi_src_openssl_x509name_py/1.2/Sun Sep  1 04:43:24 2024//TOPENBSD_7_6
+/patch-lib_pypy__tkinter_tklib_build_py/1.3/Sun Sep  1 04:43:24 2024//TOPENBSD_7_6
+/patch-rpython_jit_backend_detect_cpu_py/1.2/Sun Sep  1 04:43:24 2024//TOPENBSD_7_6
+/patch-rpython_jit_backend_x86_detect_feature_py/1.3/Sun Sep  1 04:43:24 2024//TOPENBSD_7_6
+/patch-rpython_rlib_rmmap_py/1.3/Sun Sep  1 04:43:24 2024//TOPENBSD_7_6
+/patch-rpython_tool_udir_py/1.2/Sun Sep  1 04:43:24 2024//TOPENBSD_7_6
+/patch-rpython_translator_platform_openbsd_py/1.5/Sun Sep  1 04:43:24 2024//TOPENBSD_7_6
+D

@@ -1,0 +1,13 @@
+/patch-nspr_config_rules_mk/1.4/Sun Sep  1 04:42:31 2024//TOPENBSD_7_6
+/patch-nspr_configure_in/1.13/Sun Sep  1 04:42:31 2024//TOPENBSD_7_6
+/patch-nspr_pr_include_md__openbsd_cfg/1.4/Sun Sep  1 04:42:31 2024//TOPENBSD_7_6
+/patch-nspr_pr_include_md__openbsd_h/1.6/Sun Sep  1 04:42:31 2024//TOPENBSD_7_6
+/patch-nspr_pr_src_linking_prlink_c/1.7/Sun Sep  1 04:42:31 2024//TOPENBSD_7_6
+/patch-nspr_pr_src_misc_prdtoa_c/1.4/Sun Sep  1 04:42:31 2024//TOPENBSD_7_6
+/patch-nspr_pr_src_misc_prinit_c/1.4/Sun Sep  1 04:42:31 2024//TOPENBSD_7_6
+/patch-nspr_pr_src_misc_prnetdb_c/1.9/Sun Sep  1 04:42:31 2024//TOPENBSD_7_6
+/patch-nspr_pr_tests_nameshm1_c/1.5/Sun Sep  1 04:42:31 2024//TOPENBSD_7_6
+/patch-nspr_pr_tests_prfz_c/1.3/Sun Sep  1 04:42:31 2024//TOPENBSD_7_6
+/patch-nspr_pr_tests_runtests_sh/1.6/Sun Sep  1 04:42:31 2024//TOPENBSD_7_6
+/patch-nspr_pr_tests_socket_c/1.4/Sun Sep  1 04:42:31 2024//TOPENBSD_7_6
+D

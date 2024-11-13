@@ -1,0 +1,42 @@
+--- configure.orig	Tue Feb 18 08:18:20 2003
++++ configure	Wed Dec  9 20:13:56 2009
+@@ -1120,6 +1120,9 @@ if test "$shared" = true; then
+ 		SHFLAGS="-fPIC"
+ 		OTHERLIBS="-lsocket -ldl"
+         ;;
++	openbsd*)
++		SHFLAGS="-shared -fPIC"
++	;;
+ 	*)
+ 	;;
+    esac
+@@ -1492,7 +1495,7 @@ if test "${with_audio+set}" = set; then
+ fi
+ 
+ 
+-if test "x$AUDIODEFS" = x; then
++#if test "x$AUDIODEFS" = x; then
+     case "$AUDIODRIVER" in
+ 	linux|oss)
+ 	    AUDIODRIVER=oss
+@@ -1502,6 +1505,11 @@ if test "x$AUDIODEFS" = x; then
+ 	    AUDIODRIVER=oss
+ 	    AUDIODEFS=-DCST_AUDIO_FREEBSD
+ 	    ;;
++	sndio)
++	    AUDIODRIVER=sndio
++	    AUDIODEFS=-DCST_AUDIO_SNDIO
++	    AUDIOLIBS=-lsndio
++	    ;;
+ 	qnx)
+ 	    AUDIODRIVER=alsa
+ 	    AUDIODEFS=-DCST_AUDIO_QNX
+@@ -1510,7 +1518,7 @@ if test "x$AUDIODEFS" = x; then
+ 	    AUDIODEFS=-DCST_AUDIO_NONE
+ 	    ;;
+     esac
+-fi
++#fi
+ 
+ 
+ 

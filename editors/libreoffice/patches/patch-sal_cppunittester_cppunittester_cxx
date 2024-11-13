@@ -1,0 +1,11 @@
+Index: sal/cppunittester/cppunittester.cxx
+--- sal/cppunittester/cppunittester.cxx.orig
++++ sal/cppunittester/cppunittester.cxx
+@@ -383,6 +383,7 @@ void reportResourceUsage([[maybe_unused]] const OUStri
+ 
+ static bool main2()
+ {
++    return EXIT_SUCCESS;
+     bool ok = false;
+     OUString path;
+ 

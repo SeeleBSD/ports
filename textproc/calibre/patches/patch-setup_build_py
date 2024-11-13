@@ -1,0 +1,28 @@
+Index: setup/build.py
+--- setup/build.py.orig
++++ setup/build.py
+@@ -71,15 +71,7 @@ class Extension:
+ 
+         self.ldflags = d['ldflags'] = kwargs.get('ldflags', [])
+         self.optional = d['options'] = kwargs.get('optional', False)
+-        of = kwargs.get('optimize_level', None)
+-        if of is None:
+-            of = '/Ox' if iswindows else '-O3'
+-        else:
+-            flag = '/O%d' if iswindows else '-O%d'
+-            of = flag % of
+-        self.cflags.insert(0, of)
+ 
+-
+ def lazy_load(name):
+     if name.startswith('!'):
+         name = name[1:]
+@@ -206,6 +198,8 @@ def init_env(debug=False, sanitize=False):
+     if isbsd:
+         cflags.append('-pthread')
+         ldflags.append('-shared')
++        cflags.append('-I${PREFIX}/include')
++        ldflags.append('-L${PREFIX}/lib')
+ 
+     if ishaiku:
+         cflags.append('-lpthread')

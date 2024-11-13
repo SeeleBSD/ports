@@ -1,0 +1,12 @@
+Index: common_func.h
+--- common_func.h.orig
++++ common_func.h
+@@ -8,7 +8,7 @@
+ # define _(str) gettext(str)
+ # define TEXT_DOMAIN "rhash"
+ # ifndef LOCALEDIR
+-#  define LOCALEDIR "/usr/share/locale"
++#  define LOCALEDIR "${TRUEPREFIX}/share/locale"
+ # endif /* LOCALEDIR */
+ #else
+ # define _(str) (str)

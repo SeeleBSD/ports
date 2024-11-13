@@ -1,0 +1,16 @@
+/patch-alpine_pine-use_c/1.7/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+/patch-alpine_smime_c/1.1/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+/patch-configure/1.13/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+/patch-doc_man1_alpine_1/1.3/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+/patch-imap_Makefile/1.5/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+/patch-imap_src_imapd_imapd_8/1.2/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+/patch-imap_src_ipopd_ipopd_8/1.2/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+/patch-imap_src_mlock_mlock_c/1.4/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+/patch-imap_src_osdep_unix_Makefile/1.8/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+/patch-imap_src_osdep_unix_env_unix_c/1.6/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+/patch-imap_src_osdep_unix_ssl_unix_c/1.7/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+/patch-imap_src_tmail_tmail_c/1.4/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+/patch-pico_osdep_terminal_c/1.4/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+/patch-pith_conf_c/1.9/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+/patch-pith_smkeys_h/1.2/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+D

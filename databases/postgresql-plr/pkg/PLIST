@@ -1,0 +1,5 @@
+@so lib/postgresql/plr.so
+share/postgresql/extension/plr--8.4--8.4.1.sql
+share/postgresql/extension/plr--8.4.1.sql
+share/postgresql/extension/plr--unpackaged--8.4.1.sql
+share/postgresql/extension/plr.control

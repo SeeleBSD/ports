@@ -1,0 +1,8 @@
+/patch-Makefile_PL/1.3/Sun Sep  1 04:43:46 2024//TOPENBSD_7_6
+/patch-Pcap_xs/1.1/Sun Sep  1 04:43:46 2024//TOPENBSD_7_6
+/patch-t_02-lookup_t/1.1/Sun Sep  1 04:43:46 2024//TOPENBSD_7_6
+/patch-t_10-fileno_t/1.1/Sun Sep  1 04:43:46 2024//TOPENBSD_7_6
+/patch-t_14-datalink_t/1.1/Sun Sep  1 04:43:46 2024//TOPENBSD_7_6
+/patch-t_16-setnonblock_t/1.1/Sun Sep  1 04:43:46 2024//TOPENBSD_7_6
+/patch-t_17-lib_version_t/1.1/Sun Sep  1 04:43:46 2024//TOPENBSD_7_6
+D

@@ -1,0 +1,5 @@
+/patch-check_email_delivery_epn/1.4/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/patch-check_imap_receive_epn/1.3/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/patch-check_smtp_send_epn/1.2/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/patch-imap_ssl_cert_epn/1.2/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+D

@@ -1,0 +1,48 @@
+XXX base gcc
+Reordering needed to prefer long long because base-gcc doesn't recognize
+  #pragma GCC diagnostic error "-Wincompatible-pointer-types"
+and doesn't fail to compile the test case (gint64 should be long long).
+
+Index: meson.build
+--- meson.build.orig
++++ meson.build
+@@ -1569,19 +1569,6 @@ endif
+ # works.
+ if long_long_size == long_size
+   if cc.compiles('''#if defined(_AIX) && !defined(__GNUC__)
+-                    #pragma options langlvl=stdc99
+-                    #endif
+-                    #pragma GCC diagnostic error "-Wincompatible-pointer-types"
+-                    #include <stdint.h>
+-                    #include <stdio.h>
+-                    int main () {
+-                      int64_t i1 = 1;
+-                      long *i2 = &i1;
+-                      (void) i2;
+-                      return 1;
+-                    }''', name : 'int64_t is long')
+-    int64_t_typedef = 'long'
+-  elif cc.compiles('''#if defined(_AIX) && !defined(__GNUC__)
+                       #pragma options langlvl=stdc99
+                       #endif
+                       #pragma GCC diagnostic error "-Wincompatible-pointer-types"
+@@ -1594,6 +1581,19 @@ if long_long_size == long_size
+                         return 1;
+                       }''', name : 'int64_t is long long')
+     int64_t_typedef = 'long long'
++  elif cc.compiles('''#if defined(_AIX) && !defined(__GNUC__)
++                    #pragma options langlvl=stdc99
++                    #endif
++                    #pragma GCC diagnostic error "-Wincompatible-pointer-types"
++                    #include <stdint.h>
++                    #include <stdio.h>
++                    int main () {
++                      int64_t i1 = 1;
++                      long *i2 = &i1;
++                      (void) i2;
++                      return 1;
++                    }''', name : 'int64_t is long')
++    int64_t_typedef = 'long'
+   else
+     error('Cannot detect int64_t typedef')
+   endif

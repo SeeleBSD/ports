@@ -1,0 +1,6 @@
+bin/${MODCABAL_STEM}
+libexec/cabal/
+@bin libexec/cabal/${MODCABAL_STEM}
+share/${PKGNAME}/
+share/${PKGNAME}/AlexTemplate.hs
+share/${PKGNAME}/AlexWrappers.hs

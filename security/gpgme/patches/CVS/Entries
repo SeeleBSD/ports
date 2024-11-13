@@ -1,0 +1,12 @@
+/patch-configure/1.10/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-doc_mkdefsinc_c/1.2/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-lang_cpp_src_GpgmeppConfig_cmake_in_in/1.2/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-lang_cpp_tests_Makefile_in/1.8/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-lang_qt_Makefile_in/1.5/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-lang_qt_src_QGpgmeConfig_cmake_in_in/1.2/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-lang_qt_src_QGpgmeQt6Config_cmake_in_in/1.1/Mon May 20 06:37:25 2024//TOPENBSD_7_6
+/patch-lang_qt_tests_Makefile_in/1.11/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-lang_qt_tests_run-importjob_cpp/1.1/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-src_ath_h/1.2/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-src_debug_h/1.2/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+D

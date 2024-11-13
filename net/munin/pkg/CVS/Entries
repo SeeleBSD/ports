@@ -1,0 +1,9 @@
+/DESCR-main/1.1.1.1/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/DESCR-server/1.1.1.1/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/PLIST-main/1.27/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/PLIST-server/1.11/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/README-main/1.6/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/README-server/1.8/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/munin_asyncd.rc/1.6/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/munin_node.rc/1.9/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+D

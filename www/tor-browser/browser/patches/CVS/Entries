@@ -1,0 +1,21 @@
+/patch-browser_app_profile_000-tor-browser_js/1.6/Mon Sep 23 15:35:19 2024//TOPENBSD_7_6
+/patch-browser_config_mozconfigs_base-browser/1.5/Mon Sep 23 15:35:19 2024//TOPENBSD_7_6
+/patch-browser_config_mozconfigs_tor-browser/1.4/Mon Sep 23 15:35:19 2024//TOPENBSD_7_6
+/patch-config_makefiles_rust_mk/1.8/Sun Sep  1 04:44:44 2024//TOPENBSD_7_6
+/patch-gfx_skia_skia_src_core_SkCpu_cpp/1.1/Mon Jul 22 16:38:11 2024//TOPENBSD_7_6
+/patch-intl_lwbrk_LineBreaker_cpp/1.1/Sun Sep  1 04:44:44 2024//TOPENBSD_7_6
+/patch-js_src_ctypes_libffi_src_dlmalloc_c/1.1/Sun Sep  1 04:44:44 2024//TOPENBSD_7_6
+/patch-media_ffvpx_libavcodec_x86_fft_asm/1.3/Sun Sep  1 04:44:44 2024//TOPENBSD_7_6
+/patch-mozconfig-linux-x86_64/1.3/Sun Sep  1 10:22:09 2024//TOPENBSD_7_6
+/patch-security_nss_Makefile/1.6/Sun Sep  1 04:44:44 2024//TOPENBSD_7_6
+/patch-security_nss_coreconf_OpenBSD_mk/1.5/Sun Sep  1 04:44:44 2024//TOPENBSD_7_6
+/patch-security_nss_coreconf_UNIX_mk/1.3/Sun Sep  1 04:44:44 2024//TOPENBSD_7_6
+/patch-security_nss_lib_freebl_blapi_h/1.8/Sun Sep  1 04:44:44 2024//TOPENBSD_7_6
+/patch-third_party_libwebrtc_third_party_abseil-cpp_absl_base_internal_raw_logging_cc/1.1/Sun Sep  1 04:44:44 2024//TOPENBSD_7_6
+/patch-toolkit_components_downloads_DownloadIntegration_sys_mjs/1.1/Sun Sep  1 04:44:44 2024//TOPENBSD_7_6
+/patch-toolkit_components_tor-launcher_TorProcess_sys_mjs/1.2/Mon Sep 23 15:35:19 2024//TOPENBSD_7_6
+/patch-toolkit_moz_configure/1.7/Sun Sep  1 04:44:44 2024//TOPENBSD_7_6
+/patch-toolkit_xre_glxtest_glxtest_cpp/1.1/Sun Sep  1 04:44:44 2024//TOPENBSD_7_6
+/patch-toolkit_xre_nsXREDirProvider_cpp/1.3/Mon Sep 23 15:35:19 2024//TOPENBSD_7_6
+/patch-xpcom_io_nsAppFileLocationProvider_cpp/1.3/Mon Sep 23 15:35:19 2024//TOPENBSD_7_6
+D

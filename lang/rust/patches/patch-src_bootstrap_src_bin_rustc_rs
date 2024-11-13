@@ -1,0 +1,27 @@
+try to reduce memory usage on aarch64 and i386:
+ - reduce memory use by retaining fewer names within compilation artifacts
+ - divise (with codegen-units) the unit in smaller parts to manipulate it 
+
+Index: src/bootstrap/src/bin/rustc.rs
+--- src/bootstrap/src/bin/rustc.rs.orig
++++ src/bootstrap/src/bin/rustc.rs
+@@ -150,6 +150,19 @@ fn main() {
+         {
+             cmd.arg("-Ztls-model=initial-exec");
+         }
++
++        if target.unwrap().contains("aarch64-unknown-openbsd")
++            && crate_name == Some("rustc")
++        {
++           cmd.arg("-Z").arg("fewer-names");
++       }
++       if target.unwrap().contains("i686-unknown-openbsd")
++           && crate_name == Some("rustc_middle")
++       {
++           cmd.arg("-Z").arg("fewer-names");
++           cmd.arg("-C").arg("codegen-units=64");
++       }
++
+     } else {
+         // Find any host flags that were passed by bootstrap.
+         // The flags are stored in a RUSTC_HOST_FLAGS variable, separated by spaces.

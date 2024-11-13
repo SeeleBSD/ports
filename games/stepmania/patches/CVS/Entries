@@ -1,0 +1,17 @@
+/patch-CMake_Modules_FindOSS_cmake/1.2/Sun Sep  1 04:43:10 2024//TOPENBSD_7_6
+/patch-StepmaniaCore_cmake/1.2/Sun Sep  1 04:43:10 2024//TOPENBSD_7_6
+/patch-extern_lua-5_1_src_loadlib_c/1.3/Sun Sep  1 04:43:10 2024//TOPENBSD_7_6
+/patch-extern_lua-5_1_src_luaconf_h/1.2/Sun Sep  1 04:43:10 2024//TOPENBSD_7_6
+/patch-src_CMakeLists_txt/1.2/Sun Sep  1 04:43:10 2024//TOPENBSD_7_6
+/patch-src_NoteData_h/1.2/Sun Sep  1 04:43:10 2024//TOPENBSD_7_6
+/patch-src_PrefsManager_cpp/1.3/Sun Sep  1 04:43:10 2024//TOPENBSD_7_6
+/patch-src_ProfileManager_cpp/1.3/Sun Sep  1 04:43:10 2024//TOPENBSD_7_6
+/patch-src_SongUtil_cpp/1.2/Sun Sep  1 04:43:10 2024//TOPENBSD_7_6
+/patch-src_arch_ArchHooks_ArchHooks_Unix_cpp/1.3/Sun Sep  1 04:43:10 2024//TOPENBSD_7_6
+/patch-src_arch_MovieTexture_MovieTexture_FFMpeg_cpp/1.4/Sun Sep  1 04:43:10 2024//TOPENBSD_7_6
+/patch-src_arch_MovieTexture_MovieTexture_FFMpeg_h/1.3/Sun Sep  1 04:43:10 2024//TOPENBSD_7_6
+/patch-src_archutils_Unix_Backtrace_h/1.3/Sun Sep  1 04:43:10 2024//TOPENBSD_7_6
+/patch-src_archutils_Unix_SignalHandler_h/1.2/Sun Sep  1 04:43:10 2024//TOPENBSD_7_6
+/patch-src_libtomcrypt_src_headers_tomcrypt_cfg_h/1.3/Sun Sep  1 04:43:10 2024//TOPENBSD_7_6
+/patch-src_libtomcrypt_src_headers_tomcrypt_macros_h/1.2/Sun Sep  1 04:43:10 2024//TOPENBSD_7_6
+D

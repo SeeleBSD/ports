@@ -1,0 +1,7 @@
+/patch-configure/1.2/Sun Sep  1 04:42:06 2024//TOPENBSD_7_6
+/patch-doc_Makefile_in/1.2/Sun Sep  1 04:42:06 2024//TOPENBSD_7_6
+/patch-scripts_sb_run_sh/1.2/Sun Sep  1 04:42:06 2024//TOPENBSD_7_6
+/patch-scripts_sb_test_ps_sh/1.2/Sun Sep  1 04:42:06 2024//TOPENBSD_7_6
+/patch-sysbench_sb_logger_c/1.2/Sun Sep  1 04:42:06 2024//TOPENBSD_7_6
+/patch-sysbench_sysbench_c/1.2/Sun Sep  1 04:42:06 2024//TOPENBSD_7_6
+D

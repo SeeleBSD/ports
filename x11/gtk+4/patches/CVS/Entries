@@ -1,0 +1,6 @@
+/patch-gdk_wayland_gdkdisplay-wayland_c/1.1/Sun Mar 31 10:23:36 2024//TOPENBSD_7_6
+/patch-gtk_gtkfilechooserwidget_c/1.21/Mon Sep 23 15:35:25 2024//TOPENBSD_7_6
+/patch-gtk_gtkplacessidebar_c/1.12/Sun Sep  1 04:44:51 2024//TOPENBSD_7_6
+/patch-testsuite_reftests_meson_build/1.6/Mon Sep 23 15:35:25 2024//TOPENBSD_7_6
+/patch-tools_updateiconcache_c/1.5/Sun Sep  1 04:44:51 2024//TOPENBSD_7_6
+D

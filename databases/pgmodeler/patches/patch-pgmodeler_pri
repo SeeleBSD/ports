@@ -1,0 +1,20 @@
+Index: pgmodeler.pri
+--- pgmodeler.pri.orig
++++ pgmodeler.pri
+@@ -149,7 +149,7 @@ unix {
+ 
+   # Specifies where to find the libraries at runtime
+   RELATIVE_PRIVATELIBDIR = $$relative_path($$PRIVATELIBDIR, $$BINDIR)
+-  QMAKE_LFLAGS += "-Wl,-rpath,\'\$$ORIGIN\' -Wl,-rpath,\'\$$ORIGIN/$$RELATIVE_PRIVATELIBDIR\'"
++  QMAKE_LFLAGS += "-Wl,-rpath,$$PREFIX/lib\ -Wl,-rpath,$$PRIVATELIBDIR"
+ 
+   # Forcing the display of some warnings
+   CONFIG(debug, debug|release): QMAKE_CXXFLAGS += "-Wall -Wextra -Wuninitialized"
+@@ -234,6 +234,7 @@ unix: {
+ 	PKGCONFIG = libpq libxml-2.0
+ 	PGSQL_LIB = -lpq
+ 	XML_LIB = -lxml2
++	EXECINFO_LIB = -L$$(LOCALBASE)/lib -lexecinfo
+   }
+ }
+ 

@@ -1,0 +1,16 @@
+/patch-BibView_eng_ad/1.2/Sun Sep  1 04:43:54 2024//TOPENBSD_7_6
+/patch-ComboBo_h/1.3/Sun Sep  1 04:43:54 2024//TOPENBSD_7_6
+/patch-FileNom_c/1.3/Sun Sep  1 04:43:54 2024//TOPENBSD_7_6
+/patch-FileNom_h/1.3/Sun Sep  1 04:43:54 2024//TOPENBSD_7_6
+/patch-Imakefile/1.4/Sun Sep  1 04:43:54 2024//TOPENBSD_7_6
+/patch-bib_file_c/1.4/Sun Sep  1 04:43:54 2024//TOPENBSD_7_6
+/patch-bib_flex_c/1.2/Sun Sep  1 04:43:54 2024//TOPENBSD_7_6
+/patch-bibview_c/1.4/Sun Sep  1 04:43:54 2024//TOPENBSD_7_6
+/patch-ctl_card_c/1.3/Sun Sep  1 04:43:54 2024//TOPENBSD_7_6
+/patch-ctl_open_c/1.4/Sun Sep  1 04:43:54 2024//TOPENBSD_7_6
+/patch-ctl_serv_c/1.4/Sun Sep  1 04:43:54 2024//TOPENBSD_7_6
+/patch-globdata_c/1.2/Sun Sep  1 04:43:54 2024//TOPENBSD_7_6
+/patch-gui_card_c/1.3/Sun Sep  1 04:43:54 2024//TOPENBSD_7_6
+/patch-gui_widg_c/1.3/Sun Sep  1 04:43:54 2024//TOPENBSD_7_6
+/patch-rc_file_c/1.2/Sun Sep  1 04:43:54 2024//TOPENBSD_7_6
+D

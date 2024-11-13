@@ -1,0 +1,16 @@
+@bin bin/brotli
+include/brotli/
+include/brotli/decode.h
+include/brotli/encode.h
+include/brotli/port.h
+include/brotli/types.h
+@static-lib lib/libbrotlicommon-static.a
+@lib lib/libbrotlicommon.so.${LIBbrotlicommon_VERSION}
+@static-lib lib/libbrotlidec-static.a
+@lib lib/libbrotlidec.so.${LIBbrotlidec_VERSION}
+@static-lib lib/libbrotlienc-static.a
+@lib lib/libbrotlienc.so.${LIBbrotlienc_VERSION}
+lib/pkgconfig/libbrotlicommon.pc
+lib/pkgconfig/libbrotlidec.pc
+lib/pkgconfig/libbrotlienc.pc
+@man man/man1/brotli.1

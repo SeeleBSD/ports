@@ -1,0 +1,4 @@
+bin/dxf2gcode
+lib/python${MODPY_VERSION}/site-packages/dxf2gcode-20191025-py${MODPY_VERSION}.egg
+@comment lib/python${MODPY_VERSION}/site-packages/site.py
+@comment lib/python${MODPY_VERSION}/site-packages/easy-install.pth

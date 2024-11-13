@@ -1,0 +1,15 @@
+OpenBSD has ncurses in base.
+
+Index: Makefile
+--- Makefile.orig
++++ Makefile
+@@ -2,8 +2,7 @@ DESTDIR   ?=
+ PREFIX    ?= /usr/local
+ MANPREFIX ?= $(PREFIX)/man
+ CFLAGS += -Wall -Wextra
+-CFLAGS += `pkg-config --cflags ncursesw`
+-LDLIBS += `pkg-config --libs ncursesw` -lm
++LDLIBS += -lcurses -lm
+ 
+ all: ttyplot stresstest
+ 

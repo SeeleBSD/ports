@@ -1,0 +1,23 @@
+/patch-arch_arm_dts_rk3328-nanopi-r2s_dts/1.1/Sun Sep  1 04:44:14 2024//TOPENBSD_7_6
+/patch-arch_arm_dts_rk3328-rock64_dts/1.1/Sun Sep  1 04:44:14 2024//TOPENBSD_7_6
+/patch-arch_arm_dts_rk3399-nanopi4_dtsi/1.1/Sun Sep  1 04:44:14 2024//TOPENBSD_7_6
+/patch-arch_arm_dts_rk3399-pinebook-pro_dts/1.1/Sun Sep  1 04:44:14 2024//TOPENBSD_7_6
+/patch-arch_arm_dts_rk3399-rock-pi-4_dtsi/1.1/Sun Sep  1 04:44:14 2024//TOPENBSD_7_6
+/patch-arch_arm_dts_rk3399-rock960_dts/1.1/Sun Sep  1 04:44:14 2024//TOPENBSD_7_6
+/patch-arch_arm_dts_rk3399-rockpro64_dtsi/1.1/Sun Sep  1 04:44:14 2024//TOPENBSD_7_6
+/patch-arch_arm_dts_rk3399-u-boot_dtsi/1.1/Sun Sep  1 04:44:14 2024//TOPENBSD_7_6
+/patch-arch_arm_dts_rk3399pro-rock-pi-n10_dts/1.1/Sun Sep  1 04:44:14 2024//TOPENBSD_7_6
+/patch-configs_firefly-rk3399_defconfig/1.1/Sun Sep  1 04:44:14 2024//TOPENBSD_7_6
+/patch-configs_nanopc-t4-rk3399_defconfig/1.1/Sun Sep  1 04:44:14 2024//TOPENBSD_7_6
+/patch-configs_nanopi-neo4-rk3399_defconfig/1.1/Sun Sep  1 04:44:14 2024//TOPENBSD_7_6
+/patch-configs_nanopi-r2s-rk3328_defconfig/1.1/Sun Sep  1 04:44:14 2024//TOPENBSD_7_6
+/patch-configs_nanopi-r4s-rk3399_defconfig/1.1/Sun Sep  1 04:44:14 2024//TOPENBSD_7_6
+/patch-configs_pine_h64-model-b_defconfig/1.1/Sun Sep  1 04:44:14 2024//TOPENBSD_7_6
+/patch-configs_pinebook-pro-rk3399_defconfig/1.1/Sun Sep  1 04:44:14 2024//TOPENBSD_7_6
+/patch-configs_rock-pi-4-rk3399_defconfig/1.1/Sun Sep  1 04:44:14 2024//TOPENBSD_7_6
+/patch-configs_rock-pi-n10-rk3399pro_defconfig/1.1/Sun Sep  1 04:44:14 2024//TOPENBSD_7_6
+/patch-configs_rock64-rk3328_defconfig/1.1/Sun Sep  1 04:44:14 2024//TOPENBSD_7_6
+/patch-configs_rock960-rk3399_defconfig/1.1/Sun Sep  1 04:44:14 2024//TOPENBSD_7_6
+/patch-configs_rockpro64-rk3399_defconfig/1.1/Sun Sep  1 04:44:14 2024//TOPENBSD_7_6
+/patch-drivers_pci_pcie_brcmstb_c/1.1/Sun Sep  1 04:44:14 2024//TOPENBSD_7_6
+D

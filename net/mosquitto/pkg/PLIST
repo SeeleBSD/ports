@@ -1,0 +1,41 @@
+@newgroup _mosquitto:753
+@newuser _mosquitto:753:753::Mosquitto MQTT Broker:/var/empty:/sbin/nologin
+@rcscript ${RCDIR}/mosquitto
+@bin bin/mosquitto_ctrl
+@bin bin/mosquitto_passwd
+@bin bin/mosquitto_pub
+@bin bin/mosquitto_rr
+@bin bin/mosquitto_sub
+include/mosquitto.h
+include/mosquitto_broker.h
+include/mosquitto_plugin.h
+include/mosquittopp.h
+include/mqtt_protocol.h
+@lib lib/libmosquitto.so.${LIBmosquitto_VERSION}
+@lib lib/libmosquittopp.so.${LIBmosquittopp_VERSION}
+@so lib/mosquitto_dynamic_security.so
+lib/pkgconfig/libmosquitto.pc
+lib/pkgconfig/libmosquittopp.pc
+@man man/man1/mosquitto_ctrl.1
+@man man/man1/mosquitto_ctrl_dynsec.1
+@man man/man1/mosquitto_passwd.1
+@man man/man1/mosquitto_pub.1
+@man man/man1/mosquitto_rr.1
+@man man/man1/mosquitto_sub.1
+@man man/man3/libmosquitto.3
+@man man/man5/mosquitto.conf.5
+@man man/man7/mosquitto-tls.7
+@man man/man7/mqtt.7
+@man man/man8/mosquitto.8
+@bin sbin/mosquitto
+share/examples/mosquitto/
+@sample ${SYSCONFDIR}/mosquitto/
+share/examples/mosquitto/aclfile.example
+share/examples/mosquitto/mosquitto.conf
+@mode 640
+@group _mosquitto
+@sample ${SYSCONFDIR}/mosquitto/mosquitto.conf
+@mode
+@group
+share/examples/mosquitto/pskfile.example
+share/examples/mosquitto/pwfile.example

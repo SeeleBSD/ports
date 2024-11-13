@@ -1,0 +1,11 @@
+/patch-cmd_loki_loki-local-config_yaml/1.6/Sun Sep  1 04:44:10 2024//TOPENBSD_7_6
+/patch-cmd_promtail_promtail-local-config_yaml/1.4/Mon Sep 23 15:34:52 2024//TOPENBSD_7_6
+/patch-vendor_github_com_grafana_pyroscope-go_godeltaprof_internal_pprof_stub_go/1.1/Sun Aug  4 21:40:06 2024//TOPENBSD_7_6
+/patch-vendor_github_com_grafana_pyroscope-go_godeltaprof_internal_pprof_stub_go20_go/1.1/Sun Aug  4 21:40:06 2024//TOPENBSD_7_6
+/patch-vendor_github_com_grafana_pyroscope-go_godeltaprof_internal_pprof_stub_go21_go/1.1/Sun Aug  4 21:40:06 2024//TOPENBSD_7_6
+/patch-vendor_github_com_grafana_pyroscope-go_godeltaprof_internal_pprof_stub_go22_go/1.1/Sun Aug  4 21:40:06 2024//TOPENBSD_7_6
+/patch-vendor_github_com_grafana_pyroscope-go_godeltaprof_internal_pprof_stub_go23_go/1.1/Sun Aug  4 21:40:06 2024//TOPENBSD_7_6
+/patch-vendor_github_com_prometheus_prometheus_storage_remote_otlptranslator_prometheus_normalize_label_go/1.1/Sun Jul 28 21:30:44 2024//TOPENBSD_7_6
+/patch-vendor_github_com_prometheus_prometheus_storage_remote_otlptranslator_prometheus_normalize_name_go/1.1/Sun Jul 28 21:30:44 2024//TOPENBSD_7_6
+/patch-vendor_github_com_prometheus_prometheus_storage_remote_otlptranslator_prometheus_unit_to_ucum_go/1.1/Sun Jul 28 21:30:44 2024//TOPENBSD_7_6
+D

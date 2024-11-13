@@ -1,0 +1,14 @@
+/DESCR-main/1.1.1.1/Sun Sep  1 04:43:27 2024//TOPENBSD_7_6
+/DESCR-mapi/1.1.1.1/Sun Sep  1 04:43:27 2024//TOPENBSD_7_6
+/PLIST-main/1.39/Mon Sep 23 15:34:17 2024//TOPENBSD_7_6
+/PLIST-mapi/1.8/Sun Sep  1 04:43:27 2024//TOPENBSD_7_6
+/README-main/1.3/Sun Sep  1 04:43:27 2024//TOPENBSD_7_6
+/kopano.rc/1.5/Sun Sep  1 04:43:27 2024//TOPENBSD_7_6
+/kopano_gateway.rc/1.4/Sun Sep  1 04:43:27 2024//TOPENBSD_7_6
+/kopano_ical.rc/1.4/Sun Sep  1 04:43:27 2024//TOPENBSD_7_6
+/kopano_monitor.rc/1.4/Sun Sep  1 04:43:27 2024//TOPENBSD_7_6
+/kopano_search.rc/1.7/Sun Sep  1 04:43:27 2024//TOPENBSD_7_6
+/kopano_server.rc/1.4/Sun Sep  1 04:43:27 2024//TOPENBSD_7_6
+/kopano_spamd.rc/1.3/Sun Sep  1 04:43:27 2024//TOPENBSD_7_6
+/kopano_spooler.rc/1.4/Sun Sep  1 04:43:27 2024//TOPENBSD_7_6
+D

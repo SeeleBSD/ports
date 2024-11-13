@@ -1,0 +1,9 @@
+/patch-composer_json/1.2/Mon Sep 23 15:34:17 2024//TOPENBSD_7_6
+/patch-config_php/1.4/Sun Sep  1 04:43:26 2024//TOPENBSD_7_6
+/patch-glogger_ini/1.1/Sun Sep  1 04:43:26 2024//TOPENBSD_7_6
+/patch-lib_GLogger_php/1.5/Sat Aug 17 15:06:11 2024//TOPENBSD_7_6
+/patch-vendor_autoload_php/1.5/Mon Sep 23 15:34:17 2024//TOPENBSD_7_6
+/patch-vendor_composer_autoload_classmap_php/1.4/Sun Sep  1 04:43:26 2024//TOPENBSD_7_6
+/patch-vendor_composer_autoload_files_php/1.4/Mon Sep 23 15:34:17 2024//TOPENBSD_7_6
+/patch-vendor_composer_autoload_static_php/1.6/Mon Sep 23 15:34:17 2024//TOPENBSD_7_6
+D

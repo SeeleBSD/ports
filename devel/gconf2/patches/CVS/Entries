@@ -1,0 +1,16 @@
+/patch-backends_markup-tree_c/1.2/Sun Sep  1 04:42:23 2024//TOPENBSD_7_6
+/patch-backends_xml-entry_c/1.2/Sun Sep  1 04:42:23 2024//TOPENBSD_7_6
+/patch-backends_xml-test_c/1.2/Sun Sep  1 04:42:23 2024//TOPENBSD_7_6
+/patch-defaults_Makefile_in/1.9/Sun Sep  1 04:42:23 2024//TOPENBSD_7_6
+/patch-defaults_gconf-defaults-main_c/1.2/Sun Sep  1 04:42:23 2024//TOPENBSD_7_6
+/patch-defaults_gconf-defaults_c/1.4/Sun Sep  1 04:42:23 2024//TOPENBSD_7_6
+/patch-examples_basic-gconf-app_c/1.2/Sun Sep  1 04:42:23 2024//TOPENBSD_7_6
+/patch-gconf_Makefile_in/1.22/Sun Sep  1 04:42:23 2024//TOPENBSD_7_6
+/patch-gconf_default_path_in/1.9/Sun Sep  1 04:42:23 2024//TOPENBSD_7_6
+/patch-gconf_gconf-dbus_c/1.2/Sun Sep  1 04:42:23 2024//TOPENBSD_7_6
+/patch-gconf_gconf-internals_c/1.2/Sun Sep  1 04:42:23 2024//TOPENBSD_7_6
+/patch-gconf_gconfd_c/1.10/Sun Sep  1 04:42:23 2024//TOPENBSD_7_6
+/patch-gconf_gconftool_c/1.13/Sun Sep  1 04:42:23 2024//TOPENBSD_7_6
+/patch-gsettings_gsettings-data-convert_1/1.3/Sun Sep  1 04:42:23 2024//TOPENBSD_7_6
+/patch-gsettings_gsettings-data-convert_c/1.4/Sun Sep  1 04:42:23 2024//TOPENBSD_7_6
+D

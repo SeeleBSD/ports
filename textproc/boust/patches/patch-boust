@@ -1,0 +1,14 @@
+--- boust.orig	Thu Nov  7 00:06:00 2002
++++ boust	Wed Nov  6 23:53:47 2002
+@@ -2,9 +2,9 @@
+ # In sh check to see if the "--o" argument is present.
+ # If it is, run tclsh, otherwise, run wish.
+ # (The backslash makes the following line a comment as well... \
+-THESH="wish"
++THESH="${MODTK_BIN}"
+ # blah\
+-for arg in "$@" ; do if [ "$arg" == "--o" ] ; then THESH="tclsh" ; fi ; done ; \
++for arg in "$@" ; do if [ "$arg" == "--o" ] ; then THESH="${MODTCL_BIN}" ; fi ; done ; \
+ # \
+ exec $THESH "$0" "$@"
+ 

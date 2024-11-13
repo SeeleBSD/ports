@@ -1,0 +1,5 @@
+/patch-cmd_influxd_launcher_cmd_go/1.1/Sun Sep  1 04:42:12 2024//TOPENBSD_7_6
+/patch-go_mod/1.5/Wed Apr 24 06:25:36 2024//TOPENBSD_7_6
+/patch-go_sum/1.5/Wed Apr 24 06:25:36 2024//TOPENBSD_7_6
+/patch-pkg_fs_fs_unix_go/1.1/Sun Sep  1 04:42:12 2024//TOPENBSD_7_6
+D

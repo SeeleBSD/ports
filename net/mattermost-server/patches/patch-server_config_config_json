@@ -1,0 +1,124 @@
+Index: server/config/config.json
+--- server/config/config.json.orig
++++ server/config/config.json
+@@ -12,7 +12,7 @@
+     "TLSStrictTransportMaxAge": 63072000,
+     "TLSOverwriteCiphers": [],
+     "UseLetsEncrypt": false,
+-    "LetsEncryptCertificateCacheFile": "./config/letsencrypt.cache",
++    "LetsEncryptCertificateCacheFile": "${LOCALSTATEDIR}/mattermost/letsencrypt.cache",
+     "Forward80To443": false,
+     "TrustedProxyIPHeader": [],
+     "ReadTimeout": 300,
+@@ -96,7 +96,7 @@
+     "PersistentNotificationMaxRecipients": 5,
+     "EnableAPIChannelDeletion": false,
+     "EnableLocalMode": false,
+-    "LocalModeSocketLocation": "/var/tmp/mattermost_local.socket",
++    "LocalModeSocketLocation": "${LOCALSTATEDIR}/mattermost/mattermost_local.socket",
+     "EnableAWSMetering": false,
+     "SplitKey": "",
+     "FeatureFlagSyncIntervalSeconds": 30,
+@@ -157,14 +157,14 @@
+     "ReplicaMonitorIntervalSeconds": 5
+   },
+   "LogSettings": {
+-    "EnableConsole": true,
++    "EnableConsole": false,
+     "ConsoleLevel": "INFO",
+     "ConsoleJson": true,
+     "EnableColor": false,
+     "EnableFile": true,
+     "FileLevel": "INFO",
+     "FileJson": true,
+-    "FileLocation": "",
++    "FileLocation": "${LOCALSTATEDIR}/log/mattermost",
+     "EnableWebhookDebugging": true,
+     "EnableDiagnostics": true,
+     "VerboseDiagnostics": false,
+@@ -185,14 +185,14 @@
+     "AdvancedLoggingConfig": ""
+   },
+   "NotificationLogSettings": {
+-    "EnableConsole": true,
++    "EnableConsole": false,
+     "ConsoleLevel": "INFO",
+     "ConsoleJson": true,
+     "EnableColor": false,
+     "EnableFile": true,
+     "FileLevel": "INFO",
+     "FileJson": true,
+-    "FileLocation": "",
++    "FileLocation": "${LOCALSTATEDIR}/log/mattermost",
+     "AdvancedLoggingJSON": {},
+     "AdvancedLoggingConfig": ""
+   },
+@@ -212,7 +212,7 @@
+     "MaxImageResolution": 33177600,
+     "MaxImageDecoderConcurrency": -1,
+     "DriverName": "local",
+-    "Directory": "./data/",
++    "Directory": "${LOCALSTATEDIR}/mattermost/data/",
+     "EnablePublicLink": false,
+     "ExtractContent": true,
+     "ArchiveRecursion": false,
+@@ -259,11 +259,11 @@
+     "EnableSMTPAuth": false,
+     "SMTPUsername": "",
+     "SMTPPassword": "",
+-    "SMTPServer": "",
+-    "SMTPPort": "10025",
++    "SMTPServer": "localhost",
++    "SMTPPort": "25",
+     "SMTPServerTimeout": 10,
+     "ConnectionSecurity": "",
+-    "SendPushNotifications": true,
++    "SendPushNotifications": false,
+     "PushNotificationServer": "https://push-test.mattermost.com",
+     "PushNotificationContents": "full",
+     "PushNotificationBuffer": 1000,
+@@ -300,7 +300,7 @@
+     "SupportEmail": "",
+     "CustomTermsOfServiceEnabled": false,
+     "CustomTermsOfServiceReAcceptancePeriod": 365,
+-    "EnableAskCommunityLink": true
++    "EnableAskCommunityLink": false
+   },
+   "AnnouncementSettings": {
+     "EnableBanner": false,
+@@ -406,7 +406,7 @@
+   },
+   "ComplianceSettings": {
+     "Enable": false,
+-    "Directory": "./data/",
++    "Directory": "${LOCALSTATEDIR}/mattermost/data/",
+     "EnableDaily": false,
+     "BatchSize": 30000
+   },
+@@ -570,8 +570,8 @@
+     "EnableUploads": false,
+     "AllowInsecureDownloadURL": false,
+     "EnableHealthCheck": true,
+-    "Directory": "./plugins",
+-    "ClientDirectory": "./client/plugins",
++    "Directory": "${LOCALSTATEDIR}/mattermost/plugins",
++    "ClientDirectory": "${LOCALSTATEDIR}/mattermost/client/plugins",
+     "Plugins": {},
+     "PluginStates": {
+       "com.mattermost.calls": {
+@@ -632,11 +632,11 @@
+     "StreamlinedMarketplace": true
+   },
+   "ImportSettings": {
+-    "Directory": "./import",
++    "Directory": "${LOCALSTATEDIR}/mattermost/import",
+     "RetentionDays": 30
+   },
+   "ExportSettings": {
+-    "Directory": "./export",
++    "Directory": "${LOCALSTATEDIR}/mattermost/export",
+     "RetentionDays": 30
+   }
+-}
+\ No newline at end of file
++}

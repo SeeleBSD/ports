@@ -1,0 +1,6 @@
+@bin bin/vbam
+@man man/man6/vbam.6
+share/examples/vbam/
+share/examples/vbam/vbam.cfg
+share/vbam/
+share/vbam/vba-over.ini

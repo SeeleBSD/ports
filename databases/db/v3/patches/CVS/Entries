@@ -1,0 +1,20 @@
+/patch-cxx_cxx_app_cpp/1.2/Sun Sep  1 04:42:12 2024//TOPENBSD_7_6
+/patch-cxx_cxx_table_cpp/1.2/Sun Sep  1 04:42:12 2024//TOPENBSD_7_6
+/patch-db_db_cam_c/1.3/Sun Sep  1 04:42:12 2024//TOPENBSD_7_6
+/patch-dist_Makefile_in/1.8/Sun Sep  1 04:42:12 2024//TOPENBSD_7_6
+/patch-dist_configure/1.6/Sun Sep  1 04:42:12 2024//TOPENBSD_7_6
+/patch-dist_s_tcl/1.2/Sun Sep  1 04:42:12 2024//TOPENBSD_7_6
+/patch-env_env_open_c/1.3/Sun Sep  1 04:42:12 2024//TOPENBSD_7_6
+/patch-include_db_cxx_h/1.2/Sun Sep  1 04:42:12 2024//TOPENBSD_7_6
+/patch-include_tcl_db_h/1.2/Sun Sep  1 04:42:12 2024//TOPENBSD_7_6
+/patch-tcl_tcl_compat_c/1.3/Sun Sep  1 04:42:12 2024//TOPENBSD_7_6
+/patch-tcl_tcl_db_c/1.3/Sun Sep  1 04:42:12 2024//TOPENBSD_7_6
+/patch-tcl_tcl_db_pkg_c/1.3/Sun Sep  1 04:42:12 2024//TOPENBSD_7_6
+/patch-tcl_tcl_dbcursor_c/1.2/Sun Sep  1 04:42:12 2024//TOPENBSD_7_6
+/patch-tcl_tcl_env_c/1.3/Sun Sep  1 04:42:12 2024//TOPENBSD_7_6
+/patch-tcl_tcl_lock_c/1.2/Sun Sep  1 04:42:12 2024//TOPENBSD_7_6
+/patch-tcl_tcl_log_c/1.2/Sun Sep  1 04:42:12 2024//TOPENBSD_7_6
+/patch-tcl_tcl_mp_c/1.3/Sun Sep  1 04:42:12 2024//TOPENBSD_7_6
+/patch-tcl_tcl_txn_c/1.3/Sun Sep  1 04:42:12 2024//TOPENBSD_7_6
+/patch-test_include_tcl/1.3/Sun Sep  1 04:42:12 2024//TOPENBSD_7_6
+D

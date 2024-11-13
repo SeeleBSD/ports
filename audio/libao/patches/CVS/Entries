@@ -1,0 +1,6 @@
+/patch-configure/1.14/Sun Sep  1 04:42:01 2024//TOPENBSD_7_6
+/patch-doc_Makefile_in/1.12/Sun Sep  1 04:42:01 2024//TOPENBSD_7_6
+/patch-src_audio_out_c/1.5/Sun Sep  1 04:42:01 2024//TOPENBSD_7_6
+/patch-src_plugins_Makefile_in/1.8/Sun Sep  1 04:42:01 2024//TOPENBSD_7_6
+/patch-src_plugins_sndio_ao_sndio_c/1.5/Sun Sep  1 04:42:01 2024//TOPENBSD_7_6
+D

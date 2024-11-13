@@ -1,0 +1,4 @@
+bin/burpsuite
+share/java/
+share/java/classes/
+share/java/classes/burpsuite.jar

@@ -1,0 +1,18 @@
+/patch-configure/1.3/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-src_Makefile_in/1.2/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-src_comment_ll/1.2/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-src_cpp_ll/1.2/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-src_datahashtable_h/1.2/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-src_doc2dbsgml_ll/1.2/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-src_doc2dbxml_ll/1.2/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-src_doc2tex_ll/1.2/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-src_doc_ll/1.2/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-src_getopt_h/1.2/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-src_html_cc/1.2/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-src_java_ll/1.2/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-src_main_cc/1.2/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-src_nametable_cc/1.2/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-src_nametable_h/1.2/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-src_php_ll/1.2/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-src_tex2gif_cc/1.2/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+D

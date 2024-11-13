@@ -1,0 +1,44 @@
+@pkgpath net/kismet
+@pkgpath net/kismet,-main
+@pkgpath net/kismet,-gpsmap
+@conflict kismet-gpsmap-*
+@newgroup _kismet:547
+@newuser _kismet:547:_kismet::Kismet WLAN detector:/nonexistent:/sbin/nologin
+bin/kismet
+@mode 4550
+@group _kismet
+@bin bin/kismet_capture
+@mode
+@group
+@bin bin/kismet_client
+@bin bin/kismet_drone
+@bin bin/kismet_server
+@man man/man1/kismet.1
+@man man/man1/kismet_drone.1
+@man man/man5/kismet.conf.5
+@man man/man5/kismet_drone.conf.5
+share/doc/kismet/
+share/doc/kismet/README
+share/examples/kismet/
+@mode 770
+@sample ${CONFDIR}/
+@mode
+share/examples/kismet/kismet.conf
+@sample ${CONFDIR}/kismet.conf
+share/examples/kismet/kismet_drone.conf
+@sample ${CONFDIR}/kismet_drone.conf
+share/kismet/
+share/kismet/wav/
+share/kismet/wav/alert.wav
+@mode 770
+@owner _kismet
+@group _kismet
+@sample /var/log/kismet/
+@mode
+@owner
+@group
+share/kismet/wav/gpslock.wav
+share/kismet/wav/gpslost.wav
+share/kismet/wav/new.wav
+share/kismet/wav/packet.wav
+@extraunexec rm -rf ${LOCALSTATEDIR}/log/kismet

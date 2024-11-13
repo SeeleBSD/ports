@@ -1,0 +1,11 @@
+--- etc/faxaddmodem.sh.in.orig	Wed Sep 15 16:42:36 2010
++++ etc/faxaddmodem.sh.in	Fri Apr 13 16:03:00 2012
+@@ -1758,7 +1758,7 @@ fi
+ FIFO=$SPOOL/FIFO.$DEVID
+ test -p $FIFO || {
+     prompt "Creating fifo $FIFO for faxgetty..."
+-    if (mkfifo $FIFO) >/dev/null 2>&1; then
++    if (/sbin/mkfifo $FIFO) >/dev/null 2>&1; then
+ 	echo "done."
+     elif (mknod $FIFO p) >/dev/null 2>&1; then
+ 	echo "done."

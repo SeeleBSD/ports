@@ -1,0 +1,172 @@
+@pkgpath www/iridium,proprietary
+bin/iridium
+iridium/
+iridium/chrome_100_percent.pak
+iridium/chrome_200_percent.pak
+iridium/headless_command_resources.pak
+iridium/headless_lib_data.pak
+iridium/headless_lib_strings.pak
+%%component%%
+@bin iridium/iridium
+@so iridium/libEGL.so
+@so iridium/libGLESv2.so
+@so iridium/libVkICD_mock_icd.so
+@so iridium/libvulkan.so
+iridium/locales/
+iridium/locales/af.pak
+iridium/locales/af.pak.info
+iridium/locales/am.pak
+iridium/locales/am.pak.info
+iridium/locales/ar.pak
+iridium/locales/ar.pak.info
+iridium/locales/bg.pak
+iridium/locales/bg.pak.info
+iridium/locales/bn.pak
+iridium/locales/bn.pak.info
+iridium/locales/ca.pak
+iridium/locales/ca.pak.info
+iridium/locales/cs.pak
+iridium/locales/cs.pak.info
+iridium/locales/da.pak
+iridium/locales/da.pak.info
+iridium/locales/de.pak
+iridium/locales/de.pak.info
+iridium/locales/el.pak
+iridium/locales/el.pak.info
+iridium/locales/en-GB.pak
+iridium/locales/en-GB.pak.info
+iridium/locales/en-US.pak
+iridium/locales/en-US.pak.info
+iridium/locales/es-419.pak
+iridium/locales/es-419.pak.info
+iridium/locales/es.pak
+iridium/locales/es.pak.info
+iridium/locales/et.pak
+iridium/locales/et.pak.info
+iridium/locales/fa.pak
+iridium/locales/fa.pak.info
+iridium/locales/fi.pak
+iridium/locales/fi.pak.info
+iridium/locales/fil.pak
+iridium/locales/fil.pak.info
+iridium/locales/fr.pak
+iridium/locales/fr.pak.info
+iridium/locales/gu.pak
+iridium/locales/gu.pak.info
+iridium/locales/he.pak
+iridium/locales/he.pak.info
+iridium/locales/hi.pak
+iridium/locales/hi.pak.info
+iridium/locales/hr.pak
+iridium/locales/hr.pak.info
+iridium/locales/hu.pak
+iridium/locales/hu.pak.info
+iridium/locales/id.pak
+iridium/locales/id.pak.info
+iridium/locales/it.pak
+iridium/locales/it.pak.info
+iridium/locales/ja.pak
+iridium/locales/ja.pak.info
+iridium/locales/kn.pak
+iridium/locales/kn.pak.info
+iridium/locales/ko.pak
+iridium/locales/ko.pak.info
+iridium/locales/lt.pak
+iridium/locales/lt.pak.info
+iridium/locales/lv.pak
+iridium/locales/lv.pak.info
+iridium/locales/ml.pak
+iridium/locales/ml.pak.info
+iridium/locales/mr.pak
+iridium/locales/mr.pak.info
+iridium/locales/ms.pak
+iridium/locales/ms.pak.info
+iridium/locales/nb.pak
+iridium/locales/nb.pak.info
+iridium/locales/nl.pak
+iridium/locales/nl.pak.info
+iridium/locales/pl.pak
+iridium/locales/pl.pak.info
+iridium/locales/pt-BR.pak
+iridium/locales/pt-BR.pak.info
+iridium/locales/pt-PT.pak
+iridium/locales/pt-PT.pak.info
+iridium/locales/ro.pak
+iridium/locales/ro.pak.info
+iridium/locales/ru.pak
+iridium/locales/ru.pak.info
+iridium/locales/sk.pak
+iridium/locales/sk.pak.info
+iridium/locales/sl.pak
+iridium/locales/sl.pak.info
+iridium/locales/sr.pak
+iridium/locales/sr.pak.info
+iridium/locales/sv.pak
+iridium/locales/sv.pak.info
+iridium/locales/sw.pak
+iridium/locales/sw.pak.info
+iridium/locales/ta.pak
+iridium/locales/ta.pak.info
+iridium/locales/te.pak
+iridium/locales/te.pak.info
+iridium/locales/th.pak
+iridium/locales/th.pak.info
+iridium/locales/tr.pak
+iridium/locales/tr.pak.info
+iridium/locales/uk.pak
+iridium/locales/uk.pak.info
+iridium/locales/ur.pak
+iridium/locales/ur.pak.info
+iridium/locales/vi.pak
+iridium/locales/vi.pak.info
+iridium/locales/zh-CN.pak
+iridium/locales/zh-CN.pak.info
+iridium/locales/zh-TW.pak
+iridium/locales/zh-TW.pak.info
+iridium/product_logo_48.png
+iridium/resources/
+iridium/resources.pak
+iridium/resources/accessibility/
+iridium/resources/accessibility/reading_mode_gdocs_helper/
+iridium/resources/accessibility/reading_mode_gdocs_helper/content.js
+iridium/resources/accessibility/reading_mode_gdocs_helper/gdocs_script.js
+iridium/resources/accessibility/reading_mode_gdocs_helper_manifest.json
+iridium/resources/inspector_overlay/
+iridium/resources/inspector_overlay/inspector_overlay_resources.grd
+iridium/resources/inspector_overlay/main.js
+iridium/snapshot_blob.bin
+%%swiftshader%%
+iridium/v8_context_snapshot.bin
+@man man/man1/iridium.1
+share/applications/iridium-browser.desktop
+share/doc/pkg-readmes/${PKGSTEM}
+share/examples/iridium/
+@sample ${SYSCONFDIR}/iridium/
+share/examples/iridium/pledge.main
+@sample ${SYSCONFDIR}/iridium/pledge.main
+share/examples/iridium/pledge.utility_audio
+@sample ${SYSCONFDIR}/iridium/pledge.utility_audio
+share/examples/iridium/pledge.utility_network
+@sample ${SYSCONFDIR}/iridium/pledge.utility_network
+share/examples/iridium/pledge.utility_video
+@sample ${SYSCONFDIR}/iridium/pledge.utility_video
+share/examples/iridium/unveil.gpu
+@sample ${SYSCONFDIR}/iridium/unveil.gpu
+share/examples/iridium/unveil.main
+@sample ${SYSCONFDIR}/iridium/unveil.main
+share/examples/iridium/unveil.utility_audio
+@sample ${SYSCONFDIR}/iridium/unveil.utility_audio
+share/examples/iridium/unveil.utility_network
+@sample ${SYSCONFDIR}/iridium/unveil.utility_network
+share/examples/iridium/unveil.utility_video
+@sample ${SYSCONFDIR}/iridium/unveil.utility_video
+share/icons/hicolor/128x128/apps/iridium.png
+share/icons/hicolor/22_monox22_mono/
+share/icons/hicolor/22_monox22_mono/apps/
+share/icons/hicolor/22_monox22_mono/apps/iridium.png
+share/icons/hicolor/24x24/apps/iridium.png
+share/icons/hicolor/256x256/apps/iridium.png
+share/icons/hicolor/48x48/apps/iridium.png
+share/icons/hicolor/64x64/apps/iridium.png
+@tag update-desktop-database
+@tag gtk-update-icon-cache %D/share/icons/hicolor

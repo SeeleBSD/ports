@@ -1,0 +1,12 @@
+/patch-etc_mysql-zrm_mysql-zrm_conf/1.5/Sun Sep  1 04:42:13 2024//TOPENBSD_7_6
+/patch-usr_bin_mysql-zrm/1.3/Sun Sep  1 04:42:13 2024//TOPENBSD_7_6
+/patch-usr_bin_mysql-zrm-backup/1.6/Sun Sep  1 04:42:13 2024//TOPENBSD_7_6
+/patch-usr_bin_mysql-zrm-reporter/1.2/Sun Sep  1 04:42:13 2024//TOPENBSD_7_6
+/patch-usr_bin_mysql-zrm-scheduler/1.3/Sun Sep  1 04:42:13 2024//TOPENBSD_7_6
+/patch-usr_bin_mysql-zrm-verify-backup/1.5/Sun Sep  1 04:42:13 2024//TOPENBSD_7_6
+/patch-usr_bin_zrm-pre-scheduler/1.3/Sun Sep  1 04:42:13 2024//TOPENBSD_7_6
+/patch-usr_lib_mysql-zrm_ZRM_Common_pm/1.7/Sun Sep  1 04:42:13 2024//TOPENBSD_7_6
+/patch-usr_lib_mysql-zrm_ZRM_MySQL_pm/1.2/Sun Sep  1 04:42:13 2024//TOPENBSD_7_6
+/patch-usr_share_mysql-zrm_plugins_socket-copy_pl/1.2/Sun Sep  1 04:42:13 2024//TOPENBSD_7_6
+/patch-usr_share_mysql-zrm_plugins_ssh-copy_pl/1.2/Sun Sep  1 04:42:13 2024//TOPENBSD_7_6
+D

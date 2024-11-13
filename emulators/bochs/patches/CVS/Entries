@@ -1,0 +1,11 @@
+/patch-Makefile_in/1.12/Sun Sep  1 04:42:58 2024//TOPENBSD_7_6
+/patch-_bochsrc/1.16/Sun Sep  1 04:42:58 2024//TOPENBSD_7_6
+/patch-configure_in/1.5/Sun Sep  1 04:42:58 2024//TOPENBSD_7_6
+/patch-cpu_apic_cc/1.1/Sun Sep  1 04:42:58 2024//TOPENBSD_7_6
+/patch-cpu_paging_cc/1.3/Sun Sep  1 04:42:58 2024//TOPENBSD_7_6
+/patch-gui_textconfig_cc/1.1/Sun Sep  1 04:42:58 2024//TOPENBSD_7_6
+/patch-iodev_hdimage_vbox_cc/1.1/Sun Sep  1 04:42:58 2024//TOPENBSD_7_6
+/patch-iodev_hdimage_vmware4_cc/1.3/Sun Sep  1 04:42:58 2024//TOPENBSD_7_6
+/patch-iodev_network_eth_socket_cc/1.3/Sun Sep  1 04:42:58 2024//TOPENBSD_7_6
+/patch-iodev_network_netutil_cc/1.1/Sun Sep  1 04:42:58 2024//TOPENBSD_7_6
+D

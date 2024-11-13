@@ -1,0 +1,46 @@
+Index: vendor/composer/autoload_static.php
+--- vendor/composer/autoload_static.php.orig
++++ vendor/composer/autoload_static.php
+@@ -16,10 +16,10 @@ class ComposerStaticInit8d44bfa54223056069c233d8145363
+         'ebdb698ed4152ae445614b69b5e4bb6a' => __DIR__ . '/..' . '/sabre/http/lib/functions.php',
+         '777dc149d682152f9ab0caaeffcdbb27' => __DIR__ . '/../..' . '/config.php',
+         '32a4f751fbcde8755e5f28bd96eed397' => __DIR__ . '/../..' . '/version.php',
+-        'b05b0d0a4f97d8e7b104a9a31ac2ca03' => '/var/www/grommunio-mapi-header-php/mapi.util.php',
+-        '6a9de07a28f7691abb65b9e10c0d3162' => '/var/www/grommunio-mapi-header-php/mapidefs.php',
+-        'f7a3109aab90144ee6f61ff5d8dc18f8' => '/var/www/grommunio-mapi-header-php/mapiguid.php',
+-        'e6a7d3833b984731fa99a3d51254b714' => '/var/www/grommunio-mapi-header-php/mapitags.php',
++        'b05b0d0a4f97d8e7b104a9a31ac2ca03' => UMAPI_PATH . '/mapi.util.php',
++        '6a9de07a28f7691abb65b9e10c0d3162' => UMAPI_PATH . '/mapidefs.php',
++        'f7a3109aab90144ee6f61ff5d8dc18f8' => UMAPI_PATH . '/mapiguid.php',
++        'e6a7d3833b984731fa99a3d51254b714' => UMAPI_PATH . '/mapitags.php',
+     );
+ 
+     public static $prefixLengthsPsr4 = array (
+@@ -101,17 +101,17 @@ class ComposerStaticInit8d44bfa54223056069c233d8145363
+     );
+ 
+     public static $classMap = array (
+-        'BaseException' => '/var/www/grommunio-mapi-header-php/class.baseexception.php',
+-        'BaseRecurrence' => '/var/www/grommunio-mapi-header-php/class.baserecurrence.php',
++        'BaseException' => UMAPI_PATH . '/class.baseexception.php',
++        'BaseRecurrence' => UMAPI_PATH . '/class.baserecurrence.php',
+         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+-        'FreeBusy' => '/var/www/grommunio-mapi-header-php/class.freebusy.php',
+-        'KeyCloak' => '/var/www/grommunio-mapi-header-php/class.keycloak.php',
+-        'MAPIException' => '/var/www/grommunio-mapi-header-php/class.mapiexception.php',
+-        'Meetingrequest' => '/var/www/grommunio-mapi-header-php/class.meetingrequest.php',
+-        'Recurrence' => '/var/www/grommunio-mapi-header-php/class.recurrence.php',
+-        'TaskRecurrence' => '/var/www/grommunio-mapi-header-php/class.taskrecurrence.php',
+-        'TaskRequest' => '/var/www/grommunio-mapi-header-php/class.taskrequest.php',
+-        'Token' => '/var/www/grommunio-mapi-header-php/class.token.php',
++        'FreeBusy' => UMAPI_PATH . '/class.freebusy.php',
++        'KeyCloak' => UMAPI_PATH . '/class.keycloak.php',
++        'MAPIException' => UMAPI_PATH . '/class.mapiexception.php',
++        'Meetingrequest' => UMAPI_PATH . '/class.meetingrequest.php',
++        'Recurrence' => UMAPI_PATH . '/class.recurrence.php',
++        'TaskRecurrence' => UMAPI_PATH . '/class.taskrecurrence.php',
++        'TaskRequest' => UMAPI_PATH . '/class.taskrequest.php',
++        'Token' => UMAPI_PATH . '/class.token.php',
+     );
+ 
+     public static function getInitializer(ClassLoader $loader)

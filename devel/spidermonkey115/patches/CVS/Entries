@@ -1,0 +1,11 @@
+/patch-config_gcc_hidden_h/1.1.1.1/Sun Sep  1 04:42:52 2024//TOPENBSD_7_6
+/patch-js_src_Makefile_in/1.1.1.1/Sun Sep  1 04:42:52 2024//TOPENBSD_7_6
+/patch-js_src_build_moz_build/1.1.1.1/Sun Sep  1 04:42:52 2024//TOPENBSD_7_6
+/patch-js_src_jit_ExecutableAllocator_h/1.1.1.1/Sun Sep  1 04:42:52 2024//TOPENBSD_7_6
+/patch-js_src_jit_ProcessExecutableMemory_h/1.1.1.1/Sun Sep  1 04:42:52 2024//TOPENBSD_7_6
+/patch-js_src_old-configure_in/1.1.1.1/Sun Sep  1 04:42:52 2024//TOPENBSD_7_6
+/patch-js_src_wasm_WasmSignalHandlers_cpp/1.1.1.1/Sun Sep  1 04:42:52 2024//TOPENBSD_7_6
+/patch-modules_fdlibm_src_math_private_h/1.2/Sun Sep  1 04:42:52 2024//TOPENBSD_7_6
+/patch-moz_configure/1.1.1.1/Sun Sep  1 04:42:52 2024//TOPENBSD_7_6
+/patch-third_party_rust_cc_src_lib_rs/1.1.1.1/Sun Sep  1 04:42:52 2024//TOPENBSD_7_6
+D

@@ -1,0 +1,8 @@
+/patch-common_drm_c/1.1/Sun Sep  1 04:44:13 2024//TOPENBSD_7_6
+/patch-common_evdev_c/1.1/Sun Sep  1 04:44:13 2024//TOPENBSD_7_6
+/patch-common_terminal_c/1.2/Mon Sep 23 15:34:54 2024//TOPENBSD_7_6
+/patch-common_wscons_c/1.1/Sun Sep  1 04:44:13 2024//TOPENBSD_7_6
+/patch-meson_build/1.1/Sun Sep  1 04:44:13 2024//TOPENBSD_7_6
+/patch-seatd_client_c/1.1/Sun Sep  1 04:44:13 2024//TOPENBSD_7_6
+/patch-tests_poller_c/1.1/Sun Sep  1 04:44:13 2024//TOPENBSD_7_6
+D

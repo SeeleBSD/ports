@@ -1,0 +1,27 @@
+/patch-acinclude_m4/1.4/Mon Sep 23 15:34:10 2024//TOPENBSD_7_6
+/patch-backend_Makefile_am/1.2/Sun Sep  1 04:43:19 2024//TOPENBSD_7_6
+/patch-backend_apple_c/1.1/Sun May 26 12:08:10 2024//TOPENBSD_7_6
+/patch-backend_canon-sane_c/1.6/Sun Sep  1 04:43:19 2024//TOPENBSD_7_6
+/patch-backend_canon_c/1.5/Sun Sep  1 04:43:19 2024//TOPENBSD_7_6
+/patch-backend_dll_c/1.11/Sun Sep  1 04:43:19 2024//TOPENBSD_7_6
+/patch-backend_dll_conf_in/1.14/Sun Sep  1 04:43:19 2024//TOPENBSD_7_6
+/patch-backend_genesys_low_cpp/1.6/Sun Sep  1 04:43:19 2024//TOPENBSD_7_6
+/patch-backend_gt68xx_low_c/1.3/Sun Sep  1 04:43:19 2024//TOPENBSD_7_6
+/patch-backend_kvs40xx_h/1.4/Sun Sep  1 04:43:19 2024//TOPENBSD_7_6
+/patch-backend_p5_device_c/1.3/Sun Sep  1 04:43:19 2024//TOPENBSD_7_6
+/patch-backend_pint_c/1.3/Sun Sep  1 04:43:19 2024//TOPENBSD_7_6
+/patch-backend_pixma_pixma_bjnp_c/1.3/Sun Sep  1 04:43:19 2024//TOPENBSD_7_6
+/patch-backend_pixma_pixma_io_sanei_c/1.4/Mon Sep 23 15:34:10 2024//TOPENBSD_7_6
+/patch-backend_plustek-usb_c/1.2/Sun Sep  1 04:43:19 2024//TOPENBSD_7_6
+/patch-backend_plustek_c/1.3/Sun Sep  1 04:43:19 2024//TOPENBSD_7_6
+/patch-backend_plustek_pp_c/1.2/Sun Sep  1 04:43:19 2024//TOPENBSD_7_6
+/patch-backend_sm3600-scanusb_c/1.6/Sun Sep  1 04:43:19 2024//TOPENBSD_7_6
+/patch-backend_snapscan-mutex_c/1.3/Sun Sep  1 04:43:19 2024//TOPENBSD_7_6
+/patch-backend_snapscan-sources_c/1.2/Sun Sep  1 04:43:19 2024//TOPENBSD_7_6
+/patch-backend_snapscan-usb_c/1.3/Sun Sep  1 04:43:19 2024//TOPENBSD_7_6
+/patch-backend_u12_c/1.1/Sun Sep  1 04:43:19 2024//TOPENBSD_7_6
+/patch-backend_v4l_c/1.5/Sun Sep  1 04:43:19 2024//TOPENBSD_7_6
+/patch-backend_xerox_mfp_h/1.3/Sun Sep  1 04:43:19 2024//TOPENBSD_7_6
+/patch-configure_ac/1.4/Mon Sep 23 15:34:10 2024//TOPENBSD_7_6
+/patch-tools_umax_pp_c/1.3/Sun Sep  1 04:43:19 2024//TOPENBSD_7_6
+D

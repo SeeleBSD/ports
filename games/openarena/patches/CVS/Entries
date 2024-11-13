@@ -1,0 +1,6 @@
+/patch-Makefile/1.8/Sun Sep  1 04:43:08 2024//TOPENBSD_7_6
+/patch-code_client_snd_dma_c/1.3/Sun Sep  1 04:43:08 2024//TOPENBSD_7_6
+/patch-code_qcommon_q_platform_h/1.4/Sun Sep  1 04:43:08 2024//TOPENBSD_7_6
+/patch-code_qcommon_vm_x86_64_c/1.2/Sun Sep  1 04:43:08 2024//TOPENBSD_7_6
+/patch-code_qcommon_vm_x86_c/1.2/Sun Sep  1 04:43:08 2024//TOPENBSD_7_6
+D

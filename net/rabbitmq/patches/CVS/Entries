@@ -1,0 +1,5 @@
+/patch-Makefile/1.14/Sun Sep  1 04:43:50 2024//TOPENBSD_7_6
+/patch-deps_rabbit_scripts_rabbitmq-defaults/1.5/Sun Sep  1 04:43:50 2024//TOPENBSD_7_6
+/patch-deps_rabbit_scripts_rabbitmq-env/1.5/Mon Sep 23 15:34:36 2024//TOPENBSD_7_6
+/patch-deps_rabbit_scripts_rabbitmq-server/1.4/Sun Sep  1 04:43:50 2024//TOPENBSD_7_6
+D

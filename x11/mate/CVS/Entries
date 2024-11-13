@@ -1,0 +1,30 @@
+D/atril////
+D/caja////
+D/caja-extensions////
+D/calc////
+D/control-center////
+D/desktop////
+D/engrampa////
+D/eom////
+D/icon-theme////
+D/libmatekbd////
+D/libmatemixer////
+D/libmateweather////
+D/marco////
+D/media////
+D/menu-advanced////
+D/menus////
+D/notification-daemon////
+D/panel////
+D/pluma////
+D/polkit////
+D/power-manager////
+D/screensaver////
+D/session-manager////
+D/settings-daemon////
+D/system-monitor////
+D/terminal////
+D/themes////
+D/utils////
+/Makefile/1.8/Mon Sep 23 15:35:29 2024//TOPENBSD_7_6
+/Makefile.inc/1.9/Mon Sep 23 15:35:29 2024//TOPENBSD_7_6

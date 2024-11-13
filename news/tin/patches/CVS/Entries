@@ -1,0 +1,7 @@
+/patch-configure_in/1.8/Mon Sep 23 15:34:39 2024//TOPENBSD_7_6
+/patch-src_Makefile_in/1.12/Mon Sep 23 15:34:39 2024//TOPENBSD_7_6
+/patch-src_misc_c/1.6/Mon Sep 23 15:34:39 2024//TOPENBSD_7_6
+/patch-src_parsdate_y/1.3/Sun Sep  1 04:43:53 2024//TOPENBSD_7_6
+/patch-src_rfc2047_c/1.6/Mon Sep 23 15:34:39 2024//TOPENBSD_7_6
+/patch-src_sigfile_c/1.6/Sun Sep  1 04:43:53 2024//TOPENBSD_7_6
+D

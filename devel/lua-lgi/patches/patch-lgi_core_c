@@ -1,0 +1,11 @@
+--- lgi/core.c.orig	Tue Feb 28 11:57:18 2017
++++ lgi/core.c	Tue Feb 28 11:58:03 2017
+@@ -673,7 +673,7 @@ set_resident (lua_State *L)
+ }
+ 
+ G_MODULE_EXPORT int
+-luaopen_lgi_corelgilua51 (lua_State* L)
++luaopen_lgi_corelgilua${MODLUA_DEP_VERSION} (lua_State* L)
+ {
+   LgiStateMutex *mutex;
+   gint state_id;

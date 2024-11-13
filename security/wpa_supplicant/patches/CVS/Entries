@@ -1,0 +1,18 @@
+/patch-src_ap_authsrv_c/1.1/Sun Sep  1 04:44:04 2024//TOPENBSD_7_6
+/patch-src_crypto_tls_h/1.3/Sun Sep  1 04:44:04 2024//TOPENBSD_7_6
+/patch-src_crypto_tls_openssl_c/1.8/Sun Sep  1 04:44:04 2024//TOPENBSD_7_6
+/patch-src_drivers_driver_openbsd_c/1.8/Sun Sep  1 04:44:04 2024//TOPENBSD_7_6
+/patch-src_eap_peer_eap_c/1.1/Sun Sep  1 04:44:04 2024//TOPENBSD_7_6
+/patch-src_eap_peer_eap_tls_common_c/1.1/Sun Sep  1 04:44:04 2024//TOPENBSD_7_6
+/patch-src_p2p_p2p_c/1.2/Sun Sep  1 04:44:04 2024//TOPENBSD_7_6
+/patch-src_radius_radius_client_c/1.2/Sun Sep  1 04:44:04 2024//TOPENBSD_7_6
+/patch-src_utils_eloop_c/1.9/Sun Sep  1 04:44:04 2024//TOPENBSD_7_6
+/patch-src_utils_os_unix_c/1.2/Sun Sep  1 04:44:04 2024//TOPENBSD_7_6
+/patch-wpa_supplicant_Makefile/1.11/Sun Sep  1 04:44:04 2024//TOPENBSD_7_6
+/patch-wpa_supplicant__config/1.1/Sun Sep  1 04:44:04 2024//TOPENBSD_7_6
+/patch-wpa_supplicant_config_h/1.2/Sun Sep  1 04:44:04 2024//TOPENBSD_7_6
+/patch-wpa_supplicant_ctrl_iface_c/1.2/Sun Sep  1 04:44:04 2024//TOPENBSD_7_6
+/patch-wpa_supplicant_main_c/1.4/Sun Sep  1 04:44:04 2024//TOPENBSD_7_6
+/patch-wpa_supplicant_scan_c/1.2/Sun Sep  1 04:44:04 2024//TOPENBSD_7_6
+/patch-wpa_supplicant_wpa_supplicant_conf/1.1/Sun Sep  1 04:44:04 2024//TOPENBSD_7_6
+D

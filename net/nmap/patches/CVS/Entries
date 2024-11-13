@@ -1,0 +1,14 @@
+/patch-Makefile_in/1.24/Sun Sep  1 04:43:44 2024//TOPENBSD_7_6
+/patch-configure_ac/1.2/Sun Sep  1 04:43:44 2024//TOPENBSD_7_6
+/patch-libnetutil_Makefile_in/1.2/Sun Sep  1 04:43:44 2024//TOPENBSD_7_6
+/patch-ndiff_ndiff_py/1.1/Sun Sep  1 04:43:44 2024//TOPENBSD_7_6
+/patch-ndiff_setup_py/1.7/Sun Sep  1 04:43:44 2024//TOPENBSD_7_6
+/patch-nmap_dns_cc/1.3/Mon Sep 23 15:34:31 2024//TOPENBSD_7_6
+/patch-nping_Crypto_cc/1.2/Sun Sep  1 04:43:44 2024//TOPENBSD_7_6
+/patch-nping_EchoServer_cc/1.7/Sun Sep  1 04:43:44 2024//TOPENBSD_7_6
+/patch-nping_configure_ac/1.3/Sun Sep  1 04:43:44 2024//TOPENBSD_7_6
+/patch-nse_openssl_cc/1.5/Sun Sep  1 04:43:44 2024//TOPENBSD_7_6
+/patch-nse_ssl_cert_cc/1.2/Sun Sep  1 04:43:44 2024//TOPENBSD_7_6
+/patch-scan-engine_cc/1.15/Mon Sep 23 15:34:31 2024//TOPENBSD_7_6
+/patch-timing_cc/1.11/Sun Sep  1 04:43:44 2024//TOPENBSD_7_6
+D

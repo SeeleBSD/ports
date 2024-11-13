@@ -1,0 +1,6 @@
+/patch-Makefile/1.23/Sun Sep  1 04:43:37 2024//TOPENBSD_7_6
+/patch-common_aarch64_asm_S/1.1/Sun Sep  1 04:43:37 2024//TOPENBSD_7_6
+/patch-common_osdep_h/1.15/Sun Sep  1 04:43:37 2024//TOPENBSD_7_6
+/patch-common_x86_x86inc_asm/1.2/Sun Sep  1 04:43:37 2024//TOPENBSD_7_6
+/patch-configure/1.32/Sun Sep  1 04:43:37 2024//TOPENBSD_7_6
+D

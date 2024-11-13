@@ -1,0 +1,21 @@
+Index: Makefile.in
+--- Makefile.in.orig
++++ Makefile.in
+@@ -70,7 +70,7 @@ am__make_running_with_option = \
+   test $$has_opt = yes
+ am__make_dryrun = (target_option=n; $(am__make_running_with_option))
+ am__make_keepgoing = (target_option=k; $(am__make_running_with_option))
+-pkgdatadir = $(datadir)/@PACKAGE@
++pkgdatadir = $(datadir)/doc/@PACKAGE@
+ pkgincludedir = $(includedir)/@PACKAGE@
+ pkglibdir = $(libdir)/@PACKAGE@
+ pkglibexecdir = $(libexecdir)/@PACKAGE@
+@@ -354,7 +354,7 @@ top_build_prefix = @top_build_prefix@
+ top_builddir = @top_builddir@
+ top_srcdir = @top_srcdir@
+ AUTOMAKE_OPTIONS = foreign no-dependencies
+-pkgdata_DATA = COPYING CHANGES FAQ README README.lg UPGRADING cloginrc.sample
++pkgdata_DATA = COPYING CHANGES FAQ README UPGRADING
+ EXTRA_DIST = BUGS Todo configure configure.vers install-sh \
+ 	mkinstalldirs Makefile.in Todo $(pkgdata_DATA)
+ 

@@ -1,0 +1,7 @@
+include/mysofa.h
+@static-lib lib/libmysofa.a
+@lib lib/libmysofa.so.${LIBmysofa_VERSION}
+lib/pkgconfig/libmysofa.pc
+share/libmysofa/
+share/libmysofa/MIT_KEMAR_normal_pinna.sofa
+share/libmysofa/default.sofa

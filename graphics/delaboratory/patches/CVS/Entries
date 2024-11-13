@@ -1,0 +1,9 @@
+/patch-Makefile/1.2/Sun Sep  1 04:43:14 2024//TOPENBSD_7_6
+/patch-core_base_layer_with_properties_cc/1.2/Sun Sep  1 04:43:14 2024//TOPENBSD_7_6
+/patch-core_layer_processor_h/1.2/Sun Sep  1 04:43:14 2024//TOPENBSD_7_6
+/patch-gui_wx_layer_processor_threads_h/1.2/Sun Sep  1 04:43:14 2024//TOPENBSD_7_6
+/patch-gui_wx_mutex_read_write_h/1.2/Sun Sep  1 04:43:14 2024//TOPENBSD_7_6
+/patch-gui_wx_semaphore_cc/1.2/Sun Sep  1 04:43:14 2024//TOPENBSD_7_6
+/patch-gui_wx_update_blend_cc/1.2/Sun Sep  1 04:43:14 2024//TOPENBSD_7_6
+/patch-gui_wx_update_main_layer_image_cc/1.2/Sun Sep  1 04:43:14 2024//TOPENBSD_7_6
+D

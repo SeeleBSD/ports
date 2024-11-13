@@ -1,0 +1,12 @@
+/patch-Makefile/1.8/Sun Sep  1 04:42:09 2024//TOPENBSD_7_6
+/patch-doc_Makefile/1.6/Sun Sep  1 04:42:09 2024//TOPENBSD_7_6
+/patch-doc_fax_1in/1.2/Sun Sep  1 04:42:09 2024//TOPENBSD_7_6
+/patch-doc_mgetty_texi_in/1.5/Sun Sep  1 04:42:09 2024//TOPENBSD_7_6
+/patch-fax_Makefile/1.3/Sun Sep  1 04:42:09 2024//TOPENBSD_7_6
+/patch-fax_faxspool_in/1.5/Sun Sep  1 04:42:09 2024//TOPENBSD_7_6
+/patch-g3_Makefile/1.3/Sun Sep  1 04:42:09 2024//TOPENBSD_7_6
+/patch-mgetty_h/1.5/Sun Sep  1 04:42:09 2024//TOPENBSD_7_6
+/patch-policy_h_dist/1.6/Sun Sep  1 04:42:09 2024//TOPENBSD_7_6
+/patch-voice_Makefile/1.2/Sun Sep  1 04:42:09 2024//TOPENBSD_7_6
+/patch-voice_libvoice_Elsa_c/1.3/Sun Sep  1 04:42:09 2024//TOPENBSD_7_6
+D

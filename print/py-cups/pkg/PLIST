@@ -1,0 +1,4 @@
+@conflict py-cups-*
+@pkgpath print/py-cups
+@so lib/python${MODPY_VERSION}/site-packages/cups.${MODPY_PYC_MAGIC_TAG}so
+lib/python${MODPY_VERSION}/site-packages/pycups-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info

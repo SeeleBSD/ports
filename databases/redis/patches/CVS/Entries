@@ -1,0 +1,12 @@
+/patch-deps_Makefile/1.16/Sun Sep  1 04:42:16 2024//TOPENBSD_7_6
+/patch-deps_hiredis_Makefile/1.12/Sun Sep  1 04:42:16 2024//TOPENBSD_7_6
+/patch-deps_linenoise_linenoise_c/1.3/Sun Sep  1 04:42:16 2024//TOPENBSD_7_6
+/patch-deps_lua_src_lmathlib_c/1.2/Sun Sep  1 04:42:16 2024//TOPENBSD_7_6
+/patch-redis_conf/1.30/Sun Sep  1 04:42:16 2024//TOPENBSD_7_6
+/patch-sentinel_conf/1.10/Sun Sep  1 04:42:16 2024//TOPENBSD_7_6
+/patch-src_Makefile/1.45/Sun Sep  1 04:42:16 2024//TOPENBSD_7_6
+/patch-src_config_c/1.9/Sun Sep  1 04:42:16 2024//TOPENBSD_7_6
+/patch-src_server_h/1.9/Sun Sep  1 04:42:16 2024//TOPENBSD_7_6
+/patch-tests_test_helper_tcl/1.4/Sun Sep  1 04:42:16 2024//TOPENBSD_7_6
+/patch-utils_gen-test-certs_sh/1.3/Sun Sep  1 04:42:16 2024//TOPENBSD_7_6
+D

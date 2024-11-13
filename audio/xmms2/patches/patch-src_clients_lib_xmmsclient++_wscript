@@ -1,0 +1,11 @@
+--- src/clients/lib/xmmsclient++/wscript.orig	Thu Oct 20 21:26:08 2011
++++ src/clients/lib/xmmsclient++/wscript	Tue May  8 01:11:05 2012
+@@ -28,7 +28,7 @@ def build(bld):
+         includes = '../../../.. ../../../include ../../../includepriv',
+         uselib = 'BOOST socket',
+         use = 'xmmsclient',
+-        vnum = '4.0.0'
++        vnum = '${LIBxmmsclient++_VERSION}'
+         )
+     tool.add_install_flag(bld, obj)
+ 

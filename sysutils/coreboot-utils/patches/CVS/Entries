@@ -1,0 +1,5 @@
+/patch-util_cbfstool_Makefile_inc/1.1/Sun Sep  1 04:44:06 2024//TOPENBSD_7_6
+/patch-util_cbmem_cbmem_c/1.7/Sun Sep  1 04:44:06 2024//TOPENBSD_7_6
+/patch-util_ectool_ectool_c/1.4/Sun Sep  1 04:44:06 2024//TOPENBSD_7_6
+/patch-util_nvramtool_accessors_cmos-hw-unix_c/1.1/Sun Sep  1 04:44:06 2024//TOPENBSD_7_6
+D

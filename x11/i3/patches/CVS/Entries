@@ -1,0 +1,15 @@
+/patch-etc_config/1.8/Sun Sep  1 04:44:52 2024//TOPENBSD_7_6
+/patch-etc_config_keycodes/1.9/Sun Sep  1 04:44:52 2024//TOPENBSD_7_6
+/patch-i3-dmenu-desktop/1.14/Sun Sep  1 04:44:52 2024//TOPENBSD_7_6
+/patch-i3-nagbar_main_c/1.20/Sun Sep  1 04:44:52 2024//TOPENBSD_7_6
+/patch-libi3_get_exe_path_c/1.7/Sun Sep  1 04:44:52 2024//TOPENBSD_7_6
+/patch-man_i3-config-wizard_man/1.6/Sun Sep  1 04:44:52 2024//TOPENBSD_7_6
+/patch-man_i3-dump-log_man/1.4/Sun Sep  1 04:44:52 2024//TOPENBSD_7_6
+/patch-man_i3-nagbar_man/1.5/Sun Sep  1 04:44:52 2024//TOPENBSD_7_6
+/patch-man_i3_man/1.7/Sun Sep  1 04:44:52 2024//TOPENBSD_7_6
+/patch-meson_build/1.6/Sun Sep  1 04:44:52 2024//TOPENBSD_7_6
+/patch-src_bindings_c/1.14/Sun Sep  1 04:44:52 2024//TOPENBSD_7_6
+/patch-src_config_directives_c/1.10/Sun Sep  1 04:44:52 2024//TOPENBSD_7_6
+/patch-src_config_parser_c/1.16/Sun Sep  1 04:44:52 2024//TOPENBSD_7_6
+/patch-src_main_c/1.24/Sun Sep  1 04:44:52 2024//TOPENBSD_7_6
+D

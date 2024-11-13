@@ -1,0 +1,10 @@
+/patch-configure/1.9/Sun Sep  1 04:42:53 2024//TOPENBSD_7_6
+/patch-editor_Makefile_in/1.3/Sun Sep  1 04:42:53 2024//TOPENBSD_7_6
+/patch-editor_editoptions_c/1.2/Sun Sep  1 04:42:53 2024//TOPENBSD_7_6
+/patch-editor_options_c/1.2/Sun Sep  1 04:42:53 2024//TOPENBSD_7_6
+/patch-editor_shell_c/1.2/Sun Sep  1 04:42:53 2024//TOPENBSD_7_6
+/patch-man_cooledit_1/1.3/Sun Sep  1 04:42:53 2024//TOPENBSD_7_6
+/patch-rxvt_Makefile_in/1.4/Sun Sep  1 04:42:53 2024//TOPENBSD_7_6
+/patch-widget_Makefile_in/1.3/Sun Sep  1 04:42:53 2024//TOPENBSD_7_6
+/patch-widget_coollocal_h/1.3/Sun Sep  1 04:42:53 2024//TOPENBSD_7_6
+D

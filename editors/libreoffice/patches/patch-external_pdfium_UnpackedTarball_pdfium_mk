@@ -1,0 +1,12 @@
+Index: external/pdfium/UnpackedTarball_pdfium.mk
+--- external/pdfium/UnpackedTarball_pdfium.mk.orig
++++ external/pdfium/UnpackedTarball_pdfium.mk
+@@ -20,6 +20,8 @@ pdfium_patches += system-abseil.diff
+ 
+ pdfium_patches += annot.patch.1
+ 
++pdfium_patches += pdfium-openbsd.patch
++
+ $(eval $(call gb_UnpackedTarball_UnpackedTarball,pdfium))
+ 
+ $(eval $(call gb_UnpackedTarball_set_tarball,pdfium,$(PDFIUM_TARBALL)))

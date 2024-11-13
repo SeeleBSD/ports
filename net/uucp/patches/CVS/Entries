@@ -1,0 +1,14 @@
+/patch-configure/1.3/Sun Sep  1 04:43:52 2024//TOPENBSD_7_6
+/patch-cu_c/1.3/Sun Sep  1 04:43:52 2024//TOPENBSD_7_6
+/patch-policy_h/1.4/Sun Sep  1 04:43:52 2024//TOPENBSD_7_6
+/patch-sample_call/1.2/Sun Sep  1 04:43:52 2024//TOPENBSD_7_6
+/patch-sample_passwd/1.2/Sun Sep  1 04:43:52 2024//TOPENBSD_7_6
+/patch-sample_port/1.2/Sun Sep  1 04:43:52 2024//TOPENBSD_7_6
+/patch-sample_sys1/1.2/Sun Sep  1 04:43:52 2024//TOPENBSD_7_6
+/patch-unix_init_c/1.4/Sun Sep  1 04:43:52 2024//TOPENBSD_7_6
+/patch-unix_mkdirs_c/1.3/Sun Sep  1 04:43:52 2024//TOPENBSD_7_6
+/patch-unix_portnm_c/1.2/Sun Sep  1 04:43:52 2024//TOPENBSD_7_6
+/patch-unix_spawn_c/1.4/Sun Sep  1 04:43:52 2024//TOPENBSD_7_6
+/patch-unix_tcp_c/1.4/Sun Sep  1 04:43:52 2024//TOPENBSD_7_6
+/patch-uuconv_c/1.3/Sun Sep  1 04:43:52 2024//TOPENBSD_7_6
+D

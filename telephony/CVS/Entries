@@ -1,0 +1,26 @@
+D/asterisk////
+D/asterisk-g729////
+D/asterisk-openbsd-moh////
+D/asterisk-sounds////
+D/astmanproxy////
+D/baresip////
+D/bcg729////
+D/coturn////
+D/fobbit////
+D/gsutil////
+D/iaxmodem////
+D/kamailio////
+D/libosip2////
+D/libzrtp////
+D/linphone////
+D/p5-Asterisk-AMI////
+D/p5-Net-SIP////
+D/p5-asterisk////
+D/pjsua////
+D/py-phonenumbers////
+D/resiprocate////
+D/siproxd////
+D/sngrep////
+D/spandsp////
+D/stuntman////
+/Makefile/1.48/Mon Sep 23 15:34:55 2024//TOPENBSD_7_6

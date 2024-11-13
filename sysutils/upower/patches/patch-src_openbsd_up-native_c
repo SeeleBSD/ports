@@ -1,0 +1,12 @@
+Index: src/openbsd/up-native.c
+--- src/openbsd/up-native.c.orig
++++ src/openbsd/up-native.c
+@@ -93,7 +93,7 @@ up_native_is_laptop()
+ 	struct apm_power_info bstate;
+ 	struct sensordev acpiac;
+ 
+-	if (up_native_get_sensordev("acpiac0", &acpiac))
++	if (up_native_get_sensordev("acpiac0", &acpiac) || up_native_get_sensordev("aplsmc0", &acpiac))
+ 		return TRUE;
+ 
+ 	if (-1 == ioctl(up_apm_get_fd(), APM_IOC_GETPOWER, &bstate))

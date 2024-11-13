@@ -1,0 +1,12 @@
+/patch-Jamroot/1.20/Sun Sep  1 04:42:20 2024//TOPENBSD_7_6
+/patch-boost_atomic_detail_futex_hpp/1.3/Sun Sep  1 04:42:20 2024//TOPENBSD_7_6
+/patch-boost_fiber_detail_config_hpp/1.1/Sun Sep  1 04:42:20 2024//TOPENBSD_7_6
+/patch-boost_fiber_detail_cpu_relax_hpp/1.2/Sun Sep  1 04:42:20 2024//TOPENBSD_7_6
+/patch-boost_fiber_detail_futex_hpp/1.2/Sun Sep  1 04:42:20 2024//TOPENBSD_7_6
+/patch-libs_context_build_Jamfile_v2/1.10/Sun Sep  1 04:42:20 2024//TOPENBSD_7_6
+/patch-libs_context_src_asm_jump_i386_sysv_elf_gas_S/1.3/Sun Sep  1 04:42:20 2024//TOPENBSD_7_6
+/patch-libs_context_src_asm_make_i386_sysv_elf_gas_S/1.3/Sun Sep  1 04:42:20 2024//TOPENBSD_7_6
+/patch-libs_context_src_asm_ontop_i386_sysv_elf_gas_S/1.3/Sun Sep  1 04:42:20 2024//TOPENBSD_7_6
+/patch-tools_build_src_engine_build_sh/1.8/Sun Sep  1 04:42:20 2024//TOPENBSD_7_6
+/patch-tools_build_src_tools_gcc_jam/1.19/Sun Sep  1 04:42:20 2024//TOPENBSD_7_6
+D

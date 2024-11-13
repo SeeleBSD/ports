@@ -1,0 +1,6 @@
+@conflict libtalloc-<2.1.16p0
+include/pytalloc.h
+@comment @lib lib/libpytalloc-util.${PYTALLOC_UTIL_LIBSUFFIX}
+@lib lib/libpytalloc-util.${PYTALLOC_UTIL_LIBSUFFIX}
+lib/pkgconfig/pytalloc-util.${MODPY_PYC_MAGIC_TAG}pc
+@so lib/python${MODPY_VERSION}/site-packages/talloc.${MODPY_PYC_MAGIC_TAG}so

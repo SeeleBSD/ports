@@ -1,0 +1,15 @@
+/patch-kadmin_add-random-users_c/1.3/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-kpasswd_kpasswd-generator_c/1.3/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-kuser_generate-requests_c/1.3/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-lib_gssapi_ntlm_acquire_cred_c/1.2/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-lib_hcrypto_test_rsa_c/1.3/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-lib_hx509_softp11_c/1.4/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-lib_krb5_context_c/1.2/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-lib_krb5_crypto-rand_c/1.3/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-lib_krb5_krb5_h/1.4/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-lib_krb5_test_crypto_c/1.2/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-lib_krb5_test_rfc3961_c/1.2/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-lib_roken_roken_h_in/1.2/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-lib_sqlite_sqlite3_c/1.3/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-tools_krb5-config_in/1.6/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+D

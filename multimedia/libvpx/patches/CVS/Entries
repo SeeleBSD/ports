@@ -1,0 +1,15 @@
+/patch-build_make_Makefile/1.18/Sun Sep  1 04:43:36 2024//TOPENBSD_7_6
+/patch-build_make_configure_sh/1.12/Mon Sep 23 15:34:25 2024//TOPENBSD_7_6
+/patch-configure/1.26/Sun Sep  1 04:43:36 2024//TOPENBSD_7_6
+/patch-examples_mk/1.12/Sun Sep  1 04:43:36 2024//TOPENBSD_7_6
+/patch-libs_mk/1.25/Sun Sep  1 04:43:36 2024//TOPENBSD_7_6
+/patch-third_party_x86inc_x86inc_asm/1.2/Sun Sep  1 04:43:36 2024//TOPENBSD_7_6
+/patch-vp8_common_x86_subpixel_ssse3_asm/1.1/Sun Sep  1 04:43:36 2024//TOPENBSD_7_6
+/patch-vp8_encoder_x86_copy_sse3_asm/1.1/Sun Sep  1 04:43:36 2024//TOPENBSD_7_6
+/patch-vp8_encoder_x86_dct_sse2_asm/1.1/Sun Sep  1 04:43:36 2024//TOPENBSD_7_6
+/patch-vp8_encoder_x86_fwalsh_sse2_asm/1.1/Sun Sep  1 04:43:36 2024//TOPENBSD_7_6
+/patch-vpx_ports_aarch32_cpudetect_c/1.2/Mon Sep 23 15:34:25 2024//TOPENBSD_7_6
+/patch-vpx_ports_aarch64_cpudetect_c/1.3/Mon Sep 23 15:34:25 2024//TOPENBSD_7_6
+/patch-vpx_ports_ppc_cpudetect_c/1.2/Sun Sep  1 04:43:36 2024//TOPENBSD_7_6
+/patch-vpx_ports_x86_abi_support_asm/1.1/Sun Sep  1 04:43:36 2024//TOPENBSD_7_6
+D

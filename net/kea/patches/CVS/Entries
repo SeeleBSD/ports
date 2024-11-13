@@ -1,0 +1,14 @@
+/patch-src_bin_agent_agent_lexer_cc/1.1/Sun Sep  1 04:43:41 2024//TOPENBSD_7_6
+/patch-src_bin_d2_d2_lexer_cc/1.1/Sun Sep  1 04:43:41 2024//TOPENBSD_7_6
+/patch-src_bin_dhcp4_dhcp4_lexer_cc/1.1/Sun Sep  1 04:43:41 2024//TOPENBSD_7_6
+/patch-src_bin_dhcp6_dhcp6_lexer_cc/1.1/Sun Sep  1 04:43:41 2024//TOPENBSD_7_6
+/patch-src_bin_keactrl_kea-ctrl-agent_conf_pre/1.4/Sun Sep  1 04:43:41 2024//TOPENBSD_7_6
+/patch-src_bin_keactrl_kea-dhcp-ddns_conf_pre/1.4/Sun Sep  1 04:43:41 2024//TOPENBSD_7_6
+/patch-src_bin_keactrl_kea-dhcp4_conf_pre/1.4/Sun Sep  1 04:43:41 2024//TOPENBSD_7_6
+/patch-src_bin_keactrl_kea-dhcp6_conf_pre/1.4/Sun Sep  1 04:43:41 2024//TOPENBSD_7_6
+/patch-src_bin_keactrl_kea-netconf_conf_pre/1.3/Sun Sep  1 04:43:41 2024//TOPENBSD_7_6
+/patch-src_bin_keactrl_keactrl_conf_in/1.4/Sun Sep  1 04:43:41 2024//TOPENBSD_7_6
+/patch-src_bin_keactrl_keactrl_in/1.5/Sun Sep  1 04:43:41 2024//TOPENBSD_7_6
+/patch-src_bin_netconf_netconf_lexer_cc/1.1/Sun Sep  1 04:43:41 2024//TOPENBSD_7_6
+/patch-src_lib_eval_lexer_cc/1.1/Sun Sep  1 04:43:41 2024//TOPENBSD_7_6
+D

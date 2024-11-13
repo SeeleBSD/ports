@@ -1,0 +1,11 @@
+--- doc/user/README.orig	Wed Jun 26 01:43:24 2013
++++ doc/user/README	Wed Jun 26 13:39:48 2013
+@@ -6,7 +6,7 @@ final PostScript output file (A4 paper size) is stored
+ "ftp://ftp.it.usyd.edu.au/jeff/lout/lout-3.40.user.ps.gz".
+ To produce the Guide yourself, type the command
+ 
+-    lout -r5 all > user.ps
++    lout -U -r5 all > user.ps
+ 
+ in this directory.  The -r5 flag causes Lout to run over the
+ document five times.  This is needed to completely resolve all

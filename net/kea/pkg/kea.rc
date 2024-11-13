@@ -1,0 +1,24 @@
+#!/bin/ksh
+
+daemon="${TRUEPREFIX}/sbin/keactrl"
+daemon_flags="start"
+
+. /etc/rc.d/rc.subr
+
+pexp="${TRUEPREFIX}/sbin/kea-dhcp(4|6|-ddns).*"
+
+rc_pre() {
+	if [[ ! -d ${LOCALSTATEDIR}/run/kea ]]; then
+		install -d -o root -g _kea -m 775 ${LOCALSTATEDIR}/run/kea
+	fi
+}
+
+rc_reload() {
+	${daemon} reload
+}
+
+rc_stop() {
+	${daemon} stop
+}
+
+rc_cmd $1

@@ -1,0 +1,12 @@
+Index: src/config.mak
+--- src/config.mak.orig
++++ src/config.mak
+@@ -15,7 +15,7 @@
+ #
+ # The name of the Lua package (it could be "lua", "lua53", or "lua5.3")
+ #
+-LUA_PACKAGE   ?= lua5.3
++LUA_PACKAGE   ?= lua${MODLUA_DEP_VERSION}
+ #
+ ZLIB_CFLAGS   ?=
+ ZLIB_LIBS     ?= -lz

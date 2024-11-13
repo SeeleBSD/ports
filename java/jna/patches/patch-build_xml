@@ -1,0 +1,11 @@
+--- build.xml.orig	Sat Jan 14 17:15:07 2017
++++ build.xml	Sat Feb 25 14:58:20 2017
+@@ -126,7 +126,7 @@
+   <!-- Miscellaneous -->
+   <property name="build.compiler.emacs" value="true"/>
+ 
+-  <target name="default" depends="test" description="Build and Test."/>
++  <target name="default" depends="-enable-native,jar,javadoc" description="Build and Test."/>
+ 
+   <target name="init" depends="-setup"/>
+   <target name="compile-test-single" depends="compile-tests"/>

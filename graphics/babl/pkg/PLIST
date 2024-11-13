@@ -1,0 +1,50 @@
+@bin bin/babl
+include/babl-${API_VERSION}/
+include/babl-${API_VERSION}/babl/
+include/babl-${API_VERSION}/babl/babl-introspect.h
+include/babl-${API_VERSION}/babl/babl-macros.h
+include/babl-${API_VERSION}/babl/babl-types.h
+include/babl-${API_VERSION}/babl/babl-version.h
+include/babl-${API_VERSION}/babl/babl.h
+lib/babl-${API_VERSION}/
+@so lib/babl-${API_VERSION}/CIE.so
+@so lib/babl-${API_VERSION}/HCY.so
+@so lib/babl-${API_VERSION}/HSL.so
+@so lib/babl-${API_VERSION}/HSV.so
+@so lib/babl-${API_VERSION}/avx2-int8.so
+@so lib/babl-${API_VERSION}/cairo.so
+@so lib/babl-${API_VERSION}/double.so
+@so lib/babl-${API_VERSION}/fast-float.so
+@so lib/babl-${API_VERSION}/float.so
+@so lib/babl-${API_VERSION}/formats.so
+@so lib/babl-${API_VERSION}/gegl-fixups.so
+@so lib/babl-${API_VERSION}/gggl-lies.so
+@so lib/babl-${API_VERSION}/gggl-table-lies.so
+@so lib/babl-${API_VERSION}/gggl-table.so
+@so lib/babl-${API_VERSION}/gggl.so
+@so lib/babl-${API_VERSION}/gimp-8bit.so
+@so lib/babl-${API_VERSION}/grey.so
+@so lib/babl-${API_VERSION}/half.so
+@so lib/babl-${API_VERSION}/naive-CMYK.so
+@so lib/babl-${API_VERSION}/oklab.so
+@so lib/babl-${API_VERSION}/simple.so
+@so lib/babl-${API_VERSION}/sse-half.so
+@so lib/babl-${API_VERSION}/sse2-float.so
+@so lib/babl-${API_VERSION}/sse2-int16.so
+@so lib/babl-${API_VERSION}/sse2-int8.so
+@so lib/babl-${API_VERSION}/sse4-int8.so
+@so lib/babl-${API_VERSION}/two-table.so
+@so lib/babl-${API_VERSION}/u16.so
+@so lib/babl-${API_VERSION}/u32.so
+@so lib/babl-${API_VERSION}/ycbcr.so
+lib/girepository-1.0/
+lib/girepository-1.0/Babl-${API_VERSION}.typelib
+@lib lib/libbabl-${API_VERSION}.so.${LIBbabl-${API_VERSION}_VERSION}
+lib/pkgconfig/babl-${API_VERSION}.pc
+share/gir-1.0/
+share/gir-1.0/Babl-${API_VERSION}.gir
+share/vala/
+share/vala/vapi/
+share/vala/vapi/babl-${API_VERSION}.deps
+share/vala/vapi/babl-${API_VERSION}.vapi
+%%amd64%%

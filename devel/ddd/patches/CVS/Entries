@@ -1,0 +1,13 @@
+/patch-Makefile_in/1.4/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-configure_ac/1.2/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-ddd_Command_C/1.2/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-ddd_LabelH_C/1.2/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-ddd_Makefile_in/1.8/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-ddd_TTYAgent_C/1.2/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-ddd_VSLDefList_C/1.2/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-ddd_comm-manag_C/1.7/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-ddd_exit_C/1.7/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-ddd_my-dirent_h/1.2/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-ddd_show_C/1.6/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-ddd_strclass_h/1.5/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+D

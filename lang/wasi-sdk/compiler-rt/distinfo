@@ -1,0 +1,6 @@
+SHA256 (cmake-16.0.6.src.tar.xz) = OdNCpBYQldLyj7ElPkWFl4rFBSERfaZm4rH28oti9RQ=
+SHA256 (compiler-rt-16.0.6.src.tar.xz) = eRGiqcyhA5Ohf2N8Aab1VVsKOPZP9H3JFoQTpBkLwts=
+SHA256 (llvm-16.0.6.src.tar.xz) = 6R20TRs7scM/zqmn0fJCO4g+qpFj09VsoqptLwcRvCk=
+SIZE (cmake-16.0.6.src.tar.xz) = 9008
+SIZE (compiler-rt-16.0.6.src.tar.xz) = 2358240
+SIZE (llvm-16.0.6.src.tar.xz) = 56149540

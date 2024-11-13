@@ -1,0 +1,16 @@
+/patch-Configure/1.3/Sun Sep  1 04:43:26 2024//TOPENBSD_7_6
+/patch-doc_elmcharset_1/1.2/Sun Sep  1 04:43:26 2024//TOPENBSD_7_6
+/patch-hdrs_defs_h/1.2/Sun Sep  1 04:43:26 2024//TOPENBSD_7_6
+/patch-hdrs_headers_h/1.2/Sun Sep  1 04:43:26 2024//TOPENBSD_7_6
+/patch-lib_dynarray_c/1.2/Sun Sep  1 04:43:26 2024//TOPENBSD_7_6
+/patch-lib_read_rc_c/1.1/Sun Sep  1 04:43:26 2024//TOPENBSD_7_6
+/patch-nls_Install/1.2/Sun Sep  1 04:43:26 2024//TOPENBSD_7_6
+/patch-nls_LANGS/1.2/Sun Sep  1 04:43:26 2024//TOPENBSD_7_6
+/patch-nls_Makefile/1.2/Sun Sep  1 04:43:26 2024//TOPENBSD_7_6
+/patch-src_calendar_c/1.2/Sun Sep  1 04:43:26 2024//TOPENBSD_7_6
+/patch-src_date_c/1.2/Sun Sep  1 04:43:26 2024//TOPENBSD_7_6
+/patch-src_edit_c/1.2/Sun Sep  1 04:43:26 2024//TOPENBSD_7_6
+/patch-src_elm_c/1.3/Sun Sep  1 04:43:26 2024//TOPENBSD_7_6
+/patch-src_mailmsg2_c/1.2/Sun Sep  1 04:43:26 2024//TOPENBSD_7_6
+/patch-utils_newmail_c/1.3/Sun Sep  1 04:43:26 2024//TOPENBSD_7_6
+D

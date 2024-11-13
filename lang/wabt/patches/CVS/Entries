@@ -1,0 +1,12 @@
+/patch-src_tools_wasm-decompile_cc/1.4/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+/patch-src_tools_wasm-interp_cc/1.6/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+/patch-src_tools_wasm-objdump_cc/1.5/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+/patch-src_tools_wasm-stats_cc/1.1/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+/patch-src_tools_wasm-strip_cc/1.6/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+/patch-src_tools_wasm-validate_cc/1.4/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+/patch-src_tools_wasm2c_cc/1.8/Mon Sep 23 15:34:16 2024//TOPENBSD_7_6
+/patch-src_tools_wasm2wat_cc/1.5/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+/patch-src_tools_wast2json_cc/1.5/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+/patch-src_tools_wat-desugar_cc/1.4/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+/patch-src_tools_wat2wasm_cc/1.5/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+D

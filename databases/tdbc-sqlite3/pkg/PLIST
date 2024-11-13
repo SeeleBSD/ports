@@ -1,0 +1,3 @@
+lib/tcl/modules/86/tdbc/
+lib/tcl/modules/86/tdbc/sqlite3-${V}.tm
+@man man/mann/tdbc_sqlite3.n

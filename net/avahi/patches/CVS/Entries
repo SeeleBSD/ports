@@ -1,0 +1,10 @@
+/patch-autogen_sh/1.4/Sun Sep  1 04:43:37 2024//TOPENBSD_7_6
+/patch-avahi-compat-libdns_sd_warn_c/1.7/Sun Sep  1 04:43:37 2024//TOPENBSD_7_6
+/patch-avahi-core_browse-service_c/1.3/Sun Sep  1 04:43:37 2024//TOPENBSD_7_6
+/patch-avahi-core_fdutil_c/1.4/Sun Sep  1 04:43:37 2024//TOPENBSD_7_6
+/patch-avahi-core_socket_c/1.7/Sun Sep  1 04:43:37 2024//TOPENBSD_7_6
+/patch-avahi-daemon_main_c/1.12/Sun Sep  1 04:43:37 2024//TOPENBSD_7_6
+/patch-avahi-gobject_AvahiCore-0_6_gir/1.1/Sun Jul 14 12:06:40 2024//TOPENBSD_7_6
+/patch-avahi-python_avahi-discover_avahi-discover_py/1.2/Sun Sep  1 04:43:37 2024//TOPENBSD_7_6
+/patch-configure_ac/1.8/Sun Sep  1 04:43:37 2024//TOPENBSD_7_6
+D

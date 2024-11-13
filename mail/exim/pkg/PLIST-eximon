@@ -1,0 +1,3 @@
+@conflict exim-<4.71
+bin/eximon
+@bin bin/eximon.bin

@@ -1,0 +1,8 @@
+/patch-src_build-data_os_openbsd_txt/1.10/Mon Sep 23 15:34:42 2024//TOPENBSD_7_6
+/patch-src_cli_sandbox_cpp/1.5/Sun Sep  1 04:43:57 2024//TOPENBSD_7_6
+/patch-src_lib_utils_cpuid_cpuid_arm_cpp/1.1/Sun Aug 18 22:03:57 2024//TOPENBSD_7_6
+/patch-src_lib_utils_cpuid_cpuid_ppc_cpp/1.1/Sun Aug 18 22:03:57 2024//TOPENBSD_7_6
+/patch-src_lib_utils_os_utils_cpp/1.3/Sun Aug 18 22:03:57 2024//TOPENBSD_7_6
+/patch-src_lib_utils_os_utils_h/1.1/Sun Aug 18 22:03:57 2024//TOPENBSD_7_6
+/patch-src_tests_main_cpp/1.10/Sun Sep  1 04:43:57 2024//TOPENBSD_7_6
+D

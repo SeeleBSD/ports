@@ -1,0 +1,19 @@
+Index: meson.build
+--- meson.build.orig
++++ meson.build
+@@ -27,7 +27,6 @@ if is_freebsd
+ endif
+ 
+ cc = meson.get_compiler('c')
+-rt = cc.find_library('rt')
+ 
+ wayland_client = dependency('wayland-client')
+ wayland_protos = dependency('wayland-protocols', version: '>=1.26')
+@@ -95,7 +94,6 @@ executable(
+ 	include_directories: 'include',
+ 	dependencies: [
+ 		cairo,
+-		rt,
+ 		gdk_pixbuf,
+ 		wayland_client,
+ 	],

@@ -1,0 +1,50 @@
+@bin bin/connectagram
+@man man/man6/connectagram.6
+share/applications/connectagram.desktop
+share/connectagram/
+share/connectagram/data/
+share/connectagram/data/en/
+share/connectagram/data/en/words
+share/connectagram/data/fr/
+share/connectagram/data/fr/words
+share/connectagram/data/hu/
+share/connectagram/data/hu/words
+share/connectagram/data/ru/
+share/connectagram/data/ru/words
+share/connectagram/translations/
+share/connectagram/translations/connectagram_cs.qm
+share/connectagram/translations/connectagram_de.qm
+share/connectagram/translations/connectagram_el.qm
+share/connectagram/translations/connectagram_en.qm
+share/connectagram/translations/connectagram_es_PE.qm
+share/connectagram/translations/connectagram_fr.qm
+share/connectagram/translations/connectagram_hr.qm
+share/connectagram/translations/connectagram_hu.qm
+share/connectagram/translations/connectagram_it.qm
+share/connectagram/translations/connectagram_lt.qm
+share/connectagram/translations/connectagram_nl.qm
+share/connectagram/translations/connectagram_pl.qm
+share/connectagram/translations/connectagram_pt.qm
+share/connectagram/translations/connectagram_ro.qm
+share/connectagram/translations/connectagram_ru.qm
+share/connectagram/translations/connectagram_tr.qm
+share/connectagram/translations/connectagram_uk.qm
+share/icons/hicolor/1024x1024/
+share/icons/hicolor/1024x1024/apps/
+share/icons/hicolor/1024x1024/apps/connectagram.png
+share/icons/hicolor/128x128/apps/connectagram.png
+share/icons/hicolor/16x16/apps/connectagram.png
+share/icons/hicolor/22x22/apps/connectagram.png
+share/icons/hicolor/24x24/apps/connectagram.png
+share/icons/hicolor/256x256/apps/connectagram.png
+share/icons/hicolor/32x32/apps/connectagram.png
+share/icons/hicolor/48x48/apps/connectagram.png
+share/icons/hicolor/512x512/apps/connectagram.png
+share/icons/hicolor/64x64/apps/connectagram.png
+share/icons/hicolor/scalable/apps/connectagram.svg
+share/metainfo/
+share/metainfo/connectagram.appdata.xml
+share/pixmaps/
+share/pixmaps/connectagram.xpm
+@tag gtk-update-icon-cache %D/share/icons/hicolor
+@tag update-desktop-database

@@ -1,0 +1,14 @@
+Index: CMakeLists.txt
+--- CMakeLists.txt.orig
++++ CMakeLists.txt
+@@ -162,10 +162,6 @@ if(${Qt5Widgets_VERSION} VERSION_LESS 5.8.0)
+     message( SEND_ERROR "You need at least Qt5.8 or newer.")
+ endif()
+ 
+-if(${PROJ_VERSION} VERSION_LESS 7.2.1)
+-    message( SEND_ERROR "You need at least PROJ 7.2.1 or newer.")
+-endif()
+-
+ if(USE_QT5DBus)
+     find_package(Qt5DBus REQUIRED)
+     if(Qt5DBus_FOUND)

@@ -1,0 +1,8 @@
+@bin bin/lf
+@man man/man1/lf.1
+share/applications/lf.desktop
+share/examples/lf/
+@sample ${SYSCONFDIR}/lf/
+share/examples/lf/lfrc.example
+@sample ${SYSCONFDIR}/lf/lfrc
+@tag update-desktop-database

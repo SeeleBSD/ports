@@ -1,0 +1,9 @@
+/patch-CMakeLists_txt/1.7/Sun Sep  1 04:43:34 2024//TOPENBSD_7_6
+/patch-doc_CMakeLists_txt/1.2/Sun Sep  1 04:43:34 2024//TOPENBSD_7_6
+/patch-plugins_crypto_openssl_ua_openssl_version_abstraction_h/1.2/Sun Sep  1 04:43:34 2024//TOPENBSD_7_6
+/patch-plugins_crypto_openssl_ua_pki_openssl_c/1.4/Sun Sep  1 04:43:34 2024//TOPENBSD_7_6
+/patch-src_client_ua_client_c/1.3/Sun Sep  1 04:43:34 2024//TOPENBSD_7_6
+/patch-src_client_ua_client_internal_h/1.2/Sun Sep  1 04:43:34 2024//TOPENBSD_7_6
+/patch-tests_client_check_client_async_connect_c/1.4/Sun Sep  1 04:43:34 2024//TOPENBSD_7_6
+/patch-tests_client_check_client_c/1.1/Sun Sep  1 04:43:34 2024//TOPENBSD_7_6
+D

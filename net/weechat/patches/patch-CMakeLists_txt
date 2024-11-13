@@ -1,0 +1,31 @@
+Disable icons and weechat.desktop to avoid GUI dependencies
+
+Remove flags:
+In file included from /usr/ports/pobj/weechat-3.4.1/weechat-3.4.1/src/plugins/plugin.c:27:
+In file included from /usr/include/stdlib.h:40:
+/usr/include/machine/_types.h:133:15: error: cannot combine with previous 'int' declaration specifier
+typedef int                     __wchar_t;
+
+Index: CMakeLists.txt
+--- CMakeLists.txt.orig
++++ CMakeLists.txt
+@@ -29,8 +29,8 @@ set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake" "${C
+ set(CMAKE_SKIP_RPATH ON)
+ 
+ # compiler options
+-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fsigned-char -fms-extensions -Wall -Wextra -Werror-implicit-function-declaration -Wformat -Werror=format-security")
+-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fsigned-char -fms-extensions -Wall -Wextra")
++set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fsigned-char -Wall -Wextra -Werror-implicit-function-declaration")
++set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fsigned-char -Wall -Wextra")
+ if (CMAKE_C_COMPILER_ID STREQUAL "GNU")
+   # extra options specific to gcc/g++
+   set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wformat-overflow=2 -Wformat-truncation=2")
+@@ -256,7 +256,7 @@ if(DL_LIBRARY)
+   list(APPEND EXTRA_LIBS dl)
+ endif()
+ 
+-add_subdirectory(icons)
++#add_subdirectory(icons)
+ 
+ if(ENABLE_NLS)
+   find_package(Gettext REQUIRED)

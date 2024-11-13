@@ -1,0 +1,15 @@
+/patch-configdialog_cpp/1.7/Sun Sep  1 04:42:54 2024//TOPENBSD_7_6
+/patch-latexeditor_h/1.6/Sun Sep  1 04:42:54 2024//TOPENBSD_7_6
+/patch-latexeditorview_h/1.5/Sun Sep  1 04:42:54 2024//TOPENBSD_7_6
+/patch-latexhighlighter_h/1.3/Sun Sep  1 04:42:54 2024//TOPENBSD_7_6
+/patch-pdfium_core_fxcrt_include_fx_system_h/1.2/Sun Sep  1 04:42:54 2024//TOPENBSD_7_6
+/patch-pdfium_core_fxge_ge_fx_ge_linux_cpp/1.2/Sun Sep  1 04:42:54 2024//TOPENBSD_7_6
+/patch-pdfium_fpdfsdk_javascript_JS_Value_cpp/1.2/Sun Sep  1 04:42:54 2024//TOPENBSD_7_6
+/patch-pdfium_third_party_base_logging_h/1.2/Sun Sep  1 04:42:54 2024//TOPENBSD_7_6
+/patch-pdfium_third_party_libopenjpeg20_opj_malloc_h/1.2/Sun Sep  1 04:42:54 2024//TOPENBSD_7_6
+/patch-pdfium_xfa_fgas_font_fgas_stdfontmgr_cpp/1.2/Sun Sep  1 04:42:54 2024//TOPENBSD_7_6
+/patch-spellerdialog_h/1.2/Sun Sep  1 04:42:54 2024//TOPENBSD_7_6
+/patch-texmaker_cpp/1.18/Sun Sep  1 04:42:54 2024//TOPENBSD_7_6
+/patch-texmaker_h/1.8/Sun Sep  1 04:42:54 2024//TOPENBSD_7_6
+/patch-texmaker_pro/1.18/Sun Sep  1 04:42:54 2024//TOPENBSD_7_6
+D

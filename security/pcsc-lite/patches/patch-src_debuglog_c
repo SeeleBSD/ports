@@ -1,0 +1,32 @@
+Disable colors by default.
+
+Index: src/debuglog.c
+--- src/debuglog.c.orig
++++ src/debuglog.c
+@@ -262,7 +262,7 @@ static void log_line(const int priority, const char *D
+ 					break;
+ 			}
+ 
+-#ifdef __APPLE__
++#if defined(__APPLE__) || defined (__OpenBSD__)
+ #define THREAD_FORMAT "%p"
+ #else
+ #define THREAD_FORMAT "%lu"
+@@ -348,6 +348,9 @@ void DebugLogSetLogType(const int dbgtype)
+ 			LogMsgType = DEBUGLOG_STDOUT_DEBUG;
+ 	}
+ 
++	if (DEBUGLOG_STDOUT_COLOR_DEBUG == LogMsgType)
++		LogDoColor = 1;
++#if 0
+ 	/* log to stdout and stdout is a tty? */
+ 	if ((DEBUGLOG_STDOUT_DEBUG == LogMsgType && isatty(fileno(stdout)))
+ 		|| (DEBUGLOG_STDOUT_COLOR_DEBUG == LogMsgType))
+@@ -372,6 +375,7 @@ void DebugLogSetLogType(const int dbgtype)
+ 			}
+ 		}
+ 	}
++#endif
+ }
+ 
+ void DebugLogSetLevel(const int level)

@@ -1,0 +1,186 @@
+From Fedora (getPhoneNum, getStationName):
+python3 - recent HP release removed encoding/decoding to utf-8 in fax/pmlfax.py -
+that results in text string going into translate function in base/utils.py, which
+expects binary string because of parameters. Remove this patch if base/utils.py
+code gets fixed.
+
+Disable download_from_network()
+
+Index: base/utils.py
+--- base/utils.py.orig
++++ base/utils.py
+@@ -139,11 +139,11 @@ for s in EXPECT_WORD_LIST:
+ def get_cups_systemgroup_list():
+     lis = []
+     try:
+-        fp=open('/etc/cups/cupsd.conf')
++        fp=open('${SYSCONFDIR}/cups/cupsd.conf')
+     except IOError:
+         try:
+-            if "root" != grp.getgrgid(os.stat('/etc/cups/cupsd.conf').st_gid).gr_name:
+-                return [grp.getgrgid(os.stat('/etc/cups/cupsd.conf').st_gid).gr_name]
++            if "root" != grp.getgrgid(os.stat('${SYSCONFDIR}/cups/cupsd.conf').st_gid).gr_name:
++                return [grp.getgrgid(os.stat('${SYSCONFDIR}/cups/cupsd.conf').st_gid).gr_name]
+         except OSError:
+             return lis
+ 
+@@ -586,7 +586,7 @@ class UserSettings(object): # Note: Deprecated after 2
+         if len(path):
+             self.cmd_pcard = 'hp-unload -d %DEVICE_URI%'
+         else:
+-            self.cmd_pcard = 'python %HOME%/unload.py -d %DEVICE_URI%'
++            self.cmd_pcard = '${MODPY_BIN} %HOME%/unload.py -d %DEVICE_URI%'
+ 
+         # Copy
+         path = which('hp-makecopies')
+@@ -594,7 +594,7 @@ class UserSettings(object): # Note: Deprecated after 2
+         if len(path):
+             self.cmd_copy = 'hp-makecopies -d %DEVICE_URI%'
+         else:
+-            self.cmd_copy = 'python %HOME%/makecopies.py -d %DEVICE_URI%'
++            self.cmd_copy = '${MODPY_BIN} %HOME%/makecopies.py -d %DEVICE_URI%'
+ 
+         # Fax
+         path = which('hp-sendfax')
+@@ -602,7 +602,7 @@ class UserSettings(object): # Note: Deprecated after 2
+         if len(path):
+             self.cmd_fax = 'hp-sendfax -d %FAX_URI%'
+         else:
+-            self.cmd_fax = 'python %HOME%/sendfax.py -d %FAX_URI%'
++            self.cmd_fax = '${MODPY_BIN} %HOME%/sendfax.py -d %FAX_URI%'
+ 
+         # Fax Address Book
+         path = which('hp-fab')
+@@ -610,7 +610,7 @@ class UserSettings(object): # Note: Deprecated after 2
+         if len(path):
+             self.cmd_fab = 'hp-fab'
+         else:
+-            self.cmd_fab = 'python %HOME%/fab.py'
++            self.cmd_fab = '${MODPY_BIN} %HOME%/fab.py'
+ 
+     def load(self):
+         self.loadDefaults()
+@@ -955,10 +955,7 @@ else:
+ 
+ 
+ def printable(s):
+-    if s:
+-        return s.translate(identity, unprintable)
+-    else:
+-        return ""
++    return s.translate(identity, unprintable)
+ 
+ 
+ def any(S,f=lambda x:x):
+@@ -972,10 +969,9 @@ def all(S,f=lambda x:x):
+         if not f(x): return False
+     return True
+ 
+-BROWSERS = ['firefox', 'mozilla', 'konqueror', 'epiphany', 'skipstone'] # in preferred order
+-BROWSER_OPTS = {'firefox': '-new-tab', 'mozilla': '', 'konqueror': '', 'epiphany': '--new-tab', 'skipstone': ''}
++BROWSERS = ['xdg-open']
++BROWSER_OPTS = {'xdg-open' : ''}
+ 
+-
+ def find_browser():
+     if platform_avail and platform.system() == 'Darwin':
+         return "open"
+@@ -2059,46 +2055,47 @@ def chunk_write(response, out_fd, chunk_size =8192, st
+ def download_from_network(weburl, outputFile = None, useURLLIB=False):
+     retValue = -1
+ 
+-    if weburl == "" or weburl == None:
+-        log.error("URL is empty")
+-        return retValue, ""
++    if platform.system() == "Linux":
++        if weburl == "" or weburl == None:
++            log.error("URL is empty")
++            return retValue, ""
+ 
+-    if outputFile is None:
+-        fp, outputFile = make_temp_file()
++        if outputFile is None:
++            fp, outputFile = make_temp_file()
+ 
+-    try:
+-        if useURLLIB is False:
+-            wget = which("wget")
+-            if wget:
+-                wget = os.path.join(wget, "wget")
+-                status, output = run("%s --cache=off --tries=3 --timeout=60 --output-document=%s %s" %(wget, outputFile, weburl))
+-                if status:
+-                    log.error("Failed to connect to HPLIP site. Error code = %d" %status)
+-                    return retValue, ""
+-            else:
+-                useURLLIB = True
++        try:
++            if useURLLIB is False:
++                wget = which("wget")
++                if wget:
++                    wget = os.path.join(wget, "wget")
++                    status, output = run("%s --cache=off --tries=3 --timeout=60 --output-document=%s %s" %(wget, outputFile, weburl))
++                    if status:
++                        log.error("Failed to connect to HPLIP site. Error code = %d" %status)
++                        return retValue, ""
++                else:
++                    useURLLIB = True
+ 
+-        if useURLLIB:
++            if useURLLIB:
+ 		
+-            #sys.stdout.write("Download in progress..........")
+-            try:
+-                response = urllib2_request.urlopen(weburl)    
+-                file_fd = open(outputFile, 'wb')
+-                chunk_write(response, file_fd)
+-                file_fd.close()
+-            except urllib2_error.URLError as e:
+-                log.error("Failed to open URL: %s" % weburl)
+-                return retValue, ""
++                #sys.stdout.write("Download in progress..........")
++                try:
++                    response = urllib2_request.urlopen(weburl)    
++                    file_fd = open(outputFile, 'wb')
++                    chunk_write(response, file_fd)
++                    file_fd.close()
++                except urllib2_error.URLError as e:
++                    log.error("Failed to open URL: %s" % weburl)
++                    return retValue, ""
+ 
+-    except IOError as e:
+-        log.error("I/O Error: %s" % e.strerror)
+-        return retValue, ""
++        except IOError as e:
++            log.error("I/O Error: %s" % e.strerror)
++            return retValue, ""
+ 
+-    if not os.path.exists(outputFile):
+-        log.error("Failed to get hplip version/ %s file not found."%hplip_version_file)
+-        return retValue, ""
++        if not os.path.exists(outputFile):
++            log.error("Failed to get hplip version/ %s file not found."%hplip_version_file)
++            return retValue, ""
+ 
+-    return 0, outputFile
++        return 0, outputFile
+ 
+ 
+ 
+@@ -2199,7 +2196,7 @@ def check_user_groups(required_grps_str, avl_grps):
+         grps =re.sub(r'\s', '', str(grps))
+         exp_grp_list = grps.split(',')
+     else:
+-        exp_grp_list.append('lp')
++        exp_grp_list.append('_cups')
+ 
+     log.debug("Requied groups list =[%s]"%exp_grp_list)
+ 
+@@ -2626,6 +2623,8 @@ def readAuthType():
+             authType = 'sudo'
+         else:
+             authType = 'su'
++        # don't enforce sudo on OpenBSD (external package)
++        authType = 'su'
+     except :
+         log.warn("unable to determine auth_type ")
+     return authType

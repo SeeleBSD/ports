@@ -1,0 +1,12 @@
+/patch-configure/1.5/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-modules_regexp_Makefile_in/1.2/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-modules_syscalls_Makefile_in/1.2/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-modules_wildcard_Makefile_in/1.2/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-src_arilev0_d/1.2/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-src_arisparc64_d/1.2/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-src_clisp-link_in/1.3/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-src_lispbibl_d/1.8/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-src_makemake_in/1.14/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-src_spsparc64_d/1.2/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-tests_socket_tst/1.2/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+D

@@ -1,0 +1,168 @@
+remove -m$(ARCH)
+add versioning to libhl
+{CFLAGS} -> (CFLAGS) to not get picked up by SUBST_CMD
+remove Linux's 32-/64-bit detection
+remove Darwin detection in install target (breaks 'make fake')
+build libhl_module.so and install hl/hl_module.h and hl/opcodes.h
+install headers (and hlc_main.c) in include/hl/
+
+Index: Makefile
+--- Makefile.orig
++++ Makefile
+@@ -1,21 +1,20 @@
+ 
+-LBITS := $(shell getconf LONG_BIT)
+-MARCH ?= $(LBITS)
+ PREFIX ?= /usr/local
+ INSTALL_DIR ?= $(PREFIX)
+ INSTALL_BIN_DIR ?= $(PREFIX)/bin
+ INSTALL_LIB_DIR ?= $(PREFIX)/lib
+-INSTALL_INCLUDE_DIR ?= $(PREFIX)/include
++INSTALL_INCLUDE_DIR ?= $(PREFIX)/include/hl
+ 
+ LIBS=fmt sdl ssl openal ui uv mysql sqlite
+ ARCH ?= $(shell uname -m)
+ 
+-CFLAGS = -Wall -O3 -I src -std=c11 -D LIBHL_EXPORTS
++CFLAGS = ${CFLAGS} -I src -I/usr/local/include -I/usr/X11R6/include -std=c11 -D LIBHL_EXPORTS
+ LFLAGS = -L. -lhl
+ EXTRA_LFLAGS ?=
+-LIBFLAGS =
+-HLFLAGS = -ldl
+-LIBEXT = so
++LIBFLAGS = -L/usr/local/lib -L/usr/X11R6/lib
++HLFLAGS =
++LIBEXT = so.${LIBhl_VERSION}
++LIBEXT_MODULE = so.${LIBhl_module_VERSION}
+ LIBTURBOJPEG = -lturbojpeg
+ 
+ LHL_LINK_FLAGS =
+@@ -40,6 +39,7 @@ STD = src/std/array.o src/std/buffer.o src/std/bytes.o
+ 	src/std/track.o
+ 
+ HL = src/code.o src/jit.o src/main.o src/module.o src/debugger.o src/profile.o
++HL_MODULE = src/code.o src/jit.o src/module.o src/debugger.o src/profile.o
+ 
+ FMT_INCLUDE = -I include/mikktspace -I include/minimp3
+ 
+@@ -75,8 +75,6 @@ RELEASE_NAME=win
+ VS_RUNTIME_LIBRARY ?= c:/windows/system32/vcruntime140.dll
+ 
+ ifeq ($(MARCH),32)
+-CFLAGS += -msse2 -mfpmath=sse
+-CC=i686-pc-cygwin-gcc
+ BUILD_DIR = Release
+ VS_SDL_LIBRARY ?= include/sdl/lib/x86/SDL2.dll
+ VS_OPENAL_LIBRARY ?= include/openal/bin/Win32/soft_oal.dll
+@@ -144,16 +142,9 @@ LHL_LINK_FLAGS += -install_name @rpath/libhl.dylib
+ else
+ 
+ # Linux
+-CFLAGS += -m$(MARCH) -fPIC -pthread -fno-omit-frame-pointer
++CFLAGS += -fPIC -pthread -fno-omit-frame-pointer
+ LFLAGS += -lm -Wl,-rpath,.:'$$ORIGIN':$(INSTALL_LIB_DIR) -Wl,--export-dynamic -Wl,--no-undefined
+ 
+-ifeq ($(MARCH),32)
+-CFLAGS += -I /usr/include/i386-linux-gnu -msse2 -mfpmath=sse
+-LIBFLAGS += -L/opt/libjpeg-turbo/lib
+-else
+-LIBFLAGS += -L/opt/libjpeg-turbo/lib64
+-endif
+-
+ LIBOPENAL = -lopenal
+ LIBOPENGL = -lGL
+ RELEASE_NAME = linux
+@@ -169,17 +160,18 @@ ifdef DEBUG
+ CFLAGS += -g
+ endif
+ 
+-all: libhl hl libs
++all: libhl libhl_module hl libs
+ 
+ install:
+-	$(UNAME)==Darwin && ${MAKE} uninstall
+ 	mkdir -p $(INSTALL_BIN_DIR)
+ 	cp hl $(INSTALL_BIN_DIR)
+ 	mkdir -p $(INSTALL_LIB_DIR)
+ 	cp *.hdll $(INSTALL_LIB_DIR)
+ 	cp libhl.${LIBEXT} $(INSTALL_LIB_DIR)
++	cp libhl_module.${LIBEXT_MODULE} $(INSTALL_LIB_DIR)
+ 	mkdir -p $(INSTALL_INCLUDE_DIR)
+ 	cp src/hl.h src/hlc.h src/hlc_main.c $(INSTALL_INCLUDE_DIR)
++	cp src/hlmodule.h src/opcodes.h $(INSTALL_INCLUDE_DIR)
+ 
+ uninstall:
+ 	rm -f $(INSTALL_BIN_DIR)/hl $(INSTALL_LIB_DIR)/libhl.${LIBEXT} $(INSTALL_LIB_DIR)/*.hdll
+@@ -188,46 +180,49 @@ uninstall:
+ libs: $(LIBS)
+ 
+ ./include/pcre/%.o: include/pcre/%.c
+-	${CC} ${CFLAGS} -o $@ -c $< ${PCRE_FLAGS}
++	${CC} $(CFLAGS) -o $@ -c $< ${PCRE_FLAGS}
+ 
+ src/std/regexp.o: src/std/regexp.c
+-	${CC} ${CFLAGS} -o $@ -c $< ${PCRE_FLAGS}
++	${CC} $(CFLAGS) -o $@ -c $< ${PCRE_FLAGS}
+ 
+ libhl: ${LIB}
+-	${CC} ${CFLAGS} -o libhl.$(LIBEXT) -m${MARCH} ${LIBFLAGS} ${LHL_LINK_FLAGS} -shared ${LIB} -lpthread -lm
++	${CC} $(CFLAGS) -o libhl.$(LIBEXT) ${LIBFLAGS} ${LHL_LINK_FLAGS} -shared ${LIB} -lpthread -lm
+ 
+ hlc: ${BOOT}
+-	${CC} ${CFLAGS} -o hlc ${BOOT} ${LFLAGS} ${EXTRA_LFLAGS}
++	${CC} $(CFLAGS) -o hlc ${BOOT} ${LFLAGS} ${EXTRA_LFLAGS}
+ 
+ hl: ${HL} libhl
+-	${CC} ${CFLAGS} -o hl ${HL} ${LFLAGS} ${EXTRA_LFLAGS} ${HLFLAGS}
++	${CC} $(CFLAGS) -o hl ${HL} ${LFLAGS} ${EXTRA_LFLAGS} ${HLFLAGS}
+ 
++libhl_module: ${HL_MODULE}
++	${CC} -o libhl_module.${LIBEXT_MODULE} ${LIBFLAGS} -shared ${HL_MODULE} -lm
++
+ libs/fmt/%.o: libs/fmt/%.c
+-	${CC} ${CFLAGS} -o $@ -c $< ${FMT_INCLUDE}
++	${CC} $(CFLAGS) -o $@ -c $< ${FMT_INCLUDE}
+ 
+ fmt: ${FMT} libhl
+-	${CC} ${CFLAGS} -shared -o fmt.hdll ${FMT} ${LIBFLAGS} -L. -lhl -lpng $(LIBTURBOJPEG) -lz -lvorbisfile
++	${CC} $(CFLAGS) -shared -o fmt.hdll ${FMT} ${LIBFLAGS} -L. -lhl -lpng $(LIBTURBOJPEG) -lz -lvorbisfile
+ 
+ sdl: ${SDL} libhl
+-	${CC} ${CFLAGS} -shared -o sdl.hdll ${SDL} ${LIBFLAGS} -L. -lhl -lSDL2 $(LIBOPENGL)
++	${CC} $(CFLAGS) -shared -o sdl.hdll ${SDL} ${LIBFLAGS} -L. -lhl -lSDL2 $(LIBOPENGL)
+ 
+ openal: ${OPENAL} libhl
+-	${CC} ${CFLAGS} -shared -o openal.hdll ${OPENAL} ${LIBFLAGS} -L. -lhl $(LIBOPENAL)
++	${CC} $(CFLAGS) -shared -o openal.hdll ${OPENAL} ${LIBFLAGS} -L. -lhl $(LIBOPENAL)
+ 
+ ssl: ${SSL} libhl
+-	${CC} ${CFLAGS} -shared -o ssl.hdll ${SSL} ${LIBFLAGS} -L. -lhl -lmbedtls -lmbedx509 -lmbedcrypto $(LIBSSL)
++	${CC} $(CFLAGS) -shared -o ssl.hdll ${SSL} ${LIBFLAGS} -L. -lhl -lmbedtls -lmbedx509 -lmbedcrypto $(LIBSSL)
+ 
+ ui: ${UI} libhl
+-	${CC} ${CFLAGS} -shared -o ui.hdll ${UI} ${LIBFLAGS} -L. -lhl
++	${CC} $(CFLAGS) -shared -o ui.hdll ${UI} ${LIBFLAGS} -L. -lhl
+ 
+ uv: ${UV} libhl
+-	${CC} ${CFLAGS} -shared -o uv.hdll ${UV} ${LIBFLAGS} -L. -lhl -luv
++	${CC} $(CFLAGS) -shared -o uv.hdll ${UV} ${LIBFLAGS} -L. -lhl -luv
+ 
+ mysql: ${MYSQL} libhl
+-	${CC} ${CFLAGS} -shared -o mysql.hdll ${MYSQL} ${LIBFLAGS} -L. -lhl
++	${CC} $(CFLAGS) -shared -o mysql.hdll ${MYSQL} ${LIBFLAGS} -L. -lhl
+ 
+ sqlite: ${SQLITE} libhl
+-	${CC} ${CFLAGS} -shared -o sqlite.hdll ${SQLITE} ${LIBFLAGS} -L. -lhl -lsqlite3
++	${CC} $(CFLAGS) -shared -o sqlite.hdll ${SQLITE} ${LIBFLAGS} -L. -lhl -lsqlite3
+ 
+ mesa:
+ 	(cd libs/mesa && ${MAKE})
+@@ -288,7 +283,7 @@ codesign_osx:
+ .SUFFIXES : .c .o
+ 
+ .c.o :
+-	${CC} ${CFLAGS} -o $@ -c $<
++	${CC} $(CFLAGS) -o $@ -c $<
+ 
+ clean_o:
+ 	rm -f ${STD} ${BOOT} ${RUNTIME} ${PCRE} ${HL} ${FMT} ${SDL} ${SSL} ${OPENAL} ${UI} ${UV} ${MYSQL} ${SQLITE} ${HL_DEBUG}

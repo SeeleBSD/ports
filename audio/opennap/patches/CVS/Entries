@@ -1,0 +1,24 @@
+/patch-FAQ/1.3/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+/patch-Makefile_am/1.3/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+/patch-Makefile_in/1.3/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+/patch-add_file_c/1.3/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+/patch-browse_c/1.2/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+/patch-channel_c/1.2/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+/patch-config_c/1.2/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+/patch-config_h_in/1.2/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+/patch-configure/1.5/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+/patch-discipline_c/1.2/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+/patch-download_c/1.2/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+/patch-fast_snprintf_c/1.2/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+/patch-glob_c/1.2/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+/patch-init_c/1.2/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+/patch-level_c/1.2/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+/patch-main_c/1.2/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+/patch-metaserver_dsp/1.3/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+/patch-opennap_h/1.4/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+/patch-ping_c/1.2/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+/patch-privmsg_c/1.2/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+/patch-proxy-client_c/1.2/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+/patch-resume_c/1.2/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+/patch-search_c/1.2/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+D

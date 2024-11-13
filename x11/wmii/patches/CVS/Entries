@@ -1,0 +1,11 @@
+/patch-cmd_util_c/1.2/Sun Sep  1 04:45:04 2024//TOPENBSD_7_6
+/patch-cmd_wmii_dat_h/1.2/Sun Sep  1 04:45:04 2024//TOPENBSD_7_6
+/patch-cmd_wmii_main_c/1.2/Sun Sep  1 04:45:04 2024//TOPENBSD_7_6
+/patch-cmd_wmii_x11_c/1.2/Sun Sep  1 04:45:04 2024//TOPENBSD_7_6
+/patch-cmd_wmii_x11_h/1.2/Sun Sep  1 04:45:04 2024//TOPENBSD_7_6
+/patch-config_mk/1.6/Sun Sep  1 04:45:04 2024//TOPENBSD_7_6
+/patch-include_util_h/1.2/Sun Sep  1 04:45:04 2024//TOPENBSD_7_6
+/patch-rc_rc_wmii_rc/1.4/Sun Sep  1 04:45:04 2024//TOPENBSD_7_6
+/patch-rc_sh_wmii/1.2/Sun Sep  1 04:45:04 2024//TOPENBSD_7_6
+/patch-rc_wmiirc_sh/1.4/Sun Sep  1 04:45:04 2024//TOPENBSD_7_6
+D

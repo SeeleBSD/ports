@@ -1,0 +1,18 @@
+/patch-configure_ac/1.5/Sun Sep  1 04:43:36 2024//TOPENBSD_7_6
+/patch-docs_mjpegtools_1/1.2/Sun Sep  1 04:43:36 2024//TOPENBSD_7_6
+/patch-lavtools_Makefile_in/1.5/Sun Sep  1 04:43:36 2024//TOPENBSD_7_6
+/patch-lavtools_jpeg2yuv_c/1.2/Sun Sep  1 04:43:36 2024//TOPENBSD_7_6
+/patch-lavtools_lav_io_c/1.2/Sun Sep  1 04:43:36 2024//TOPENBSD_7_6
+/patch-lavtools_lavpipe_c/1.2/Sun Sep  1 04:43:36 2024//TOPENBSD_7_6
+/patch-lavtools_lavtrans_c/1.2/Sun Sep  1 04:43:36 2024//TOPENBSD_7_6
+/patch-lavtools_liblavplay_c/1.2/Sun Sep  1 04:43:36 2024//TOPENBSD_7_6
+/patch-mpeg2enc_Makefile_in/1.5/Sun Sep  1 04:43:36 2024//TOPENBSD_7_6
+/patch-mpeg2enc_ontheflyratectlpass1_hh/1.2/Sun Sep  1 04:43:36 2024//TOPENBSD_7_6
+/patch-mplex_Makefile_in/1.4/Sun Sep  1 04:43:36 2024//TOPENBSD_7_6
+/patch-utils_Makefile_in/1.4/Sun Sep  1 04:43:36 2024//TOPENBSD_7_6
+/patch-y4mdenoise_MotionSearcher_hh/1.2/Sun Sep  1 04:43:36 2024//TOPENBSD_7_6
+/patch-y4mdenoise_main_c/1.2/Sun Sep  1 04:43:36 2024//TOPENBSD_7_6
+/patch-yuvdeinterlace_yuvdeinterlace_cc/1.2/Sun Sep  1 04:43:36 2024//TOPENBSD_7_6
+/patch-yuvdenoise_main_c/1.2/Sun Sep  1 04:43:36 2024//TOPENBSD_7_6
+/patch-yuvfilters_yuvkineco_c/1.2/Sun Sep  1 04:43:36 2024//TOPENBSD_7_6
+D

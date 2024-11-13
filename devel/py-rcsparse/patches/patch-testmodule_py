@@ -1,0 +1,16 @@
+Index: testmodule.py
+--- testmodule.py.orig
++++ testmodule.py
+@@ -1,5 +1,4 @@
+ import rcsparse
+-import md5
+ 
+ f=rcsparse.rcsfile('test,v')
+ print f.head
+@@ -10,4 +9,5 @@ print s.items()
+ r=f.revs
+ i=r.items()
+ print i
+-print f.getlog(f.sym2rev('RELENG_4'))
++print f.getlog(f.sym2rev('RELENG_4')).decode('ascii')
++print '1.1' in r

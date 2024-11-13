@@ -1,0 +1,13 @@
+Index: src/net/address.h
+--- src/net/address.h.orig
++++ src/net/address.h
+@@ -11,6 +11,9 @@
+ #include <netinet/in.h>
+ #include <util/constants.h>
+ 
++#include <sys/types.h>
++#include <sys/socket.h>
++
+ namespace net
+ {
+ using bt::Uint16;

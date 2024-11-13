@@ -1,0 +1,40 @@
+D/qt3d////
+D/qt5compat////
+D/qtbase////
+D/qtcharts////
+D/qtconnectivity////
+D/qtdatavis3d////
+D/qtdeclarative////
+D/qtgrpc////
+D/qthttpserver////
+D/qtimageformats////
+D/qtlanguageserver////
+D/qtlocation////
+D/qtlottie////
+D/qtmultimedia////
+D/qtnetworkauth////
+D/qtpositioning////
+D/qtquick3d////
+D/qtquick3dphysics////
+D/qtquickeffectmaker////
+D/qtquicktimeline////
+D/qtremoteobjects////
+D/qtscxml////
+D/qtsensors////
+D/qtserialbus////
+D/qtserialport////
+D/qtshadertools////
+D/qtspeech////
+D/qtsvg////
+D/qttools////
+D/qttranslations////
+D/qtvirtualkeyboard////
+D/qtwayland////
+D/qtwebchannel////
+D/qtwebengine////
+D/qtwebsockets////
+D/qtwebview////
+/Makefile/1.18/Mon Sep 23 15:35:31 2024//TOPENBSD_7_6
+/Makefile.inc/1.10/Sun Sep  1 04:45:01 2024//TOPENBSD_7_6
+/Makefile.version/1.13/Mon Sep 23 15:35:31 2024//TOPENBSD_7_6
+/qt6.port.mk/1.9/Mon Sep 23 15:35:31 2024//TOPENBSD_7_6

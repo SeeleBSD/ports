@@ -1,0 +1,21 @@
+/patch-platforms_Cross_plugins_Mpeg3Plugin_libmpeg_audio_layer3_c/1.2/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+/patch-platforms_Cross_plugins_Mpeg3Plugin_libmpeg_video_getpicture_c/1.2/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+/patch-platforms_Cross_plugins_Mpeg3Plugin_libmpeg_video_idct_c/1.2/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+/patch-platforms_unix_config_Makefile/1.2/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+/patch-platforms_unix_config_Makefile_in/1.2/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+/patch-platforms_unix_config_acinclude_m4/1.3/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+/patch-platforms_unix_config_configure_ac/1.2/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+/patch-platforms_unix_config_make_prg_in/1.2/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+/patch-platforms_unix_npsqueak_Makefile/1.3/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+/patch-platforms_unix_plugins_AsynchFilePlugin_sqUnixAsynchFile_c/1.2/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+/patch-platforms_unix_plugins_DropPlugin_sqUnixDragDrop_c/1.1/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+/patch-platforms_unix_plugins_FloatMathPlugin_acinclude_m4/1.2/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+/patch-platforms_unix_plugins_LocalePlugin_sqUnixLocale_c/1.2/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+/patch-platforms_unix_src_plugins_Squeak3D_Squeak3D_c/1.1/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+/patch-platforms_unix_src_plugins_UnixOSProcessPlugin_UnixOSProcessPlugin_c/1.1/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+/patch-platforms_unix_src_vm_intplugins_SoundPlugin_SoundPlugin_c/1.2/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+/patch-platforms_unix_vm-sound-sndio_Makefile_inc/1.2/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+/patch-platforms_unix_vm-sound-sndio_acinclude_m4/1.2/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+/patch-platforms_unix_vm-sound-sndio_sqUnixSoundSndio_c/1.2/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+/patch-platforms_unix_vm_sqUnixMain_c/1.9/Sun Sep  1 04:43:25 2024//TOPENBSD_7_6
+D

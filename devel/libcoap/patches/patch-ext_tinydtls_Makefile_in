@@ -1,0 +1,32 @@
+Index: ext/tinydtls/Makefile.in
+--- ext/tinydtls/Makefile.in.orig
++++ ext/tinydtls/Makefile.in
+@@ -31,8 +31,8 @@ exec_prefix = @exec_prefix@
+ abs_builddir = @abs_builddir@
+ top_builddir = @top_builddir@
+ top_srcdir = @top_srcdir@
+-libdir = @libdir@
+-includedir = @includedir@/@PACKAGE_NAME@
++libdir = $(PREFIX)/lib
++includedir = $(PREFIX)/include/@PACKAGE_NAME@
+ package = @PACKAGE_TARNAME@-@PACKAGE_VERSION@
+ 
+ install := cp
+@@ -52,7 +52,7 @@ DISTDIR=$(top_builddir)/$(package)
+ FILES:=Makefile.in configure configure.ac dtls_config.h.in \
+   Makefile.tinydtls $(SOURCES) $(HEADERS)
+ LIB:=libtinydtls
+-LIBS:=$(LIB).a $(LIB).so
++LIBS:=$(LIB).a $(LIB).so.${LIBtinydtls_VERSION}
+ LDFLAGS:=@LIBS@
+ ARFLAGS:=cru
+ doc:=doc
+@@ -81,7 +81,7 @@ dirs:	$(SUBDIRS)
+ $(SUB_OBJECTS)::
+ 	$(MAKE) -C $(@D) $(@F)
+ 
+-$(LIB).so: $(OBJECTS)
++$(LIB).so.${LIBtinydtls_VERSION}: $(OBJECTS)
+ 	$(LINK.c) $(LDFLAGS) -shared $^ -o $@
+ 
+ $(LIB).a: $(OBJECTS)

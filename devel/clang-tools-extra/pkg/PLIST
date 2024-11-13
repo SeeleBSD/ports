@@ -1,0 +1,27 @@
+@bin bin/clang-apply-replacements
+@bin bin/clang-change-namespace
+@bin bin/clang-doc
+@bin bin/clang-format
+@bin bin/clang-include-fixer
+@bin bin/clang-move
+@bin bin/clang-query
+@bin bin/clang-reorder-fields
+@bin bin/clang-tidy
+@bin bin/clangd
+@bin bin/find-all-symbols
+bin/git-clang-format
+@bin bin/modularize
+@bin bin/pp-trace
+bin/run-clang-tidy
+share/clang/
+share/clang/clang-doc-default-stylesheet.css
+share/clang/clang-format-bbedit.applescript
+share/clang/clang-format-diff.py
+share/clang/clang-format-sublime.py
+share/clang/clang-format.el
+share/clang/clang-format.py
+share/clang/clang-include-fixer.el
+share/clang/clang-include-fixer.py
+share/clang/clang-tidy-diff.py
+share/clang/index.js
+share/clang/run-find-all-symbols.py

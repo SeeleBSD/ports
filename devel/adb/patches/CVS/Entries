@@ -1,0 +1,11 @@
+/patch-adb_Makefile/1.2/Sun Sep  1 04:42:17 2024//TOPENBSD_7_6
+/patch-adb_adb_auth_host_c/1.2/Sun Sep  1 04:42:17 2024//TOPENBSD_7_6
+/patch-adb_adb_c/1.2/Sun Sep  1 04:42:17 2024//TOPENBSD_7_6
+/patch-adb_adb_h/1.2/Sun Sep  1 04:42:17 2024//TOPENBSD_7_6
+/patch-adb_get_my_path_generic_c/1.2/Sun Sep  1 04:42:17 2024//TOPENBSD_7_6
+/patch-adb_sysdeps_h/1.2/Sun Sep  1 04:42:17 2024//TOPENBSD_7_6
+/patch-adb_transport_c/1.2/Sun Sep  1 04:42:17 2024//TOPENBSD_7_6
+/patch-adb_usb_libusb_c/1.2/Sun Sep  1 04:42:17 2024//TOPENBSD_7_6
+/patch-libsparse_defs_h/1.2/Sun Sep  1 04:42:17 2024//TOPENBSD_7_6
+/patch-libsparse_output_file_c/1.2/Sun Sep  1 04:42:17 2024//TOPENBSD_7_6
+D

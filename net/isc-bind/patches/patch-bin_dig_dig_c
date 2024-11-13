@@ -1,0 +1,52 @@
+Patch to use pledge on OpenBSD.
+locale is needed for idn2.
+
+Index: bin/dig/dig.c
+--- bin/dig/dig.c.orig
++++ bin/dig/dig.c
+@@ -18,6 +18,7 @@
+ #include <stdbool.h>
+ #include <stdlib.h>
+ #include <time.h>
++#include <unistd.h>
+ 
+ #include <isc/attributes.h>
+ #include <isc/dir.h>
+@@ -3361,6 +3362,15 @@ dig_setup(int argc, char **argv) {
+ 	ISC_LIST_INIT(server_list);
+ 	ISC_LIST_INIT(search_list);
+ 
++	/*
++	 * unix: needed for startup check, isc_net_probeunix.
++	 * (unix sockets used in controlconf).
++	 */
++	if (pledge("stdio rpath inet unix dns unveil", NULL) == -1) {
++		perror("pledge");
++		exit(1);
++	}
++
+ 	debug("dig_setup()");
+ 
+ 	/* setup dighost callbacks */
+@@ -3389,6 +3399,21 @@ dig_query_setup(bool is_batchfile, bool config_only, i
+ 	} else if (keysecret[0] != 0) {
+ 		setup_text_key();
+ 	}
++
++	if (unveil("/usr/share/locale", "r") == -1) {
++		perror("unveil /usr/share/locale");
++		exit(1);
++	}
++	/*
++	 * dns:   resolv.conf, also allows port 53 sockets
++	 * inet:  needed if we query on port != 53
++	 * rpath: locale
++	 */
++	if (pledge("stdio rpath inet dns", NULL) == -1) {
++		perror("pledge");
++		exit(1);
++	}
++
+ 	if (domainopt[0] != '\0') {
+ 		set_search_domain(domainopt);
+ 		usesearch = true;

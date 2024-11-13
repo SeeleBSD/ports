@@ -1,0 +1,52 @@
+@bin bin/fbpanel
+lib/fbpanel/
+@so lib/fbpanel/libdclock.so
+@so lib/fbpanel/libdeskno.so
+@so lib/fbpanel/libdeskno2.so
+@so lib/fbpanel/libgenmon.so
+@so lib/fbpanel/libicons.so
+@so lib/fbpanel/libimage.so
+@so lib/fbpanel/liblaunchbar.so
+@so lib/fbpanel/libmem2.so
+@so lib/fbpanel/libmenu.so
+@so lib/fbpanel/libpager.so
+@so lib/fbpanel/libseparator.so
+@so lib/fbpanel/libspace.so
+lib/fbpanel/libsystray.so
+@so lib/fbpanel/libtaskbar.so
+@so lib/fbpanel/libtclock.so
+@so lib/fbpanel/libtray.so
+@so lib/fbpanel/libuser.so
+@so lib/fbpanel/libwincmd.so
+libexec/fbpanel/
+libexec/fbpanel/make_profile
+libexec/fbpanel/xlogout
+@man man/man1/fbpanel.1
+share/examples/fbpanel/
+share/examples/fbpanel/default
+share/fbpanel/
+share/fbpanel/images/
+@comment share/fbpanel/images/battery_0.png
+@comment share/fbpanel/images/battery_1.png
+@comment share/fbpanel/images/battery_2.png
+@comment share/fbpanel/images/battery_3.png
+@comment share/fbpanel/images/battery_4.png
+@comment share/fbpanel/images/battery_5.png
+@comment share/fbpanel/images/battery_6.png
+@comment share/fbpanel/images/battery_7.png
+@comment share/fbpanel/images/battery_8.png
+@comment share/fbpanel/images/battery_charging_0.png
+@comment share/fbpanel/images/battery_charging_1.png
+@comment share/fbpanel/images/battery_charging_2.png
+@comment share/fbpanel/images/battery_charging_3.png
+@comment share/fbpanel/images/battery_charging_4.png
+@comment share/fbpanel/images/battery_charging_5.png
+@comment share/fbpanel/images/battery_charging_6.png
+@comment share/fbpanel/images/battery_charging_7.png
+@comment share/fbpanel/images/battery_charging_8.png
+@comment share/fbpanel/images/battery_na.png
+share/fbpanel/images/dclock_glyphs.png
+share/fbpanel/images/default.xpm
+share/fbpanel/images/gnome-session-halt.png
+share/fbpanel/images/gnome-session-reboot.png
+share/fbpanel/images/logo.png

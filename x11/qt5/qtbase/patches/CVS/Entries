@@ -1,0 +1,19 @@
+/patch-mkspecs_common_gcc-base_conf/1.3/Sun Sep  1 04:44:59 2024//TOPENBSD_7_6
+/patch-mkspecs_features_create_cmake_prf/1.7/Sun Sep  1 04:44:59 2024//TOPENBSD_7_6
+/patch-mkspecs_features_qt_module_prf/1.4/Sun Sep  1 04:44:59 2024//TOPENBSD_7_6
+/patch-qmake_Makefile_unix/1.2/Sun Sep  1 04:44:59 2024//TOPENBSD_7_6
+/patch-qmake_generators_unix_unixmake2_cpp/1.8/Sun Sep  1 04:44:59 2024//TOPENBSD_7_6
+/patch-qmake_generators_unix_unixmake_cpp/1.5/Sun Sep  1 04:44:59 2024//TOPENBSD_7_6
+/patch-qmake_generators_unix_unixmake_h/1.5/Sun Sep  1 04:44:59 2024//TOPENBSD_7_6
+/patch-src_corelib_global_global_pri/1.6/Sun Sep  1 04:44:59 2024//TOPENBSD_7_6
+/patch-src_corelib_global_qversiontagging_cpp/1.4/Sun Sep  1 04:44:59 2024//TOPENBSD_7_6
+/patch-src_corelib_thread_qwaitcondition_unix_cpp/1.1/Sun Sep  1 04:44:59 2024//TOPENBSD_7_6
+/patch-src_network_kernel_qnetworkinterface_unix_cpp/1.4/Sun Sep  1 04:44:59 2024//TOPENBSD_7_6
+/patch-src_network_ssl_qsslcontext_openssl_cpp/1.11/Sun Sep  1 04:44:59 2024//TOPENBSD_7_6
+/patch-src_network_ssl_qsslcontext_openssl_p_h/1.3/Sun Sep  1 04:44:59 2024//TOPENBSD_7_6
+/patch-src_network_ssl_qsslsocket_openssl_cpp/1.6/Sun Sep  1 04:44:59 2024//TOPENBSD_7_6
+/patch-src_network_ssl_qsslsocket_openssl_symbols_cpp/1.20/Mon Sep 23 15:35:30 2024//TOPENBSD_7_6
+/patch-src_network_ssl_qsslsocket_openssl_symbols_p_h/1.17/Sun Sep  1 04:44:59 2024//TOPENBSD_7_6
+/patch-src_openglextensions_openglextensions_pro/1.2/Sun Sep  1 04:44:59 2024//TOPENBSD_7_6
+/patch-src_plugins_platforminputcontexts_platforminputcontexts_pro/1.2/Sun Sep  1 04:44:59 2024//TOPENBSD_7_6
+D

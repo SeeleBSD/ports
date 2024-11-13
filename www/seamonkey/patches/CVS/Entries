@@ -1,0 +1,12 @@
+/patch-Makefile_in/1.1/Sun Sep  1 04:44:43 2024//TOPENBSD_7_6
+/patch-build_moz_configure_toolchain_configure/1.1/Wed Jul 10 11:23:35 2024//TOPENBSD_7_6
+/patch-gfx_skia_moz_build/1.1/Sun Sep  1 04:44:43 2024//TOPENBSD_7_6
+/patch-intl_lwbrk_LineBreaker_cpp/1.1/Sun Sep  1 04:44:43 2024//TOPENBSD_7_6
+/patch-ipc_chromium_src_third_party_libevent_bsd_event2_event-config_h/1.1/Sun Sep  1 04:44:43 2024//TOPENBSD_7_6
+/patch-js_src_ctypes_libffi_src_dlmalloc_c/1.2/Sun Sep  1 04:44:43 2024//TOPENBSD_7_6
+/patch-js_src_ctypes_libffi_src_x86_unix64_S/1.1/Sun Sep  1 04:44:43 2024//TOPENBSD_7_6
+/patch-media_ffvpx_libavcodec_x86_fft_asm/1.3/Sun Sep  1 04:44:43 2024//TOPENBSD_7_6
+/patch-modules_fdlibm_src_math_private_h/1.1/Sun Sep  1 04:44:43 2024//TOPENBSD_7_6
+/patch-security_manager_pki_resources_content_exceptionDialog_js/1.3/Sun Sep  1 04:44:43 2024//TOPENBSD_7_6
+/patch-widget_nsPrintSettingsImpl_cpp/1.3/Sun Sep  1 04:44:43 2024//TOPENBSD_7_6
+D

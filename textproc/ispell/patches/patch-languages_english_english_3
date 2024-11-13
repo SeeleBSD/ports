@@ -1,0 +1,19 @@
+Index: languages/english/english.3
+--- languages/english/english.3.orig
++++ languages/english/english.3
+@@ -5167,6 +5167,7 @@ dirk
+ dirndl
+ disaccredit
+ disafforest
++disappear
+ disbranch
+ disbud
+ discalced
+@@ -5201,7 +5202,6 @@ dispersity
+ dispersoid
+ displayable
+ disproven
+-dissappear
+ disseminule
+ dissentious
+ dissepiment

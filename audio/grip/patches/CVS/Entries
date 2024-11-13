@@ -1,0 +1,10 @@
+/patch-configure/1.10/Sun Sep  1 04:42:00 2024//TOPENBSD_7_6
+/patch-src_cddev_c/1.6/Sun Sep  1 04:42:00 2024//TOPENBSD_7_6
+/patch-src_cdpar_c/1.5/Sun Sep  1 04:42:00 2024//TOPENBSD_7_6
+/patch-src_discdb_c/1.8/Sun Sep  1 04:42:00 2024//TOPENBSD_7_6
+/patch-src_grip_c/1.12/Sun Sep  1 04:42:00 2024//TOPENBSD_7_6
+/patch-src_grip_h/1.6/Sun Sep  1 04:42:00 2024//TOPENBSD_7_6
+/patch-src_launch_c/1.4/Sun Sep  1 04:42:00 2024//TOPENBSD_7_6
+/patch-src_main_c/1.4/Sun Sep  1 04:42:00 2024//TOPENBSD_7_6
+/patch-src_rip_c/1.11/Sun Sep  1 04:42:00 2024//TOPENBSD_7_6
+D

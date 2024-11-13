@@ -1,0 +1,30 @@
+Index: src/DoConfig
+--- src/DoConfig.orig
++++ src/DoConfig
+@@ -13,8 +13,8 @@ system("echo '*** CompilerOutput.log ***' > CompilerOu
+ 
+ %MakeVal = (
+ 
+-'CXX'	      => 'g++',
+-'CXXFLAGS'    => '-g -O2',
++'CXX'	      => '${CXX}',
++'CXXFLAGS'    => '${CFLAGS}',
+ 'CXXAUTOFLAGS'=> '',
+ 'NOCONTRACT'  => '',
+ 'AR'	      => 'ar',
+@@ -28,12 +28,14 @@ system("echo '*** CompilerOutput.log ***' > CompilerOu
+ 'LDLIBS'      => '-lm',
+ 'CPPFLAGS'    => '',
+ 
+-'DEF_PREFIX'  => '/usr/local',
++'DEF_PREFIX'  => '${LOCALBASE}',
+ 
+ 'PREFIX'      => '$(DEF_PREFIX)',
+ 'LIBDIR'      => '$(PREFIX)/lib',
+ 'INCLUDEDIR'  => '$(PREFIX)/include',
+ 'DOCDIR'      => '$(PREFIX)/share/doc',
++
++'LIBntl_VERSION' => '$(LIBntl_VERSION)',
+ 
+ 'GMP_PREFIX'  => '$(DEF_PREFIX)',
+ 'GMP_INCDIR'  => '$(GMP_PREFIX)/include',

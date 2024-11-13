@@ -1,0 +1,11 @@
+--- pcap_pkthdr.cc.orig	Sun Oct 30 14:05:35 2016
++++ pcap_pkthdr.cc	Sun Oct 30 14:05:35 2016
+@@ -23,7 +23,7 @@
+ // internal pcapobject
+ typedef struct {
+ 	PyObject_HEAD
+-	struct timeval ts;
++	struct bpf_timeval ts;
+ 	bpf_u_int32 caplen;
+ 	bpf_u_int32 len;
+ } pkthdr;

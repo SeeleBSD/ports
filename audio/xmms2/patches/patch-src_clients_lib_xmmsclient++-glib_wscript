@@ -1,0 +1,11 @@
+--- src/clients/lib/xmmsclient++-glib/wscript.orig	Thu Oct 20 21:26:08 2011
++++ src/clients/lib/xmmsclient++-glib/wscript	Tue May  8 01:10:14 2012
+@@ -6,7 +6,7 @@ def build(bld):
+         uselib = 'glib2',
+         use = 'xmmsclient xmmsclient-glib',
+         includes = '../../../.. ../../../include ../../../includepriv',
+-        vnum = '1.0.0'
++        vnum = '${LIBxmmsclient++-glib_VERSION}'
+         )
+ 
+     tool.add_install_flag(bld, obj)

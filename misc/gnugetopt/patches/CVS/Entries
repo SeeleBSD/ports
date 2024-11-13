@@ -1,0 +1,13 @@
+/patch-Makefile/1.5/Sun Sep  1 04:43:33 2024//TOPENBSD_7_6
+/patch-getopt_1/1.4/Sun Sep  1 04:43:33 2024//TOPENBSD_7_6
+/patch-getopt_c/1.4/Sun Sep  1 04:43:33 2024//TOPENBSD_7_6
+/patch-gnu_getopt_c/1.2/Sun Sep  1 04:43:33 2024//TOPENBSD_7_6
+/patch-tests_invalid_getopt_option_stderr/1.2/Sun Sep  1 04:43:33 2024//TOPENBSD_7_6
+/patch-tests_invocation_without_parameters_stderr/1.2/Sun Sep  1 04:43:33 2024//TOPENBSD_7_6
+/patch-tests_long_option_ambiguous_1_stderr/1.2/Sun Sep  1 04:43:33 2024//TOPENBSD_7_6
+/patch-tests_name_option_long_stderr/1.2/Sun Sep  1 04:43:33 2024//TOPENBSD_7_6
+/patch-tests_name_option_short_stderr/1.2/Sun Sep  1 04:43:33 2024//TOPENBSD_7_6
+/patch-tests_quiet_output_option_long_stderr/1.2/Sun Sep  1 04:43:33 2024//TOPENBSD_7_6
+/patch-tests_quiet_output_option_short_stderr/1.2/Sun Sep  1 04:43:33 2024//TOPENBSD_7_6
+/patch-tests_unknown_options_stderr/1.2/Sun Sep  1 04:43:33 2024//TOPENBSD_7_6
+D

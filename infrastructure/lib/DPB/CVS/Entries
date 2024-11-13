@@ -1,0 +1,42 @@
+D/Core////
+D/Heuristics////
+D/Job////
+D/PortBuilder////
+D/Reporter////
+D/SubEngine////
+/Affinity.pm/1.21/Sun Sep  1 04:43:20 2024//TOPENBSD_7_6
+/AffinityStub.pm/1.2/Sun Sep  1 04:43:20 2024//TOPENBSD_7_6
+/BasePkgPath.pm/1.10/Sun Sep  1 04:43:20 2024//TOPENBSD_7_6
+/Clock.pm/1.21/Sun Sep  1 04:43:20 2024//TOPENBSD_7_6
+/Config.pm/1.101/Sun Sep  1 04:43:20 2024//TOPENBSD_7_6
+/Core.pm/1.111/Sun Sep  1 04:43:20 2024//TOPENBSD_7_6
+/Distfile.pm/1.29/Sun Sep  1 04:43:20 2024//TOPENBSD_7_6
+/Engine.pm/1.151/Sun Sep  1 04:43:20 2024//TOPENBSD_7_6
+/ErrorList.pm/1.11/Sun Sep  1 04:43:20 2024//TOPENBSD_7_6
+/External.pm/1.32/Sun Sep  1 04:43:20 2024//TOPENBSD_7_6
+/Fetch.pm/1.95/Sun Sep  1 04:43:20 2024//TOPENBSD_7_6
+/Grabber.pm/1.49/Sun Sep  1 04:43:20 2024//TOPENBSD_7_6
+/Heuristics.pm/1.39/Sun Sep  1 04:43:20 2024//TOPENBSD_7_6
+/Host.pm/1.16/Sun Sep  1 04:43:20 2024//TOPENBSD_7_6
+/HostProperties.pm/1.19/Sun Sep  1 04:43:20 2024//TOPENBSD_7_6
+/ISO8601.pm/1.2/Sun Sep  1 04:43:20 2024//TOPENBSD_7_6
+/Job.pm/1.26/Sun Sep  1 04:43:20 2024//TOPENBSD_7_6
+/Limiter.pm/1.10/Sun Sep  1 04:43:20 2024//TOPENBSD_7_6
+/Locks.pm/1.57/Sun Sep  1 04:43:20 2024//TOPENBSD_7_6
+/Logger.pm/1.27/Sun Sep  1 04:43:20 2024//TOPENBSD_7_6
+/MiniCurses.pm/1.19/Sun Sep  1 04:43:20 2024//TOPENBSD_7_6
+/PkgPath.pm/1.69/Sun Sep  1 04:43:20 2024//TOPENBSD_7_6
+/PortBuilder.pm/1.95/Sun Sep  1 04:43:20 2024//TOPENBSD_7_6
+/PortInfo.pm/1.49/Sun Sep  1 04:43:20 2024//TOPENBSD_7_6
+/Queue.pm/1.2/Sun Sep  1 04:43:20 2024//TOPENBSD_7_6
+/Reporter.pm/1.38/Sun Sep  1 04:43:20 2024//TOPENBSD_7_6
+/Roach.pm/1.5/Sun Sep  1 04:43:20 2024//TOPENBSD_7_6
+/Serialize.pm/1.6/Sun Sep  1 04:43:20 2024//TOPENBSD_7_6
+/Shell.pm/1.20/Sun Sep  1 04:43:20 2024//TOPENBSD_7_6
+/Signature.pm/1.13/Sun Sep  1 04:43:20 2024//TOPENBSD_7_6
+/State.pm/1.41/Sun Sep  1 04:43:20 2024//TOPENBSD_7_6
+/SubEngine.pm/1.37/Sun Sep  1 04:43:20 2024//TOPENBSD_7_6
+/Trace.pm/1.7/Sun Sep  1 04:43:20 2024//TOPENBSD_7_6
+/User.pm/1.27/Sun Sep  1 04:43:20 2024//TOPENBSD_7_6
+/Util.pm/1.10/Sun Sep  1 04:43:20 2024//TOPENBSD_7_6
+/Vars.pm/1.68/Sun Sep  1 04:43:20 2024//TOPENBSD_7_6

@@ -1,0 +1,12 @@
+Index: skia/ext/skcolorspace_trfn.cc
+--- skia/ext/skcolorspace_trfn.cc.orig
++++ skia/ext/skcolorspace_trfn.cc
+@@ -7,6 +7,8 @@
+ #pragma allow_unsafe_buffers
+ #endif
+ 
++#include <cmath>
++
+ #include "skia/ext/skcolorspace_trfn.h"
+ 
+ #include <cmath>

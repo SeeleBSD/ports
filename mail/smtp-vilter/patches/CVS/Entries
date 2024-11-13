@@ -1,0 +1,22 @@
+/patch-backend_vilter-attachment_Makefile/1.4/Sun Sep  1 04:43:29 2024//TOPENBSD_7_6
+/patch-backend_vilter-attachment_scan_l/1.2/Sun Sep  1 04:43:29 2024//TOPENBSD_7_6
+/patch-backend_vilter-attachment_vilter-attachment_c/1.4/Sun Sep  1 04:43:29 2024//TOPENBSD_7_6
+/patch-backend_vilter-clamd_Makefile/1.4/Sun Sep  1 04:43:29 2024//TOPENBSD_7_6
+/patch-backend_vilter-clamd_scan_l/1.2/Sun Sep  1 04:43:29 2024//TOPENBSD_7_6
+/patch-backend_vilter-icap_Makefile/1.4/Sun Sep  1 04:43:29 2024//TOPENBSD_7_6
+/patch-backend_vilter-icap_scan_l/1.2/Sun Sep  1 04:43:29 2024//TOPENBSD_7_6
+/patch-backend_vilter-regex_Makefile/1.4/Sun Sep  1 04:43:29 2024//TOPENBSD_7_6
+/patch-backend_vilter-regex_scan_l/1.2/Sun Sep  1 04:43:29 2024//TOPENBSD_7_6
+/patch-backend_vilter-spamd_Makefile/1.4/Sun Sep  1 04:43:29 2024//TOPENBSD_7_6
+/patch-backend_vilter-spamd_scan_l/1.2/Sun Sep  1 04:43:29 2024//TOPENBSD_7_6
+/patch-bin_smtp-vilter_Makefile/1.6/Sun Sep  1 04:43:29 2024//TOPENBSD_7_6
+/patch-bin_smtp-vilter_engine_c/1.9/Sun Sep  1 04:43:29 2024//TOPENBSD_7_6
+/patch-bin_smtp-vilter_parse_y/1.4/Sun Sep  1 04:43:29 2024//TOPENBSD_7_6
+/patch-bin_smtp-vilter_scan_l/1.5/Sun Sep  1 04:43:29 2024//TOPENBSD_7_6
+/patch-bin_smtp-vilter_smtp-vilter_8/1.5/Sun Sep  1 04:43:29 2024//TOPENBSD_7_6
+/patch-bin_smtp-vilter_smtp-vilter_c/1.5/Sun Sep  1 04:43:29 2024//TOPENBSD_7_6
+/patch-bin_smtp-vilter_smtp-vilter_conf_5/1.4/Sun Sep  1 04:43:29 2024//TOPENBSD_7_6
+/patch-bin_smtp-vilter_socket_c/1.4/Sun Sep  1 04:43:29 2024//TOPENBSD_7_6
+/patch-etc_smtp-vilter_smtp-vilter_conf/1.5/Sun Sep  1 04:43:29 2024//TOPENBSD_7_6
+/patch-include_smtp-vilter_h/1.4/Sun Sep  1 04:43:29 2024//TOPENBSD_7_6
+D

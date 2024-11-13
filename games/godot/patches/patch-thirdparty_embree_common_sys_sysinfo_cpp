@@ -1,0 +1,45 @@
+Backport of https://github.com/embree/embree/pull/379
+
+1. we don't seem to have pthread_getaffinity_np in pthread_np.h; use sysctl
+   like macos and android then.
+2. just fake getExecutableFileName and get{Virtual,Resident}MemoryBytes
+
+Index: thirdparty/embree/common/sys/sysinfo.cpp
+--- thirdparty/embree/common/sys/sysinfo.cpp.orig
++++ thirdparty/embree/common/sys/sysinfo.cpp
+@@ -572,6 +572,26 @@ namespace embree
+ 
+ #endif
+ 
++#if defined(__OpenBSD__)
++namespace embree
++{
++  std::string getExecutableFileName()
++  {
++    return "";
++  }
++
++  size_t getVirtualMemoryBytes()
++  {
++    return 0;
++  };
++
++  size_t getResidentMemoryBytes()
++  {
++    return 0;
++  };
++}
++#endif
++
+ ////////////////////////////////////////////////////////////////////////////////
+ /// Mac OS X Platform
+ ////////////////////////////////////////////////////////////////////////////////
+@@ -622,7 +642,7 @@ namespace embree
+ 
+ // -- GODOT start --
+ // #if defined(__MACOSX__)
+-#if defined(__MACOSX__) || defined(__ANDROID__)
++#if defined(__MACOSX__) || defined(__ANDROID__) || defined(__OpenBSD__)
+ // -- GODOT end --
+     nThreads = sysconf(_SC_NPROCESSORS_ONLN); // does not work in Linux LXC container
+     assert(nThreads);

@@ -1,0 +1,3 @@
+@conflict nagios-plugins-game-*
+@pkgpath net/nagios/plugins,-game
+@bin libexec/nagios/check_game

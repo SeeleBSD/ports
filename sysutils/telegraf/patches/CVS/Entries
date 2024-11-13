@@ -1,0 +1,8 @@
+/patch-plugins_inputs_nsd_nsd_go/1.2/Sun Sep  1 04:44:14 2024//TOPENBSD_7_6
+/patch-plugins_inputs_openntpd_openntpd_go/1.4/Sun Sep  1 04:44:14 2024//TOPENBSD_7_6
+/patch-plugins_inputs_opensmtpd_opensmtpd_go/1.4/Sun Sep  1 04:44:14 2024//TOPENBSD_7_6
+/patch-plugins_inputs_pf_pf_go/1.4/Sun Sep  1 04:44:14 2024//TOPENBSD_7_6
+/patch-plugins_inputs_sql_drivers_sqlite_go/1.1/Sun Sep  1 04:44:14 2024//TOPENBSD_7_6
+/patch-plugins_inputs_unbound_unbound_go/1.2/Sun Sep  1 04:44:14 2024//TOPENBSD_7_6
+/patch-plugins_outputs_sql_sqlite_go/1.1/Sun Sep  1 04:44:14 2024//TOPENBSD_7_6
+D

@@ -1,0 +1,8 @@
+/patch-dmd-bootstrap_openbsd_bin32_dmd_conf/1.1/Wed May 22 16:36:08 2024//TOPENBSD_7_6
+/patch-dmd-bootstrap_openbsd_bin64_dmd_conf/1.2/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-dmd_Makefile/1.1/Wed May 22 16:36:08 2024//TOPENBSD_7_6
+/patch-dmd_compiler_docs_Makefile/1.1/Wed May 22 16:36:08 2024//TOPENBSD_7_6
+/patch-dmd_compiler_src_dmd_link_d/1.4/Mon Sep 23 15:34:13 2024//TOPENBSD_7_6
+/patch-dmd_druntime_Makefile/1.2/Mon Jun  3 14:37:25 2024//TOPENBSD_7_6
+/patch-phobos_Makefile/1.2/Mon Jun  3 14:37:25 2024//TOPENBSD_7_6
+D

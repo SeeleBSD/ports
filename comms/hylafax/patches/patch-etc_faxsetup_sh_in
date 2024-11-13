@@ -1,0 +1,36 @@
+--- etc/faxsetup.sh.in.orig	Wed Jun  6 02:58:38 2012
++++ etc/faxsetup.sh.in	Mon Jul  9 15:06:31 2012
+@@ -45,7 +45,7 @@ PATH=/bin:/usr/bin:/etc
+ test -d /usr/ucb  && PATH=$PATH:/usr/ucb		# Sun and others
+ test -d /usr/bsd  && PATH=$PATH:/usr/bsd		# Silicon Graphics
+ test -d /usr/5bin && PATH=/usr/5bin:$PATH:/usr/etc	# Sun and others
+-test -d /usr/sbin && PATH=/usr/sbin:$PATH		# 4.4BSD-derived
++test -d /sbin && PATH=/usr/sbin:$PATH			# 4.4BSD-derived
+ test -d /usr/local/bin && PATH=$PATH:/usr/local/bin	# for GNU tools
+ 
+ AWK=@AWK@			# awk for use below
+@@ -76,8 +76,8 @@ UUENCODE="@UUENCODE@"		# uuencode command to dump in s
+ 
+ FAX=@FAXUID@			# identity of the fax user
+ SERVICES=/etc/services		# location of services database
+-INETDCONF=/usr/etc/inetd.conf	# default location of inetd configuration file
+-ALIASES=/usr/lib/aliases	# default location of mail aliases database file
++INETDCONF=/etc/inetd.conf	# default location of inetd configuration file
++ALIASES=/etc/mail/aliases	# default location of mail aliases database file
+ PASSWD=/etc/passwd		# where to go for password entries
+ PROTOUID=@FAXUID@		# user who's uid we use for FAX user
+ defPROTOUID=3			# use this uid if PROTOUID doesn't exist
+@@ -2426,12 +2426,7 @@ if onServer; then
+ 
+     findproc()
+     {
+-	# NB: ps ax should give an error on System V, so we try it first!
+-	pid="`ps ax 2>/dev/null | $AWK \"\
+-		/[\/ (]$1[ )]/	{print \\$1;}
+-		/[\/ ]$1\$/	{print \\$1;}\"`"
+-	test "$pid" ||
+-	    pid="`ps -e 2>/dev/null | $AWK \"/ $1[ ]*\$/ {print \\$1;}\"`"
++    	pid="`/usr/bin/pgrep $1`"
+ 	echo "$pid"
+     }
+ 

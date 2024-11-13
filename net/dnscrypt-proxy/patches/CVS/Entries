@@ -1,0 +1,18 @@
+/patch-dnscrypt-proxy_example-dnscrypt-proxy_toml/1.17/Sun Sep  1 04:43:38 2024//TOPENBSD_7_6
+/patch-vendor_golang_org_x_sys_unix_fcntl_go/1.1/Sun Sep  1 04:43:38 2024//TOPENBSD_7_6
+/patch-vendor_golang_org_x_sys_unix_syscall_openbsd_go/1.1/Sun Sep  1 04:43:38 2024//TOPENBSD_7_6
+/patch-vendor_golang_org_x_sys_unix_zsyscall_openbsd_386_go/1.1/Sun Sep  1 04:43:38 2024//TOPENBSD_7_6
+/patch-vendor_golang_org_x_sys_unix_zsyscall_openbsd_386_s/1.1/Sun Sep  1 04:43:38 2024//TOPENBSD_7_6
+/patch-vendor_golang_org_x_sys_unix_zsyscall_openbsd_amd64_go/1.1/Sun Sep  1 04:43:38 2024//TOPENBSD_7_6
+/patch-vendor_golang_org_x_sys_unix_zsyscall_openbsd_amd64_s/1.1/Sun Sep  1 04:43:38 2024//TOPENBSD_7_6
+/patch-vendor_golang_org_x_sys_unix_zsyscall_openbsd_arm64_go/1.1/Sun Sep  1 04:43:38 2024//TOPENBSD_7_6
+/patch-vendor_golang_org_x_sys_unix_zsyscall_openbsd_arm64_s/1.1/Sun Sep  1 04:43:38 2024//TOPENBSD_7_6
+/patch-vendor_golang_org_x_sys_unix_zsyscall_openbsd_arm_go/1.1/Sun Sep  1 04:43:38 2024//TOPENBSD_7_6
+/patch-vendor_golang_org_x_sys_unix_zsyscall_openbsd_arm_s/1.1/Sun Sep  1 04:43:38 2024//TOPENBSD_7_6
+/patch-vendor_golang_org_x_sys_unix_zsyscall_openbsd_mips64_go/1.1/Sun Sep  1 04:43:38 2024//TOPENBSD_7_6
+/patch-vendor_golang_org_x_sys_unix_zsyscall_openbsd_mips64_s/1.1/Sun Sep  1 04:43:38 2024//TOPENBSD_7_6
+/patch-vendor_golang_org_x_sys_unix_zsyscall_openbsd_ppc64_go/1.1/Sun Sep  1 04:43:38 2024//TOPENBSD_7_6
+/patch-vendor_golang_org_x_sys_unix_zsyscall_openbsd_ppc64_s/1.1/Sun Sep  1 04:43:38 2024//TOPENBSD_7_6
+/patch-vendor_golang_org_x_sys_unix_zsyscall_openbsd_riscv64_go/1.1/Sun Sep  1 04:43:38 2024//TOPENBSD_7_6
+/patch-vendor_golang_org_x_sys_unix_zsyscall_openbsd_riscv64_s/1.1/Sun Sep  1 04:43:38 2024//TOPENBSD_7_6
+D

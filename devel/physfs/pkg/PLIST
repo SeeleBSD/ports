@@ -1,0 +1,5 @@
+@bin bin/test_physfs
+include/physfs.h
+lib/libphysfs.a
+@lib lib/libphysfs.so.${LIBphysfs_VERSION}
+lib/pkgconfig/physfs.pc

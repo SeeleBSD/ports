@@ -1,0 +1,23 @@
+/patch-avcall_Makefile_in/1.7/Sun Sep  1 04:42:23 2024//TOPENBSD_7_6
+/patch-avcall_avcall-sparc64_S/1.4/Sun Sep  1 04:42:23 2024//TOPENBSD_7_6
+/patch-avcall_avcall-x86_64_s/1.3/Sun Sep  1 04:42:23 2024//TOPENBSD_7_6
+/patch-avcall_avcall_h_in/1.2/Sun Sep  1 04:42:23 2024//TOPENBSD_7_6
+/patch-avcall_configure/1.2/Sun Sep  1 04:42:23 2024//TOPENBSD_7_6
+/patch-callback_trampoline_r_Makefile_in/1.4/Sun Sep  1 04:42:23 2024//TOPENBSD_7_6
+/patch-callback_trampoline_r_test1_c/1.2/Sun Sep  1 04:42:23 2024//TOPENBSD_7_6
+/patch-callback_trampoline_r_trampoline_c/1.5/Sun Sep  1 04:42:23 2024//TOPENBSD_7_6
+/patch-callback_vacall_r_Makefile_in/1.5/Sun Sep  1 04:42:23 2024//TOPENBSD_7_6
+/patch-callback_vacall_r_configure/1.2/Sun Sep  1 04:42:23 2024//TOPENBSD_7_6
+/patch-callback_vacall_r_vacall-rs6000-linux_s/1.2/Sun Sep  1 04:42:23 2024//TOPENBSD_7_6
+/patch-callback_vacall_r_vacall-sparc64_S/1.3/Sun Sep  1 04:42:23 2024//TOPENBSD_7_6
+/patch-callback_vacall_r_vacall-sparc_S/1.2/Sun Sep  1 04:42:23 2024//TOPENBSD_7_6
+/patch-callback_vacall_r_vacall-x86_64_s/1.2/Sun Sep  1 04:42:23 2024//TOPENBSD_7_6
+/patch-callback_vacall_r_vacall_r_h_in/1.2/Sun Sep  1 04:42:23 2024//TOPENBSD_7_6
+/patch-trampoline_configure/1.2/Sun Sep  1 04:42:23 2024//TOPENBSD_7_6
+/patch-trampoline_trampoline_c/1.2/Sun Sep  1 04:42:23 2024//TOPENBSD_7_6
+/patch-vacall_Makefile_in/1.4/Sun Sep  1 04:42:23 2024//TOPENBSD_7_6
+/patch-vacall_configure/1.2/Sun Sep  1 04:42:23 2024//TOPENBSD_7_6
+/patch-vacall_vacall-sparc64_S/1.4/Sun Sep  1 04:42:23 2024//TOPENBSD_7_6
+/patch-vacall_vacall-x86_64_s/1.3/Sun Sep  1 04:42:23 2024//TOPENBSD_7_6
+/patch-vacall_vacall_h_in/1.2/Sun Sep  1 04:42:23 2024//TOPENBSD_7_6
+D

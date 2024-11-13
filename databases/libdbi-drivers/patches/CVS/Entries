@@ -1,0 +1,6 @@
+/patch-configure/1.3/Sun Sep  1 04:42:13 2024//TOPENBSD_7_6
+/patch-drivers_freetds_dbd_freetds_c/1.4/Sun Sep  1 04:42:13 2024//TOPENBSD_7_6
+/patch-tests_cgreen_src_constraint_c/1.1/Sun Sep  1 04:42:13 2024//TOPENBSD_7_6
+/patch-tests_test_libdbi_sh/1.2/Sun Sep  1 04:42:13 2024//TOPENBSD_7_6
+/patch-tests_test_pgsql_sh/1.2/Sun Sep  1 04:42:13 2024//TOPENBSD_7_6
+D

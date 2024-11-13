@@ -1,0 +1,9 @@
+/patch-GNUmakefile/1.8/Sun Sep  1 04:42:29 2024//TOPENBSD_7_6
+/patch-buffer_buffer_0_c/1.2/Sun Sep  1 04:42:29 2024//TOPENBSD_7_6
+/patch-buffer_buffer_0small_c/1.2/Sun Sep  1 04:42:29 2024//TOPENBSD_7_6
+/patch-buffer_buffer_1_c/1.2/Sun Sep  1 04:42:29 2024//TOPENBSD_7_6
+/patch-buffer_buffer_1small_c/1.2/Sun Sep  1 04:42:29 2024//TOPENBSD_7_6
+/patch-io_internal_h/1.2/Sun Sep  1 04:42:29 2024//TOPENBSD_7_6
+/patch-io_iom_init_c/1.2/Sun Sep  1 04:42:29 2024//TOPENBSD_7_6
+/patch-io_iom_wait_c/1.2/Sun Sep  1 04:42:29 2024//TOPENBSD_7_6
+D

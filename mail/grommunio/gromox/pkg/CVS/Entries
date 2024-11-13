@@ -1,0 +1,16 @@
+/DESCR-main/1.1.1.1/Sun Sep  1 04:43:26 2024//TOPENBSD_7_6
+/DESCR-mapi/1.1.1.1/Sun Sep  1 04:43:26 2024//TOPENBSD_7_6
+/PLIST-main/1.18/Mon Sep 23 15:34:17 2024//TOPENBSD_7_6
+/PLIST-mapi/1.2/Sun Sep  1 04:43:26 2024//TOPENBSD_7_6
+/README-main/1.2/Sun Sep  1 04:43:26 2024//TOPENBSD_7_6
+/gromox.rc/1.2/Sun Sep  1 04:43:26 2024//TOPENBSD_7_6
+/gromox_delivery.rc/1.3/Sun Sep  1 04:43:26 2024//TOPENBSD_7_6
+/gromox_delivery_queue.rc/1.2/Sun Sep  1 04:43:26 2024//TOPENBSD_7_6
+/gromox_event.rc/1.2/Sun Sep  1 04:43:26 2024//TOPENBSD_7_6
+/gromox_http.rc/1.2/Sun Sep  1 04:43:26 2024//TOPENBSD_7_6
+/gromox_imap.rc/1.2/Sun Sep  1 04:43:26 2024//TOPENBSD_7_6
+/gromox_midb.rc/1.2/Sun Sep  1 04:43:26 2024//TOPENBSD_7_6
+/gromox_pop3.rc/1.2/Sun Sep  1 04:43:26 2024//TOPENBSD_7_6
+/gromox_timer.rc/1.2/Sun Sep  1 04:43:26 2024//TOPENBSD_7_6
+/gromox_zcore.rc/1.3/Sun Sep  1 04:43:26 2024//TOPENBSD_7_6
+D

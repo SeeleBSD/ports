@@ -1,0 +1,8 @@
+/patch-codec_common_arm64_arm_arch64_common_macro_S/1.1/Sun Sep  1 04:43:36 2024//TOPENBSD_7_6
+/patch-codec_common_arm64_mc_aarch64_neon_S/1.1/Sun Sep  1 04:43:36 2024//TOPENBSD_7_6
+/patch-codec_common_src_cpu_cpp/1.3/Sun Sep  1 04:43:36 2024//TOPENBSD_7_6
+/patch-codec_common_x86_asm_inc_asm/1.1/Sun Sep  1 04:43:36 2024//TOPENBSD_7_6
+/patch-codec_decoder_core_arm64_intra_pred_aarch64_neon_S/1.1/Sun Sep  1 04:43:36 2024//TOPENBSD_7_6
+/patch-codec_encoder_core_arm64_intra_pred_aarch64_neon_S/1.1/Sun Sep  1 04:43:36 2024//TOPENBSD_7_6
+/patch-codec_encoder_core_arm64_svc_motion_estimation_aarch64_neon_S/1.1/Sun Sep  1 04:43:36 2024//TOPENBSD_7_6
+D

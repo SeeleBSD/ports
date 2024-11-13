@@ -1,0 +1,7 @@
+@pkgpath editors/vim-spell,ny
+share/vim/
+share/vim/vim${P}/
+share/vim/vim${P}/spell/
+share/vim/vim${P}/spell/ny.ascii.spl
+share/vim/vim${P}/spell/ny.iso-8859-14.spl
+share/vim/vim${P}/spell/ny.utf-8.spl

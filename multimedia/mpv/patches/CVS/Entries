@@ -1,0 +1,6 @@
+/patch-meson_build/1.9/Mon Sep 23 15:34:25 2024//TOPENBSD_7_6
+/patch-osdep_terminal-unix_c/1.2/Fri Aug  9 16:04:31 2024//TOPENBSD_7_6
+/patch-osdep_timer-linux_c/1.4/Mon Sep 23 15:34:25 2024//TOPENBSD_7_6
+/patch-osdep_timer_c/1.4/Mon Sep 23 15:34:25 2024//TOPENBSD_7_6
+/patch-video_out_drm_common_c/1.1/Sun Jul 28 06:51:13 2024//TOPENBSD_7_6
+D

@@ -1,0 +1,10 @@
+/patch-CMakeLists_txt/1.9/Mon Sep 23 15:34:06 2024//TOPENBSD_7_6
+/patch-cmake_modules_FindOpenEXR_cmake/1.2/Sun Sep  1 04:43:14 2024//TOPENBSD_7_6
+/patch-src_CMakeLists_txt/1.12/Mon Sep 23 15:34:06 2024//TOPENBSD_7_6
+/patch-src_cli_CMakeLists_txt/1.2/Sun Sep  1 04:43:14 2024//TOPENBSD_7_6
+/patch-src_common_darktable_h/1.10/Mon Sep 23 15:34:06 2024//TOPENBSD_7_6
+/patch-src_common_file_location_c/1.2/Sun Sep  1 04:43:14 2024//TOPENBSD_7_6
+/patch-src_external_CMakeLists_txt/1.4/Sun Sep  1 04:43:14 2024//TOPENBSD_7_6
+/patch-src_external_rawspeed_cmake_compiler-flags_cmake/1.5/Sun Sep  1 04:43:14 2024//TOPENBSD_7_6
+/patch-src_generate-cache_CMakeLists_txt/1.2/Sun Sep  1 04:43:14 2024//TOPENBSD_7_6
+D

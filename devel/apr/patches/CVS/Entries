@@ -1,0 +1,8 @@
+/patch-apr-config_in/1.5/Sun Sep  1 04:42:18 2024//TOPENBSD_7_6
+/patch-build_apr_hints_m4/1.2/Sun Sep  1 04:42:18 2024//TOPENBSD_7_6
+/patch-configure_in/1.5/Sun Sep  1 04:42:18 2024//TOPENBSD_7_6
+/patch-include_apr_allocator_h/1.2/Sun Sep  1 04:42:18 2024//TOPENBSD_7_6
+/patch-include_apr_general_h/1.2/Sun Sep  1 04:42:18 2024//TOPENBSD_7_6
+/patch-memory_unix_apr_pools_c/1.6/Sun Sep  1 04:42:18 2024//TOPENBSD_7_6
+/patch-network_io_unix_sockets_c/1.7/Sun Sep  1 04:42:18 2024//TOPENBSD_7_6
+D

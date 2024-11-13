@@ -1,0 +1,5 @@
+include/portmidi.h
+include/porttime.h
+@lib lib/libportmidi.so.${LIBportmidi_VERSION}
+lib/libportmidi_s.a
+lib/pkgconfig/portmidi.pc

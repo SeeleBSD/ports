@@ -1,0 +1,8 @@
+/patch-audio_audio_driver_c/1.8/Mon Sep 23 15:33:54 2024//TOPENBSD_7_6
+/patch-gfx_common_x11_common_c/1.4/Mon Sep 23 15:33:54 2024//TOPENBSD_7_6
+/patch-input_drivers_x11_input_c/1.4/Mon Sep 23 15:33:54 2024//TOPENBSD_7_6
+/patch-input_input_keymaps_c/1.4/Mon Sep 23 15:33:54 2024//TOPENBSD_7_6
+/patch-libretro-common_audio_audio_mix_c/1.3/Sun Sep  1 04:42:59 2024//TOPENBSD_7_6
+/patch-libretro-common_features_features_cpu_c/1.5/Sun Sep  1 04:42:59 2024//TOPENBSD_7_6
+/patch-retroarch_cfg/1.7/Mon Sep 23 15:33:54 2024//TOPENBSD_7_6
+D

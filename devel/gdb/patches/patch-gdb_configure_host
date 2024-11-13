@@ -1,0 +1,26 @@
+Index: gdb/configure.host
+--- gdb/configure.host.orig
++++ gdb/configure.host
+@@ -85,6 +85,7 @@ case "${host}" in
+ 
+ aarch64*-*-linux*)	gdb_host=linux ;;
+ aarch64*-*-freebsd*)	gdb_host=fbsd ;;
++aarch64*-*-openbsd*)	gdb_host=obsd64 ;;
+ 
+ alpha*-*-linux*)	gdb_host=alpha-linux ;;
+ alpha*-*-netbsd* | alpha*-*-knetbsd*-gnu)
+@@ -139,12 +140,14 @@ powerpc*-*-freebsd*)	gdb_host=fbsd ;;
+ powerpc-*-netbsd* | powerpc-*-knetbsd*-gnu)
+ 			gdb_host=nbsd ;;
+ powerpc-*-openbsd*)	gdb_host=obsd ;;
++powerpc64-*-openbsd*)	gdb_host=obsd64 ;;
+ 
+ powerpc64*-*-linux*)	gdb_host=ppc64-linux ;;
+ powerpc*-*-linux*)	gdb_host=linux ;;
+ 
+ riscv*-*-freebsd*)	gdb_host=fbsd ;;
+ riscv*-*-linux*)	gdb_host=linux ;;
++riscv64-*-openbsd*)	gdb_host=obsd64 ;;
+ 
+ s390*-*-linux*)		gdb_host=linux ;;
+ 

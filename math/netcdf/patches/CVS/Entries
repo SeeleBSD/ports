@@ -1,0 +1,15 @@
+/patch-dap4_test_test_data_sh/1.3/Sun Sep  1 04:43:31 2024//TOPENBSD_7_6
+/patch-dap4_test_test_meta_sh/1.2/Sun Sep  1 04:43:31 2024//TOPENBSD_7_6
+/patch-dap4_test_test_parse_sh/1.3/Sun Sep  1 04:43:31 2024//TOPENBSD_7_6
+/patch-dap4_test_test_raw_sh/1.3/Sun Sep  1 04:43:31 2024//TOPENBSD_7_6
+/patch-dap4_test_test_remote_sh/1.2/Sun Sep  1 04:43:31 2024//TOPENBSD_7_6
+/patch-nc_test4_findplugin_in/1.1/Sun Sep  1 04:43:31 2024//TOPENBSD_7_6
+/patch-nc_test4_tst_bloscfail_sh/1.1/Sun Sep  1 04:43:31 2024//TOPENBSD_7_6
+/patch-nc_test4_tst_filter_sh/1.1/Sun Sep  1 04:43:31 2024//TOPENBSD_7_6
+/patch-nc_test4_tst_specific_filters_sh/1.1/Sun Sep  1 04:43:31 2024//TOPENBSD_7_6
+/patch-ncdap_test_tst_remote3_sh/1.4/Sun Sep  1 04:43:31 2024//TOPENBSD_7_6
+/patch-ncdap_test_tst_urls_sh/1.3/Sun Sep  1 04:43:31 2024//TOPENBSD_7_6
+/patch-ncdump_test_rcmerge_sh/1.1/Sun Sep  1 04:43:31 2024//TOPENBSD_7_6
+/patch-ncdump_test_scope_sh/1.2/Sun Sep  1 04:43:31 2024//TOPENBSD_7_6
+/patch-ncdump_testpathcvt_sh/1.1/Sun Sep  1 04:43:31 2024//TOPENBSD_7_6
+D

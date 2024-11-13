@@ -1,0 +1,6 @@
+/patch-config_makefiles_rust_mk/1.7/Sun Sep  1 04:43:27 2024//TOPENBSD_7_6
+/patch-intl_lwbrk_LineBreaker_cpp/1.2/Mon Sep 23 15:34:17 2024//TOPENBSD_7_6
+/patch-mozilla_js_src_ctypes_libffi_src_dlmalloc_c/1.6/Sun Sep  1 04:43:27 2024//TOPENBSD_7_6
+/patch-mozilla_js_src_jit_ProcessExecutableMemory_h/1.8/Sun Sep  1 04:43:27 2024//TOPENBSD_7_6
+/patch-mozilla_security_manager_pki_resources_content_exceptionDialog_js/1.13/Sun Sep  1 04:43:27 2024//TOPENBSD_7_6
+D

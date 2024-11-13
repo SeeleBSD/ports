@@ -1,0 +1,23 @@
+/patch-core_object_cpp/1.1/Sun Sep  1 04:43:05 2024//TOPENBSD_7_6
+/patch-core_resource_cpp/1.1/Sun Sep  1 04:43:05 2024//TOPENBSD_7_6
+/patch-drivers_SCsub/1.2/Sun Sep  1 04:43:05 2024//TOPENBSD_7_6
+/patch-drivers_unix_os_unix_cpp/1.12/Sun Sep  1 04:43:05 2024//TOPENBSD_7_6
+/patch-godotsteam_godotsteam_cpp/1.2/Sun Sep  1 04:43:05 2024//TOPENBSD_7_6
+/patch-godotsteam_godotsteam_h/1.2/Sun Sep  1 04:43:05 2024//TOPENBSD_7_6
+/patch-misc_dist_linux_godot_6/1.2/Sun Sep  1 04:43:05 2024//TOPENBSD_7_6
+/patch-misc_dist_linux_org_godotengine_Godot_desktop/1.2/Sun Sep  1 04:43:05 2024//TOPENBSD_7_6
+/patch-modules_mono_build_scripts_mono_configure_py/1.1/Sun Sep  1 04:43:05 2024//TOPENBSD_7_6
+/patch-modules_mono_csharp_script_cpp/1.1/Sun Sep  1 04:43:05 2024//TOPENBSD_7_6
+/patch-modules_mono_glue_GodotSharp_GodotSharp_GodotSharp_csproj/1.1/Sun Sep  1 04:43:05 2024//TOPENBSD_7_6
+/patch-modules_mono_godotsharp_dirs_cpp/1.1/Sun Sep  1 04:43:05 2024//TOPENBSD_7_6
+/patch-modules_mono_godotsharp_dirs_h/1.1/Sun Sep  1 04:43:05 2024//TOPENBSD_7_6
+/patch-modules_mono_mono_gd_gd_mono_cpp/1.1/Sun Sep  1 04:43:05 2024//TOPENBSD_7_6
+/patch-platform_x11_SCsub/1.1/Sun Sep  1 04:43:05 2024//TOPENBSD_7_6
+/patch-platform_x11_detect_prime_cpp/1.1/Sun Sep  1 04:43:05 2024//TOPENBSD_7_6
+/patch-platform_x11_detect_py/1.13/Sun Sep  1 04:43:05 2024//TOPENBSD_7_6
+/patch-platform_x11_os_x11_cpp/1.13/Sun Sep  1 04:43:05 2024//TOPENBSD_7_6
+/patch-platform_x11_os_x11_h/1.6/Sun Sep  1 04:43:05 2024//TOPENBSD_7_6
+/patch-servers_visual_shader_language_cpp/1.3/Sun Sep  1 04:43:05 2024//TOPENBSD_7_6
+/patch-thirdparty_embree_common_math_math_h/1.4/Sun Sep  1 04:43:05 2024//TOPENBSD_7_6
+/patch-thirdparty_embree_common_sys_sysinfo_cpp/1.4/Sun Sep  1 04:43:05 2024//TOPENBSD_7_6
+D

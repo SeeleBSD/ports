@@ -1,0 +1,8 @@
+/patch-CMakeLists_txt/1.7/Mon Sep 23 15:34:55 2024//TOPENBSD_7_6
+/patch-cmake_BCToolboxCMakeUtils_cmake/1.1/Mon Apr 15 05:46:45 2024//TOPENBSD_7_6
+/patch-include_bctoolbox_port_h/1.5/Mon Sep 23 15:34:55 2024//TOPENBSD_7_6
+/patch-src_CMakeLists_txt/1.7/Mon Sep 23 15:34:55 2024//TOPENBSD_7_6
+/patch-src_utils_port_c/1.6/Mon Sep 23 15:34:55 2024//TOPENBSD_7_6
+/patch-tester_encrypted_vfs_cc/1.2/Mon Sep 23 15:34:55 2024//TOPENBSD_7_6
+/patch-tester_port_c/1.4/Mon Sep 23 15:34:55 2024//TOPENBSD_7_6
+D

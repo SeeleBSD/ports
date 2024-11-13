@@ -1,0 +1,10 @@
+/patch-CMakeLists_txt/1.1/Sun Sep  1 04:42:00 2024//TOPENBSD_7_6
+/patch-FluidSynthConfig_cmake_in/1.1/Sun Sep  1 04:42:00 2024//TOPENBSD_7_6
+/patch-cmake_admin_report_cmake/1.1/Sun Sep  1 04:42:00 2024//TOPENBSD_7_6
+/patch-src_CMakeLists_txt/1.2/Sun Sep  1 04:42:00 2024//TOPENBSD_7_6
+/patch-src_config_cmake/1.1/Sun Sep  1 04:42:00 2024//TOPENBSD_7_6
+/patch-src_drivers_fluid_adriver_c/1.5/Sun Sep  1 04:42:00 2024//TOPENBSD_7_6
+/patch-src_drivers_fluid_adriver_h/1.1/Sun Sep  1 04:42:00 2024//TOPENBSD_7_6
+/patch-src_drivers_fluid_mdriver_c/1.6/Sun Sep  1 04:42:00 2024//TOPENBSD_7_6
+/patch-src_drivers_fluid_mdriver_h/1.1/Sun Sep  1 04:42:00 2024//TOPENBSD_7_6
+D

@@ -1,0 +1,8 @@
+/patch-CMakeLists_txt/1.1/Wed Jul 10 07:44:31 2024//TOPENBSD_7_6
+/patch-autotests_DateTimeTest_cpp/1.3/Sun Sep  1 04:42:12 2024//TOPENBSD_7_6
+/patch-autotests_KDbTestUtils_cpp/1.1/Sun Sep  1 04:42:12 2024//TOPENBSD_7_6
+/patch-autotests_KDbTestUtils_h/1.1/Sun Sep  1 04:42:12 2024//TOPENBSD_7_6
+/patch-cmake_modules_FindPostgreSQL_cmake/1.1/Sun Sep  1 04:42:12 2024//TOPENBSD_7_6
+/patch-src_KDb_cpp/1.1/Sun Sep  1 04:42:12 2024//TOPENBSD_7_6
+/patch-src_drivers_postgresql_PostgresqlTypes_cpp/1.2/Sun Sep  1 04:42:12 2024//TOPENBSD_7_6
+D

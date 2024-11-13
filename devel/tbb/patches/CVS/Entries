@@ -1,0 +1,6 @@
+/patch-cmake_compilers_Clang_cmake/1.1/Wed Aug 28 23:32:54 2024//TOPENBSD_7_6
+/patch-src_tbb_CMakeLists_txt/1.1/Wed Aug 28 23:32:54 2024//TOPENBSD_7_6
+/patch-src_tbb_semaphore_h/1.1/Mon Aug 26 17:32:02 2024//TOPENBSD_7_6
+/patch-test_common_memory_usage_h/1.1/Mon Aug 26 17:32:02 2024//TOPENBSD_7_6
+/patch-test_common_utils_dynamic_libs_h/1.1/Mon Aug 26 17:32:02 2024//TOPENBSD_7_6
+D

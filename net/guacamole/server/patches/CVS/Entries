@@ -1,0 +1,6 @@
+/patch-src_libguac_client_c/1.1.1.1/Sun Sep  1 04:43:40 2024//TOPENBSD_7_6
+/patch-src_libguac_pool_c/1.1.1.1/Sun Sep  1 04:43:40 2024//TOPENBSD_7_6
+/patch-src_libguac_socket-broadcast_c/1.1.1.1/Sun Sep  1 04:43:40 2024//TOPENBSD_7_6
+/patch-src_libguac_socket-fd_c/1.1.1.1/Sun Sep  1 04:43:40 2024//TOPENBSD_7_6
+/patch-src_libguac_socket-wsa_c/1.1.1.1/Sun Sep  1 04:43:40 2024//TOPENBSD_7_6
+D

@@ -1,0 +1,7 @@
+/patch-Makefile_inc/1.2/Sun Sep  1 04:44:10 2024//TOPENBSD_7_6
+/patch-login_passwd_common_h/1.2/Sun Sep  1 04:44:10 2024//TOPENBSD_7_6
+/patch-login_passwd_login_c/1.2/Sun Sep  1 04:44:10 2024//TOPENBSD_7_6
+/patch-login_passwd_login_passwd_c/1.2/Sun Sep  1 04:44:10 2024//TOPENBSD_7_6
+/patch-login_totp-and-pwd_login_totp-and-pwd_8/1.2/Sun Sep  1 04:44:10 2024//TOPENBSD_7_6
+/patch-login_totp_login_totp_8/1.2/Sun Sep  1 04:44:10 2024//TOPENBSD_7_6
+D

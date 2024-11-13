@@ -1,0 +1,11 @@
+D/admdscrub////
+D/dkimsign////
+D/dnsbl////
+D/libopensmtpd////
+D/mimedefang////
+D/rspamd////
+D/senderscore////
+D/spamassassin////
+D/spfgreylist////
+/Makefile/1.9/Sun Sep  1 04:43:27 2024//TOPENBSD_7_6
+/Makefile.inc/1.3/Sun Sep  1 04:43:27 2024//TOPENBSD_7_6

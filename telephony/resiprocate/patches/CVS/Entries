@@ -1,0 +1,10 @@
+/patch-configure/1.2/Sun Sep  1 04:44:16 2024//TOPENBSD_7_6
+/patch-contrib_asio_include_asio_ssl_impl_context_ipp/1.2/Sun Sep  1 04:44:16 2024//TOPENBSD_7_6
+/patch-reTurn_reTurnServer_config/1.2/Sun Sep  1 04:44:16 2024//TOPENBSD_7_6
+/patch-reTurn_users_txt/1.2/Sun Sep  1 04:44:16 2024//TOPENBSD_7_6
+/patch-repro_repro_config/1.2/Sun Sep  1 04:44:16 2024//TOPENBSD_7_6
+/patch-repro_users_txt/1.2/Sun Sep  1 04:44:16 2024//TOPENBSD_7_6
+/patch-resip_stack_ssl_DtlsTransport_cxx/1.2/Sun Sep  1 04:44:16 2024//TOPENBSD_7_6
+/patch-rutil_ssl_OpenSSLInit_cxx/1.1/Sun Sep  1 04:44:16 2024//TOPENBSD_7_6
+/patch-rutil_stun_Stun_cxx/1.2/Sun Sep  1 04:44:16 2024//TOPENBSD_7_6
+D

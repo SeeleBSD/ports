@@ -1,0 +1,15 @@
+/patch-backends_gdx-backend-lwjgl_src_com_badlogic_gdx_backends_lwjgl_LwjglNativesLoader_java/1.1/Sun Sep  1 04:43:06 2024//TOPENBSD_7_6
+/patch-backends_gdx-backend-lwjgl_src_com_badlogic_gdx_backends_lwjgl_audio_OpenALMusic_java/1.1/Sun Sep  1 04:43:06 2024//TOPENBSD_7_6
+/patch-extensions_gdx-box2d_gdx-box2d_jni_build-linux64_xml/1.2/Sun Sep  1 04:43:06 2024//TOPENBSD_7_6
+/patch-extensions_gdx-controllers_gdx-controllers-desktop_jni_build-linux64_xml/1.2/Sun Sep  1 04:43:06 2024//TOPENBSD_7_6
+/patch-extensions_gdx-controllers_gdx-controllers-desktop_jni_ois-v1-4svn_includes_linux_LinuxForceFeedback_h/1.1/Sun Sep  1 04:43:06 2024//TOPENBSD_7_6
+/patch-extensions_gdx-controllers_gdx-controllers-desktop_jni_ois-v1-4svn_src_linux_EventHelpers_cpp/1.1/Sun Sep  1 04:43:06 2024//TOPENBSD_7_6
+/patch-extensions_gdx-controllers_gdx-controllers-desktop_jni_ois-v1-4svn_src_linux_LinuxForceFeedback_cpp/1.1/Sun Sep  1 04:43:06 2024//TOPENBSD_7_6
+/patch-extensions_gdx-controllers_gdx-controllers-desktop_jni_ois-v1-4svn_src_linux_LinuxJoyStickEvents_cpp/1.1/Sun Sep  1 04:43:06 2024//TOPENBSD_7_6
+/patch-extensions_gdx-controllers_pom_xml/1.2/Sun Sep  1 04:43:06 2024//TOPENBSD_7_6
+/patch-extensions_gdx-freetype_jni_build-linux64_xml/1.2/Sun Sep  1 04:43:06 2024//TOPENBSD_7_6
+/patch-extensions_gdx-jnigen_src_com_badlogic_gdx_jnigen_JniGenSharedLibraryLoader_java/1.1/Sun Sep  1 04:43:06 2024//TOPENBSD_7_6
+/patch-gdx_jni_build-linux64_xml/1.2/Sun Sep  1 04:43:06 2024//TOPENBSD_7_6
+/patch-gdx_src_com_badlogic_gdx_scenes_scene2d_utils_UIUtils_java/1.1/Sun Sep  1 04:43:06 2024//TOPENBSD_7_6
+/patch-gdx_src_com_badlogic_gdx_utils_SharedLibraryLoader_java/1.1/Sun Sep  1 04:43:06 2024//TOPENBSD_7_6
+D

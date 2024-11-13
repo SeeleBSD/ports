@@ -1,0 +1,18 @@
+/patch-configure_ac/1.2/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+/patch-mp3blaster_1/1.3/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+/patch-mpegsound_Makefile_am/1.2/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+/patch-mpegsound_fileplayer_cc/1.2/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+/patch-mpegsound_huffmantable_cc/1.2/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+/patch-mpegsound_mpegsound_h/1.3/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+/patch-mpegsound_oggplayer_cc/1.4/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+/patch-mpegsound_wavetoraw_cc/1.2/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+/patch-nmixer_Makefile_am/1.2/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+/patch-nmixer_nmixer_cc/1.2/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+/patch-nmixer_nmixer_h/1.4/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+/patch-src_Makefile_am/1.2/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+/patch-src_global_cc/1.4/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+/patch-src_main_cc/1.4/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+/patch-src_mp3blaster_h/1.2/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+/patch-src_splay_cc/1.3/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+/patch-src_splay_common_cc/1.2/Sun Sep  1 04:42:02 2024//TOPENBSD_7_6
+D

@@ -1,0 +1,10 @@
+--- d2j_invoke.sh.orig	Mon Oct 27 17:32:20 2014
++++ d2j_invoke.sh	Thu Jun  9 21:21:17 2016
+@@ -45,4 +45,6 @@ else
+     done
+ fi
+ 
+-java -Xms512m -Xmx1024m -classpath "${_classpath}" "$@"
++JAVA_CMD=$(javaPathHelper -c dex2jar)
++
++${JAVA_CMD} -Xms512m -Xmx1024m -classpath "${_classpath}" "$@"

@@ -1,0 +1,5 @@
+/patch-Makefile_PL/1.5/Mon Sep 23 15:35:01 2024//TOPENBSD_7_6
+/patch-lib_Pod_PlainText_pm/1.2/Sun Sep  1 04:44:24 2024//TOPENBSD_7_6
+/patch-t_pod_find_t/1.2/Sun Sep  1 04:44:24 2024//TOPENBSD_7_6
+/patch-t_unbalanced_t/1.2/Sun Sep  1 04:44:24 2024//TOPENBSD_7_6
+D

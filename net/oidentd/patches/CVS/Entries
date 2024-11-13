@@ -1,0 +1,5 @@
+/patch-configure/1.4/Sun Sep  1 04:43:45 2024//TOPENBSD_7_6
+/patch-src_Makefile_in/1.5/Sun Sep  1 04:43:45 2024//TOPENBSD_7_6
+/patch-src_oidentd_util_c/1.2/Sun Sep  1 04:43:45 2024//TOPENBSD_7_6
+/patch-src_oidentd_util_h/1.2/Sun Sep  1 04:43:45 2024//TOPENBSD_7_6
+D

@@ -1,0 +1,7 @@
+/patch-xsec_enc_OpenSSL_OpenSSLCryptoBase64_cpp/1.1.1.1/Sun Sep  1 04:44:04 2024//TOPENBSD_7_6
+/patch-xsec_enc_OpenSSL_OpenSSLCryptoBase64_hpp/1.1.1.1/Sun Sep  1 04:44:04 2024//TOPENBSD_7_6
+/patch-xsec_enc_OpenSSL_OpenSSLCryptoHashHMAC_cpp/1.1/Tue May 28 07:18:47 2024//TOPENBSD_7_6
+/patch-xsec_enc_OpenSSL_OpenSSLCryptoProvider_cpp/1.1/Sun Sep  1 04:44:04 2024//TOPENBSD_7_6
+/patch-xsec_enc_OpenSSL_OpenSSLSupport_cpp/1.1.1.1/Sun Sep  1 04:44:04 2024//TOPENBSD_7_6
+/patch-xsec_enc_OpenSSL_OpenSSLSupport_hpp/1.1.1.1/Sun Sep  1 04:44:04 2024//TOPENBSD_7_6
+D

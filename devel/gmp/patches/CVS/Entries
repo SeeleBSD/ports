@@ -1,0 +1,9 @@
+/patch-mpn_arm64_arm64-defs_m4/1.1/Sun Sep  1 04:42:24 2024//TOPENBSD_7_6
+/patch-mpn_x86_64_k8_mul_basecase_asm/1.1/Sun Sep  1 04:42:24 2024//TOPENBSD_7_6
+/patch-mpn_x86_64_k8_mullo_basecase_asm/1.1/Sun Sep  1 04:42:24 2024//TOPENBSD_7_6
+/patch-mpn_x86_64_k8_mulmid_basecase_asm/1.1/Sun Sep  1 04:42:24 2024//TOPENBSD_7_6
+/patch-mpn_x86_64_k8_redc_1_asm/1.1/Sun Sep  1 04:42:24 2024//TOPENBSD_7_6
+/patch-mpn_x86_64_k8_sqr_basecase_asm/1.1/Sun Sep  1 04:42:24 2024//TOPENBSD_7_6
+/patch-mpn_x86_64_mod_34lsub1_asm/1.1/Sun Sep  1 04:42:24 2024//TOPENBSD_7_6
+/patch-mpn_x86_64_x86_64-defs_m4/1.1/Sun Sep  1 04:42:24 2024//TOPENBSD_7_6
+D

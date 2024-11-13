@@ -1,0 +1,5 @@
+@bin bin/openomf
+share/doc/pkg-readmes/${PKGSTEM}
+share/openomf/
+share/openomf/openomf.bk
+share/openomf/openomf_icon.png

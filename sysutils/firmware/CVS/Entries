@@ -1,0 +1,32 @@
+D/acx////
+D/amd////
+D/amdgpu////
+D/apple-boot////
+D/arm64-qcom-dtb////
+D/athn////
+D/bwfm////
+D/bwi////
+D/intel////
+D/inteldrm////
+D/ipw////
+D/iwi////
+D/iwm////
+D/iwn////
+D/iwx////
+D/malo////
+D/mtw////
+D/mwx////
+D/ogx////
+D/otus////
+D/pgt////
+D/qcpas////
+D/qwx////
+D/radeondrm////
+D/uath////
+D/ulpt////
+D/upgt////
+D/uvideo////
+D/vmm////
+D/wpi////
+/Makefile/1.27/Mon Sep 23 15:34:50 2024//TOPENBSD_7_6
+/Makefile.inc/1.11/Sun Sep  1 04:44:07 2024//TOPENBSD_7_6

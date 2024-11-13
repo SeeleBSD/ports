@@ -1,0 +1,26 @@
+/patch-src_CMakeLists_txt/1.2/Sun Sep  1 04:43:32 2024//TOPENBSD_7_6
+/patch-src_cpp_CMakeLists_txt/1.4/Sun Sep  1 04:43:32 2024//TOPENBSD_7_6
+/patch-src_cpp_core_CMakeLists_txt/1.2/Sun Sep  1 04:43:32 2024//TOPENBSD_7_6
+/patch-src_cpp_core_HtmlUtils_cpp/1.2/Sun Sep  1 04:43:32 2024//TOPENBSD_7_6
+/patch-src_cpp_core_file_lock_FileLock_cpp/1.2/Sun Sep  1 04:43:32 2024//TOPENBSD_7_6
+/patch-src_cpp_core_include_core_http_RequestParser_hpp/1.2/Sun Sep  1 04:43:32 2024//TOPENBSD_7_6
+/patch-src_cpp_core_include_core_r_util_RTokenizer_hpp/1.2/Sun Sep  1 04:43:32 2024//TOPENBSD_7_6
+/patch-src_cpp_core_r_util_REnvironmentPosix_cpp/1.5/Sun Sep  1 04:43:32 2024//TOPENBSD_7_6
+/patch-src_cpp_core_r_util_RSessionContext_cpp/1.2/Sun Sep  1 04:43:32 2024//TOPENBSD_7_6
+/patch-src_cpp_core_system_PosixChildProcessTracker_cpp/1.2/Sun Sep  1 04:43:32 2024//TOPENBSD_7_6
+/patch-src_cpp_core_system_PosixChildProcess_cpp/1.2/Sun Sep  1 04:43:32 2024//TOPENBSD_7_6
+/patch-src_cpp_core_system_PosixOutputCapture_cpp/1.2/Sun Sep  1 04:43:32 2024//TOPENBSD_7_6
+/patch-src_cpp_core_system_PosixProcess_cpp/1.1/Sun Sep  1 04:43:32 2024//TOPENBSD_7_6
+/patch-src_cpp_core_system_PosixSched_cpp/1.2/Sun Sep  1 04:43:32 2024//TOPENBSD_7_6
+/patch-src_cpp_core_system_PosixSystem_cpp/1.3/Sun Sep  1 04:43:32 2024//TOPENBSD_7_6
+/patch-src_cpp_core_system_PosixUser_cpp/1.2/Sun Sep  1 04:43:32 2024//TOPENBSD_7_6
+/patch-src_cpp_core_system_file_monitor_LinuxFileMonitor_cpp/1.2/Sun Sep  1 04:43:32 2024//TOPENBSD_7_6
+/patch-src_cpp_desktop_DesktopMain_cpp/1.2/Sun Sep  1 04:43:32 2024//TOPENBSD_7_6
+/patch-src_cpp_r_session_REmbeddedPosix_cpp/1.2/Sun Sep  1 04:43:32 2024//TOPENBSD_7_6
+/patch-src_cpp_r_session_RSession_cpp/1.1/Sun Sep  1 04:43:32 2024//TOPENBSD_7_6
+/patch-src_cpp_r_session_RStdCallbacks_cpp/1.2/Sun Sep  1 04:43:32 2024//TOPENBSD_7_6
+/patch-src_cpp_server_CMakeLists_txt/1.2/Sun Sep  1 04:43:32 2024//TOPENBSD_7_6
+/patch-src_cpp_session_CMakeLists_txt/1.2/Sun Sep  1 04:43:32 2024//TOPENBSD_7_6
+/patch-src_cpp_session_SessionMain_cpp/1.2/Sun Sep  1 04:43:32 2024//TOPENBSD_7_6
+/patch-src_cpp_session_modules_SessionPackages_R/1.1/Sun Sep  1 04:43:32 2024//TOPENBSD_7_6
+D

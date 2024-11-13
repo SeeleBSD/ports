@@ -1,0 +1,14 @@
+Index: CMakeLists.txt
+--- CMakeLists.txt.orig
++++ CMakeLists.txt
+@@ -73,8 +73,8 @@ if (POLICY CMP0069)
+ endif()
+ 
+ # Configure CCache if available
+-find_program(CCACHE_FOUND ccache)
+-#set(CCACHE_FOUND 0)
++#find_program(CCACHE_FOUND ccache)
++set(CCACHE_FOUND 0)
+ if (CCACHE_FOUND)
+   message(STATUS "Found ccache")
+   set_property(GLOBAL PROPERTY RULE_LAUNCH_COMPILE ccache)

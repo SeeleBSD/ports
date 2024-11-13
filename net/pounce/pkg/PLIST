@@ -1,0 +1,4 @@
+@bin bin/calico
+@bin bin/pounce
+@man man/man1/calico.1
+@man man/man1/pounce.1

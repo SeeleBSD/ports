@@ -1,0 +1,26 @@
+#1: XXX maybe this can go away now we have auto-init, I'm not sure exactly
+what python's lock protects
+
+#2: ERR_get_state is no longer used in OpenSSL 3.0 or libressl as of 20240303
+
+Index: Modules/_ssl.c
+--- Modules/_ssl.c.orig
++++ Modules/_ssl.c
+@@ -164,6 +164,9 @@ struct py_ssl_library_code {
+ #if defined(OPENSSL_VERSION_1_1) && !defined(OPENSSL_NO_SSL2)
+ #define OPENSSL_NO_SSL2
+ #endif
++#if defined(LIBRESSL_VERSION_NUMBER) && defined(WITH_THREAD)
++#define HAVE_OPENSSL_CRYPTO_LOCK
++#endif
+ 
+ #ifndef PY_OPENSSL_1_1_API
+ /* OpenSSL 1.1 API shims for OpenSSL < 1.1.0 and LibreSSL < 2.7.0 */
+@@ -592,7 +595,6 @@ newPySSLSocket(PySSLContext *sslctx, PySocketSockObjec
+     Py_INCREF(sslctx);
+ 
+     /* Make sure the SSL error state is initialized */
+-    (void) ERR_get_state();
+     ERR_clear_error();
+ 
+     PySSL_BEGIN_ALLOW_THREADS

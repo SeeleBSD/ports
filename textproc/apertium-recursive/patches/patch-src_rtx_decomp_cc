@@ -1,0 +1,26 @@
+Index: src/rtx_decomp.cc
+--- src/rtx_decomp.cc.orig
++++ src/rtx_decomp.cc
+@@ -9,7 +9,10 @@
+ #include <cstring>
+ #include <cstdio>
+ #include <unicode/ustdio.h>
++#include <unistd.h>
+ 
++using namespace std;
++
+ void endProgram(char *name)
+ {
+   std::cout << basename(name) << ": decompile a transfer bytecode file" << std::endl;
+@@ -218,6 +221,11 @@ void writeRule(UString rule, UFILE* out)
+ 
+ int main(int argc, char *argv[])
+ {
++  if (pledge("stdio wpath rpath cpath", NULL) == -1)
++  {
++    wcerr << "pledge" << endl;
++    exit(EXIT_FAILURE);
++  }
+ #if HAVE_GETOPT_LONG
+   static struct option long_options[]=
+     {

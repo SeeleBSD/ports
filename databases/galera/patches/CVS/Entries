@@ -1,0 +1,15 @@
+/patch-asio_asio_ssl_impl_context_ipp/1.3/Sun Sep  1 04:42:12 2024//TOPENBSD_7_6
+/patch-cmake_os_cmake/1.1.1.1/Sun Sep  1 04:42:12 2024//TOPENBSD_7_6
+/patch-galerautils_src_gu_arch_h/1.1.1.1/Sun Sep  1 04:42:12 2024//TOPENBSD_7_6
+/patch-galerautils_src_gu_asio_socket_util_hpp/1.1.1.1/Sun Sep  1 04:42:12 2024//TOPENBSD_7_6
+/patch-galerautils_src_gu_byteswap_h/1.1.1.1/Sun Sep  1 04:42:12 2024//TOPENBSD_7_6
+/patch-galerautils_src_gu_errno_h/1.1.1.1/Sun Sep  1 04:42:12 2024//TOPENBSD_7_6
+/patch-galerautils_src_gu_fdesc_cpp/1.1.1.1/Sun Sep  1 04:42:12 2024//TOPENBSD_7_6
+/patch-galerautils_src_gu_resolver_cpp/1.1.1.1/Sun Sep  1 04:42:12 2024//TOPENBSD_7_6
+/patch-galerautils_src_gu_system_h/1.1.1.1/Sun Sep  1 04:42:12 2024//TOPENBSD_7_6
+/patch-galerautils_tests_CMakeLists_txt/1.1.1.1/Sun Sep  1 04:42:12 2024//TOPENBSD_7_6
+/patch-gcache_src_CMakeLists_txt/1.1.1.1/Sun Sep  1 04:42:12 2024//TOPENBSD_7_6
+/patch-gcache_src_gcache_page_cpp/1.1.1.1/Sun Sep  1 04:42:12 2024//TOPENBSD_7_6
+/patch-gcs_src_gcs_spread_cpp/1.1.1.1/Sun Sep  1 04:42:12 2024//TOPENBSD_7_6
+/patch-wsrep_tests_CMakeLists_txt/1.1.1.1/Sun Sep  1 04:42:12 2024//TOPENBSD_7_6
+D

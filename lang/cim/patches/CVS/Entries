@@ -1,0 +1,19 @@
+/patch-lib_cim_h/1.2/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-lib_copytexttoc_c/1.2/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-lib_dinimage_c/1.2/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-lib_lowcase_c/1.2/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-lib_lowten_c/1.2/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-lib_setaccess_c/1.2/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-lib_simenvir_c/1.2/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-lib_simfile_c/1.2/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-lib_simset_c/1.2/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-lib_simulation_c/1.2/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-lib_start_c/1.2/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-lib_upcase_c/1.2/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-src_error_c/1.2/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-src_expchecker_c/1.2/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-src_extspec_c/1.2/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-src_filelist_c/1.3/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-src_sentgen_c/1.2/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-src_strgen_c/1.2/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+D

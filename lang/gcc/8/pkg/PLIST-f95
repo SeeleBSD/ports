@@ -1,0 +1,18 @@
+@option is-branch
+@conflict gfortran-*
+@conflict libgfortran-*
+@conflict g95-<9
+@pkgpath lang/gcc/4.9,-f95
+@bin bin/egfortran
+@bin bin/${CONFIG}-egfortran
+@info info/gfortran.info
+lib/gcc/${CONFIG}/${V}/finclude/
+lib/gcc/${CONFIG}/${V}/finclude/ieee_arithmetic.mod
+lib/gcc/${CONFIG}/${V}/finclude/ieee_exceptions.mod
+lib/gcc/${CONFIG}/${V}/finclude/ieee_features.mod
+@static-lib lib/gcc/${CONFIG}/${V}/libcaf_single.a
+lib/gcc/${CONFIG}/${V}/libcaf_single.la
+@static-lib lib/libgfortran.a
+lib/libgfortran.spec
+@bin libexec/gcc/${CONFIG}/${V}/f951
+@man man/man1/egfortran.1

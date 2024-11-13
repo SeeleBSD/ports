@@ -1,0 +1,13 @@
+Index: source/CMakeLists.txt
+--- source/CMakeLists.txt.orig
++++ source/CMakeLists.txt
+@@ -523,7 +523,8 @@ if(POWER)
+     endif()
+ endif()
+ 
+-include(Version) # determine X265_VERSION and X265_LATEST_TAG
++set(X265_VERSION "unknown" CACHE STRING "")
++set(X265_LATEST_TAG "0.0" CACHE STRING "")
+ include_directories(. common encoder "${PROJECT_BINARY_DIR}")
+ 
+ option(ENABLE_PPA "Enable PPA profiling instrumentation" OFF)

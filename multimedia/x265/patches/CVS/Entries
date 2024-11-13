@@ -1,0 +1,5 @@
+/patch-source_CMakeLists_txt/1.8/Mon Sep 23 15:34:26 2024//TOPENBSD_7_6
+/patch-source_common_aarch64_asm_S/1.4/Mon Sep 23 15:34:26 2024//TOPENBSD_7_6
+/patch-source_common_x86_x86inc_asm/1.2/Mon Sep 23 15:34:26 2024//TOPENBSD_7_6
+/patch-source_test_checkasm-a_asm/1.5/Sun Sep  1 04:43:37 2024//TOPENBSD_7_6
+D

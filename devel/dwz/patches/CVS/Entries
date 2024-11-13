@@ -1,0 +1,8 @@
+/patch-Makefile/1.4/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-args_c/1.1/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-dwz_c/1.4/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-hashtab_c/1.2/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-obstack_c/1.2/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-obstack_h/1.2/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-sha1_c/1.2/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+D

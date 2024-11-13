@@ -1,0 +1,11 @@
+/patch-include_system_h/1.3/Sun Sep  1 04:43:07 2024//TOPENBSD_7_6
+/patch-include_tcap_h/1.3/Sun Sep  1 04:43:07 2024//TOPENBSD_7_6
+/patch-include_unixconf_h/1.3/Sun Sep  1 04:43:07 2024//TOPENBSD_7_6
+/patch-src_files_c/1.4/Sun Sep  1 04:43:07 2024//TOPENBSD_7_6
+/patch-src_hacklib_c/1.3/Sun Sep  1 04:43:07 2024//TOPENBSD_7_6
+/patch-sys_share_unixtty_c/1.3/Sun Sep  1 04:43:07 2024//TOPENBSD_7_6
+/patch-sys_unix_Makefile_src/1.4/Sun Sep  1 04:43:07 2024//TOPENBSD_7_6
+/patch-sys_unix_Makefile_top/1.3/Sun Sep  1 04:43:07 2024//TOPENBSD_7_6
+/patch-win_Qt_qt_win_cpp/1.2/Sun Sep  1 04:43:07 2024//TOPENBSD_7_6
+/patch-win_tty_termcap_c/1.4/Sun Sep  1 04:43:07 2024//TOPENBSD_7_6
+D

@@ -1,0 +1,6 @@
+/patch-nss_Makefile/1.6/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-nss_coreconf_OpenBSD_mk/1.7/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-nss_lib_freebl_mpi_mpcpucache_c/1.2/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-nss_pkg_pkg-config_nss-config_in/1.2/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-nss_pkg_pkg-config_nss_pc_in/1.2/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+D

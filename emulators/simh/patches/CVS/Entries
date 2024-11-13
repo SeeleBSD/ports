@@ -1,0 +1,14 @@
+/patch-AltairZ80_i86_decode_c/1.2/Sun Sep  1 04:42:59 2024//TOPENBSD_7_6
+/patch-AltairZ80_i86_h/1.2/Sun Sep  1 04:42:59 2024//TOPENBSD_7_6
+/patch-AltairZ80_i86_ops_c/1.2/Sun Sep  1 04:42:59 2024//TOPENBSD_7_6
+/patch-PDP11_pdp11_hk_c/1.3/Sun Sep  1 04:42:59 2024//TOPENBSD_7_6
+/patch-PDP11_pdp11_vh_c/1.6/Sun Sep  1 04:42:59 2024//TOPENBSD_7_6
+/patch-VAX_vax780_sbi_c/1.6/Sun Sep  1 04:42:59 2024//TOPENBSD_7_6
+/patch-VAX_vax_sysdev_c/1.9/Sun Sep  1 04:42:59 2024//TOPENBSD_7_6
+/patch-VAX_vaxmod_defs_h/1.2/Sun Sep  1 04:42:59 2024//TOPENBSD_7_6
+/patch-makefile/1.18/Sun Sep  1 04:42:59 2024//TOPENBSD_7_6
+/patch-scp_c/1.18/Sun Sep  1 04:42:59 2024//TOPENBSD_7_6
+/patch-sim_console_c/1.4/Sun Sep  1 04:42:59 2024//TOPENBSD_7_6
+/patch-sim_ether_c/1.14/Sun Sep  1 04:42:59 2024//TOPENBSD_7_6
+/patch-sim_fio_c/1.2/Sun Sep  1 04:42:59 2024//TOPENBSD_7_6
+D

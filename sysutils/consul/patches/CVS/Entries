@@ -1,0 +1,5 @@
+/patch-_release_linux_package_etc_consul_d_consul_hcl/1.3/Sun Sep  1 04:44:06 2024//TOPENBSD_7_6
+/patch-logging_logfile_bsd_go/1.3/Sun Sep  1 04:44:06 2024//TOPENBSD_7_6
+/patch-vendor_github_com_mitchellh_go-ps_process_openbsd_go/1.1/Sun Sep  1 04:44:06 2024//TOPENBSD_7_6
+/patch-vendor_github_com_mitchellh_go-ps_process_openbsd_h/1.1/Sun Sep  1 04:44:06 2024//TOPENBSD_7_6
+D

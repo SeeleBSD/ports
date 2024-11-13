@@ -1,0 +1,24 @@
+Index: setup.py
+--- setup.py.orig
++++ setup.py
+@@ -43,9 +43,9 @@ if OS not in ['Windows', 'Darwin']:
+     elif OS == 'NetBSD':
+         DIST, DIST_VERSION, DIST_NAME = ('', '', '')
+     else:
+-        DIST, DIST_VERSION, DIST_NAME = platform.dist()
++        DIST, DIST_VERSION, DIST_NAME = ('', '', '')
+     NAME = NAME.lower()
+-VERSION = AppInfo.VERSION.replace('-', '.') + '.' + DIST + DIST_VERSION
++VERSION = AppInfo.VERSION.replace('-', '.')
+ 
+ NAGSTAMON_SCRIPT = 'nagstamon.py'
+ 
+@@ -126,7 +126,7 @@ setup(name=NAME,
+                 'Nagstamon.thirdparty.Xlib.xobject'],
+       package_dir={'Nagstamon': 'Nagstamon'},
+       package_data={'Nagstamon': ['resources/*']},
+-      data_files=[('%s/share/man/man1' % sys.prefix, ['Nagstamon/resources/nagstamon.1.gz']),
++      data_files=[('%s/man/man1' % sys.prefix, ['Nagstamon/resources/nagstamon.1.gz']),
+           ('%s/share/pixmaps' % sys.prefix, ['Nagstamon/resources/nagstamon.svg']),
+           ('%s/share/applications' % sys.prefix, ['Nagstamon/resources/nagstamon.desktop'])],
+       options=dict(build_exe=build_exe_options,

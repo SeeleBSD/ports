@@ -1,0 +1,5 @@
+/patch-ext_soup_gstsouploader_c/1.7/Mon Sep 23 15:34:24 2024//TOPENBSD_7_6
+/patch-gst_deinterlace_x86_x86inc_asm/1.1/Sun Sep  1 04:43:36 2024//TOPENBSD_7_6
+/patch-sys_v4l2_gstv4l2object_c/1.7/Thu Aug 22 09:34:00 2024//TOPENBSD_7_6
+/patch-sys_v4l2_v4l2_calls_c/1.6/Mon Sep 23 15:34:24 2024//TOPENBSD_7_6
+D

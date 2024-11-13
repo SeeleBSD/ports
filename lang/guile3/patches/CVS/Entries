@@ -1,0 +1,5 @@
+/patch-libguile_posix_c/1.1/Sun Sep  1 04:43:23 2024//TOPENBSD_7_6
+/patch-test-suite_standalone_test-out-of-memory/1.1.1.1/Sun Sep  1 04:43:23 2024//TOPENBSD_7_6
+/patch-test-suite_standalone_test-stack-overflow/1.1.1.1/Sun Sep  1 04:43:23 2024//TOPENBSD_7_6
+/patch-test-suite_tests_posix_test/1.1/Sun Sep  1 04:43:23 2024//TOPENBSD_7_6
+D

@@ -1,0 +1,11 @@
+--- src/Fl_Preferences.cxx.orig	Sat Jun 27 16:40:11 2015
++++ src/Fl_Preferences.cxx	Sat Jun 27 16:40:51 2015
+@@ -1083,7 +1083,7 @@ Fl_Preferences::RootNode::RootNode( Fl_Preferences *pr
+ 	break;
+       } 
+     case SYSTEM:
+-      strcpy(filename, "/etc/fltk/");
++      strlcpy(filename, "${SYSCONFDIR}/fltk/", sizeof(filename));
+       break;
+   } 
+   snprintf(filename + strlen(filename), sizeof(filename) - strlen(filename),

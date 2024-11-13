@@ -1,0 +1,13 @@
+- Disable hardcoded optimizations
+
+Index: scripts/genie.lua
+--- scripts/genie.lua.orig
++++ scripts/genie.lua
+@@ -810,7 +810,6 @@ end
+ -- if we are optimizing, include optimization options
+ if _OPTIONS["OPTIMIZE"] then
+ 	buildoptions {
+-		"-O".. _OPTIONS["OPTIMIZE"],
+ 		"-fno-strict-aliasing"
+ 	}
+ 	if _OPTIONS["OPT_FLAGS"] then

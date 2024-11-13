@@ -1,0 +1,10 @@
+/patch-Makefile/1.8/Sun Sep  1 04:44:32 2024//TOPENBSD_7_6
+/patch-config_gethostname_c/1.2/Sun Sep  1 04:44:32 2024//TOPENBSD_7_6
+/patch-config_socklen_t_c/1.2/Sun Sep  1 04:44:32 2024//TOPENBSD_7_6
+/patch-configure/1.2/Sun Sep  1 04:44:32 2024//TOPENBSD_7_6
+/patch-doc_cntlm_1/1.2/Sun Sep  1 04:44:32 2024//TOPENBSD_7_6
+/patch-ntlm_c/1.3/Sun Sep  1 04:44:32 2024//TOPENBSD_7_6
+/patch-swap_h/1.2/Sun Sep  1 04:44:32 2024//TOPENBSD_7_6
+/patch-utils_c/1.2/Sun Sep  1 04:44:32 2024//TOPENBSD_7_6
+/patch-utils_h/1.4/Sun Sep  1 04:44:32 2024//TOPENBSD_7_6
+D

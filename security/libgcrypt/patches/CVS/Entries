@@ -1,0 +1,10 @@
+/patch-cipher_Makefile_in/1.1/Sat Aug 17 03:50:43 2024//TOPENBSD_7_6
+/patch-cipher_asm-common-aarch64_h/1.2/Mon Sep 23 15:34:44 2024//TOPENBSD_7_6
+/patch-cipher_asm-common-amd64_h/1.2/Mon Sep 23 15:34:44 2024//TOPENBSD_7_6
+/patch-config_h_in/1.2/Mon Sep 23 15:34:44 2024//TOPENBSD_7_6
+/patch-configure/1.14/Mon Sep 23 15:34:44 2024//TOPENBSD_7_6
+/patch-mpi_config_links/1.1/Sat Aug 17 03:50:43 2024//TOPENBSD_7_6
+/patch-mpi_longlong_h/1.11/Mon Sep 23 15:34:44 2024//TOPENBSD_7_6
+/patch-src_hwf-arm_c/1.2/Mon Sep 23 15:34:44 2024//TOPENBSD_7_6
+/patch-src_secmem_c/1.8/Sun Sep  1 04:43:59 2024//TOPENBSD_7_6
+D

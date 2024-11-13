@@ -1,0 +1,14 @@
+/patch-gyp/1.3/Sun Sep  1 04:42:24 2024//TOPENBSD_7_6
+/patch-gyptest_py/1.4/Sun Sep  1 04:42:24 2024//TOPENBSD_7_6
+/patch-pylib_gyp_input_py/1.1/Sun Sep  1 04:42:24 2024//TOPENBSD_7_6
+/patch-test_errors_gyptest-errors_py/1.1/Sun Sep  1 04:42:24 2024//TOPENBSD_7_6
+/patch-test_lib_TestCmd_py/1.1/Sun Sep  1 04:42:24 2024//TOPENBSD_7_6
+/patch-test_library_dirs_subdir_test_gyp/1.1/Sun Sep  1 04:42:24 2024//TOPENBSD_7_6
+/patch-test_module_src_module_gyp/1.1/Sun Sep  1 04:42:24 2024//TOPENBSD_7_6
+/patch-test_variables_commands_commands-repeated_gyp_stdout/1.1/Sun Sep  1 04:42:24 2024//TOPENBSD_7_6
+/patch-test_variables_commands_commands-repeated_gypd_golden/1.1/Sun Sep  1 04:42:24 2024//TOPENBSD_7_6
+/patch-test_variables_commands_commands_gyp_ignore-env_stdout/1.1/Sun Sep  1 04:42:24 2024//TOPENBSD_7_6
+/patch-test_variables_commands_commands_gyp_stdout/1.1/Sun Sep  1 04:42:24 2024//TOPENBSD_7_6
+/patch-test_variables_commands_commands_gypd_golden/1.1/Sun Sep  1 04:42:24 2024//TOPENBSD_7_6
+/patch-test_variables_filelist_filelist_gyp_stdout/1.1/Sun Sep  1 04:42:24 2024//TOPENBSD_7_6
+D

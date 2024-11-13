@@ -1,0 +1,12 @@
+Index: src/watchdog/wd_escalation.c
+--- src/watchdog/wd_escalation.c.orig
++++ src/watchdog/wd_escalation.c
+@@ -27,7 +27,7 @@
+ #include <unistd.h>
+ #include <errno.h>
+ 
+-#ifdef __FreeBSD__
++#if defined(__FreeBSD__) || defined(__OpenBSD__)
+ #include <sys/wait.h>
+ #endif
+ 

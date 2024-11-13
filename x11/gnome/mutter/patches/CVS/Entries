@@ -1,0 +1,9 @@
+/patch-clutter_clutter_clutter-frame-clock_c/1.6/Sun Sep  1 04:44:49 2024//TOPENBSD_7_6
+/patch-clutter_clutter_clutter-stage-view_c/1.7/Sun Sep  1 04:44:49 2024//TOPENBSD_7_6
+/patch-cogl_cogl_cogl-dma-buf-handle_c/1.4/Sun Sep  1 04:44:49 2024//TOPENBSD_7_6
+/patch-cogl_cogl_cogl-dma-buf-handle_h/1.4/Sun Sep  1 04:44:49 2024//TOPENBSD_7_6
+/patch-meson_build/1.10/Sun Sep  1 04:44:49 2024//TOPENBSD_7_6
+/patch-src_backends_meta-stage-impl_c/1.9/Sun Sep  1 04:44:49 2024//TOPENBSD_7_6
+/patch-src_backends_x11_meta-cursor-renderer-x11_c/1.1/Mon Aug  5 10:22:20 2024//TOPENBSD_7_6
+/patch-src_backends_x11_meta-seat-x11_c/1.9/Sun Sep  1 04:44:49 2024//TOPENBSD_7_6
+D

@@ -1,0 +1,10 @@
+/patch-Local_Makefile/1.11/Mon Sep 23 15:34:16 2024//TOPENBSD_7_6
+/patch-OS_Makefile-Default/1.11/Sun Sep  1 04:43:26 2024//TOPENBSD_7_6
+/patch-OS_Makefile-OpenBSD/1.9/Sun Sep  1 04:43:26 2024//TOPENBSD_7_6
+/patch-scripts_exim_install/1.15/Sun Sep  1 04:43:26 2024//TOPENBSD_7_6
+/patch-src_dane-openssl_c/1.3/Sun Sep  1 04:43:26 2024//TOPENBSD_7_6
+/patch-src_lookups_spf_c/1.6/Sun Sep  1 04:43:26 2024//TOPENBSD_7_6
+/patch-src_osfunctions_h/1.1/Tue Aug 20 19:53:09 2024//TOPENBSD_7_6
+/patch-src_spf_h/1.4/Sun Sep  1 04:43:26 2024//TOPENBSD_7_6
+/patch-src_tls-openssl_c/1.5/Mon Sep 23 15:34:16 2024//TOPENBSD_7_6
+D

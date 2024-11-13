@@ -1,0 +1,41 @@
+Index: libraries/source/spidermonkey/build.sh
+--- libraries/source/spidermonkey/build.sh.orig
++++ libraries/source/spidermonkey/build.sh
+@@ -128,8 +128,8 @@ else
+   cd "$FOLDER"
+ fi
+ 
+-# Debug version of SM is broken on FreeBSD.
+-if [ "$(uname -s)" != "FreeBSD" ]; then
++# Debug version of SM is broken on OpenBSD.
++if [ "$(uname -s)" != "OpenBSD" ]; then
+   mkdir -p build-debug
+   cd build-debug
+   # SM configure checks for autoconf, but we don't actually need it.
+@@ -171,7 +171,7 @@ else
+   STATIC_LIB_SUFFIX=.a
+   if [ "`uname -s`" = "OpenBSD" ];
+   then
+-    LIB_SUFFIX=.so.1.0
++    LIB_SUFFIX=.so.$SO_VERSION
+   elif [ "`uname -s`" = "Darwin" ];
+   then
+     LIB_SUFFIX=.a
+@@ -197,7 +197,7 @@ fi
+ mkdir -p "${INCLUDE_DIR_RELEASE}"
+ cp -R -L "${FOLDER}"/build-release/dist/include/* "${INCLUDE_DIR_RELEASE}/"
+ 
+-if [ "$(uname -s)" != "FreeBSD" ]; then
++if [ "$(uname -s)" != "OpenBSD" ]; then
+   mkdir -p "${INCLUDE_DIR_DEBUG}"
+   cp -R -L "${FOLDER}"/build-debug/dist/include/* "${INCLUDE_DIR_DEBUG}/"
+ fi
+@@ -238,7 +238,7 @@ else
+   # Copy shared libs to both lib/ and binaries/ so the compiler and executable (resp.) can find them.
+   cp -L "${FOLDER}/build-${REL}/js/src/build/${LIB_PREFIX}${LIB_NAME}-${REL}${LIB_SUFFIX}" "lib/${LIB_PREFIX}${LIB_NAME}-${REL}${LIB_SUFFIX}"
+   cp -L "${FOLDER}/build-${REL}/js/src/build/${LIB_PREFIX}${LIB_NAME}-${REL}${LIB_SUFFIX}" "../../../binaries/system/${LIB_PREFIX}${LIB_NAME}-${REL}${LIB_SUFFIX}"
+-  if [ "$(uname -s)" != "FreeBSD" ]; then
++  if [ "$(uname -s)" != "OpenBSD" ]; then
+     cp -L "${FOLDER}/build-${DEB}/js/src/build/${LIB_PREFIX}${LIB_NAME}-${DEB}${LIB_SUFFIX}" "../../../binaries/system/${LIB_PREFIX}${LIB_NAME}-${DEB}${LIB_SUFFIX}"
+     cp -L "${FOLDER}/build-${DEB}/js/src/build/${LIB_PREFIX}${LIB_NAME}-${DEB}${LIB_SUFFIX}" "lib/${LIB_PREFIX}${LIB_NAME}-${DEB}${LIB_SUFFIX}"
+   fi

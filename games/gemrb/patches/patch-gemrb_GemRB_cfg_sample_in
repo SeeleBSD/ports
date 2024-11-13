@@ -1,0 +1,39 @@
+Index: gemrb/GemRB.cfg.sample.in
+--- gemrb/GemRB.cfg.sample.in.orig
++++ gemrb/GemRB.cfg.sample.in
+@@ -173,7 +173,7 @@ GamePath=/mnt/windows/Programmi/Black Isle/BGII - SoA/
+ #  Cache directory.                                 #
+ #####################################################
+ 
+-CachePath=@DEFAULT_CACHE_DIR@
++CachePath=~/.cache/gemrb/
+ 
+ #####################################################
+ #  GemRB Save Path [String]                         #
+@@ -214,7 +214,7 @@ GemRBPath=.
+ #  the 'GUIScript' subdirectory.                    #
+ #####################################################
+ 
+-#GUIScriptsPath=@DATA_DIR@
++GUIScriptsPath=@DATA_DIR@
+ 
+ #####################################################
+ #  GemRB Plugins Path [String]                      #
+@@ -228,7 +228,7 @@ GemRBPath=.
+ #  GemRB from source directory on Linux.            #
+ #####################################################
+ 
+-#PluginsPath=@DEFAULT_PLUGINS_DIR@
++PluginsPath=@DEFAULT_PLUGINS_DIR@
+ 
+ #####################################################
+ #  Custom Font Path [String]                        #
+@@ -272,7 +272,7 @@ GemRBPath=.
+ #####################################################
+ 
+ #GemRBOverridePath=@DATA_DIR@
+-#GemRBUnhardcodedPath=@DATA_DIR@
++GemRBUnhardcodedPath=@DATA_DIR@
+ 
+ #####################################################
+ #  Input Parameters                                 #

@@ -1,0 +1,8 @@
+/patch-Makefile_bsd/1.6/Mon Sep 23 15:34:13 2024//TOPENBSD_7_6
+/patch-defaults_make/1.7/Mon Sep 23 15:34:13 2024//TOPENBSD_7_6
+/patch-eval_scm/1.8/Mon Sep 23 15:34:13 2024//TOPENBSD_7_6
+/patch-rules_make/1.7/Mon Sep 23 15:34:13 2024//TOPENBSD_7_6
+/patch-tests_programs-path_scm/1.2/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-tests_runbench_sh/1.2/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-tests_runtests_sh/1.2/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+D

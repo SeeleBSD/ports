@@ -1,0 +1,7 @@
+/patch-CMakeLists_txt/1.7/Mon Sep 23 15:34:43 2024//TOPENBSD_7_6
+/patch-_cargo_config_toml/1.1/Sun Sep  1 04:43:57 2024//TOPENBSD_7_6
+/patch-etc_clamd_conf_sample/1.18/Mon Sep 23 15:34:43 2024//TOPENBSD_7_6
+/patch-etc_freshclam_conf_sample/1.8/Mon Sep 23 15:34:43 2024//TOPENBSD_7_6
+/patch-libclamav_bytecode_vm_c/1.4/Sun Sep  1 04:43:57 2024//TOPENBSD_7_6
+/patch-libclamav_clamav_h/1.6/Sun Sep  1 04:43:57 2024//TOPENBSD_7_6
+D

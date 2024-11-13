@@ -1,0 +1,7 @@
+/patch-meson_build/1.3/Sun Sep 15 17:02:26 2024//TOPENBSD_7_6
+/patch-src_debug_c/1.5/Mon Sep 23 15:34:46 2024//TOPENBSD_7_6
+/patch-src_debuglog_c/1.7/Mon Sep 23 15:34:46 2024//TOPENBSD_7_6
+/patch-src_libredirect_c/1.1/Thu Aug  8 19:59:15 2024//TOPENBSD_7_6
+/patch-src_spy_libpcscspy_c/1.7/Mon Sep 23 15:34:46 2024//TOPENBSD_7_6
+/patch-src_testpcsc_c/1.7/Mon Sep 23 15:34:46 2024//TOPENBSD_7_6
+D

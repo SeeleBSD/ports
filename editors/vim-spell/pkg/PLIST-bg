@@ -1,0 +1,6 @@
+@pkgpath editors/vim-spell,bg
+share/vim/
+share/vim/vim${P}/
+share/vim/vim${P}/spell/
+share/vim/vim${P}/spell/bg.cp1251.spl
+share/vim/vim${P}/spell/bg.utf-8.spl

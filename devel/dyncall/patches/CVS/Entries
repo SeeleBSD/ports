@@ -1,0 +1,11 @@
+/patch-dyncall_dyncall_call_arm32_arm_S/1.1/Tue Aug  6 20:32:42 2024//TOPENBSD_7_6
+/patch-dyncall_dyncall_call_arm32_arm_armhf_S/1.1/Tue Aug  6 20:32:42 2024//TOPENBSD_7_6
+/patch-dyncall_dyncall_call_arm32_thumb_apple_s/1.1/Tue Aug  6 20:32:42 2024//TOPENBSD_7_6
+/patch-dyncall_dyncall_call_arm32_thumb_armhf_S/1.1/Tue Aug  6 20:32:42 2024//TOPENBSD_7_6
+/patch-dyncall_dyncall_call_arm32_thumb_gas_s/1.1/Tue Aug  6 20:32:42 2024//TOPENBSD_7_6
+/patch-dyncall_dyncall_call_ppc32_S/1.3/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-dyncall_dyncall_call_ppc64_S/1.2/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-dyncallback_dyncall_callback_arm32_arm_gas_S/1.1/Tue Aug  6 20:32:42 2024//TOPENBSD_7_6
+/patch-dyncallback_dyncall_callback_ppc32_S/1.3/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-dyncallback_dyncall_callback_ppc64_S/1.2/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+D

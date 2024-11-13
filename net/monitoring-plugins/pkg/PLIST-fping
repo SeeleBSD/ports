@@ -1,0 +1,3 @@
+@conflict nagios-plugins-fping-*
+@pkgpath net/nagios/plugins,-fping
+@bin libexec/nagios/check_fping

@@ -1,0 +1,5 @@
+#!/bin/ksh
+
+JAVA_CMD=$(javaPathHelper -c projectlibre)
+
+${JAVA_CMD} -jar ${TRUEPREFIX}/lib/projectlibre/projectlibre.jar "$@"

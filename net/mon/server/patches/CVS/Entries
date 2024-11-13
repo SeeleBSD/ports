@@ -1,0 +1,9 @@
+/patch-alert_d_irc_alert/1.2/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/patch-alert_d_mail_alert/1.2/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/patch-etc_example_cf/1.2/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/patch-etc_very-simple_cf/1.3/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/patch-mon_d_Makefile/1.2/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/patch-mon_d_dns_monitor/1.2/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/patch-mon_d_fping_monitor/1.2/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/patch-mon_d_rpc_monitor_c/1.1/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+D

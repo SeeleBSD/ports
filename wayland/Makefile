@@ -1,0 +1,31 @@
+     SUBDIR =
+     SUBDIR += dmenu-wayland
+     SUBDIR += foot
+     SUBDIR += grim
+     SUBDIR += gtk-layer-shell
+     SUBDIR += gtk4-layer-shell
+     SUBDIR += havoc
+     SUBDIR += libei
+     SUBDIR += libevdev-openbsd
+     SUBDIR += libinput-openbsd
+     SUBDIR += plasma-wayland-protocols
+     SUBDIR += slurp
+     SUBDIR += sway
+     SUBDIR += swaybg
+     SUBDIR += swayimg
+     SUBDIR += swayidle
+     SUBDIR += swaylock
+     SUBDIR += wayfire
+     SUBDIR += wayland
+     SUBDIR += wayland-protocols
+     SUBDIR += wayland-utils
+     SUBDIR += wcm
+     SUBDIR += wev
+     SUBDIR += wf-config
+     SUBDIR += wf-shell
+     SUBDIR += wlroots
+     SUBDIR += wlr-randr
+     SUBDIR += wmenu
+     SUBDIR += xwayland
+
+.include <bsd.port.subdir.mk>

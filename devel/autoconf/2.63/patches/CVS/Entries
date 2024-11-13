@@ -1,0 +1,16 @@
+/patch-Makefile_in/1.2/Sun Sep  1 04:42:19 2024//TOPENBSD_7_6
+/patch-bin_autom4te_in/1.2/Sun Sep  1 04:42:19 2024//TOPENBSD_7_6
+/patch-bin_autoupdate_in/1.2/Sun Sep  1 04:42:19 2024//TOPENBSD_7_6
+/patch-configure/1.2/Sun Sep  1 04:42:19 2024//TOPENBSD_7_6
+/patch-doc_Makefile_in/1.2/Sun Sep  1 04:42:19 2024//TOPENBSD_7_6
+/patch-doc_autoconf_texi/1.2/Sun Sep  1 04:42:19 2024//TOPENBSD_7_6
+/patch-lib_autoconf_Makefile_in/1.2/Sun Sep  1 04:42:19 2024//TOPENBSD_7_6
+/patch-lib_autotest_Makefile_in/1.2/Sun Sep  1 04:42:19 2024//TOPENBSD_7_6
+/patch-lib_autotest_general_m4/1.2/Sun Sep  1 04:42:19 2024//TOPENBSD_7_6
+/patch-lib_m4sugar_Makefile_in/1.2/Sun Sep  1 04:42:19 2024//TOPENBSD_7_6
+/patch-lib_m4sugar_m4sugar_m4/1.2/Sun Sep  1 04:42:19 2024//TOPENBSD_7_6
+/patch-tests_Makefile_in/1.2/Sun Sep  1 04:42:19 2024//TOPENBSD_7_6
+/patch-tests_c_at/1.2/Sun Sep  1 04:42:19 2024//TOPENBSD_7_6
+/patch-tests_local_at/1.2/Sun Sep  1 04:42:19 2024//TOPENBSD_7_6
+/patch-tests_tools_at/1.2/Sun Sep  1 04:42:19 2024//TOPENBSD_7_6
+D

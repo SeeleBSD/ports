@@ -1,0 +1,22 @@
+Index: src/lrx_proc.cc
+--- src/lrx_proc.cc.orig
++++ src/lrx_proc.cc
+@@ -20,6 +20,7 @@
+ #include <getopt.h>
+ #include <iostream>
+ #include <libgen.h>
++#include <unistd.h>
+ #include <lttoolbox/lt_locale.h>
+ 
+ using namespace std;
+@@ -43,6 +44,10 @@ void endProgram(char *name)
+ 
+ int main(int argc, char *argv[])
+ {
++  if (pledge("stdio rpath wpath cpath", NULL) == -1) {
++    cerr << "pledge" << endl;
++  }
++
+   LtLocale::tryToSetLocale();
+   LRXProcessor lrxp;
+ 

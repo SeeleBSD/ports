@@ -1,0 +1,16 @@
+/patch-Makefile_in/1.2/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-erts_emulator_Makefile_in/1.1/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-erts_etc_common_ct_run_c/1.1/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-erts_etc_common_dialyzer_c/1.1/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-erts_etc_common_erlc_c/1.1/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-erts_etc_common_escript_c/1.1/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-erts_etc_common_typer_c/1.1/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-erts_lib_src_Makefile_in/1.1/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-lib_crypto_c_src_otp_test_engine_c/1.1/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-lib_dialyzer_src_dialyzer_plt_erl/1.1/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-lib_os_mon_c_src_cpu_sup_c/1.1/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-lib_os_mon_src_cpu_sup_erl/1.1/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-lib_os_mon_test_cpu_sup_SUITE_erl/1.1/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-lib_ssh_test_ssh_to_openssh_SUITE_erl/1.1/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+/patch-make_install_bin/1.1/Sun Sep  1 04:43:22 2024//TOPENBSD_7_6
+D

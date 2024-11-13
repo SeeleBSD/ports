@@ -1,0 +1,14 @@
+Default to IPv4.
+
+Index: src/iperf_api.c
+--- src/iperf_api.c.orig
++++ src/iperf_api.c
+@@ -2953,7 +2953,7 @@ iperf_defaults(struct iperf_test *testp)
+     testp->stats_interval = testp->reporter_interval = 1;
+     testp->num_streams = 1;
+ 
+-    testp->settings->domain = AF_UNSPEC;
++    testp->settings->domain = AF_INET;
+     testp->settings->unit_format = 'a';
+     testp->settings->socket_bufsize = 0;    /* use autotuning */
+     testp->settings->blksize = DEFAULT_TCP_BLKSIZE;

@@ -1,0 +1,9 @@
+/patch-conf_main_cf/1.1/Sun Sep  1 04:43:28 2024//TOPENBSD_7_6
+/patch-conf_master_cf/1.1/Sun Sep  1 04:43:28 2024//TOPENBSD_7_6
+/patch-makedefs/1.1/Sun Sep  1 04:43:28 2024//TOPENBSD_7_6
+/patch-src_smtp_smtp_sasl_auth_cache_c/1.1/Sat Jun  1 07:12:16 2024//TOPENBSD_7_6
+/patch-src_tls_tls_certkey_c/1.1/Sun Sep  1 04:43:28 2024//TOPENBSD_7_6
+/patch-src_tls_tls_misc_c/1.2/Sun Sep  1 04:43:28 2024//TOPENBSD_7_6
+/patch-src_tls_tls_server_c/1.2/Sun Sep  1 04:43:28 2024//TOPENBSD_7_6
+/patch-src_util_sys_defs_h/1.1/Sun Sep  1 04:43:28 2024//TOPENBSD_7_6
+D

@@ -1,0 +1,6 @@
+/patch-Makefile_in/1.2/Sun Sep  1 04:44:07 2024//TOPENBSD_7_6
+/patch-configure/1.2/Sun Sep  1 04:44:07 2024//TOPENBSD_7_6
+/patch-src_blkdev_blkdev_c/1.2/Sun Sep  1 04:44:07 2024//TOPENBSD_7_6
+/patch-tests_test-fsck/1.2/Sun Sep  1 04:44:07 2024//TOPENBSD_7_6
+/patch-tests_test-mkfs/1.2/Sun Sep  1 04:44:07 2024//TOPENBSD_7_6
+D

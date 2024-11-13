@@ -1,0 +1,14 @@
+Index: config.mk
+--- config.mk.orig
++++ config.mk
+@@ -4,8 +4,8 @@ VERSION = 2.1
+ # Customize below to fit your system
+ 
+ # paths
+-PREFIX = /usr/local
+-MANPREFIX = $(PREFIX)/share/man
++PREFIX ?= /usr/local
++MANPREFIX ?= $(PREFIX)/man
+ LIBPREFIX = $(PREFIX)/lib
+ LIBDIR = $(LIBPREFIX)/surf
+ 

@@ -1,0 +1,4 @@
+@bin bin/e3bc
+@bin bin/elvish
+@bin bin/nav
+@bin bin/widget

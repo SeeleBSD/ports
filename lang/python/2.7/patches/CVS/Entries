@@ -1,0 +1,9 @@
+/patch-Lib_test_regrtest_py/1.14/Sun Sep  1 04:43:24 2024//TOPENBSD_7_6
+/patch-Lib_test_test_tempfile_py/1.7/Sun Sep  1 04:43:24 2024//TOPENBSD_7_6
+/patch-Makefile_pre_in/1.16/Sun Sep  1 04:43:24 2024//TOPENBSD_7_6
+/patch-Modules__hashopenssl_c/1.2/Sun Sep  1 04:43:24 2024//TOPENBSD_7_6
+/patch-Modules__ssl_c/1.11/Sun Sep  1 04:43:24 2024//TOPENBSD_7_6
+/patch-Modules_pyexpat_c/1.4/Sun Sep  1 04:43:24 2024//TOPENBSD_7_6
+/patch-configure_ac/1.11/Sun Sep  1 04:43:24 2024//TOPENBSD_7_6
+/patch-setup_py/1.18/Sun Sep  1 04:43:24 2024//TOPENBSD_7_6
+D

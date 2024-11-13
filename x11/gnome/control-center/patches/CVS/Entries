@@ -1,0 +1,13 @@
+/patch-meson_build/1.14/Mon Sep 23 15:35:22 2024//TOPENBSD_7_6
+/patch-panels_common_meson_build/1.11/Mon Sep 23 15:35:22 2024//TOPENBSD_7_6
+/patch-panels_meson_build/1.12/Mon Sep 23 15:35:22 2024//TOPENBSD_7_6
+/patch-panels_mouse_cc-mouse-panel_c/1.1/Fri Jul 12 13:21:47 2024//TOPENBSD_7_6
+/patch-panels_power_cc-power-panel_c/1.13/Mon Sep 23 15:35:22 2024//TOPENBSD_7_6
+/patch-panels_printers_pp-host_c/1.5/Sun Sep  1 04:44:48 2024//TOPENBSD_7_6
+/patch-panels_system_about_cc-system-details-window_c/1.1/Wed Apr  3 19:53:43 2024//TOPENBSD_7_6
+/patch-panels_system_meson_build/1.1/Wed Apr  3 19:53:43 2024//TOPENBSD_7_6
+/patch-panels_system_users_cc-realm-manager_c/1.1/Wed Apr  3 19:53:43 2024//TOPENBSD_7_6
+/patch-panels_system_users_run-passwd_c/1.1/Wed Apr  3 19:53:43 2024//TOPENBSD_7_6
+/patch-panels_system_users_user-utils_c/1.1/Wed Apr  3 19:53:43 2024//TOPENBSD_7_6
+/patch-shell_meson_build/1.10/Sun Sep  1 04:44:48 2024//TOPENBSD_7_6
+D

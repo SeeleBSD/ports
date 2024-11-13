@@ -1,0 +1,17 @@
+quieten upstream's tar check
+
+Index: Makefile
+--- Makefile.orig
++++ Makefile
+@@ -314,9 +314,9 @@ $(SOURCE_DIST).manifest: $(SOURCE_DIST)
+ 	$(gen_verbose) cd $(dir $(SOURCE_DIST)) && \
+ 		find $(notdir $(SOURCE_DIST)) | LC_COLLATE=C sort > $@
+ 
+-ifeq ($(shell tar --version | grep -c "GNU tar"),0)
++ifeq ($(shell tar --version 2>/dev/null | grep -c "GNU tar"),0)
+ # Skip all flags if this is Darwin (a.k.a. macOS, a.k.a. OS X)
+-ifeq ($(shell uname | grep -c "Darwin"),0)
++ifeq ($(shell uname | grep -c -e Darwin -e OpenBSD),0)
+ TAR_FLAGS_FOR_REPRODUCIBLE_BUILDS = --uid 0 \
+ 				    --gid 0 \
+ 				    --numeric-owner \

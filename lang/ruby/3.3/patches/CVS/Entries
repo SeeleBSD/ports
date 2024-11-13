@@ -1,0 +1,20 @@
+/patch-common_mk/1.1.1.1/Sun Sep  1 04:43:24 2024//TOPENBSD_7_6
+/patch-compile_c/1.2/Mon Sep 23 15:34:15 2024//TOPENBSD_7_6
+/patch-configure/1.6/Mon Sep 23 15:34:15 2024//TOPENBSD_7_6
+/patch-coroutine_amd64_Context_S/1.1/Tue Apr  9 04:17:52 2024//TOPENBSD_7_6
+/patch-ext_etc_etc_c/1.1.1.1/Sun Sep  1 04:43:24 2024//TOPENBSD_7_6
+/patch-ext_extmk_rb/1.2/Mon Sep 23 15:34:15 2024//TOPENBSD_7_6
+/patch-ext_ripper_depend/1.1.1.1/Sun Sep  1 04:43:24 2024//TOPENBSD_7_6
+/patch-lib_drb_ssl_rb/1.1/Fri Jun 14 19:41:34 2024//TOPENBSD_7_6
+/patch-lib_fileutils_rb/1.1.1.1/Sun Sep  1 04:43:24 2024//TOPENBSD_7_6
+/patch-lib_mkmf_rb/1.1.1.1/Sun Sep  1 04:43:24 2024//TOPENBSD_7_6
+/patch-lib_rubygems_commands_install_command_rb/1.1.1.1/Sun Sep  1 04:43:24 2024//TOPENBSD_7_6
+/patch-lib_rubygems_dependency_installer_rb/1.1.1.1/Sun Sep  1 04:43:24 2024//TOPENBSD_7_6
+/patch-lib_rubygems_ext_builder_rb/1.1.1.1/Sun Sep  1 04:43:24 2024//TOPENBSD_7_6
+/patch-lib_rubygems_ext_ext_conf_builder_rb/1.1.1.1/Sun Sep  1 04:43:24 2024//TOPENBSD_7_6
+/patch-lib_rubygems_rb/1.3/Mon Sep 23 15:34:15 2024//TOPENBSD_7_6
+/patch-template_Makefile_in/1.1.1.1/Sun Sep  1 04:43:24 2024//TOPENBSD_7_6
+/patch-template_builtin_binary_inc_tmpl/1.1.1.1/Sun Sep  1 04:43:24 2024//TOPENBSD_7_6
+/patch-test_rubygems_test_gem_installer_rb/1.1/Fri Jun 14 19:41:34 2024//TOPENBSD_7_6
+/patch-tool_leaked-globals/1.1/Fri Jun 14 19:41:34 2024//TOPENBSD_7_6
+D

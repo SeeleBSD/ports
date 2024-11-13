@@ -1,0 +1,6 @@
+/patch-lib_libac_cpu_simd_cpuid_c/1.1/Fri Jul 26 11:50:37 2024//TOPENBSD_7_6
+/patch-lib_libac_cpu_trampoline_arm_c/1.1/Fri Jul 26 11:50:37 2024//TOPENBSD_7_6
+/patch-lib_libac_cpu_trampoline_ppc_c/1.1/Fri Jul 26 11:50:37 2024//TOPENBSD_7_6
+/patch-lib_libac_support_common_c/1.1/Mon Jun 10 06:31:24 2024//TOPENBSD_7_6
+/patch-src_airodump-ng_airodump-ng_c/1.1/Mon Jun 10 06:31:24 2024//TOPENBSD_7_6
+D

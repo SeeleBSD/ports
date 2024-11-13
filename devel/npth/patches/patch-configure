@@ -1,0 +1,14 @@
+Index: configure
+--- configure.orig
++++ configure
+@@ -2311,8 +2311,8 @@ ac_compiler_gnu=$ac_cv_c_compiler_gnu
+ #   (Interfaces removed:		AGE=0)
+ #
+ LIBNPTH_LT_CURRENT=1
+-LIBNPTH_LT_AGE=1
+-LIBNPTH_LT_REVISION=2
++LIBNPTH_LT_AGE=${LIBnpth_MAJOR}
++LIBNPTH_LT_REVISION=${LIBnpth_MINOR}
+ ################################################
+ 
+ 

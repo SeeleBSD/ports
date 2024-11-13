@@ -1,0 +1,7 @@
+/patch-Makefile_in/1.4/Sun Sep  1 04:43:59 2024//TOPENBSD_7_6
+/patch-crypto_cipher_cipher_c/1.4/Sun Sep  1 04:43:59 2024//TOPENBSD_7_6
+/patch-include_srtp_h/1.4/Sun Sep  1 04:43:59 2024//TOPENBSD_7_6
+/patch-srtp_def/1.2/Sun Sep  1 04:43:59 2024//TOPENBSD_7_6
+/patch-srtp_srtp_c/1.6/Sun Sep  1 04:43:59 2024//TOPENBSD_7_6
+/patch-test_rtp_decoder_c/1.6/Sun Sep  1 04:43:59 2024//TOPENBSD_7_6
+D

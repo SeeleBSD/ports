@@ -1,0 +1,8 @@
+/patch-configure/1.18/Sun Sep  1 04:43:31 2024//TOPENBSD_7_6
+/patch-doc_interpreter_mk-qthelp_pl/1.1/Sun May  5 18:30:03 2024//TOPENBSD_7_6
+/patch-scripts_miscellaneous_memory_m/1.2/Sun Sep  1 04:43:31 2024//TOPENBSD_7_6
+/patch-scripts_miscellaneous_private_tar_is_bsd_m/1.1/Sun Sep  1 04:43:31 2024//TOPENBSD_7_6
+/patch-scripts_miscellaneous_tar_m/1.1/Sun Sep  1 04:43:31 2024//TOPENBSD_7_6
+/patch-scripts_miscellaneous_unpack_m/1.5/Sun Sep  1 04:43:31 2024//TOPENBSD_7_6
+/patch-scripts_pkg_private_configure_make_m/1.5/Sun Sep  1 04:43:31 2024//TOPENBSD_7_6
+D

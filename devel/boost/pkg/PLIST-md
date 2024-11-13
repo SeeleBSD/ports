@@ -1,0 +1,8 @@
+@static-lib lib/libboost_context-mt.a
+@lib lib/libboost_context-mt.so.${LIBboost_context-mt_VERSION}
+@static-lib lib/libboost_coroutine-mt.a
+@lib lib/libboost_coroutine-mt.so.${LIBboost_coroutine-mt_VERSION}
+@static-lib lib/libboost_coroutine.a
+@lib lib/libboost_coroutine.so.${LIBboost_coroutine_VERSION}
+@static-lib lib/libboost_fiber-mt.a
+@lib lib/libboost_fiber-mt.so.${LIBboost_fiber-mt_VERSION}

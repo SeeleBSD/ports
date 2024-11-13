@@ -1,0 +1,37 @@
+include/upnp/
+include/upnp/ActionComplete.h
+include/upnp/ActionRequest.h
+include/upnp/Callback.h
+include/upnp/Discovery.h
+include/upnp/Event.h
+include/upnp/EventSubscribe.h
+include/upnp/ExtraHeaders.h
+include/upnp/FileInfo.h
+include/upnp/StateVarComplete.h
+include/upnp/StateVarRequest.h
+include/upnp/SubscriptionRequest.h
+include/upnp/TemplateInclude.h
+include/upnp/TemplateSource.h
+include/upnp/TemplateUndef.h
+include/upnp/UpnpGlobal.h
+include/upnp/UpnpInet.h
+include/upnp/UpnpIntTypes.h
+include/upnp/UpnpStdInt.h
+include/upnp/UpnpString.h
+include/upnp/UpnpUniStd.h
+include/upnp/ithread.h
+include/upnp/ixml.h
+include/upnp/ixmldebug.h
+include/upnp/list.h
+include/upnp/poison.h
+include/upnp/upnp.h
+include/upnp/upnpconfig.h
+include/upnp/upnpdebug.h
+include/upnp/upnptools.h
+@static-lib lib/libixml.a
+lib/libixml.la
+@lib lib/libixml.so.${LIBixml_VERSION}
+@static-lib lib/libupnp.a
+lib/libupnp.la
+@lib lib/libupnp.so.${LIBupnp_VERSION}
+lib/pkgconfig/libupnp.pc

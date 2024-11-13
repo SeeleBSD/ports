@@ -1,0 +1,41 @@
+Use GNU readline as our base readline lacks rl_prefer_env_winsize.
+
+Index: configure
+--- configure.orig
++++ configure
+@@ -80591,7 +80591,7 @@ printf "%s\n" "$as_me: WARNING: $warn_rapidjson" >&2;}
+ 
+ fi
+ 
+-### Check for readline library.
++### Check for ereadline library.
+ 
+ 
+   TERM_LIBS=
+@@ -80694,14 +80694,14 @@ fi
+ 
+     ac_octave_save_LIBS="$LIBS"
+     LIBS="$TERM_LIBS"
+-    { printf "%s\n" "$as_me:${as_lineno-$LINENO}: checking for rl_set_keyboard_input_timeout in -lreadline" >&5
+-printf %s "checking for rl_set_keyboard_input_timeout in -lreadline... " >&6; }
++    { printf "%s\n" "$as_me:${as_lineno-$LINENO}: checking for rl_set_keyboard_input_timeout in -lereadline" >&5
++printf %s "checking for rl_set_keyboard_input_timeout in -lereadline... " >&6; }
+ if test ${ac_cv_lib_readline_rl_set_keyboard_input_timeout+y}
+ then :
+   printf %s "(cached) " >&6
+ else $as_nop
+   ac_check_lib_save_LIBS=$LIBS
+-LIBS="-lreadline  $LIBS"
++LIBS="-lereadline  $LIBS"
+ cat confdefs.h - <<_ACEOF >conftest.$ac_ext
+ /* end confdefs.h.  */
+ 
+@@ -80739,7 +80739,7 @@ fi
+ printf "%s\n" "$ac_cv_lib_readline_rl_set_keyboard_input_timeout" >&6; }
+ if test "x$ac_cv_lib_readline_rl_set_keyboard_input_timeout" = xyes
+ then :
+-  READLINE_LIBS="-lreadline"
++  READLINE_LIBS="-lereadline"
+ 
+ printf "%s\n" "#define USE_READLINE 1" >>confdefs.h
+ 

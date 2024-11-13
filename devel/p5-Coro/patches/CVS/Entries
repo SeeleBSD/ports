@@ -1,0 +1,9 @@
+/patch-Coro_AnyEvent_pm/1.1/Sun Sep  1 04:42:34 2024//TOPENBSD_7_6
+/patch-Coro_Handle_pm/1.1/Sun Sep  1 04:42:34 2024//TOPENBSD_7_6
+/patch-Coro_Socket_pm/1.2/Sun Sep  1 04:42:34 2024//TOPENBSD_7_6
+/patch-Coro_Storable_pm/1.1/Sun Sep  1 04:42:34 2024//TOPENBSD_7_6
+/patch-Coro_Util_pm/1.1/Sun Sep  1 04:42:34 2024//TOPENBSD_7_6
+/patch-Coro_pm/1.1/Sun Sep  1 04:42:34 2024//TOPENBSD_7_6
+/patch-EV_EV_pm/1.1/Sun Sep  1 04:42:34 2024//TOPENBSD_7_6
+/patch-Event_Event_pm/1.1/Sun Sep  1 04:42:34 2024//TOPENBSD_7_6
+D

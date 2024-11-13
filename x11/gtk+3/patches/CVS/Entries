@@ -1,0 +1,6 @@
+/patch-gtk_gtkfilechooserwidget_c/1.12/Mon Sep 23 15:35:24 2024//TOPENBSD_7_6
+/patch-gtk_gtkmountoperation-x11_c/1.18/Sun Sep  1 04:44:51 2024//TOPENBSD_7_6
+/patch-gtk_gtkplacessidebar_c/1.5/Sun Sep  1 04:44:51 2024//TOPENBSD_7_6
+/patch-gtk_gtksettings_c/1.25/Sun Sep  1 04:44:51 2024//TOPENBSD_7_6
+/patch-gtk_updateiconcache_c/1.4/Sun Sep  1 04:44:51 2024//TOPENBSD_7_6
+D

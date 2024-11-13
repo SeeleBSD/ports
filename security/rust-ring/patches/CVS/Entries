@@ -1,0 +1,23 @@
+/patch-crypto_chacha_asm_chacha-x86_64_pl/1.2/Sun Sep  1 04:44:03 2024//TOPENBSD_7_6
+/patch-crypto_cipher_extra_asm_chacha20_poly1305_x86_64_pl/1.2/Sun Sep  1 04:44:03 2024//TOPENBSD_7_6
+/patch-crypto_fipsmodule_aes_asm_aesni-x86_64_pl/1.2/Sun Sep  1 04:44:03 2024//TOPENBSD_7_6
+/patch-crypto_fipsmodule_bn_asm_x86_64-mont5_pl/1.2/Sun Sep  1 04:44:03 2024//TOPENBSD_7_6
+/patch-crypto_fipsmodule_ec_asm_ecp_nistz256-armv8_pl/1.2/Sun Sep  1 04:44:03 2024//TOPENBSD_7_6
+/patch-crypto_fipsmodule_ec_asm_p256-x86_64-asm_pl/1.2/Sun Sep  1 04:44:03 2024//TOPENBSD_7_6
+/patch-crypto_fipsmodule_modes_asm_aesni-gcm-x86_64_pl/1.2/Sun Sep  1 04:44:03 2024//TOPENBSD_7_6
+/patch-crypto_fipsmodule_modes_asm_ghash-x86_64_pl/1.2/Sun Sep  1 04:44:03 2024//TOPENBSD_7_6
+/patch-crypto_fipsmodule_sha_asm_sha512-x86_64_pl/1.2/Sun Sep  1 04:44:03 2024//TOPENBSD_7_6
+/patch-crypto_perlasm_x86_64-xlate_pl/1.2/Sun Sep  1 04:44:03 2024//TOPENBSD_7_6
+/patch-pregenerated_aesni-gcm-x86_64-elf_S/1.3/Sun Sep  1 04:44:03 2024//TOPENBSD_7_6
+/patch-pregenerated_aesni-x86_64-elf_S/1.3/Sun Sep  1 04:44:03 2024//TOPENBSD_7_6
+/patch-pregenerated_chacha-x86_64-elf_S/1.3/Sun Sep  1 04:44:03 2024//TOPENBSD_7_6
+/patch-pregenerated_chacha20_poly1305_x86_64-elf_S/1.3/Sun Sep  1 04:44:03 2024//TOPENBSD_7_6
+/patch-pregenerated_ecp_nistz256-armv8-linux64_S/1.1/Sun Sep  1 04:44:03 2024//TOPENBSD_7_6
+/patch-pregenerated_ghash-x86_64-elf_S/1.3/Sun Sep  1 04:44:03 2024//TOPENBSD_7_6
+/patch-pregenerated_p256-x86_64-asm-elf_S/1.4/Sun Sep  1 04:44:03 2024//TOPENBSD_7_6
+/patch-pregenerated_sha256-x86_64-elf_S/1.3/Sun Sep  1 04:44:03 2024//TOPENBSD_7_6
+/patch-pregenerated_sha512-x86_64-elf_S/1.3/Sun Sep  1 04:44:03 2024//TOPENBSD_7_6
+/patch-pregenerated_vpaes-x86_64-elf_S/1.1/Sun Sep  1 04:44:03 2024//TOPENBSD_7_6
+/patch-pregenerated_x86_64-mont-elf_S/1.1/Sun Sep  1 04:44:03 2024//TOPENBSD_7_6
+/patch-pregenerated_x86_64-mont5-elf_S/1.3/Sun Sep  1 04:44:03 2024//TOPENBSD_7_6
+D

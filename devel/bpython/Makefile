@@ -1,0 +1,43 @@
+COMMENT=	fancy interface to the Python interpreter
+
+MODPY_EGG_VERSION=0.18
+DISTNAME=	bpython-${MODPY_EGG_VERSION}
+CATEGORIES=	devel
+REVISION=	5
+
+HOMEPAGE=	https://bpython-interpreter.org/
+MAINTAINER=	Brian Callahan <bcallah@openbsd.org>
+
+# MIT
+PERMIT_PACKAGE=	Yes
+
+SITES=		${HOMEPAGE}/releases/
+
+MODULES=	lang/python
+
+MODPY_PYBUILD=	setuptools
+
+FLAVORS=	python3
+FLAVOR=		python3
+
+RUN_DEPENDS=	devel/desktop-file-utils \
+		devel/py-curtsies${MODPY_FLAVOR} \
+		devel/py-greenlet${MODPY_FLAVOR} \
+		devel/py-six${MODPY_FLAVOR} \
+		devel/py-urwid${MODPY_FLAVOR} \
+		textproc/py-pygments${MODPY_FLAVOR} \
+		www/py-requests${MODPY_FLAVOR}
+BUILD_DEPENDS=	devel/py-babel${MODPY_FLAVOR} \
+		textproc/py-sphinx${MODPY_FLAVOR}
+
+TEST_DEPENDS=	devel/py-mock${MODPY_FLAVOR} \
+		devel/py-twisted${MODPY_FLAVOR}
+
+post-build:
+	cd ${WRKSRC}; sphinx-build -b man doc/sphinx/source build
+
+post-install:
+	${INSTALL_MAN} ${WRKSRC}/build/bpython.1 ${PREFIX}/man/man1/
+	${INSTALL_MAN} ${WRKSRC}/build/bpython-config.5 ${PREFIX}/man/man5/
+
+.include <bsd.port.mk>

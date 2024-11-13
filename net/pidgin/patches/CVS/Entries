@@ -1,0 +1,10 @@
+/patch-configure_ac/1.39/Mon Sep 23 15:34:34 2024//TOPENBSD_7_6
+/patch-libpurple_plugins_ssl_Makefile_am/1.6/Sun Sep  1 04:43:48 2024//TOPENBSD_7_6
+/patch-libpurple_protocols_jabber_Makefile_am/1.2/Sun Sep  1 04:43:48 2024//TOPENBSD_7_6
+/patch-libpurple_protocols_silc_silc_c/1.11/Sun Sep  1 04:43:48 2024//TOPENBSD_7_6
+/patch-libpurple_purple-remote/1.10/Sun Sep  1 04:43:48 2024//TOPENBSD_7_6
+/patch-libpurple_purple-url-handler/1.9/Sun Sep  1 04:43:48 2024//TOPENBSD_7_6
+/patch-pidgin_Makefile_am/1.2/Sun Sep  1 04:43:48 2024//TOPENBSD_7_6
+/patch-pidgin_gtkconv_c/1.6/Sun Sep  1 04:43:48 2024//TOPENBSD_7_6
+/patch-pidgin_gtkdialogs_c/1.34/Sun Sep  1 04:43:48 2024//TOPENBSD_7_6
+D

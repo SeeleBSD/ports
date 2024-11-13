@@ -1,0 +1,15 @@
+/patch-GNUmakefile/1.2/Sun Sep  1 04:42:08 2024//TOPENBSD_7_6
+/patch-amtterm_c/1.2/Sun Sep  1 04:42:08 2024//TOPENBSD_7_6
+/patch-amtterm_man/1.2/Sun Sep  1 04:42:08 2024//TOPENBSD_7_6
+/patch-amttool/1.2/Sun Sep  1 04:42:08 2024//TOPENBSD_7_6
+/patch-auth_c/1.2/Sun Sep  1 04:42:08 2024//TOPENBSD_7_6
+/patch-auth_h/1.2/Sun Sep  1 04:42:08 2024//TOPENBSD_7_6
+/patch-gamt_c/1.2/Sun Sep  1 04:42:08 2024//TOPENBSD_7_6
+/patch-mk_Maintainer_mk/1.3/Sun Sep  1 04:42:08 2024//TOPENBSD_7_6
+/patch-parseconfig_c/1.3/Sun Sep  1 04:42:08 2024//TOPENBSD_7_6
+/patch-redir_c/1.2/Sun Sep  1 04:42:08 2024//TOPENBSD_7_6
+/patch-redir_h/1.2/Sun Sep  1 04:42:08 2024//TOPENBSD_7_6
+/patch-ssl_c/1.2/Sun Sep  1 04:42:08 2024//TOPENBSD_7_6
+/patch-ssl_h/1.2/Sun Sep  1 04:42:08 2024//TOPENBSD_7_6
+/patch-tcp_h/1.2/Sun Sep  1 04:42:08 2024//TOPENBSD_7_6
+D

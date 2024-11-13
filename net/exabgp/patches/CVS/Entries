@@ -1,0 +1,11 @@
+/patch-dev_bin_python-profile/1.2/Sun Sep  1 04:43:39 2024//TOPENBSD_7_6
+/patch-dev_bin_pythonstats/1.2/Sun Sep  1 04:43:39 2024//TOPENBSD_7_6
+/patch-etc_exabgp_example-healthcheck_conf/1.3/Sun Sep  1 04:43:39 2024//TOPENBSD_7_6
+/patch-exabgp_daemon_env/1.2/Sun Sep  1 04:43:39 2024//TOPENBSD_7_6
+/patch-lib_exabgp_application_bgp_py/1.4/Sun Sep  1 04:43:39 2024//TOPENBSD_7_6
+/patch-lib_exabgp_application_cli_py/1.3/Sun Sep  1 04:43:39 2024//TOPENBSD_7_6
+/patch-lib_exabgp_application_healthcheck_py/1.7/Sun Sep  1 04:43:39 2024//TOPENBSD_7_6
+/patch-lib_exabgp_configuration_usage_py/1.2/Sun Sep  1 04:43:39 2024//TOPENBSD_7_6
+/patch-lib_exabgp_vendoring_profiler_py/1.2/Sun Sep  1 04:43:39 2024//TOPENBSD_7_6
+/patch-setup_py/1.7/Sun Sep  1 04:43:39 2024//TOPENBSD_7_6
+D

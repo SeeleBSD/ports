@@ -1,0 +1,13 @@
+/patch-Makefile/1.4/Mon Sep 23 15:33:24 2024//TOPENBSD_7_6
+/patch-ext_bin_puppetdb/1.1.1.1/Sun Sep  1 04:42:16 2024//TOPENBSD_7_6
+/patch-ext_cli_delete-reports/1.2/Mon Sep 23 15:33:24 2024//TOPENBSD_7_6
+/patch-ext_cli_foreground/1.1.1.1/Sun Sep  1 04:42:16 2024//TOPENBSD_7_6
+/patch-ext_cli_reload/1.1.1.1/Sun Sep  1 04:42:16 2024//TOPENBSD_7_6
+/patch-ext_cli_ssl-setup/1.1.1.1/Sun Sep  1 04:42:16 2024//TOPENBSD_7_6
+/patch-ext_cli_start/1.1.1.1/Sun Sep  1 04:42:16 2024//TOPENBSD_7_6
+/patch-ext_cli_upgrade/1.1.1.1/Sun Sep  1 04:42:16 2024//TOPENBSD_7_6
+/patch-ext_config_conf_d_config_ini/1.1.1.1/Sun Sep  1 04:42:16 2024//TOPENBSD_7_6
+/patch-ext_config_conf_d_jetty_ini/1.1.1.1/Sun Sep  1 04:42:16 2024//TOPENBSD_7_6
+/patch-ext_default/1.1.1.1/Sun Sep  1 04:42:16 2024//TOPENBSD_7_6
+/patch-ext_ezbake-functions_sh/1.1.1.1/Sun Sep  1 04:42:16 2024//TOPENBSD_7_6
+D

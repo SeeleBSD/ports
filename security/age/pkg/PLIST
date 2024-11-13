@@ -1,0 +1,4 @@
+@bin bin/age
+@bin bin/age-keygen
+@man man/man1/age-keygen.1
+@man man/man1/age.1

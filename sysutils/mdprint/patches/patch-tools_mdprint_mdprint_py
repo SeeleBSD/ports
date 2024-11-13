@@ -1,0 +1,185 @@
+Use equality tests instead of identity checks with literals to fix Python 3.8+
+SyntaxWarning messages.
+
+Ensure integer typed results from integer division with the floordiv operator
+when using Python 3.  `type(int(1)/int(1))' yields "<class 'int'>" and
+"<class 'float'>" in Python 2 and 3 respectively.
+
+Decode ARC node names and string property values as UTF-8 to preserve the output
+format and fix --grep when using Python 3, e.g. print/use "value" instead of
+"b'value'".  Python 3 uses type "<class 'bytes'>" and does not decode
+automatically, Python 2 uses "<class 'str'>" already for everything.
+
+Adapt sloppy conversion of tuples into hex encoded strings likewise.
+
+Index: tools/mdprint/mdprint.py
+--- tools/mdprint/mdprint.py.orig
++++ tools/mdprint/mdprint.py
+@@ -106,7 +106,7 @@ class MDPrintApp:
+         arg = dspri_info()
+         f = open(MDPrintApp.DefaultPRIFilePath, mode="rb")
+         rv = fcntl.ioctl(f, ioctl, arg)
+-        if rv is 0:
++        if rv == 0:
+             rv = arg.size
+         else:
+             rv = -1
+@@ -165,7 +165,7 @@ class Parser(dict):
+         self.name_blk_off = self.node_blk_off + self.node_blk_sz
+         self.data_blk_off = self.name_blk_off + self.name_blk_sz
+ 
+-        if self.major is not 1:
++        if self.major != 1:
+             MDPrintApp.err("Only major version 1 MD's are supported")
+             return False
+         else:
+@@ -186,7 +186,7 @@ class Parser(dict):
+ 
+             if element.tag is Element.NodeTag:
+ 
+-                node_id = element.offset / Element.Size
++                node_id = element.offset // Element.Size
+                 self.counts[element.name] += 1
+ 
+                 if node_id in self:
+@@ -266,7 +266,7 @@ class Parser(dict):
+     def parse_name(self, name_off, name_len):
+         (name, ) = struct.unpack_from("!%ds" % name_len,
+             self.mdbuffer, self.name_blk_off + name_off)
+-        return name
++        return name.decode('utf-8')
+ 
+     def parse_data_string(self, data_off, data_len):
+         (name, ) = struct.unpack_from("!%ds" % (data_len - 1),
+@@ -292,19 +292,19 @@ class Parser(dict):
+             return False
+ 
+         # Make sure the last string is the empty string.
+-        if len(strings[-1]) is not 0:
++        if len(strings[-1]) != 0:
+             return False
+         strings.pop()
+ 
+         for s in strings:
+-            if len(s) is 0:
++            if len(s) == 0:
+                 return False
+             # Only treat as a string if all characters
+             # are between 0x20 and 0x7f inclusive
+             if re.match(b'[\x20-\x7f]+$', s) is None:
+                 return False
+ 
+-        return strings
++        return [s.decode('utf-8') for s in strings]
+ 
+ class Element:
+ 
+@@ -495,7 +495,7 @@ class ParsablePrinter(Printer):
+             self.p(node.type)
+ 
+     def print_str_prop(self, md, node, prop_name, prop_val):
+-        self.p("|%s=\"%s\"" % (prop_name, prop_val))
++        self.p("|%s=\"%s\"" % (prop_name, prop_val.decode('utf-8')))
+ 
+     def print_val_prop(self, md, node, prop_name, prop_val):
+         self.p("|%s=0x%x" % (prop_name, prop_val))
+@@ -511,7 +511,8 @@ class ParsablePrinter(Printer):
+             self.p("\"%s\"" % strings[-1])
+ 
+         else:
+-            self.p("0x" + str(prop_val).encode("hex"))
++            from codecs import encode
++            self.p("0x" + encode(bytes(prop_val), 'hex_codec').decode('utf-8'))
+ 
+         self.p("}")
+ 
+@@ -552,7 +553,7 @@ class TextPrinter(Printer):
+         else:
+             print("%s {" % node.type)
+     def print_str_prop(self, md, node, prop_name, prop_val):
+-        print("\t%s = \"%s\"" % (prop_name, prop_val))
++        print("\t%s = \"%s\"" % (prop_name, prop_val.decode('utf-8')))
+     def print_val_prop(self, md, node, prop_name, prop_val):
+         print("\t%s = 0x%x /* %d */" % (prop_name, prop_val, prop_val))
+     def print_data_prop(self, md, node, prop_name, prop_val):
+@@ -572,7 +573,7 @@ class TextPrinter(Printer):
+             # Some magic to print 8 columns of bytes: for each
+             # chunk of 8 bytes in the byte array, get an array
+             # slice 8-long and join it with a space.
+-            for i in range(0, (len(prop_val)+bpl-1)/bpl):
++            for i in range(0, (len(prop_val)+bpl-1)//bpl):
+                 raw = "%s" % ' '.join(map(print_byte,
+                     prop_val[i * bpl:(i+1) * bpl]))
+                 print "\t\t%s" % raw
+@@ -623,7 +624,7 @@ class HTMLPrinter(Printer):
+             md.counts[node.type], node.type))
+ 
+     def print_str_prop(self, md, node, prop_name, prop_val):
+-        print("<br>%s = \"%s\"" % (prop_name, prop_val))
++        print("<br>%s = \"%s\"" % (prop_name, prop_val.decode('utf-8')))
+ 
+     def print_val_prop(self, md, node, prop_name, prop_val):
+         print("<br>%s = 0x%x /* %d */" % (prop_name, prop_val, prop_val))
+@@ -642,7 +643,7 @@ class HTMLPrinter(Printer):
+             # Some magic to print 8 columns of bytes: for each
+             # chunk of 8 bytes in the byte array, get an array
+             # slice 8-long and join it with a space.
+-            for i in range(0, (len(prop_val)+bpl-1)/bpl):
++            for i in range(0, (len(prop_val)+bpl-1)//bpl):
+                 print "<br>&nbsp;", ', '.join(map(print_byte,
+                     prop_val[i * bpl:(i+1) * bpl]))
+ 
+@@ -753,7 +754,7 @@ if __name__ == "__main__":
+     # Binary mode can not be used with display options or input files
+     if (flags.print_binary and
+         # input file?
+-        ((len (args) is not 0) or
++        ((len (args) != 0) or
+         # display options?
+         (flags.parsable or flags.print_html or (not flags.nodeids)
+             or (not flags.backlinks) or (not flags.print_header)
+@@ -773,7 +774,7 @@ if __name__ == "__main__":
+     # No input file provided and the PRI option isn't set; use the guest MD.
+     # Check the guest MD device file exists and set the mdfilename to the
+     # PRI MD device file.
+-    elif len(args) is 0 and not flags.pri:
++    elif len(args) == 0 and not flags.pri:
+         mdfilename = MDPrintApp.DefaultFilePath
+         if os.path.exists(mdfilename):
+             mdfilename = mdfilename
+@@ -785,7 +786,7 @@ if __name__ == "__main__":
+ 
+     # No input and the PRI option is set, check the PRI device file exists
+     # and set the mdfilename to the PRI MD device file.
+-    elif len(args) is 0 and flags.pri:
++    elif len(args) == 0 and flags.pri:
+         mdfilename = MDPrintApp.DefaultPRIFilePath
+         if not os.path.exists(mdfilename):
+             MDPrintApp.err("PRI option enabled, but the PRI device "
+@@ -794,7 +795,7 @@ if __name__ == "__main__":
+             sys.exit(1)
+ 
+     # Input file provided with PRI option, this is an error
+-    elif len(args) is 1 and flags.pri:
++    elif len(args) == 1 and flags.pri:
+         mdfilename = args[0]
+         MDPrintApp.err("Both an input MD file was provided (\"%s\") "
+             "and the PRI option was enabled. Use one or the other.\n" %
+@@ -803,7 +804,7 @@ if __name__ == "__main__":
+         sys.exit(1)
+ 
+     # Single input file, make sure it exists
+-    elif len(args) is 1:
++    elif len(args) == 1:
+         mdfilename = args[0]
+         if not os.path.exists(mdfilename):
+             MDPrintApp.err("Input MD file \"%s\" could not "
+@@ -819,7 +820,7 @@ if __name__ == "__main__":
+     try:
+         if flags.pri:
+             pri_size = MDPrintApp.get_pri_size()
+-            if pri_size is -1:
++            if pri_size == -1:
+                 MDPrintApp.err("Couldn't read PRI size from \"%s\"\n" %
+                     mdfilename)
+                 option_parser.print_help()

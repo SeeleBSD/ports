@@ -1,0 +1,6 @@
+@pkgpath editors/vim-spell,la
+share/vim/
+share/vim/vim${P}/
+share/vim/vim${P}/spell/
+share/vim/vim${P}/spell/la.latin1.spl
+share/vim/vim${P}/spell/la.utf-8.spl

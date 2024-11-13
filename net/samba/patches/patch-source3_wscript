@@ -1,0 +1,32 @@
+- avoid using glib (only useful for spotlight?)
+- use more generic check for OpenBSD.
+
+Index: source3/wscript
+--- source3/wscript.orig
++++ source3/wscript
+@@ -101,6 +101,7 @@ def options(opt):
+     # default = None means autodetection
+     opt.samba_add_onoff_option('spotlight', with_name="enable", without_name="disable", default=None)
+     opt.samba_add_onoff_option('wsp', with_name="enable", without_name="disable", default=True)
++    opt.samba_add_onoff_option('glib', default=False)
+ 
+ def configure(conf):
+     default_static_modules = []
+@@ -109,7 +110,7 @@ def configure(conf):
+     forced_static_modules = []
+     forced_shared_modules = []
+ 
+-    if sys.platform != 'openbsd5':
++    if not sys.platform.startswith('openbsd'):
+         conf.ADD_LDFLAGS("-Wl,--export-dynamic", testflags=True)
+ 
+     # We crash without vfs_default
+@@ -1799,7 +1800,7 @@ int main(void) {
+         else:
+             conf.fatal('AFS headers not available, but --with-fake-kaserver was specified')
+ 
+-    if conf.CHECK_CFG(package='glib-2.0',
++    if Options.options.with_glib and conf.CHECK_CFG(package='glib-2.0',
+                       args='--cflags --libs',
+                       msg='Checking for glib-2.0',
+                       uselib_store="GLIB-2.0"):

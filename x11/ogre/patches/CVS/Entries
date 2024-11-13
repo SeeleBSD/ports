@@ -1,0 +1,14 @@
+/patch-CMakeLists_txt/1.3/Sun Sep  1 04:44:58 2024//TOPENBSD_7_6
+/patch-CMake_InstallResources_cmake/1.3/Sun Sep  1 04:44:58 2024//TOPENBSD_7_6
+/patch-CMake_Utils_OgreConfigTargets_cmake/1.3/Sun Sep  1 04:44:58 2024//TOPENBSD_7_6
+/patch-OgreMain_include_OgreSearchOps_h/1.2/Sun Sep  1 04:44:58 2024//TOPENBSD_7_6
+/patch-OgreMain_include_OgreStringConverter_h/1.4/Sun Sep  1 04:44:58 2024//TOPENBSD_7_6
+/patch-OgreMain_src_OgreDynLib_cpp/1.2/Sun Sep  1 04:44:58 2024//TOPENBSD_7_6
+/patch-OgreMain_src_OgreStringConverter_cpp/1.4/Sun Sep  1 04:44:58 2024//TOPENBSD_7_6
+/patch-PlugIns_CMakeLists_txt/1.2/Sun Sep  1 04:44:58 2024//TOPENBSD_7_6
+/patch-PlugIns_OctreeZone_CMakeLists_txt/1.5/Sun Sep  1 04:44:58 2024//TOPENBSD_7_6
+/patch-RenderSystems_CMakeLists_txt/1.3/Sun Sep  1 04:44:58 2024//TOPENBSD_7_6
+/patch-Samples_Browser_CMakeLists_txt/1.5/Sun Sep  1 04:44:58 2024//TOPENBSD_7_6
+/patch-Samples_CMakeLists_txt/1.3/Sun Sep  1 04:44:58 2024//TOPENBSD_7_6
+/patch-Tools_XMLConverter_CMakeLists_txt/1.5/Sun Sep  1 04:44:58 2024//TOPENBSD_7_6
+D

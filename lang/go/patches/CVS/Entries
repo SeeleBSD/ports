@@ -1,0 +1,26 @@
+/patch-src_cmd_asm_internal_asm_testdata_amd64enc_extra_s/1.1/Sat Jun 22 12:43:03 2024//TOPENBSD_7_6
+/patch-src_cmd_asm_internal_asm_testdata_arm64enc_s/1.1/Sat Jun 22 12:43:03 2024//TOPENBSD_7_6
+/patch-src_cmd_asm_internal_asm_testdata_arm64error_s/1.1/Sat Jun 22 12:43:03 2024//TOPENBSD_7_6
+/patch-src_cmd_compile_internal_amd64_ggen_go/1.1/Sat Jun 22 12:43:03 2024//TOPENBSD_7_6
+/patch-src_cmd_compile_internal_arm64_ggen_go/1.1/Sat Jun 22 12:43:03 2024//TOPENBSD_7_6
+/patch-src_cmd_compile_internal_ssa_config_go/1.1/Sat Jun 22 12:43:03 2024//TOPENBSD_7_6
+/patch-src_cmd_internal_obj_arm64_a_out_go/1.1/Sat Jun 22 12:43:03 2024//TOPENBSD_7_6
+/patch-src_cmd_internal_obj_arm64_anames_go/1.1/Sat Jun 22 12:43:03 2024//TOPENBSD_7_6
+/patch-src_cmd_internal_obj_arm64_asm7_go/1.2/Thu Aug 15 14:03:57 2024//TOPENBSD_7_6
+/patch-src_cmd_internal_obj_arm64_obj7_go/1.2/Thu Aug 15 14:03:57 2024//TOPENBSD_7_6
+/patch-src_cmd_internal_obj_arm64_specialoperand_string_go/1.1/Sat Jun 22 12:43:03 2024//TOPENBSD_7_6
+/patch-src_cmd_internal_obj_x86_aenum_go/1.1/Sat Jun 22 12:43:03 2024//TOPENBSD_7_6
+/patch-src_cmd_internal_obj_x86_anames_go/1.1/Sat Jun 22 12:43:03 2024//TOPENBSD_7_6
+/patch-src_cmd_internal_obj_x86_asm6_go/1.2/Thu Aug 15 14:03:57 2024//TOPENBSD_7_6
+/patch-src_cmd_internal_obj_x86_asm_test_go/1.1/Sat Jun 22 12:43:03 2024//TOPENBSD_7_6
+/patch-src_cmd_internal_obj_x86_obj6_go/1.1/Sat Jun 22 12:43:03 2024//TOPENBSD_7_6
+/patch-src_cmd_internal_sys_arch_go/1.1/Sat Jun 22 12:43:03 2024//TOPENBSD_7_6
+/patch-src_cmd_link_internal_amd64_asm_go/1.5/Mon Jul  8 14:15:38 2024//TOPENBSD_7_6
+/patch-src_cmd_link_internal_arm64_asm_go/1.6/Sat Jun 22 12:43:03 2024//TOPENBSD_7_6
+/patch-src_cmd_link_internal_ld_elf_go/1.14/Mon Sep 23 15:34:14 2024//TOPENBSD_7_6
+/patch-src_cmd_link_internal_ld_lib_go/1.25/Mon Sep 23 15:34:14 2024//TOPENBSD_7_6
+/patch-src_cmd_link_internal_ld_pcln_go/1.5/Thu Aug 15 14:03:57 2024//TOPENBSD_7_6
+/patch-src_runtime_cgo_gcc_arm64_S/1.1/Sat Jun 22 12:43:03 2024//TOPENBSD_7_6
+/patch-src_runtime_mkpreempt_go/1.1/Sat Jun 22 12:43:03 2024//TOPENBSD_7_6
+/patch-src_runtime_preempt_arm64_s/1.1/Sat Jun 22 12:43:03 2024//TOPENBSD_7_6
+D

@@ -1,0 +1,29 @@
+Index: tests/variables.at
+--- tests/variables.at.orig
++++ tests/variables.at
+@@ -835,10 +835,10 @@ echo $home
+ ]])
+ AT_CHECK([
+ case "$(uname -s)" in
+-Darwin)
++Darwin[)]
+     HOME=$(dscl . read "/Users/$USER" NFSHomeDirectory | awk '{ print $NF }')
+     ;;
+-*)
++*[)]
+     HOME=$(getent passwd $(id -un) | awk -F: '{ print $(NF - 1) }')
+     ;;
+ esac;
+@@ -1039,10 +1039,10 @@ AT_KEYWORDS([variables])
+ 
+ AT_CHECK([
+ case "$(uname -s)" in
+-Darwin)
++Darwin[)]
+     HOME=$(dscl . read "/Users/$USER" NFSHomeDirectory | awk '{ print $NF }')
+     ;;
+-*)
++*[)]
+     HOME=$(getent passwd $(id -un) | awk -F: '{ print $(NF - 1) }')
+     ;;
+ esac;

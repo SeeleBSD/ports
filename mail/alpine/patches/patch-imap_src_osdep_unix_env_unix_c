@@ -1,0 +1,33 @@
+Index: imap/src/osdep/unix/env_unix.c
+--- imap/src/osdep/unix/env_unix.c.orig
++++ imap/src/osdep/unix/env_unix.c
+@@ -676,11 +676,11 @@ long server_input_wait (long seconds)
+ static struct passwd *pwuser (unsigned char *user)
+ {
+   unsigned char *s;
+-  struct passwd *pw = getpwnam (user);
++  struct passwd *pw = getpwnam_shadow (user);
+   if (!pw) {			/* failed, see if any uppercase characters */
+     for (s = user; *s && ((*s < 'A') || (*s > 'Z')); s++);
+     if (*s) {			/* yes, try all lowercase form */
+-      pw = getpwnam (s = lcase (cpystr (user)));
++      pw = getpwnam_shadow (s = lcase (cpystr (user)));
+       fs_give ((void **) &s);
+     }
+   }
+@@ -999,15 +999,12 @@ char *myhomedir ()
+ static char *mymailboxdir ()
+ {
+   char *home = myhomedir ();
+-				/* initialize if first time */
+-  if (!myMailboxDir && myHomeDir) {
+     if (mailsubdir) {
+       char tmp[MAILTMPLEN];
+       sprintf (tmp,"%s/%s",home,mailsubdir);
+       myMailboxDir = cpystr (tmp);/* use pre-defined subdirectory of home */
+     }
+     else myMailboxDir = cpystr (home);
+-  }
+   return myMailboxDir ? myMailboxDir : "";
+ }
+ 

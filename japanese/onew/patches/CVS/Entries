@@ -1,0 +1,22 @@
+/patch-conf_c/1.3/Sun Sep  1 04:43:21 2024//TOPENBSD_7_6
+/patch-dialogue_getincode_c/1.2/Sun Sep  1 04:43:21 2024//TOPENBSD_7_6
+/patch-dialogue_jiscode_c/1.2/Sun Sep  1 04:43:21 2024//TOPENBSD_7_6
+/patch-dialogue_jisyo_c/1.3/Sun Sep  1 04:43:21 2024//TOPENBSD_7_6
+/patch-dialogue_keisen_c/1.2/Sun Sep  1 04:43:21 2024//TOPENBSD_7_6
+/patch-dialogue_onewdic_c/1.3/Sun Sep  1 04:43:21 2024//TOPENBSD_7_6
+/patch-dialogue_selector_c/1.2/Sun Sep  1 04:43:21 2024//TOPENBSD_7_6
+/patch-engine_CannaRk_c/1.4/Sun Sep  1 04:43:21 2024//TOPENBSD_7_6
+/patch-engine_Canna_c/1.4/Sun Sep  1 04:43:21 2024//TOPENBSD_7_6
+/patch-engine_WnnRomkan_c/1.2/Sun Sep  1 04:43:21 2024//TOPENBSD_7_6
+/patch-engine_Wnn_c/1.2/Sun Sep  1 04:43:21 2024//TOPENBSD_7_6
+/patch-interface_oui_c/1.2/Sun Sep  1 04:43:21 2024//TOPENBSD_7_6
+/patch-interface_ouimessage_c/1.3/Sun Sep  1 04:43:21 2024//TOPENBSD_7_6
+/patch-onew_c/1.4/Sun Sep  1 04:43:21 2024//TOPENBSD_7_6
+/patch-onewclient_c/1.3/Sun Sep  1 04:43:21 2024//TOPENBSD_7_6
+/patch-onewcodes_c/1.2/Sun Sep  1 04:43:21 2024//TOPENBSD_7_6
+/patch-onewlib_c/1.2/Sun Sep  1 04:43:21 2024//TOPENBSD_7_6
+/patch-onewmisc_c/1.3/Sun Sep  1 04:43:21 2024//TOPENBSD_7_6
+/patch-sys_regex_c/1.2/Sun Sep  1 04:43:21 2024//TOPENBSD_7_6
+/patch-sys_sys_h/1.3/Sun Sep  1 04:43:21 2024//TOPENBSD_7_6
+/patch-sys_tty_c/1.2/Sun Sep  1 04:43:21 2024//TOPENBSD_7_6
+D

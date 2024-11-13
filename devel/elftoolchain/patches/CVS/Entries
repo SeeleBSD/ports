@@ -1,0 +1,12 @@
+/patch-Makefile/1.2/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-common_elfdefinitions_h/1.2/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-libdwarf_Makefile/1.2/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-libdwarf_dwarf_add_frame_fde_3/1.2/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-libdwarf_dwarf_get_fde_list_3/1.2/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-libdwarf_dwarf_get_ranges_3/1.2/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-libelf_Makefile/1.2/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-libelf_elf_open_3/1.2/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-libelf_gelf_xlatetof_3/1.2/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-libelftc_Makefile/1.2/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+/patch-libelftc_make-toolchain-version/1.2/Sun Sep  1 04:42:22 2024//TOPENBSD_7_6
+D

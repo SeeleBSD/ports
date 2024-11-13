@@ -1,0 +1,20 @@
+The ffmpeg plugin uses functions from libavcodec, so ensure that it is linked
+against libavcodec.
+
+Commit 9bde48f1b59d upstream.
+
+Also make sure that the ffmpeg.c build test uses -std=gnu99, as does the
+final build.
+
+Index: configure
+--- configure.orig
++++ configure
+@@ -439,7 +439,7 @@ check_ffmpeg()
+ 	fi
+ 	# ffmpeg api changes so frequently that it is best to compile the module
+ 	libs="$LDDLFLAGS $FFMPEG_LIBS"
+-	cflags="$SOFLAGS $FFMPEG_CFLAGS"
++	cflags="-std=gnu99 $SOFLAGS $FFMPEG_CFLAGS"
+ 	if test "$HAVE_FFMPEG_AVCODEC_H" = y
+ 	then
+ 		cflags="$cflags -DHAVE_FFMPEG_AVCODEC_H"

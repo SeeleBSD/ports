@@ -1,0 +1,12 @@
+/patch-cmake_Modules_WaffleDefineOS_cmake/1.2/Sun Sep  1 04:43:19 2024//TOPENBSD_7_6
+/patch-cmake_Modules_WaffleValidateOptions_cmake/1.3/Sun Sep  1 04:43:19 2024//TOPENBSD_7_6
+/patch-meson_build/1.2/Sun Sep  1 04:43:19 2024//TOPENBSD_7_6
+/patch-src_waffle_CMakeLists_txt/1.3/Sun Sep  1 04:43:19 2024//TOPENBSD_7_6
+/patch-src_waffle_egl_wegl_platform_c/1.3/Sun Sep  1 04:43:19 2024//TOPENBSD_7_6
+/patch-src_waffle_gbm_wgbm_display_c/1.4/Sun Sep  1 04:43:19 2024//TOPENBSD_7_6
+/patch-src_waffle_gbm_wgbm_platform_c/1.3/Sun Sep  1 04:43:19 2024//TOPENBSD_7_6
+/patch-src_waffle_glx_glx_platform_c/1.2/Sun Sep  1 04:43:19 2024//TOPENBSD_7_6
+/patch-src_waffle_linux_linux_dl_c/1.3/Sun Sep  1 04:43:19 2024//TOPENBSD_7_6
+/patch-tests_functional_CMakeLists_txt/1.2/Sun Sep  1 04:43:19 2024//TOPENBSD_7_6
+/patch-third_party_cmocka_include_cmocka_h/1.3/Sun Sep  1 04:43:19 2024//TOPENBSD_7_6
+D

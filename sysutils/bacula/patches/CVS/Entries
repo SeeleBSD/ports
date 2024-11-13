@@ -1,0 +1,25 @@
+/patch-Makefile_in/1.9/Sun Sep  1 04:44:05 2024//TOPENBSD_7_6
+/patch-configure/1.32/Mon Sep 23 15:34:49 2024//TOPENBSD_7_6
+/patch-examples_autochangers_chio-changer-openbsd/1.7/Sun Sep  1 04:44:05 2024//TOPENBSD_7_6
+/patch-examples_reports_report_pl/1.1/Thu May 16 09:14:00 2024//TOPENBSD_7_6
+/patch-manpages_Makefile_in/1.8/Mon Sep 23 15:34:49 2024//TOPENBSD_7_6
+/patch-manpages_bat_1/1.7/Sun Sep  1 04:44:05 2024//TOPENBSD_7_6
+/patch-scripts_Makefile_in/1.1/Fri Apr 12 16:55:12 2024//TOPENBSD_7_6
+/patch-scripts_bacula-ctl-dir_in/1.2/Sun Sep  1 04:44:05 2024//TOPENBSD_7_6
+/patch-scripts_bacula-ctl-fd_in/1.2/Sun Sep  1 04:44:06 2024//TOPENBSD_7_6
+/patch-scripts_bacula-ctl-sd_in/1.2/Sun Sep  1 04:44:06 2024//TOPENBSD_7_6
+/patch-scripts_bat_desktop_in/1.6/Sun Sep  1 04:44:06 2024//TOPENBSD_7_6
+/patch-src_cats_Makefile_in/1.10/Mon Sep 23 15:34:49 2024//TOPENBSD_7_6
+/patch-src_cats_create_postgresql_database_in/1.5/Sun Sep  1 04:44:06 2024//TOPENBSD_7_6
+/patch-src_cats_make_catalog_backup_pl_in/1.4/Sun Sep  1 04:44:06 2024//TOPENBSD_7_6
+/patch-src_dird_bacula-dir_conf_in/1.13/Sun Sep  1 04:44:06 2024//TOPENBSD_7_6
+/patch-src_findlib_Makefile_in/1.7/Mon Sep 23 15:34:49 2024//TOPENBSD_7_6
+/patch-src_findlib_fstype_c/1.4/Mon Sep 23 15:34:49 2024//TOPENBSD_7_6
+/patch-src_lib_Makefile_in/1.10/Mon Sep 23 15:34:49 2024//TOPENBSD_7_6
+/patch-src_lib_message_c/1.1/Thu May 16 09:14:00 2024//TOPENBSD_7_6
+/patch-src_qt-console_main_cpp/1.11/Sun Sep  1 04:44:06 2024//TOPENBSD_7_6
+/patch-src_qt-console_tray-monitor_tray-monitor_pro_in/1.2/Sun Sep  1 04:44:06 2024//TOPENBSD_7_6
+/patch-src_stored_Makefile_in/1.11/Mon Sep 23 15:34:49 2024//TOPENBSD_7_6
+/patch-src_stored_bacula-sd_conf_in/1.12/Mon Sep 23 15:34:49 2024//TOPENBSD_7_6
+/patch-src_tools_cdp-client_Makefile_in/1.2/Sun Sep  1 04:44:06 2024//TOPENBSD_7_6
+D

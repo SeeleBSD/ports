@@ -1,0 +1,108 @@
+@newgroup _snmpexporter:845
+@newuser _snmpexporter:845:_snmpexporter::prometheus snmp_exporter:/nonexistent:/sbin/nologin
+@rcscript ${RCDIR}/snmp_exporter
+@bin bin/snmp_exporter
+@bin bin/snmp_generator
+share/doc/pkg-readmes/${PKGSTEM}
+share/doc/snmp_exporter/
+share/doc/snmp_exporter/LICENSE
+share/doc/snmp_exporter/README.md
+share/doc/snmp_exporter/auth-split-migration.md
+share/examples/snmp_exporter/
+@mode 770
+@owner _snmpexporter
+@group wheel
+@sample ${SYSCONFDIR}/snmp_exporter/
+@mode
+@owner
+@group
+share/examples/snmp_exporter/generator-pf.yml
+share/examples/snmp_exporter/generator.yml
+@sample ${SYSCONFDIR}/snmp_exporter/generator.yml
+share/examples/snmp_exporter/mibs/
+@comment share/examples/snmp_exporter/mibs/.cisco_v2
+@comment share/examples/snmp_exporter/mibs/.do_not_remove
+@comment share/examples/snmp_exporter/mibs/.kemp-lm
+@comment share/examples/snmp_exporter/mibs/.net-snmp
+@comment share/examples/snmp_exporter/mibs/.paloalto_panos
+@comment share/examples/snmp_exporter/mibs/.synology
+share/examples/snmp_exporter/mibs/7.2.50.0.18765.RELEASE-B100-MIB.txt
+share/examples/snmp_exporter/mibs/7.2.50.0.18765.RELEASE-CERTS-MIB.txt
+share/examples/snmp_exporter/mibs/7.2.50.0.18765.RELEASE-IPVS-MIB.txt
+share/examples/snmp_exporter/mibs/7.2.50.0.18765.RELEASE-ONE4NET-MIB.txt
+share/examples/snmp_exporter/mibs/AIRESPACE-REF-MIB
+share/examples/snmp_exporter/mibs/AIRESPACE-WIRELESS-MIB
+share/examples/snmp_exporter/mibs/ARISTA-ENTITY-SENSOR-MIB
+share/examples/snmp_exporter/mibs/ARISTA-SMI-MIB
+share/examples/snmp_exporter/mibs/ARISTA-SW-IP-FORWARDING-MIB
+share/examples/snmp_exporter/mibs/CyberPower.MIB
+share/examples/snmp_exporter/mibs/EAP-Client.MIB
+share/examples/snmp_exporter/mibs/EAP.MIB
+share/examples/snmp_exporter/mibs/ENTITY-MIB
+share/examples/snmp_exporter/mibs/ENTITY-SENSOR-MIB
+share/examples/snmp_exporter/mibs/ENTITY-STATE-MIB
+share/examples/snmp_exporter/mibs/ENTITY-STATE-TC-MIB
+share/examples/snmp_exporter/mibs/HCNUM-TC
+share/examples/snmp_exporter/mibs/HOST-RESOURCES-MIB
+share/examples/snmp_exporter/mibs/IANA-CHARSET-MIB.txt
+share/examples/snmp_exporter/mibs/IANA-IFTYPE-MIB.txt
+share/examples/snmp_exporter/mibs/IANA-PRINTER-MIB.txt
+share/examples/snmp_exporter/mibs/IF-MIB
+share/examples/snmp_exporter/mibs/INET-ADDRESS-MIB
+share/examples/snmp_exporter/mibs/IP-MIB
+share/examples/snmp_exporter/mibs/IPV6-TC
+share/examples/snmp_exporter/mibs/ISDN-MIB
+share/examples/snmp_exporter/mibs/Infrapower-MIB.mib
+share/examples/snmp_exporter/mibs/KEEPALIVED-MIB
+share/examples/snmp_exporter/mibs/LIEBERT_GP_PDU.MIB
+share/examples/snmp_exporter/mibs/LIEBERT_GP_REG.MIB
+share/examples/snmp_exporter/mibs/MIKROTIK-MIB
+share/examples/snmp_exporter/mibs/NET-SNMP-MIB
+share/examples/snmp_exporter/mibs/NET-SNMP-TC
+share/examples/snmp_exporter/mibs/PAN-COMMON-MIB.my
+share/examples/snmp_exporter/mibs/PAN-ENTITY-EXT-MIB.my
+share/examples/snmp_exporter/mibs/PAN-GLOBAL-REG-MIB.my
+share/examples/snmp_exporter/mibs/PAN-GLOBAL-TC-MIB.my
+share/examples/snmp_exporter/mibs/PAN-LC-MIB.my
+share/examples/snmp_exporter/mibs/PAN-PRODUCT-MIB.my
+share/examples/snmp_exporter/mibs/PAN-TRAPS.my
+share/examples/snmp_exporter/mibs/PDU-MIB.txt
+share/examples/snmp_exporter/mibs/PDU2-MIB.txt
+share/examples/snmp_exporter/mibs/PICO-IPSEC-FLOW-MONITOR-MIB.txt
+share/examples/snmp_exporter/mibs/PICO-SMI-ID-MIB.txt
+share/examples/snmp_exporter/mibs/PICO-SMI-MIB.txt
+share/examples/snmp_exporter/mibs/PRINTER-MIB-V2.txt
+share/examples/snmp_exporter/mibs/SNMP-FRAMEWORK-MIB
+share/examples/snmp_exporter/mibs/SNMPv2-MIB
+share/examples/snmp_exporter/mibs/SNMPv2-SMI
+share/examples/snmp_exporter/mibs/SNMPv2-TC
+share/examples/snmp_exporter/mibs/SYNOLOGY-DISK-MIB.txt
+share/examples/snmp_exporter/mibs/SYNOLOGY-EBOX-MIB.txt
+share/examples/snmp_exporter/mibs/SYNOLOGY-FLASHCACHE-MIB.txt
+share/examples/snmp_exporter/mibs/SYNOLOGY-GPUINFO-MIB.txt
+share/examples/snmp_exporter/mibs/SYNOLOGY-ISCSILUN-MIB.txt
+share/examples/snmp_exporter/mibs/SYNOLOGY-ISCSITarget-MIB.txt
+share/examples/snmp_exporter/mibs/SYNOLOGY-NFS-MIB.txt
+share/examples/snmp_exporter/mibs/SYNOLOGY-PORT-MIB.txt
+share/examples/snmp_exporter/mibs/SYNOLOGY-RAID-MIB.txt
+share/examples/snmp_exporter/mibs/SYNOLOGY-SERVICES-MIB.txt
+share/examples/snmp_exporter/mibs/SYNOLOGY-SHA-MIB.txt
+share/examples/snmp_exporter/mibs/SYNOLOGY-SMART-MIB.txt
+share/examples/snmp_exporter/mibs/SYNOLOGY-SPACEIO-MIB.txt
+share/examples/snmp_exporter/mibs/SYNOLOGY-STORAGEIO-MIB.txt
+share/examples/snmp_exporter/mibs/SYNOLOGY-SYSTEM-MIB.txt
+share/examples/snmp_exporter/mibs/SYNOLOGY-UPS-MIB.txt
+share/examples/snmp_exporter/mibs/UBNT-AirFiber-MIB
+share/examples/snmp_exporter/mibs/UBNT-AirMAX-MIB.txt
+share/examples/snmp_exporter/mibs/UBNT-UniFi-MIB
+share/examples/snmp_exporter/mibs/UCD-SNMP-MIB
+share/examples/snmp_exporter/mibs/VRRP-MIB
+share/examples/snmp_exporter/mibs/VRRPv3-MIB
+share/examples/snmp_exporter/mibs/apc-powernet-mib
+share/examples/snmp_exporter/mibs/iDRAC-SMIv2.mib
+share/examples/snmp_exporter/mibs/readydataos
+share/examples/snmp_exporter/mibs/readynas
+share/examples/snmp_exporter/mibs/servertech-sentry3-mib
+share/examples/snmp_exporter/mibs/servertech-sentry4-mib
+share/examples/snmp_exporter/snmp.yml
+@sample ${SYSCONFDIR}/snmp_exporter/snmp.yml

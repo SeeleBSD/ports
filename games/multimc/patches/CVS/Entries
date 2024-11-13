@@ -1,0 +1,22 @@
+/patch-api_gui_DesktopServices_cpp/1.2/Sun Sep  1 04:43:07 2024//TOPENBSD_7_6
+/patch-api_logic_CMakeLists_txt/1.2/Sun Sep  1 04:43:07 2024//TOPENBSD_7_6
+/patch-api_logic_FileSystem_cpp/1.2/Sun Sep  1 04:43:07 2024//TOPENBSD_7_6
+/patch-api_logic_FileSystem_test_cpp/1.2/Sun Sep  1 04:43:07 2024//TOPENBSD_7_6
+/patch-api_logic_java_JavaUtils_cpp/1.2/Sun Sep  1 04:43:07 2024//TOPENBSD_7_6
+/patch-api_logic_launch_steps_PatchLWJGL_cpp/1.2/Sun Sep  1 04:43:07 2024//TOPENBSD_7_6
+/patch-api_logic_launch_steps_PatchLWJGL_h/1.3/Sun Sep  1 04:43:07 2024//TOPENBSD_7_6
+/patch-api_logic_minecraft_ComponentUpdateTask_cpp/1.2/Sun Sep  1 04:43:07 2024//TOPENBSD_7_6
+/patch-api_logic_minecraft_Library_cpp/1.2/Sun Sep  1 04:43:07 2024//TOPENBSD_7_6
+/patch-api_logic_minecraft_Library_h/1.2/Sun Sep  1 04:43:07 2024//TOPENBSD_7_6
+/patch-api_logic_minecraft_MinecraftInstance_cpp/1.3/Sun Sep  1 04:43:07 2024//TOPENBSD_7_6
+/patch-api_logic_minecraft_MojangVersionFormat_cpp/1.2/Sun Sep  1 04:43:07 2024//TOPENBSD_7_6
+/patch-api_logic_minecraft_OneSixVersionFormat_cpp/1.2/Sun Sep  1 04:43:07 2024//TOPENBSD_7_6
+/patch-api_logic_minecraft_OpSys_cpp/1.2/Sun Sep  1 04:43:07 2024//TOPENBSD_7_6
+/patch-api_logic_minecraft_OpSys_h/1.2/Sun Sep  1 04:43:07 2024//TOPENBSD_7_6
+/patch-api_logic_minecraft_launch_LauncherPartLaunch_cpp/1.2/Sun Sep  1 04:43:07 2024//TOPENBSD_7_6
+/patch-api_logic_tools_MCEditTool_cpp/1.2/Sun Sep  1 04:43:07 2024//TOPENBSD_7_6
+/patch-application_MultiMC_cpp/1.2/Sun Sep  1 04:43:07 2024//TOPENBSD_7_6
+/patch-application_UpdateController_cpp/1.2/Sun Sep  1 04:43:07 2024//TOPENBSD_7_6
+/patch-libraries_iconfix_internal_qiconloader_cpp/1.2/Sun Sep  1 04:43:07 2024//TOPENBSD_7_6
+/patch-libraries_systeminfo_src_sys_unix_cpp/1.2/Sun Sep  1 04:43:07 2024//TOPENBSD_7_6
+D

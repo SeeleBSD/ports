@@ -1,0 +1,9 @@
+/patch-Makefile/1.11/Sun Sep  1 04:44:47 2024//TOPENBSD_7_6
+/patch-plugins_e2p_copy_c/1.1/Sun Sep  1 04:44:47 2024//TOPENBSD_7_6
+/patch-plugins_e2p_move_c/1.1/Sun Sep  1 04:44:47 2024//TOPENBSD_7_6
+/patch-src_dialogs_e2_file_info_dialog_c/1.5/Sun Sep  1 04:44:47 2024//TOPENBSD_7_6
+/patch-src_e2_fileview_h/1.4/Sun Sep  1 04:44:47 2024//TOPENBSD_7_6
+/patch-src_e2_task_c/1.1/Sun Sep  1 04:44:47 2024//TOPENBSD_7_6
+/patch-src_filesystem_e2_fs_c/1.8/Sun Sep  1 04:44:47 2024//TOPENBSD_7_6
+/patch-src_utils_e2_utils_c/1.8/Sun Sep  1 04:44:47 2024//TOPENBSD_7_6
+D

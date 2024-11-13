@@ -1,0 +1,11 @@
+@conflict symon-<2.87
+@bin libexec/symux
+@man man/man8/symux.8
+@man man/man3p/SymuxClient.3p
+${P5SITE}/SymuxClient.pm
+share/examples/symon/
+share/examples/symon/c_smrrds.sh
+share/examples/symon/getsymonitem.pl
+share/examples/symon/symux.conf
+@sample ${SYSCONFDIR}/symux.conf
+@rcscript ${RCDIR}/symux

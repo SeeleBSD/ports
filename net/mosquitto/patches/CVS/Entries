@@ -1,0 +1,10 @@
+/patch-man_CMakeLists_txt/1.5/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/patch-mosquitto_conf/1.12/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/patch-src_mosquitto_c/1.3/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/patch-test_broker_Makefile/1.11/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/patch-test_broker_c_Makefile/1.11/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/patch-test_client_test_sh/1.2/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/patch-test_lib_c_Makefile/1.6/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/patch-test_lib_cpp_Makefile/1.5/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+/patch-test_unit_Makefile/1.3/Sun Sep  1 04:43:43 2024//TOPENBSD_7_6
+D

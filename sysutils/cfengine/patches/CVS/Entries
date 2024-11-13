@@ -1,0 +1,9 @@
+/patch-cf-agent_verify_files_c/1.2/Sun Sep  1 04:44:06 2024//TOPENBSD_7_6
+/patch-cf-agent_verify_files_utils_c/1.2/Sun Sep  1 04:44:06 2024//TOPENBSD_7_6
+/patch-cf-execd_cf-execd_c/1.2/Sun Sep  1 04:44:06 2024//TOPENBSD_7_6
+/patch-cf-upgrade_log_c/1.2/Sun Sep  1 04:44:06 2024//TOPENBSD_7_6
+/patch-libcompat_strchrnul_c/1.2/Sun Sep  1 04:44:06 2024//TOPENBSD_7_6
+/patch-libpromises_evalfunction_c/1.2/Sun Sep  1 04:44:06 2024//TOPENBSD_7_6
+/patch-libpromises_processes_select_c/1.2/Sun Sep  1 04:44:06 2024//TOPENBSD_7_6
+/patch-libutils_string_lib_c/1.2/Sun Sep  1 04:44:06 2024//TOPENBSD_7_6
+D

@@ -1,0 +1,10 @@
+/patch-apps_gnome-mplayer_preferences_gschema_xml/1.13/Sun Sep  1 04:44:50 2024//TOPENBSD_7_6
+/patch-configure_in/1.2/Sun Sep  1 04:44:50 2024//TOPENBSD_7_6
+/patch-src_common_h/1.14/Sun Sep  1 04:44:50 2024//TOPENBSD_7_6
+/patch-src_dbus-interface_c/1.4/Sun Sep  1 04:44:50 2024//TOPENBSD_7_6
+/patch-src_dbus-interface_h/1.2/Sun Sep  1 04:44:50 2024//TOPENBSD_7_6
+/patch-src_gui_c/1.44/Sun Sep  1 04:44:50 2024//TOPENBSD_7_6
+/patch-src_gui_h/1.10/Sun Sep  1 04:44:50 2024//TOPENBSD_7_6
+/patch-src_main_c/1.30/Sun Sep  1 04:44:50 2024//TOPENBSD_7_6
+/patch-src_playlist_h/1.2/Sun Sep  1 04:44:50 2024//TOPENBSD_7_6
+D

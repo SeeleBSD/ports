@@ -1,0 +1,8 @@
+/patch-lib_privs_c/1.2/Sun Sep  1 04:43:50 2024//TOPENBSD_7_6
+/patch-lib_sockunion_c/1.2/Sun Sep  1 04:43:50 2024//TOPENBSD_7_6
+/patch-pimd_pim_version_h/1.2/Sun Sep  1 04:43:50 2024//TOPENBSD_7_6
+/patch-pimd_pimd_c/1.2/Sun Sep  1 04:43:50 2024//TOPENBSD_7_6
+/patch-pimd_pimd_h/1.2/Sun Sep  1 04:43:50 2024//TOPENBSD_7_6
+/patch-tests_bgp_mpath_test_c/1.2/Sun Sep  1 04:43:50 2024//TOPENBSD_7_6
+/patch-zebra_kernel_socket_c/1.16/Sun Sep  1 04:43:50 2024//TOPENBSD_7_6
+D

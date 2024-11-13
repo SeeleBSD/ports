@@ -1,0 +1,21 @@
+/patch-SConstruct/1.4/Mon Sep 23 15:33:58 2024//TOPENBSD_7_6
+/patch-drivers_SCsub/1.1.1.1/Sun Sep  1 04:43:05 2024//TOPENBSD_7_6
+/patch-drivers_unix_file_access_unix_cpp/1.2/Mon Sep 23 15:33:58 2024//TOPENBSD_7_6
+/patch-drivers_unix_os_unix_cpp/1.3/Mon Sep 23 15:33:58 2024//TOPENBSD_7_6
+/patch-methods_py/1.2/Sun Sep  1 04:43:05 2024//TOPENBSD_7_6
+/patch-misc_dist_linux_godot_6/1.2/Sun Sep  1 04:43:05 2024//TOPENBSD_7_6
+/patch-misc_dist_linux_org_godotengine_Godot_appdata_xml/1.1.1.1/Sun Sep  1 04:43:05 2024//TOPENBSD_7_6
+/patch-misc_dist_linux_org_godotengine_Godot_desktop/1.1.1.1/Sun Sep  1 04:43:05 2024//TOPENBSD_7_6
+/patch-modules_glslang_register_types_cpp/1.1/Sun Sep  1 04:43:05 2024//TOPENBSD_7_6
+/patch-modules_upnp_upnp_cpp/1.1.1.1/Sun Sep  1 04:43:05 2024//TOPENBSD_7_6
+/patch-modules_upnp_upnp_device_cpp/1.1.1.1/Sun Sep  1 04:43:05 2024//TOPENBSD_7_6
+/patch-modules_upnp_upnp_h/1.1.1.1/Sun Sep  1 04:43:05 2024//TOPENBSD_7_6
+/patch-platform_linuxbsd_detect_py/1.3/Mon Sep 23 15:33:58 2024//TOPENBSD_7_6
+/patch-platform_linuxbsd_os_linuxbsd_cpp/1.3/Mon Sep 23 15:33:58 2024//TOPENBSD_7_6
+/patch-platform_linuxbsd_os_linuxbsd_h/1.1.1.1/Sun Sep  1 04:43:05 2024//TOPENBSD_7_6
+/patch-platform_linuxbsd_x11_detect_prime_x11_cpp/1.1.1.1/Sun Sep  1 04:43:05 2024//TOPENBSD_7_6
+/patch-platform_linuxbsd_x11_display_server_x11_cpp/1.3/Mon Sep 23 15:33:58 2024//TOPENBSD_7_6
+/patch-thirdparty_embree_common_math_math_h/1.1.1.1/Sun Sep  1 04:43:05 2024//TOPENBSD_7_6
+/patch-thirdparty_embree_common_sys_sysinfo_cpp/1.1.1.1/Sun Sep  1 04:43:05 2024//TOPENBSD_7_6
+/patch-thirdparty_openxr_src_common_platform_utils_hpp/1.2/Sun Sep  1 04:43:05 2024//TOPENBSD_7_6
+D

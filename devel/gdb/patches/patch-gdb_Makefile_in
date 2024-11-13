@@ -1,0 +1,45 @@
+Index: gdb/Makefile.in
+--- gdb/Makefile.in.orig
++++ gdb/Makefile.in
+@@ -651,6 +651,7 @@ ALL_64_TARGET_OBS = \
+ 	aarch64-fbsd-tdep.o \
+ 	aarch64-linux-tdep.o \
+ 	aarch64-newlib-tdep.o \
++	aarch64-obsd-tdep.o \
+ 	aarch64-ravenscar-thread.o \
+ 	aarch64-tdep.o \
+ 	alpha-bsd-tdep.o \
+@@ -675,6 +676,7 @@ ALL_64_TARGET_OBS = \
+ 	ia64-tdep.o \
+ 	ia64-vms-tdep.o \
+ 	mips64-obsd-tdep.o \
++	riscv-obsd-tdep.o \
+ 	sparc64-fbsd-tdep.o \
+ 	sparc64-linux-tdep.o \
+ 	sparc64-nbsd-tdep.o \
+@@ -1381,6 +1383,7 @@ HFILES_NO_SRCDIR = \
+ 	remote-notif.h \
+ 	riscv-fbsd-tdep.h \
+ 	riscv-tdep.h \
++	riscv-obsd-tdep.h \
+ 	rs6000-aix-tdep.h \
+ 	rs6000-tdep.h \
+ 	run-on-main-thread.h \
+@@ -2157,6 +2160,8 @@ ALLDEPFILES = \
+ 	aarch64-linux-nat.c \
+ 	aarch64-linux-tdep.c \
+ 	aarch64-newlib-tdep.c \
++	aarch64-obsd-nat.c \
++	aarch64-obsd-tdep.c \
+ 	aarch64-ravenscar-thread.c \
+ 	aarch64-tdep.c \
+ 	aix-thread.c \
+@@ -2300,6 +2305,8 @@ ALLDEPFILES = \
+ 	riscv-linux-nat.c \
+ 	riscv-linux-tdep.c \
+ 	riscv-tdep.c \
++	riscv-obsd-nat.c \
++	riscv-obsd-tdep.c \
+ 	rl78-tdep.c \
+ 	rs6000-lynx178-tdep.c \
+ 	rs6000-nat.c \

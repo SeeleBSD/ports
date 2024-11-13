@@ -1,0 +1,14 @@
+/patch-configure_ac/1.1/Mon Sep  2 07:04:11 2024//TOPENBSD_7_6
+/patch-lib_accelerated_aarch64_aarch64-common_c/1.4/Mon Sep  2 07:04:11 2024//TOPENBSD_7_6
+/patch-lib_accelerated_aarch64_elf_aes-aarch64_s/1.2/Mon Sep 23 15:34:43 2024//TOPENBSD_7_6
+/patch-lib_accelerated_aarch64_elf_sha1-armv8_s/1.2/Mon Sep 23 15:34:43 2024//TOPENBSD_7_6
+/patch-lib_accelerated_aarch64_elf_sha256-armv8_s/1.2/Mon Sep 23 15:34:43 2024//TOPENBSD_7_6
+/patch-lib_accelerated_aarch64_elf_sha512-armv8_s/1.2/Mon Sep 23 15:34:43 2024//TOPENBSD_7_6
+/patch-lib_accelerated_x86_elf_aes-ssse3-x86_64_s/1.2/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-lib_accelerated_x86_elf_aesni-gcm-x86_64_s/1.1/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-lib_accelerated_x86_elf_aesni-x86_64_s/1.1/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-lib_accelerated_x86_elf_ghash-x86_64_s/1.1/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-lib_accelerated_x86_elf_sha1-ssse3-x86_64_s/1.1/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-lib_accelerated_x86_elf_sha256-ssse3-x86_64_s/1.1/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+/patch-lib_accelerated_x86_elf_sha512-ssse3-x86_64_s/1.1/Sun Sep  1 04:43:58 2024//TOPENBSD_7_6
+D

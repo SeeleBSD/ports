@@ -1,0 +1,11 @@
+--- libiberty/Makefile.in.orig	Sun Apr 15 18:48:58 2012
++++ libiberty/Makefile.in	Sun Apr 15 18:49:14 2012
+@@ -340,7 +340,7 @@ libiberty.html : $(srcdir)/libiberty.texi $(TEXISRC)
+ @MAINT@	echo stamp > stamp-functions
+ 
+ INSTALL_DEST = @INSTALL_DEST@
+-install: install_to_$(INSTALL_DEST) install-subdir
++install:
+ install-strip: install
+ 
+ .PHONY: install install-strip

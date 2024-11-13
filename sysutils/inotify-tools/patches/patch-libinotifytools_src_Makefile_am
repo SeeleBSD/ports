@@ -1,0 +1,11 @@
+--- libinotifytools/src/Makefile.am.orig	Sat Jan 23 13:07:29 2016
++++ libinotifytools/src/Makefile.am	Sat Jan 23 13:07:42 2016
+@@ -21,7 +21,7 @@ if DOXYGEN_ENABLE
+ doc/html/*: inotifytools.c Doxyfile
+ 	$(DOXYGEN)
+ 
+-shareddocdir = $(datadir)/doc
++docdir = $(datadir)/doc
+ doc_DATA = doc/html/*
+ 
+ clean-local:

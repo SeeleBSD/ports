@@ -1,0 +1,5 @@
+/patch-src_libaudcore_Makefile/1.5/Mon Sep 23 15:33:16 2024//TOPENBSD_7_6
+/patch-src_libaudcore_vfs_h/1.2/Mon Sep 23 15:33:16 2024//TOPENBSD_7_6
+/patch-src_libaudqt_Makefile/1.4/Mon Sep 23 15:33:16 2024//TOPENBSD_7_6
+/patch-src_libaudtag_Makefile/1.2/Sun Sep  1 04:41:59 2024//TOPENBSD_7_6
+D

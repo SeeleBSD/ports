@@ -1,0 +1,14 @@
+With credentials in an XDG configuration file spotifyd is ready to run, e.g.
+as daemon in ~/.xsession or on-demand via clients such as "spotify-qt":
+
+  [spotifyd]
+  username = "user@example.com"
+  password = "secret"
+
+Alternatively, the rc.d(8) script runs as dedicated user on the system D-Bus
+where user keyring services (running on its session D-Bus) are unavailable.
+
+Follow sndio(7) Authentication if both dedicated and your own user shall be
+able to play audio at the same time, e.g. on a desktop system:
+
+  # install -D -p -o _spotifyd -m 0600 ~/.sndio/cookie ${HOME_DIR}/.sndio/cookie

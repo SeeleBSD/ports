@@ -1,0 +1,11 @@
+--- src/mlist.c.orig	Mon Aug 11 09:55:00 2014
++++ src/mlist.c	Fri Mar 18 09:02:45 2016
+@@ -101,7 +101,7 @@ void PL_InitList(PLAYLIST * pl)
+ 		const char * s = getenv("MIKMOD_SRAND_CONSTANT");
+ 		if (s)
+ 		{
+-			srandom((unsigned int)atoi(s));
++			srandom_deterministic((unsigned int)atoi(s));
+ 		}
+ 		else
+ 		{

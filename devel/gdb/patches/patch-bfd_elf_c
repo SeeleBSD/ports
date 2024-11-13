@@ -1,0 +1,25 @@
+Index: bfd/elf.c
+--- bfd/elf.c.orig
++++ bfd/elf.c
+@@ -10758,6 +10758,11 @@ elfcore_grok_openbsd_procinfo (bfd *abfd, Elf_Internal
+ static bfd_boolean
+ elfcore_grok_openbsd_note (bfd *abfd, Elf_Internal_Note *note)
+ {
++  int lwp;
++
++  if (elfcore_netbsd_get_lwpid (note, &lwp))
++    elf_tdata (abfd)->core->lwpid = lwp;
++
+   if (note->type == NT_OPENBSD_PROCINFO)
+     return elfcore_grok_openbsd_procinfo (abfd, note);
+ 
+@@ -10786,6 +10791,9 @@ elfcore_grok_openbsd_note (bfd *abfd, Elf_Internal_Not
+ 
+       return TRUE;
+     }
++
++  if (note->type == NT_OPENBSD_PACMASK)
++    return elfcore_make_note_pseudosection (abfd, ".reg-aarch-pauth", note);
+ 
+   return TRUE;
+ }

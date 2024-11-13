@@ -1,0 +1,23 @@
+--- sys/sys.h.orig	Fri Jun 30 06:56:38 1995
++++ sys/sys.h	Sun Dec  8 15:57:59 2013
+@@ -23,6 +23,11 @@
+  *   terminal control: {USE_SGTTY,  USE_TERMIO, USE_TERMIOS}
+  */
+ 
++#if defined(__OpenBSD__)
++#define USE_TERMIOS
++#define HAS_POLL
++#endif
++
+ #if defined(sunos) \
+  || defined(pureBSD43) \
+  || defined(ultrix) \
+@@ -69,7 +74,7 @@
+ #define READYCC(fp)	(fp->_egptr - fp->_gptr)
+ #endif
+ #else
+-#if defined(bsdi) || defined(__FreeBSD__)
++#if defined(bsdi) || defined(__FreeBSD__) || defined(__OpenBSD__)
+ #define READYCC(fp)	(fp->_r)
+ #else
+ #define READYCC(fp)	(fp->_cnt)

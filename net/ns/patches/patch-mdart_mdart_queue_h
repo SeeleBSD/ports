@@ -1,0 +1,12 @@
+Index: mdart/mdart_queue.h
+--- mdart/mdart_queue.h.orig
++++ mdart/mdart_queue.h
+@@ -45,7 +45,7 @@
+ 
+ 
+ #ifndef __mdart_rqueue_h__
+-#define __mdart_rqueue_h_
++#define __mdart_rqueue_h__
+ 
+ 
+ 

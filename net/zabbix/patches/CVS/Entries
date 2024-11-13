@@ -1,0 +1,15 @@
+/patch-conf_zabbix_agentd_conf/1.4/Sun Sep  1 04:43:53 2024//TOPENBSD_7_6
+/patch-conf_zabbix_proxy_conf/1.14/Sun Sep  1 04:43:53 2024//TOPENBSD_7_6
+/patch-conf_zabbix_server_conf/1.16/Sun Sep  1 04:43:53 2024//TOPENBSD_7_6
+/patch-configure/1.42/Mon Sep 23 15:34:39 2024//TOPENBSD_7_6
+/patch-include_common_zbxsysinc_h/1.3/Mon Sep 23 15:34:39 2024//TOPENBSD_7_6
+/patch-include_zbx_dbversion_constants_h/1.5/Mon Sep 23 15:34:39 2024//TOPENBSD_7_6
+/patch-include_zbxcomms_h/1.2/Sun Sep  1 04:43:53 2024//TOPENBSD_7_6
+/patch-include_zbxsysinfo_h/1.1/Sun Sep  1 04:43:53 2024//TOPENBSD_7_6
+/patch-src_libs_zbxcomms_tls_c/1.2/Sun Sep  1 04:43:53 2024//TOPENBSD_7_6
+/patch-src_libs_zbxembed_duk_config_h/1.2/Sun Sep  1 04:43:53 2024//TOPENBSD_7_6
+/patch-src_libs_zbxnix_daemon_c/1.22/Sun Sep  1 04:43:53 2024//TOPENBSD_7_6
+/patch-src_libs_zbxsysinfo_openbsd_cpu_c/1.3/Sun Sep  1 04:43:53 2024//TOPENBSD_7_6
+/patch-src_libs_zbxsysinfo_openbsd_net_c/1.11/Sun Sep  1 04:43:53 2024//TOPENBSD_7_6
+/patch-src_zabbix_agent_cpustat_c/1.12/Sun Sep  1 04:43:53 2024//TOPENBSD_7_6
+D

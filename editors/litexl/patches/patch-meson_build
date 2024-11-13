@@ -1,0 +1,20 @@
+Index: meson.build
+--- meson.build.orig
++++ meson.build
+@@ -78,6 +78,7 @@ if not get_option('source-only')
+     # Lua has no official .pc file
+     # so distros come up with their own names
+     lua_names = [
++        'lua${MODLUA_DEP_VERSION}', # OpenBSD
+         'lua5.4', # Debian
+         'lua-5.4', # FreeBSD
+         'lua',    # Fedora
+@@ -209,7 +210,7 @@ else
+     lite_bindir = 'bin'
+     lite_docdir = 'share/doc/lite-xl'
+     lite_datadir = 'share/lite-xl'
+-    if host_machine.system() == 'linux'
++    if host_machine.system() == 'linux' or host_machine.system() == 'openbsd'
+         install_data('resources/icons/lite-xl.svg',
+             install_dir : 'share/icons/hicolor/scalable/apps'
+         )

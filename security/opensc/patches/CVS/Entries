@@ -1,0 +1,5 @@
+/patch-configure_ac/1.16/Sun Sep  1 04:43:59 2024//TOPENBSD_7_6
+/patch-src_common_compat_overflow_c/1.1/Fri Apr  5 10:25:11 2024//TOPENBSD_7_6
+/patch-src_libopensc_sc_c/1.5/Sun Sep  1 04:43:59 2024//TOPENBSD_7_6
+/patch-src_pkcs11_Makefile_am/1.8/Sun Sep  1 04:43:59 2024//TOPENBSD_7_6
+D

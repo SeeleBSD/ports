@@ -1,0 +1,22 @@
+/patch-Makefile/1.6/Sun Sep  1 04:43:31 2024//TOPENBSD_7_6
+/patch-abbrev_c/1.3/Sun Sep  1 04:43:31 2024//TOPENBSD_7_6
+/patch-cmds_c/1.2/Sun Sep  1 04:43:31 2024//TOPENBSD_7_6
+/patch-color_c/1.2/Sun Sep  1 04:43:31 2024//TOPENBSD_7_6
+/patch-frame_c/1.2/Sun Sep  1 04:43:31 2024//TOPENBSD_7_6
+/patch-gram_y/1.2/Sun Sep  1 04:43:31 2024//TOPENBSD_7_6
+/patch-help_c/1.3/Sun Sep  1 04:43:31 2024//TOPENBSD_7_6
+/patch-interp_c/1.5/Sun Sep  1 04:43:31 2024//TOPENBSD_7_6
+/patch-lex_c/1.8/Sun Sep  1 04:43:31 2024//TOPENBSD_7_6
+/patch-pipe_c/1.4/Sun Sep  1 04:43:31 2024//TOPENBSD_7_6
+/patch-psc_c/1.4/Sun Sep  1 04:43:31 2024//TOPENBSD_7_6
+/patch-range_c/1.2/Sun Sep  1 04:43:31 2024//TOPENBSD_7_6
+/patch-sc_c/1.4/Sun Sep  1 04:43:31 2024//TOPENBSD_7_6
+/patch-sc_doc/1.6/Sun Sep  1 04:43:31 2024//TOPENBSD_7_6
+/patch-sc_h/1.3/Sun Sep  1 04:43:31 2024//TOPENBSD_7_6
+/patch-screen_c/1.2/Sun Sep  1 04:43:31 2024//TOPENBSD_7_6
+/patch-sort_c/1.2/Sun Sep  1 04:43:31 2024//TOPENBSD_7_6
+/patch-torev/1.6/Sun Sep  1 04:43:31 2024//TOPENBSD_7_6
+/patch-vi_c/1.3/Sun Sep  1 04:43:31 2024//TOPENBSD_7_6
+/patch-vmtbl_c/1.2/Sun Sep  1 04:43:31 2024//TOPENBSD_7_6
+/patch-xmalloc_c/1.3/Sun Sep  1 04:43:31 2024//TOPENBSD_7_6
+D

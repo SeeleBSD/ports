@@ -1,0 +1,6 @@
+/patch-agent_appconfig_constants_unix_go/1.24/Sun Sep  1 04:44:05 2024//TOPENBSD_7_6
+/patch-agent_fileutil_fileutil_unix_go/1.6/Sun Sep  1 04:44:05 2024//TOPENBSD_7_6
+/patch-agent_platform_platform_unix_go/1.12/Mon Sep 23 15:34:48 2024//TOPENBSD_7_6
+/patch-agent_ssm_service_go/1.13/Sun Sep  1 04:44:05 2024//TOPENBSD_7_6
+/patch-makefile/1.35/Sun Sep  1 04:44:05 2024//TOPENBSD_7_6
+D

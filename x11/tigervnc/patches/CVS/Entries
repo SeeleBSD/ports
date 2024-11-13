@@ -1,0 +1,9 @@
+/patch-CMakeLists_txt/1.5/Sun Sep  1 04:45:03 2024//TOPENBSD_7_6
+/patch-common_rfb_CMakeLists_txt/1.3/Sun Sep  1 04:45:03 2024//TOPENBSD_7_6
+/patch-common_rfb_SSecurityPlain_cxx/1.3/Sun Sep  1 04:45:03 2024//TOPENBSD_7_6
+/patch-unix_vncserver_CMakeLists_txt/1.4/Sun Sep  1 04:45:03 2024//TOPENBSD_7_6
+/patch-unix_xserver_hw_vnc_Makefile_am/1.4/Sun Sep  1 04:45:03 2024//TOPENBSD_7_6
+/patch-unix_xserver_os_access_c/1.1/Sun Sep  1 04:45:03 2024//TOPENBSD_7_6
+/patch-vncserver/1.2/Sun Sep  1 04:45:03 2024//TOPENBSD_7_6
+/patch-vncviewer_XInputTouchHandler_cxx/1.3/Sun Sep  1 04:45:03 2024//TOPENBSD_7_6
+D

@@ -1,0 +1,21 @@
+/patch-cmake_modules_DispatchCompilerWarnings_cmake/1.1.1.1/Sun Sep  1 04:42:27 2024//TOPENBSD_7_6
+/patch-cmake_modules_SwiftSupport_cmake/1.1.1.1/Sun Sep  1 04:42:27 2024//TOPENBSD_7_6
+/patch-private_private_h/1.1.1.1/Sun Sep  1 04:42:27 2024//TOPENBSD_7_6
+/patch-src_CMakeLists_txt/1.1.1.1/Sun Sep  1 04:42:27 2024//TOPENBSD_7_6
+/patch-src_event_event_c/1.1.1.1/Sun Sep  1 04:42:27 2024//TOPENBSD_7_6
+/patch-src_event_event_internal_h/1.1.1.1/Sun Sep  1 04:42:27 2024//TOPENBSD_7_6
+/patch-src_event_event_kevent_c/1.1.1.1/Sun Sep  1 04:42:27 2024//TOPENBSD_7_6
+/patch-src_event_workqueue_c/1.1.1.1/Sun Sep  1 04:42:27 2024//TOPENBSD_7_6
+/patch-src_init_c/1.1.1.1/Sun Sep  1 04:42:27 2024//TOPENBSD_7_6
+/patch-src_internal_h/1.1.1.1/Sun Sep  1 04:42:27 2024//TOPENBSD_7_6
+/patch-src_io_c/1.1.1.1/Sun Sep  1 04:42:27 2024//TOPENBSD_7_6
+/patch-src_queue_c/1.1.1.1/Sun Sep  1 04:42:27 2024//TOPENBSD_7_6
+/patch-src_shims_lock_c/1.1.1.1/Sun Sep  1 04:42:27 2024//TOPENBSD_7_6
+/patch-src_shims_lock_h/1.1.1.1/Sun Sep  1 04:42:27 2024//TOPENBSD_7_6
+/patch-src_source_c/1.1.1.1/Sun Sep  1 04:42:27 2024//TOPENBSD_7_6
+/patch-src_swift_Source_swift/1.1.1.1/Sun Sep  1 04:42:27 2024//TOPENBSD_7_6
+/patch-src_swift_Wrapper_swift/1.1.1.1/Sun Sep  1 04:42:27 2024//TOPENBSD_7_6
+/patch-tests_CMakeLists_txt/1.1.1.1/Sun Sep  1 04:42:27 2024//TOPENBSD_7_6
+/patch-tests_bsdtestharness_c/1.1.1.1/Sun Sep  1 04:42:27 2024//TOPENBSD_7_6
+/patch-tests_dispatch_workqueue_c/1.1.1.1/Sun Sep  1 04:42:27 2024//TOPENBSD_7_6
+D

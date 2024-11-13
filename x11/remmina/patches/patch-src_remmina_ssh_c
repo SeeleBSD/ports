@@ -1,0 +1,12 @@
+Index: src/remmina_ssh.c
+--- src/remmina_ssh.c.orig
++++ src/remmina_ssh.c
+@@ -41,7 +41,7 @@
+ #ifdef HAVE_LIBSSH
+ 
+ /* To get definitions of NI_MAXHOST and NI_MAXSERV from <netdb.h> */
+-#define _DEFAULT_SOURCE
++#define _BSD_SOURCE
+ #define _DARWIN_C_SOURCE
+ 
+ /* Define this before stdlib.h to have posix_openpt */

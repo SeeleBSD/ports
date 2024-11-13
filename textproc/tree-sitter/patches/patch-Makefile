@@ -1,0 +1,37 @@
+Remove forced SONAME so it does not disagree with lib file name.
+Also remove useless symlinks for the shared lib and fix the substitutions on
+the pkg-config file
+
+Index: Makefile
+--- Makefile.orig
++++ Makefile
+@@ -38,8 +38,8 @@ else ifeq ($(shell uname),Darwin)
+ else
+ 	SOEXT = so
+ 	SOEXTVER_MAJOR = so.$(SONAME_MAJOR)
+-	SOEXTVER = so.$(SONAME_MAJOR).$(SONAME_MINOR)
+-	LINKSHARED += -shared -Wl,-soname,libtree-sitter.so.$(SONAME_MAJOR)
++	SOEXTVER = so.${LIBtree-sitter_VERSION}
++	LINKSHARED += -shared
+ endif
+ ifneq ($(filter $(shell uname),FreeBSD NetBSD DragonFly),)
+ 	PCLIBDIR := $(PREFIX)/libdata/pkgconfig
+@@ -60,8 +60,7 @@ tree-sitter.pc: tree-sitter.pc.in
+ 	sed -e 's|@VERSION@|$(VERSION)|' \
+ 		-e 's|@LIBDIR@|$(LIBDIR)|' \
+ 		-e 's|@INCLUDEDIR@|$(INCLUDEDIR)|' \
+-		-e 's|=$(PREFIX)|=$${prefix}|' \
+-		-e 's|@PREFIX@|$(PREFIX)|' $< > $@
++		-e 's|@PREFIX@|$(LOCALBASE)|' $< > $@
+
+ clean:
+ 	$(RM) $(OBJ) tree-sitter.pc libtree-sitter.a libtree-sitter.$(SOEXT)
+@@ -72,8 +71,6 @@ install: all
+ 	install -m644 tree-sitter.pc '$(DESTDIR)$(PCLIBDIR)'/tree-sitter.pc
+ 	install -m644 libtree-sitter.a '$(DESTDIR)$(LIBDIR)'/libtree-sitter.a
+ 	install -m755 libtree-sitter.$(SOEXT) '$(DESTDIR)$(LIBDIR)'/libtree-sitter.$(SOEXTVER)
+-	ln -sf libtree-sitter.$(SOEXTVER) '$(DESTDIR)$(LIBDIR)'/libtree-sitter.$(SOEXTVER_MAJOR)
+-	ln -sf libtree-sitter.$(SOEXTVER_MAJOR) '$(DESTDIR)$(LIBDIR)'/libtree-sitter.$(SOEXT)
+
+ uninstall:
+ 	$(RM) '$(DESTDIR)$(LIBDIR)'/libtree-sitter.a \

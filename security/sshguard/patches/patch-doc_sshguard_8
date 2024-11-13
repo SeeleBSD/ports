@@ -1,0 +1,14 @@
+Index: doc/sshguard.8
+--- doc/sshguard.8.orig
++++ doc/sshguard.8
+@@ -124,8 +124,8 @@ Set to enable verbose output from \fBsshg\-blocker\fP\
+ .SH FILES
+ .INDENT 0.0
+ .TP
+-.B %PREFIX%/etc/sshguard.conf
+-See sample configuration file.
++.B ${SYSCONFDIR}/sshguard.conf
++See sample configuration file in ${PREFIX}/share/examples/sshguard/sshguard.conf.sample
+ .UNINDENT
+ .SH WHITELISTING
+ .sp
